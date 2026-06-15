@@ -1,0 +1,31 @@
+# 礼盒品类 · 冻结假设台账（从真实代码提炼）。Scout 情报对照本台账定位「哪条假设在过期」。
+# 每条：assumption_id / affected_assumption（指向稳定能力层）/ status / description / last_checked
+- assumption_id: gb-doubao-only-real
+  affected_assumption: geo.category._PROFILES.gift-box.real_segments
+  status: still-holds
+  description: 只 A 段豆包联网真跑（real_segments=('A',)），B 段英文 mock 占位待 Perplexity/OpenAI key。
+  last_checked: '2026-06-16'
+
+- assumption_id: gb-use-search-true
+  affected_assumption: geo.category._PROFILES.gift-box.use_search
+  status: still-holds
+  description: gift-box use_search=True 走 /bots/chat/completions，引用从 bot_usage.action_details 主路径抽取。
+  last_checked: '2026-06-16'
+
+- assumption_id: gb-ref-parse-path
+  affected_assumption: geo.adapters.doubao._parse_references
+  status: still-holds
+  description: 引用主路径 action_details[].tool_details[].output.data.data.results[]，兜底顶层 references[]。S2 哨兵盯此路径是否静默失效。
+  last_checked: '2026-06-16'
+
+- assumption_id: gb-watchlist-starter
+  affected_assumption: categories.gift_box.config.watchlist.segment_A_zh
+  status: at-risk
+  description: watchlist 是 STARTER（A 段 6 个品牌），需策展；信尚礼品(3lipin.com)走域名级 citation_leaderboard 非答案内品牌。名单外新品牌=S5 候选。
+  last_checked: '2026-06-16'
+
+- assumption_id: gb-query-static
+  affected_assumption: categories.gift_box.queries.QUERIES
+  status: still-holds
+  description: query 集静态人工策展；新问法/季节性需求变化由 Scout S4/S5 提案补充。
+  last_checked: '2026-06-16'

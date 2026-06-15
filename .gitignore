@@ -34,6 +34,10 @@ opportunity-board.html
 # Schema/JSON-LD build 产物（python -m geo.reporting.schema 从草稿重新生成）
 **/content/schema/
 
+# Scout 演化情报产物（python -m geo.evolution.scout 由存档证据重新生成；proposal-only，恒可重放）
+# 注：代码 + assumptions 台账进 git；生成的 intel/*.json 视为可重放派生物，暂不入库（可按需改为追踪）。
+evolution/intel/
+
 # Lessons 教学视频源文件（37MB 二进制，知识已萃取进 GEO课程·深度学习笔记.md；不进 git 历史，留本地磁盘）
 Lessons/*.mp4
 # Lessons 视频抽帧/音频（可由 ffmpeg 从 *.mp4 重新生成）

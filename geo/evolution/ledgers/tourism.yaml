@@ -1,0 +1,24 @@
+# 旅游品类 · 冻结假设台账（从真实代码提炼）。Scout 情报对照本台账定位「哪条假设在过期」。
+- assumption_id: tr-use-search-false
+  affected_assumption: geo.category._PROFILES.tourism.use_search
+  status: still-holds
+  description: tourism use_search=False 走普通 /chat/completions，cited_sources 恒空是设计基线（S2 结构哨兵对本品类不适用，不报漂移）。
+  last_checked: '2026-06-16'
+
+- assumption_id: tr-real-AC
+  affected_assumption: geo.category._PROFILES.tourism.real_segments
+  status: still-holds
+  description: A（外地客）+C（本地客）豆包真跑（real_segments=('A','C')），B（入境英文）mock 占位待 key。
+  last_checked: '2026-06-16'
+
+- assumption_id: tr-watchlist-starter
+  affected_assumption: categories.tourism.config.watchlist.segment_A_domestic
+  status: at-risk
+  description: 景点 watchlist STARTER（~63 景点，A/C 共享 YAML anchor）；名单外景点=S5 候选（实测：滨江森林公园/外白渡桥/泰晤士小镇等）。
+  last_checked: '2026-06-16'
+
+- assumption_id: tr-query-static
+  affected_assumption: categories.tourism.queries.QUERIES
+  status: still-holds
+  description: query 集静态人工策展，theme 分组固定；战场类型假定为 qa_engine（本地 AEO 分裂由 Scout S4 未来侦查）。
+  last_checked: '2026-06-16'
