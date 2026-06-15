@@ -37,6 +37,27 @@ def run() -> None:
         missing = CONTRACT_OPP_KEYS - set(o)
         _check(not missing, f"机会缺字段 {missing}: {o.get('query')}")
 
+    # —— P0#2 双注册表→单 SSOT 回归网：引擎 _PROFILES 与展示 _DISPLAY key 不许漂移 ——
+    from geo.category import all_profiles
+    from opportunity_board import _DISPLAY, _categories
+    engine_keys = {pp.key for pp in all_profiles()}
+    _check(engine_keys == set(_DISPLAY), f"引擎/展示 key 漂移: engine={engine_keys} display={set(_DISPLAY)}")
+    _check([c["key"] for c in _categories()] == [pp.key for pp in all_profiles()], "派生品类顺序与引擎不一致")
+    meta_keys = {c["key"] for c in p["meta"]["categories"]}
+    _check(meta_keys == engine_keys, f"看板渲染漏/多品类: meta={meta_keys} engine={engine_keys}")
+    # fail-closed 守卫：_DISPLAY 缺某引擎品类 → _categories() 必须抛，拒绝静默漏渲染
+    import opportunity_board as ob
+    saved = dict(ob._DISPLAY)
+    try:
+        ob._DISPLAY = {k: v for k, v in saved.items() if k != next(iter(engine_keys))}
+        try:
+            ob._categories()
+            _check(False, "_DISPLAY 缺品类时 _categories() 未 fail-closed")
+        except RuntimeError:
+            pass
+    finally:
+        ob._DISPLAY = saved
+
     # —— 排序：按 score 降序 ——
     scores = [o["score"] for o in opps]
     _check(scores == sorted(scores, reverse=True), "机会未按 score 降序")

@@ -17,12 +17,11 @@
 from __future__ import annotations
 
 import json
-import os
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-from geo.config import get_settings
+from geo.config import get_settings, spend_allowed
 from geo.evidence.schema import BuyerSegment
 from geo.monitoring.diff import diff_snapshots, format_alerts
 from geo.monitoring.snapshot import (
@@ -111,7 +110,7 @@ def run(
     now: datetime | None = None,
 ) -> dict:
     """监测一轮。返回 diff（含 alerts）。副作用：落快照/告警/队列文件。"""
-    allow_spend = os.environ.get("GEO_MONITOR_ALLOW_SPEND") == "1"
+    allow_spend = spend_allowed()
     if refresh:
         _maybe_refresh(segment, allow_spend)
 

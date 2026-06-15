@@ -23,19 +23,41 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 
-# 品类登记（key / 展示名 / 评分语义诚实标注）。合并后一个共享引擎，品类靠 GEO_CATEGORY 选。
-CATEGORIES = [
-    {
-        "key": "gift-box",
+# 品类展示元数据（title / 评分语义诚实标注）——仅展示层，绝不下沉进 geo/category.py 引擎层。
+# 引擎层（geo.category._PROFILES）是品类 key 与顺序的唯一 SSOT；本表只补展示字段。
+_DISPLAY = {
+    "gift-box": {
         "title": "高端商务伴手礼盒",
         "score_basis": "引用权威弱 + 品牌空位（selection.winnability）",
     },
-    {
-        "key": "tourism",
+    "tourism": {
         "title": "上海文旅景点",
         "score_basis": "景点稀薄 + 长尾未垄断（tourism.content_winnability）",
     },
-]
+}
+
+
+def _categories() -> list[dict]:
+    """品类清单从引擎层 _PROFILES 派生（key + 顺序的 SSOT），_DISPLAY 仅补展示字段。
+
+    fail-closed 双向断言：注册了引擎品类却缺展示元数据、或反之，都拒绝（红线：空集≠PASS，
+    宁可显式报错也不静默漏渲染一个品类 / 跑一个幽灵品类）。"""
+    from geo.category import all_profiles  # 函数内 import：子进程模型下不锁死品类
+
+    keys = [p.key for p in all_profiles()]
+    missing = [k for k in keys if k not in _DISPLAY]
+    if missing:
+        raise RuntimeError(
+            f"品类 {missing} 在 geo.category._PROFILES 注册但缺展示元数据 "
+            f"opportunity_board._DISPLAY → 拒绝静默漏渲染"
+        )
+    extra = [k for k in _DISPLAY if k not in keys]
+    if extra:
+        raise RuntimeError(
+            f"opportunity_board._DISPLAY 含未注册品类 {extra}"
+            f"（不在 geo.category._PROFILES）→ 拒绝跑幽灵品类"
+        )
+    return [{"key": k, **_DISPLAY[k]} for k in keys]
 
 # 共享 venv 子进程跑：active profile.build_payload → JSON（带哨兵前缀，避开 venv 杂音行）。
 # 走子进程而非 import：active_profile 由 GEO_CATEGORY 在进程级选定，两品类各起一个进程互不串台。
@@ -100,8 +122,9 @@ def build_unified() -> dict:
     real_engines: list[str] = []
     pending_engines: list[str] = []
     caveats: list[str] = []
+    categories = _categories()  # 从引擎层 _PROFILES 派生（单 SSOT），fail-closed 断言已在内部
 
-    for cat in CATEGORIES:
+    for cat in categories:
         payload = _load(cat)
         meta = payload["meta"]
         el = meta["entity_label"]
@@ -153,7 +176,7 @@ def build_unified() -> dict:
     n_candidate = sum(1 for o in opps if o["go"] == "候选")
     n_hold = len(opps) - n_go - n_candidate
     void_dividend = round(sum(o["dividend"] for o in go_opps) / n_go, 3) if n_go else 0.0
-    by_category_go = {r["key"]: sum(1 for o in go_opps if o["category"] == r["key"]) for r in CATEGORIES}
+    by_category_go = {r["key"]: sum(1 for o in go_opps if o["category"] == r["key"]) for r in categories}
 
     return {
         "meta": {
@@ -203,8 +226,9 @@ def main() -> None:
     out.write_text(html, encoding="utf-8")
     s = payload["summary"]
     bc = s["by_category_go"]
+    go_breakdown = " / ".join(f"{c['title']} {bc.get(c['key'], 0)}" for c in payload["meta"]["categories"])
     print(f"机会指挥台 → {out}  ({out.stat().st_size // 1024} KB)")
-    print(f"  机会 {s['total']} · GO {s['n_go']}（礼盒 {bc.get('gift-box', 0)} / 旅游 {bc.get('tourism', 0)}）"
+    print(f"  机会 {s['total']} · GO {s['n_go']}（{go_breakdown}）"
           f" · 候选 {s['n_candidate']} · 观望 {s['n_hold']} · 空位红利均值 {s['void_dividend']}")
     if s["best"]:
         b = s["best"]

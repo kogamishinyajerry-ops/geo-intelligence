@@ -102,7 +102,8 @@ def diff_snapshots(old: dict, new: dict) -> dict:
             )
 
     alerts = build_alerts(
-        new_domains, coverage_moves, freshness_flags, new_brands, sov_moves, query_changes
+        new_domains, dropped_domains, coverage_moves, auth_moves, freshness_flags,
+        new_brands, dropped_brands, sov_moves, query_changes,
     )
     return {
         "from": old.get("captured_at"),
@@ -122,8 +123,30 @@ def diff_snapshots(old: dict, new: dict) -> dict:
     }
 
 
-def build_alerts(new_domains, coverage_moves, freshness_flags, new_brands, sov_moves, query_changes) -> list[dict]:
-    """把变化翻译成带优先级的人读告警行。每行自带 level/kind/msg。"""
+def build_alerts(
+    new_domains,
+    dropped_domains=None,
+    coverage_moves=None,
+    auth_moves=None,
+    freshness_flags=None,
+    new_brands=None,
+    dropped_brands=None,
+    sov_moves=None,
+    query_changes=None,
+) -> list[dict]:
+    """把变化翻译成带优先级的人读告警行。每行自带 level/kind/msg。
+
+    新参数（dropped_domains/auth_moves/dropped_brands 等）默认 None→[] 归一：
+    向后兼容 + fail-closed（空集零迭代不产告警，绝不兜底）。
+    """
+    dropped_domains = dropped_domains or []
+    coverage_moves = coverage_moves or []
+    auth_moves = auth_moves or []
+    freshness_flags = freshness_flags or []
+    new_brands = new_brands or []
+    dropped_brands = dropped_brands or []
+    sov_moves = sov_moves or []
+    query_changes = query_changes or []
     alerts: list[dict] = []
 
     # P1：品牌空位被占（最高优先 —— 有人抢进了原本空白的 AI 答案）
@@ -159,6 +182,22 @@ def build_alerts(new_domains, coverage_moves, freshness_flags, new_brands, sov_m
                     f"覆盖 {d['coverage']}、被引 {d['total_citations']}",
                 }
             )
+    # P2：对手域名退出答案（机会开口 —— 此前站稳的引用源消失，腾出位置）
+    for d in dropped_domains:
+        if d.get("in_answers", 0) >= NEW_DOMAIN_MIN_ANSWERS:
+            alerts.append(
+                {
+                    "level": "P2",
+                    "kind": "对手退出",
+                    "msg": f"引用源退出豆包答案：{d.get('site_name') or d['domain']}（{d['domain']}）"
+                    f"原覆盖 {d['coverage']}、原被引 {d['total_citations']} → 机会开口，可抢占其腾出的答案位",
+                }
+            )
+    # P2：观察名单品牌从答案消失
+    for b in dropped_brands:
+        alerts.append(
+            {"level": "P2", "kind": "品牌消失", "msg": f"豆包答案不再出现观察名单品牌：{b} → 该品牌 GEO 可见度归零"}
+        )
     # P2：品牌层新出现品牌
     for b in new_brands:
         alerts.append({"level": "P2", "kind": "新品牌", "msg": f"豆包答案新出现观察名单品牌：{b}"})
@@ -171,6 +210,16 @@ def build_alerts(new_domains, coverage_moves, freshness_flags, new_brands, sov_m
                 "level": "P3",
                 "kind": "覆盖移动",
                 "msg": f"{m.get('site_name') or m['domain']} 占答率 {arrow} {m['from']}→{m['to']}（Δ{m['delta']:+}）",
+            }
+        )
+    for m in auth_moves:
+        arrow = "↑" if m["delta"] > 0 else "↓"
+        hint = "该源更权威，挤压空间" if m["delta"] > 0 else "该源权威下降，机会开口"
+        alerts.append(
+            {
+                "level": "P3",
+                "kind": "权威移动",
+                "msg": f"{m.get('site_name') or m['domain']} 引用权威均值 {arrow} {m['from']}→{m['to']}（Δ{m['delta']:+}）→ {hint}",
             }
         )
     for m in sov_moves:

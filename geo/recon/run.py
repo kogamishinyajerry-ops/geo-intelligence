@@ -10,7 +10,7 @@ import sys
 
 from geo.adapters.doubao import DoubaoAdapter
 from geo.adapters.mock import MockAdapter
-from geo.config import get_settings
+from geo.config import SpendNotAuthorizedError, get_settings, require_spend
 from geo.evidence.store import EvidenceStore
 from geo.parsing import extract
 from geo.recon.queries import phase0_slice
@@ -49,10 +49,12 @@ def _save_and_report(store, cap, label: str, repo_root) -> None:
 
 def run_phase0() -> int:
     settings = get_settings()
+    # 花钱闸前移到任何写盘/建目录之前（fail-closed，红线 §3）：phase0 必真打豆包。
+    require_spend()
     store, watchlist = _build(settings)
     sl = phase0_slice()
 
-    # 中文：豆包真跑（缺凭证则明确报错，不静默回退假数据）
+    # 中文：豆包真跑——花钱闸已过，再校验凭证。
     settings.require_ark()
     doubao = DoubaoAdapter(
         store,
@@ -99,7 +101,11 @@ def main(argv=None) -> int:
     if args.mock_only:
         return run_mock_only()
     if args.phase0:
-        return run_phase0()
+        try:
+            return run_phase0()
+        except SpendNotAuthorizedError as e:
+            print(str(e))
+            return 2
     ap.print_help()
     return 1
 

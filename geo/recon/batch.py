@@ -13,7 +13,7 @@ import sys
 from geo.adapters.doubao import DoubaoAdapter
 from geo.adapters.mock import MockAdapter
 from geo.category import active_profile
-from geo.config import get_settings
+from geo.config import SpendNotAuthorizedError, get_settings, require_spend
 from geo.evidence.schema import BuyerSegment, Capture
 from geo.evidence.store import EvidenceStore
 from geo.parsing import extract
@@ -27,6 +27,7 @@ def _build(settings):
 def _doubao_adapter(settings, store, watchlist) -> DoubaoAdapter:
     """构建豆包 adapter。是否联网由 active profile.use_search 决定：
     use_search → 走 /bots（require_search 保证带引用）；否则普通接口（bot_id=None）。"""
+    require_spend()  # 真打付费引擎前硬门控（fail-closed，红线 §3）；mock 段不经此函数
     settings.require_ark()
     prof = active_profile()
     if prof.use_search:
@@ -145,9 +146,20 @@ def main(argv=None) -> int:
     args = ap.parse_args(argv)
 
     settings = get_settings()
-    store, watchlist = _build(settings)
     seg = BuyerSegment(args.segment)
-    caps = run_segment(settings, store, watchlist, seg, only_missing=args.only_missing)
+    # real 段真打付费引擎：花钱闸前移到任何写盘/建目录之前（fail-closed，红线 §3）。
+    if seg.value not in prof.mock_segments:
+        try:
+            require_spend()
+        except SpendNotAuthorizedError as e:
+            print(str(e))
+            return 2  # 花钱被拒（区别于 require_ark 缺凭证的 RuntimeError 冒泡）
+    store, watchlist = _build(settings)
+    try:
+        caps = run_segment(settings, store, watchlist, seg, only_missing=args.only_missing)
+    except SpendNotAuthorizedError as e:  # 防御：_doubao_adapter 内仍有 require_spend（双门）
+        print(str(e))
+        return 2
     _summary(caps)
     return 0
 

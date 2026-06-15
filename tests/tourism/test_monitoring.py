@@ -127,3 +127,45 @@ def test_diff_new_brand_appears():
     d = diff_snapshots(old, new)
     assert "竞品B" in d["brand_changes"]["new_brands"]
     assert any(a["kind"] == "新品牌" and "竞品B" in a["msg"] for a in d["alerts"])
+
+
+# ── P0#1：消费此前被丢弃的信号（对手退出 / 品牌消失 / 权威移动）──
+
+def test_diff_dropped_competitor_domain_alerts_p2():
+    # 此前站稳的对手退出答案 → P2「对手退出」（机会开口，可抢占腾出的位）
+    old = _snap(leaderboard=[_lb("a.com", 0.5), _lb("rival.com", 0.33, in_answers=4, total=4, site="对手站")])
+    new = _snap(leaderboard=[_lb("a.com", 0.5)], at="2026-06-21T00:00:00+00:00")
+    d = diff_snapshots(old, new)
+    assert any(x["domain"] == "rival.com" for x in d["citation_changes"]["dropped_domains"])
+    p2 = [a for a in d["alerts"] if a["kind"] == "对手退出"]
+    assert p2 and p2[0]["level"] == "P2" and "对手站" in p2[0]["msg"] and "机会开口" in p2[0]["msg"]
+
+
+def test_diff_dropped_domain_single_answer_not_alerted():
+    # 退出前仅 1 个答案（< 阈值）→ 进 dropped_domains 但不出告警（与新对手对称滤偶现）
+    old = _snap(leaderboard=[_lb("a.com", 0.5), _lb("blip.com", 0.08, in_answers=1, total=1)])
+    new = _snap(leaderboard=[_lb("a.com", 0.5)], at="2026-06-21T00:00:00+00:00")
+    d = diff_snapshots(old, new)
+    assert any(x["domain"] == "blip.com" for x in d["citation_changes"]["dropped_domains"])
+    assert [a for a in d["alerts"] if a["kind"] == "对手退出"] == []
+
+
+def test_diff_dropped_brand_alerts_p2():
+    # 观察名单品牌从答案消失 → P2「品牌消失」（GEO 可见度归零）
+    old = _snap(brand_sov={"华为": 0.5, "竞品C": 0.5})
+    new = _snap(brand_sov={"华为": 1.0}, at="2026-06-21T00:00:00+00:00")
+    d = diff_snapshots(old, new)
+    assert "竞品C" in d["brand_changes"]["dropped_brands"]
+    assert any(a["kind"] == "品牌消失" and a["level"] == "P2" and "竞品C" in a["msg"] for a in d["alerts"])
+
+
+def test_diff_auth_move_alerts_p3():
+    # 引用权威均值移动 ≥ 阈值 → P3「权威移动」；< 阈值不报（复用 AUTH_DELTA 边界）
+    old = _snap(leaderboard=[_lb("a.com", 0.5, auth=0.4)])
+    far = _snap(leaderboard=[_lb("a.com", 0.5, auth=0.6)], at="2026-06-21T00:00:00+00:00")  # +0.20 ≥ 0.05
+    d = diff_snapshots(old, far)
+    assert d["citation_changes"]["auth_moves"] and d["citation_changes"]["auth_moves"][0]["domain"] == "a.com"
+    p3 = [a for a in d["alerts"] if a["kind"] == "权威移动"]
+    assert p3 and p3[0]["level"] == "P3" and "↑" in p3[0]["msg"]
+    near = _snap(leaderboard=[_lb("a.com", 0.5, auth=0.42)], at="2026-06-21T00:00:00+00:00")  # +0.02 < 0.05
+    assert diff_snapshots(old, near)["citation_changes"]["auth_moves"] == []
