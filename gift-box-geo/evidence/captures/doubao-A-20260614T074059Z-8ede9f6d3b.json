@@ -1,0 +1,117 @@
+{
+  "id": "doubao-A-20260614T074059Z-8ede9f6d3b",
+  "schema_version": "0.2.0",
+  "engine": "doubao",
+  "engine_model": "doubao-1-5-pro-32k-250115",
+  "query": "商务送礼 送给国外合作伙伴 高端礼盒推荐",
+  "buyer_segment": "A",
+  "timestamp": "2026-06-14T07:40:59.191554Z",
+  "raw_answer": "为国外合作伙伴选择商务礼品，需注重文化适配、实用价值和品牌格调。以下是不同类型的高端礼盒推荐：\n### 办公实用类\n- **定制钢笔礼盒**：如万宝龙经典系列，支持激光雕刻企业LOGO。钢笔是全球通用的商务符号，搭配皮质笔记本与墨水套装，还可附赠手写英文感谢卡，由书法家书写企业寄语，增强情感联结。\n- **智能办公套装**：组合包含Bose降噪耳机和Moleskine智能笔记本（支持手写转文字），满足跨国会议与高效记录需求，体现对客户工作场景的深度洞察。\n- **环保材质笔记本套装**：封面采用再生纸压纹工艺，内页预留多语言商务模板（如会议纪要、项目进度表），扉页烫金印制企业使命宣言，契合欧美客户对ESG理念的重视。\n\n### 文化艺术类\n- **非遗工艺丝绸方巾**：真丝质地轻盈便携，图案可依客户国籍定制。例如为法国客户选用青花瓷纹搭配巴黎铁塔剪影；为日本客户融合苏绣樱花与京都金箔；为巴西客户采用蜀绣鹦鹉与亚马逊绿意，是流动的文化名片。\n- **中式香氛礼盒（无宗教符号）**：精选天然植物精油调香，如“竹影松风”（东方禅意）、“山海同契”（中西交融），配以景德镇手工香插与火漆印章，香气无形却直抵情感记忆，规避了宗教图像、动物图腾等高风险元素。\n- **微型榫卯结构文创摆件**：以故宫角楼、苏州园林窗棂为原型，1:200微缩还原，无需胶水拼装，既是可触摸的东方智慧“礼品”，也是办公桌上的对话引子，能自然开启文化共鸣。\n- **双语手绘地图卷轴**：以水墨风格绘制客户所在国与中国主要经贸城市的航线图，标注关键港口、自贸区与合作节点，卷轴两端嵌黄铜轴头，既有艺术收藏价值，又具战略参考意义。\n\n### 生活美学类\n- **多语种茶具组合（非茶叶）**：紫砂小壶配六色釉变杯，杯底暗刻客户母语“感谢”二字，附二维码链接冲泡指南动画（支持英、法、西、阿、日、韩六语），规避茶叶在印度、中东部分国家的宗教饮用限制，保留茶文化的仪式内核。\n- **高端香氛系统**：如Diptyque巴黎限定款香薰蜡烛搭配定制檀木扩香器。选择中性香调（如雪松、白茶），避免过于浓烈或甜腻，适配全球客户偏好。\n- **限量版艺术衍生品**：例如故宫文创《千里江山图》珐琅彩盘（附收藏证书）、大英博物馆罗塞塔石碑复刻摆件。全球限量编号并加上艺术家签名，满足客户对独特性与艺术价值的双重需求。\n\n### 美食类\nLowrey高端美食礼盒：将新西兰黄油曲奇与夏威夷果黄油太妃糖完美组合。原料可追溯，符合世界级食品安全标准，手工小批量制作确保口感与品质。曲奇有原味、抹茶、咖啡、黑芝麻等多款口味，精美铁盒包装大气专业；太妃糖由38%夏威夷果仁与新西兰黄油慢火熬制，口感酥脆香浓、不粘牙，且比传统太妃糖含糖量更低。该礼盒适合多种场景，还支持全球60多个国家直邮。 \n\n在选择礼品时，还需注意一些要点。要提前查阅目标国商务部《外事礼品指南》与宗教机构公开声明，通过当地合作伙伴确认近期社会情绪，也可邀请该国籍员工参与盲测。同时，要严守不送现金及等价物、不送涉及政治/宗教敏感符号的物品、不送易腐坏或需特殊储存的物品这三个红线。另外，不同国家有不同的文化禁忌和礼仪，例如向德国客户赠送礼物需注重功能性、环保材质与极简设计；赠予日本合作伙伴要避免赠送钟表、四件套等物品，礼物需精致包装，双手递接，价值不宜超过5000日元（约300元人民币）；中东国家女性客户不宜送香水、化妆品等私密物品，若客户为穆斯林，需确认礼物是否符合清真标准。 ",
+  "raw_capture_path": "evidence/raw/doubao-A-20260614T074059Z-8ede9f6d3b.json",
+  "screenshot_path": null,
+  "is_mock": false,
+  "named_brands": [
+    "故宫文创"
+  ],
+  "cited_sources": [
+    {
+      "url": "http://www.3lipin.com/laowai/31463.html",
+      "title": "商务礼品定制高档创意送老外—彰显品牌格调与跨文化尊重的全球化礼遇方案",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.3lipin.com/laowai/27771.html",
+      "title": "送国外客户礼物送什么好一点?送老外客户礼品指南，文化适配、实用心意与品牌格调的平衡",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.3lipin.com/laowai/31441.html",
+      "title": "送外国客户礼物前十件排名，兼顾文化尊重、实用价值与国际审美的权威清单（含禁忌提醒与定制建议）",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.3
+    },
+    {
+      "url": "https://k.sina.cn/article_7879922980_1d5ae152401901ewxi.html",
+      "title": "Lowrey 高端美食礼盒：甄选曲奇与太妃糖",
+      "domain": "k.sina.cn",
+      "site_name": "新浪看点",
+      "auth_score": 0.3,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.3lipin.com/laowai/27488.html",
+      "title": "送外国客户高档次礼物送什么好 臻选雅礼，送老外客户的高端礼品指南—文化交融与品质之选",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.3
+    },
+    {
+      "url": "http://www.zgswcn.com/news.html?aid=340068",
+      "title": "商务伴手礼推荐大全：从平价到奢华的 2026 全场景覆盖",
+      "domain": "www.zgswcn.com",
+      "site_name": "中国商报网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.3lipin.com/laowai/31519.html",
+      "title": "送外国中年客户礼物有哪些？兼顾文化尊重、实用价值与商务体面的12类精选方案",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.3
+    },
+    {
+      "url": "https://cj.sina.cn/articles/view/7857141524/1d452771401901x888",
+      "title": "高档商务礼品排行榜前十名 适合送客户的十类高格调小众礼品",
+      "domain": "cj.sina.cn",
+      "site_name": "新浪财经",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.sohu.com/a/1031050244_99969333/",
+      "title": "高端伴手礼定制品牌如何为企业礼赠赋能？",
+      "domain": "m.sohu.com",
+      "site_name": "手机搜狐网",
+      "auth_score": 0.3,
+      "rel_score": 0.5,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "http://www.3lipin.com/laowai/31402.html",
+      "title": "中国特色礼品送老外高档首选，融合非遗工艺、东方美学与当代礼遇的国际级文化载体",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.3
+    }
+  ],
+  "product_cards": [],
+  "links": [],
+  "sentiment": "unscored",
+  "request_params": {
+    "endpoint": "https://ark.cn-beijing.volces.com/api/v3/bots/chat/completions",
+    "model": "bot-20260614150734-98qkm",
+    "attempt": 1
+  },
+  "parser_version": "0.2.0"
+}

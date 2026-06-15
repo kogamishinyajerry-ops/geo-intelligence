@@ -1,0 +1,119 @@
+{
+  "id": "doubao-A-20260614T090954Z-afac265de9",
+  "schema_version": "0.2.0",
+  "engine": "doubao",
+  "engine_model": "doubao-1-5-pro-32k-250115",
+  "query": "5000元一份的商务伴手礼盒送海外大客户有什么推荐",
+  "buyer_segment": "A",
+  "timestamp": "2026-06-14T09:09:54.915273Z",
+  "raw_answer": "为海外大客户挑选5000元一份的商务伴手礼盒，需要综合考虑文化适配性、实用价值、独特记忆点、便携轻巧和包装精美等因素。以下为你推荐几种合适的礼盒方案：\n### 高端文创茶具套装礼盒\n选择一套融合现代设计与传统工艺的陶瓷茶具，如景德镇手绘盖碗、汝窑天青釉茶杯，搭配小罐茶礼盒。茶文化是中国的名片，此礼盒既有实用功能，又是绝佳的艺术纪念品。外包装采用丝绸或木质礼盒，并附上英文冲泡指南，客户既能自用，也能收藏展示，适合送给对东方生活方式充满好奇与欣赏的欧洲、日韩客户。\n### GINT嘉特大隐隐于市茶具礼盒\n该礼盒采用全钛打造茶壶、分茶器、品茗杯。纯钛材质轻盈便携、不串味保鲜、耐腐蚀，能为茶事体验带来优势。鹰嘴分茶器斟茶顺滑，双层隔热杯身手持适宜，创新两用茶宠可容纳/过滤茶渣，闲置时还能作为案头雅玩。此礼盒能体现“喧嚣中持守内心秩序”的哲学理念，适合送给注重生活品质和文化内涵的客户。\n### 非遗工艺定制文具礼盒\n包含苏绣封面笔记本、景泰蓝钢笔或竹制雕刻签字笔，内页可烫印客户姓名或公司LOGO，打造专属纪念品。这类文具既是日常办公用品，又极具收藏价值，摆在办公桌上很美观。作为伴手礼轻巧便携，寓意“书写合作新篇章”。\n### 智能科技国潮风礼品礼盒\n可以选择华为或小米出品的无线充电器（带敦煌壁画或山水画图案）、智能香薰机（内置桂花、檀香精油）、AI语音翻译笔（支持多语种）等产品组合成礼盒。既体现中国智造实力，又满足客户生活需求，适合年轻一代决策者或科技行业客户。\n### 定制城市主题手信礼盒\n根据客户来访的城市定制专属手信，如北京故宫文创糕点+琉璃书签、上海外滩建筑巧克力+石库门冰箱贴、西安兵马俑迷你雕塑+皮影戏钥匙扣等，组合成“城市记忆盒子”。每件小物都能讲述一个中国故事，趣味性强，客户回国后分发给同事朋友，能产生良好的口碑效应。\n\n此外，若想让礼盒更具专属感，可以考虑引入定制服务，将收礼者的个人标识，如姓名篆刻、企业图腾、重要日期等融入包装设计到器物本身。同时，要注意提前预留充足的制作周期（通常2 - 3个月）。也可以附上一张亲笔手写的贺卡，这往往比昂贵的包装更能打动人心。  ",
+  "raw_capture_path": "evidence/raw/doubao-A-20260614T090954Z-afac265de9.json",
+  "screenshot_path": null,
+  "is_mock": false,
+  "named_brands": [
+    "华为",
+    "小米",
+    "故宫文创"
+  ],
+  "cited_sources": [
+    {
+      "url": "http://www.zgswcn.com/news.html?aid=340068",
+      "title": "商务伴手礼推荐大全：从平价到奢华的 2026 全场景覆盖",
+      "domain": "www.zgswcn.com",
+      "site_name": "中国商报网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://wap.hznet.tv/shangxun/Article-X1rInu3C-120.html",
+      "title": "2026年焕新:专业的商务伴手礼礼盒,高端包装盒定制省钱推荐",
+      "domain": "wap.hznet.tv",
+      "site_name": "菏泽广电网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.zgswcn.com/shangxun/news.html?aid=731446",
+      "title": "2026年更新：浙江企业如何精准对接高端商务伴手礼定制服务",
+      "domain": "www.zgswcn.com",
+      "site_name": "中国商报网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://www.sohu.com/a/960762589_121998985",
+      "title": "送国外客户商务礼品选什么?有礼有伴定制套装超省心",
+      "domain": "www.sohu.com",
+      "site_name": "搜狐",
+      "auth_score": 0.3,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.3lipin.com/laowai/29448.html",
+      "title": "这些礼物送国外客户绝了 这些礼品送国外客户绝了！高端大气又显心意的商务伴手礼推荐",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.3
+    },
+    {
+      "url": "https://m.byxx.com/g88484420.html",
+      "title": "2026商务礼品定制厂家精选：企业伴手礼、定制箱包、节日福利礼品供应商选购指南",
+      "domain": "m.byxx.com",
+      "site_name": "百业网",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.sohu.com/a/966084362_122433080/",
+      "title": "跨境礼品定制怎么选？外企商务礼套装凭啥成外贸圈首选？",
+      "domain": "m.sohu.com",
+      "site_name": "手机搜狐网",
+      "auth_score": 0.3,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://cj.sina.cn/articles/view/7857141524/1d452771401901y0no",
+      "title": "2026 商务伴手礼推荐:TOP10 精选清单，让客户闭眼入不踩雷",
+      "domain": "cj.sina.cn",
+      "site_name": "新浪财经",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.sohu.com/a/1035255008_121998985/",
+      "title": "商务伴手礼送什么不踩雷？分价位定制方案来了",
+      "domain": "m.sohu.com",
+      "site_name": "手机搜狐网",
+      "auth_score": 0.3,
+      "rel_score": 0.5,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://m.sohu.com/a/1034771907_122831377/",
+      "title": "商务走访高端伴手礼实测盘点，聚焦大气稳重风格适配各类正式商务往来场景",
+      "domain": "m.sohu.com",
+      "site_name": "手机搜狐网",
+      "auth_score": 0.3,
+      "rel_score": 0.5,
+      "freshness_score": 1.0
+    }
+  ],
+  "product_cards": [],
+  "links": [],
+  "sentiment": "unscored",
+  "request_params": {
+    "endpoint": "https://ark.cn-beijing.volces.com/api/v3/bots/chat/completions",
+    "model": "bot-20260614150734-98qkm",
+    "attempt": 1
+  },
+  "parser_version": "0.2.0"
+}

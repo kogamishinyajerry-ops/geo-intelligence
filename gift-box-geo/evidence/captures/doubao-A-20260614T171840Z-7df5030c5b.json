@@ -1,0 +1,115 @@
+{
+  "id": "doubao-A-20260614T171840Z-7df5030c5b",
+  "schema_version": "0.2.0",
+  "engine": "doubao",
+  "engine_model": "doubao-1-5-pro-32k-250115",
+  "query": "送英国客户的高端伴手礼有什么讲究 选什么得体",
+  "buyer_segment": "A",
+  "timestamp": "2026-06-14T17:18:40.656323Z",
+  "raw_answer": "送英国客户高端伴手礼时，需要注意一些讲究，选择得体的礼物。以下是相关讲究和推荐礼物：\n\n### 讲究\n- **礼物价值**：礼物价值应适中，过度昂贵易让对方造成负担，被误认为是一种贿赂。如果是公司送礼，最好以老板和私人名义送，且避免送带有公司标志与广告的物品。 \n- **包装方面**：包装要体现用心，精美的包装是对对方尊重的象征。同时，不要让收礼人看到礼物的价格标签，最好在包装前撕掉。\n- **附带卡片**：手写卡片不可或缺，简短真诚的英文祝福远胜冗长客套。不要用印着商家全套广告的卡片，可提前准备一张简约的素色贺卡，简单写两句问候的话，落款写上自己的名字和所属企业，手写的字迹更显温度。\n- **送礼时机**：合适的送礼时机应是晚餐后或看完戏之后。\n- **表达说明**：送礼时一定要表达出礼物的寓意、特点、用途，说明它是为对方精心挑选的，且千万不要说“小意思”“拿不出手”之类的谦语。\n- **了解喜好**：在选择礼物前，最好先了解对方的喜好和兴趣，以确保礼物能够投其所好。提前稍微了解下对方的日常习惯，送对需求比盲目送贵价产品效果更好。\n- **避免禁忌**：\n    - **花卉**：避免送百合花和菊花，因为它们在英国被视为死亡和诅咒的象征；鲜花数目不宜为双数或13支，单数更为合适。 \n    - **个人物品**：避免送过于私人的物品，如服饰（尤其是贴身衣物）、香皂、香水等。 \n    - **图案符号**：避免送带有大象、孔雀、猫头鹰等图案的礼物，这些在英国可能被认为不吉利；也不要送带有纹路的领带，因为它们可能被认为是军队或学生校服领带的仿制品。 \n\n### 得体礼物推荐\n- **英伦传统伴手礼**：\n    - **茶叶礼盒**：可选择持有王室认证的品牌，如Fortnum & Mason的伯爵茶或Whittard的下午茶套装，避免添加人工香精的品类。也可以送中国的优质红茶，如野生英德红茶，向对方介绍茶的来历、冲泡方法等。\n    - **手工巧克力**：像Hotel Chocolat的烈酒夹心系列（如威士忌松露）或Artisan du Chocolat的海盐焦糖款，符合英国食品标准局可可含量规定。\n    - **传统糕点**：例如Walkers黄油酥饼经典铁盒装，或Bettys茶屋的Fat Rascal水果司康，注意要关注保质期及密封性。\n- **展现品味的文创礼物**：\n    - **文学经典**：可以选择Waterstones书店限定版简·奥斯汀小说，或插画师签名的《彼得兔》绘本。\n    - **博物馆衍生品**：如大英博物馆的相关衍生产品。\n- **中国特色礼物**：\n    - **特色手工艺品**：如剪纸、丝绸制品（丝巾、苏绣扇子）等，能展现中国文化魅力；青花瓷摆件、剪纸窗花摆件等中国风摆件，既美观又有文化价值。\n    - **美食饮品**：除了前面提到的中国红茶，中国特色小吃如三禾稻香村的点心，既具中国特色又便于携带；高品质的葡萄酒、威士忌或香槟也适合喜欢喝酒的客户，但价格不宜过高。\n- **个性化与实用性礼物**：\n    - **定制礼品**：定制的钥匙扣、书签或带有对方名字或特殊意义的文具用品等，独特且有纪念意义。\n    - **实用生活用品**：根据对方兴趣爱好或日常需求选择，如高品质的保温杯、精致的笔记本等。 ",
+  "raw_capture_path": "evidence/raw/doubao-A-20260614T171840Z-7df5030c5b.json",
+  "screenshot_path": null,
+  "is_mock": false,
+  "named_brands": [],
+  "cited_sources": [
+    {
+      "url": "https://qifu.zcqtz.com/article/1224863.html",
+      "title": "给英国的朋友送礼物英文",
+      "domain": "qifu.zcqtz.com",
+      "site_name": "丝路企服",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.hainengwenku.com/item/hZWEyNGJjMzk5YzhmYmFkYTYzYjMzMTYwa.html",
+      "title": "送英国人什么礼物好（受英国人欢迎的中国礼品）",
+      "domain": "m.hainengwenku.com",
+      "site_name": "海能知识库",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.sohu.com/a/798326587_100046496",
+      "title": "送英国的朋友什么中国礼物好?送外国友人纪念品伴手礼推荐，可定制礼品",
+      "domain": "www.sohu.com",
+      "site_name": "搜狐",
+      "auth_score": 0.3,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.wpbk.net/changshi/3mbKK79b91.html",
+      "title": "英国人送礼时忌讳什么",
+      "domain": "m.wpbk.net",
+      "site_name": "王牌百科",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.sohu.com/a/1034771907_122831377/",
+      "title": "商务走访高端伴手礼实测盘点，聚焦大气稳重风格适配各类正式商务往来场景",
+      "domain": "m.sohu.com",
+      "site_name": "手机搜狐网",
+      "auth_score": 0.3,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.albk.net/changshi/a7G5MoyGq3.html",
+      "title": "送礼时英国忌讳是什么",
+      "domain": "m.albk.net",
+      "site_name": "阿莲百科",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.albk.net/changshi/vnGjq3eDP8.html",
+      "title": "送礼给英国送什么好",
+      "domain": "m.albk.net",
+      "site_name": "阿莲百科",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.3lipin.com/laowai/31283.html",
+      "title": "送给外国朋友的精美礼品挑选与赠送礼仪全解析—你知道如何表达你的诚意吗?",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://post.m.smzdm.com/zz/p/aogpp436/",
+      "title": "🇬🇧英国伴手礼指南_什么值得买",
+      "domain": "post.m.smzdm.com",
+      "site_name": "什么值得买社区频道",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.youleliwu.com/224339.html",
+      "title": "送英国人什么礼物",
+      "domain": "www.youleliwu.com",
+      "site_name": "优乐礼物网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    }
+  ],
+  "product_cards": [],
+  "links": [],
+  "sentiment": "unscored",
+  "request_params": {
+    "endpoint": "https://ark.cn-beijing.volces.com/api/v3/bots/chat/completions",
+    "model": "bot-20260614150734-98qkm",
+    "attempt": 1
+  },
+  "parser_version": "0.2.0"
+}

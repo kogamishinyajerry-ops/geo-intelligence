@@ -1,0 +1,115 @@
+{
+  "id": "doubao-A-20260614T172148Z-0d8dd0aa86",
+  "schema_version": "0.2.0",
+  "engine": "doubao",
+  "engine_model": "doubao-1-5-pro-32k-250115",
+  "query": "送新加坡客户的伴手礼选什么合适",
+  "buyer_segment": "A",
+  "timestamp": "2026-06-14T17:21:48.619422Z",
+  "raw_answer": "为新加坡客户挑选伴手礼，可结合对方的喜好、文化背景和实际需求，以下是一些合适的选择：\n### 美食类\n- **亚坤咖椰酱**：作为新加坡国民早餐的灵魂，香甜风味备受本地人推崇，像孙燕姿和林俊杰都公开表示喜爱。价格亲民，在5 - 8新元之间，购买玻璃罐装送礼更显心意，各大超市均有销售。\n- **美珍香肉干**：拥有90年历史的肉干品牌，是新加坡美食名片。其炭火慢烤的肉干外皮微焦，内里松软，越嚼越香。本地门店价格在30 - 54新元，比机场购买划算，密封包装便于携带。不过要注意，猪肉制品无法通过中国大陆海关。\n- **Bengawan Solo斑斓戚风蛋糕**：是狮城甜品的代表，以斑斓叶制成，口感松软湿润，椰香十足，冷藏后风味更佳。售价7.6 - 20新元，在樟宜机场和市区商场都能买到。但常温保质期仅有1天，建议在回国当天于机场T3或星耀樟宜购买，可直接手提登机。\n- **IRVINS咸蛋黄鱼皮**：是新加坡“网红级”零食，沙酥的口感配上咸香蛋黄风味，让人欲罢不能，有标志性的“危险”大包装。可在樟宜机场第一航厦出境大厅2楼（06:00 - 00:00）、第三航厦2楼（近中央过境区，06:00 - 00:00）、怡丰城Vivocity地下二楼（10:00 - 22:00）购买。\n- **松发肉骨茶调料包**：严选党参、当归等食材，胡椒香气突出。一包调料搭配2 - 3L水和肉类，简单炖煮30 - 45分钟即可复刻地道南洋风味，价格从2.67新元起，各大超市都能买到。\n### 饮品类\n- **TWG茶叶**：源自新加坡的高端品牌，被誉为“茶中爱马仕”。其独特的调配茶，如薰衣草之吻和启明星茶，能带来全新味觉体验。价格在27 - 80新元，推荐选择迷你罐组合，精致且不占行李空间。机场免税店基本都能买到。\n- **Bacha咖啡**：1910年创立，以复古铁盒包装和浓郁挂耳咖啡备受青睐。25 - 35新元就能买到这份日常轻奢，让客户每天都能感受独特南洋风情，适合送给咖啡爱好者。机场免税店可购。\n### 时尚配饰类\n- **Charles & Keith鞋包**：新加坡本土品牌，凭借时尚设计和亲民价格闻名全球。在新加坡本地购买款式更新，价格更具优势，尤其在每年5 - 7月购物节和12月圣诞季，折扣力度更大。50 - 150新元即可入手设计感十足的鞋包，适合送给追求时尚的客户。\n- **RISIS胡姬花饰品**：兼具设计感与纪念意义，胡姬花是新加坡国花，相关饰品能体现新加坡特色。 \n### 实用健康类\n- **虎标颈肩霜**：来自新加坡的舒缓神器，膏体清爽不粘腻，能有效缓解肩颈酸痛，价格在8 - 12新元。机场常有双支装优惠，性价比高，对久坐上班族和长辈都十分实用。\n- **贡方堂「金络油」**：来自新加坡本土中医品牌，融合传统草本与纳米萃取技术，能缓解肩颈酸痛、放松肌肉疲劳、改善久坐不适。小瓶便携，飞机可带，实用性强。\n### 文化艺术类\n- **手绘娘惹瓷砖杯垫**：是新加坡的文化名片，每套杯垫的花色都独一无二，萃取牡丹、番石榴等吉祥元素，寓意美好，承载着独特的南洋文化。\n- **鱼尾狮纪念品**：作为新加坡的象征，冰箱贴、小摆件等鱼尾狮纪念品很受欢迎，能让客户回忆起新加坡之旅。 ",
+  "raw_capture_path": "evidence/raw/doubao-A-20260614T172148Z-0d8dd0aa86.json",
+  "screenshot_path": null,
+  "is_mock": false,
+  "named_brands": [],
+  "cited_sources": [
+    {
+      "url": "https://post.smzdm.com/p/al4w367o/",
+      "title": "2026新加坡伴手礼终极清单！10样小众不冷门，堪称送礼天花板～",
+      "domain": "post.smzdm.com",
+      "site_name": "什么值得买",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://hk.trip.com/guide/destination/%E6%96%B0%E5%8A%A0%E5%9D%A1%E6%89%8B%E4%BF%A1.html",
+      "title": "新加坡手信15選｜新加坡自由行必買伴手禮全攻略",
+      "domain": "hk.trip.com",
+      "site_name": "Trip.com",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://c.m.163.com/news/a/KOGC6QTQ0556K6QI.html",
+      "title": "到新加坡旅游必买的随手礼（附清单推荐）",
+      "domain": "c.m.163.com",
+      "site_name": "网易新闻客户端",
+      "auth_score": 0.3,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://www.4100.cn/post/350524.html",
+      "title": "新加坡送礼指南：精选独特伴手礼推荐",
+      "domain": "www.4100.cn",
+      "site_name": "意浓旅游网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://post.m.smzdm.com/zz/p/agoerldw/",
+      "title": "新加坡必买9大伴手礼！看这篇就够了🔥",
+      "domain": "post.m.smzdm.com",
+      "site_name": "什么值得买社区频道",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://www.4100.cn/post/353623.html",
+      "title": "新加坡特色伴手礼推荐TOP10",
+      "domain": "www.4100.cn",
+      "site_name": "意浓旅游网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://mimigo.tw/singapore-buy/",
+      "title": "【2026新加坡必買】最夯新加坡伴手禮、手信土產推薦＆五大購物景點血拼攻略",
+      "domain": "mimigo.tw",
+      "site_name": "Mimi韩の旅游指南",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://post.m.smzdm.com/p/ax6xprn3/",
+      "title": "🇸🇬新加坡买什么？这9款伴手礼有面子🎁",
+      "domain": "post.m.smzdm.com",
+      "site_name": "什么值得买社区频道",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://imreadygo.com/222105/",
+      "title": "新加坡伴手礼推荐|必买经典好物 TOP 10，在地人也大推的人气清单",
+      "domain": "imreadygo.com",
+      "site_name": "ReadyGo",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://www.klook.com/zh-TW/blog/%E6%96%B0%E5%8A%A0%E5%9D%A1%E4%BC%B4%E6%89%8B%E7%A6%AE%E5%BF%85%E8%B2%B7/amp/",
+      "title": "新加坡必买2026》11大新加坡伴手礼!在地人也爱的名产推荐",
+      "domain": "www.klook.com",
+      "site_name": "Klook",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    }
+  ],
+  "product_cards": [],
+  "links": [],
+  "sentiment": "unscored",
+  "request_params": {
+    "endpoint": "https://ark.cn-beijing.volces.com/api/v3/bots/chat/completions",
+    "model": "bot-20260614150734-98qkm",
+    "attempt": 1
+  },
+  "parser_version": "0.2.0"
+}

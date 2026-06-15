@@ -1,0 +1,117 @@
+{
+  "id": "doubao-A-20260614T090826Z-6c4b56d48c",
+  "schema_version": "0.2.0",
+  "engine": "doubao",
+  "engine_model": "doubao-1-5-pro-32k-250115",
+  "query": "送老外客户的真丝丝绸围巾礼盒哪个牌子上档次",
+  "buyer_segment": "A",
+  "timestamp": "2026-06-14T09:08:26.284579Z",
+  "raw_answer": "为你推荐几个上档次的真丝丝绸围巾礼盒品牌：\n- **万事利（WENSLI）**：创立于1975年，是全球知名的丝绸文化创意企业，也是深交所上市公司。该品牌以桑蚕丝为原料，产品涵盖丝巾、真丝居家产品、丝绸文创礼品等。其积极将数智化前沿技术应用于制造、设计、管理等核心环节，旗下产品服务过诸多大型外交活动和体育赛事，还进驻了国内多个热门商圈的百货商场。在电商平台上，其“真丝围巾”好评率达98.2%，消费者集中点赞“图案独特、包装仪式感、水洗不掉色”。例如万事利桑蚕丝真丝丝巾女送妈妈生日礼物防晒遮阳中方巾礼盒玉兰赋，销量达3万 +，采用14姆米桑蚕丝面料，有精致礼盒包装。\n- **上海故事**：2003年在上海创立，是国内知名丝绸品牌，融合了海派、摩登、经典等风格。该品牌专注于美学解读和提升生活品质，为都市女性提供多元化产品和优质服务，旗下上海之恋、浪漫巴黎、中国水墨等主题产品深受市场认可。产品采用100%桑蚕丝，质地柔软顺滑、亲肤舒适，能有效调节温度，适合四季佩戴。设计风格优雅，无论是日常穿搭还是旅行披肩，都能增添优雅气息。比如其真丝丝巾女春夏高档桑蚕丝绸披肩围巾，以“若烟晚荷”的色调设计，配色细腻不张扬，衬托女性柔美与优雅，既适合自用，也是送礼佳品。 \n- **MARJA KURKI**：1976年源自芬兰，是北欧著名的优雅配饰品牌。专注于为消费者提供丝巾、领带、羊毛、羊绒围巾、皮具、伞具等时尚配件产品。业务渠道遍布国内多个一二线城市及海外多个国家和地区，线下实体店铺及线上业务同步发展，还能为企业和机构提供个性化商务礼品定制。像其真丝丝巾女送长辈礼盒妈妈大方巾，加大高档桑蚕丝围巾搭配桔色丝巾扣套盒，礼盒漂亮，是不错的送礼选择。\n- **绣娘丝绸**：创办于1988年，是国内规模较大的综合性丝绸文化品牌，以传统苏工苏作技艺闻名。拥有专业的国内外设计创意团队和研发中心，旗下产品包括服饰丝巾、居家生活、家纺、中装旗袍等。品牌特点是质量稳定，是苏州知名品牌。其桑蚕丝真丝苏绣丝巾礼盒女士高档围巾披肩，适合送给长辈。 \n- **织锦楼**：该品牌的真丝丝巾女桑蚕丝手工刺绣围巾苏绣丝绸披肩，材质丝滑，有消费者多次复购用来送国外客户。 ",
+  "raw_capture_path": "evidence/raw/doubao-A-20260614T090826Z-6c4b56d48c.json",
+  "screenshot_path": null,
+  "is_mock": false,
+  "named_brands": [
+    "万事利"
+  ],
+  "cited_sources": [
+    {
+      "url": "https://www.am10.com/Iaa5Iaa5BCY6Su558S65_eb5diL5/xl",
+      "title": "2026年06月丝巾礼盒送妈妈销量排行榜",
+      "domain": "www.am10.com",
+      "site_name": "爱美日记",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://mobile-phone.taobao.com/chanpin/31ab9a01880c13fd2e1c7eac5d60594adeffc98c47bbbfa3541e7c2bf6b117cd.html",
+      "title": "共找到392件",
+      "domain": "mobile-phone.taobao.com",
+      "site_name": "淘宝",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://haining.1688.com/shop/www/jiage/-B2CFCBBFBDED31303025C9A3B2CFCBBF.html",
+      "title": "共找到 1394 条",
+      "domain": "haining.1688.com",
+      "site_name": "1688阿里巴巴",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://m.maigoo.com/shida/list_6873.html",
+      "title": "真丝围巾十大品牌2026",
+      "domain": "m.maigoo.com",
+      "site_name": "买购网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://m.sohu.com/a/1028063366_122471764/",
+      "title": "真丝围巾哪款质量好又百搭？这10款轻奢高档礼盒值得入手",
+      "domain": "m.sohu.com",
+      "site_name": "手机搜狐网",
+      "auth_score": 0.3,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://m.maigoo.com/best/43080.html",
+      "title": "真丝围巾品牌前十 真丝围巾行业10大品牌名录2026",
+      "domain": "m.maigoo.com",
+      "site_name": "买购网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.cnpp.cn/china/2026/list_6873.html",
+      "title": "真丝围巾十大品牌，桑蚕丝围巾品牌排行，真丝拉绒围巾什么牌子好[2026]",
+      "domain": "www.cnpp.cn",
+      "site_name": "十大品牌网CNPP",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://www.jd.com/phb/131551f99931dcc6d2d3.html",
+      "title": "海勒佰姿围巾品牌排行榜",
+      "domain": "www.jd.com",
+      "site_name": "京东",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.3
+    },
+    {
+      "url": "https://cj.sina.cn/articles/view/7857141524/1d45277140190306uy",
+      "title": "2025年10月中国丝绸选购榜：十家口碑排行全解析 - 品牌推荐 - 企业博客",
+      "domain": "cj.sina.cn",
+      "site_name": "新浪财经",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://m.jd.com/brand/1315e08851fe42210f2f.html",
+      "title": "金属色围巾品牌及商品",
+      "domain": "m.jd.com",
+      "site_name": "京东",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    }
+  ],
+  "product_cards": [],
+  "links": [],
+  "sentiment": "unscored",
+  "request_params": {
+    "endpoint": "https://ark.cn-beijing.volces.com/api/v3/bots/chat/completions",
+    "model": "bot-20260614150734-98qkm",
+    "attempt": 1
+  },
+  "parser_version": "0.2.0"
+}

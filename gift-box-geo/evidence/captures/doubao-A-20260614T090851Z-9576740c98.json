@@ -1,0 +1,115 @@
+{
+  "id": "doubao-A-20260614T090851Z-9576740c98",
+  "schema_version": "0.2.0",
+  "engine": "doubao",
+  "engine_model": "doubao-1-5-pro-32k-250115",
+  "query": "送国外客户的高端陶瓷茶具礼盒推荐",
+  "buyer_segment": "A",
+  "timestamp": "2026-06-14T09:08:51.109811Z",
+  "raw_answer": "为你推荐以下几种适合送给国外客户的高端陶瓷茶具礼盒：\n### 定制类\n- **深圳市万洋礼品有限公司定制套装**：该公司选用高品位陶瓷原料经高温烧制，瓷质温润通透、釉面光滑细腻。擅长国风、禅意等多种主题设计，器型规整、做工严谨，支持LOGO、文字等定制，印刷清晰柔和、高级耐看。配套包含茶壶、品茗杯等完整茶具组合，搭配精美防震礼盒，适合商务礼赠等高端场景。还拥有专业设计团队提供一站式服务，质检体系成熟，售后完善。\n- **御窑承制陶瓷艺术有限公司定制茶具**：“御窑承制”品牌深植景德镇千年官窑文化，专注高端手工茶器等创作。有省级以上工艺美术师团队，采用纯手工拉坯等技法，擅长仿明清官窑工艺，对珍稀颜色釉配方有研究传承。提供一对一深度定制服务，满足顶级礼品与个人收藏需求，产品承载独特文化附加值，适用于企业高端礼品等场景。\n- **造诣堂定制茶具**：作为源头生产方，年产能超50万件，定制服务灵活，支持企业LOGO釉下彩等深度调整，定制周期短。使用德化原矿高白泥，结合传统手工拉坯与手绘技艺，器型规整且有艺术细节。有创新设计提升冲泡体验，产品配精美国风礼盒，还能结合茶叶代理资源提供“名茶 + 名器”组合礼品方案及增值服务。\n\n### 成品类\n- **CERAMICS/佩尔森波兰复古浮雕水具茶杯套装礼盒**：风格为北欧风，有多种规格可选，如1壶4杯礼盒装等。产地潮州，是跨境出口专供货源，主要销售地区包括东南亚、欧洲、北美等，适用于生日、乔迁等多种送礼场合。\n- **唐丰旗舰店部分茶具套装**：例如三星堆古蜀记忆茶具套装礼盒装、敦煌文创茶具礼品一壶四杯泡茶专用礼盒装等，具有中国特色文化元素，适合作为送国外客户的伴手礼。\n- **斯达高Stechcol宫廷万花咖啡杯碟骨瓷下午茶杯碟茶具套装**：价格999元，适合喜欢享受下午茶的客户，具有轻奢仪式感。\n- **英国Aynsley安斯丽乡村花园系列骨瓷1杯1碟组合套装**：英式下午茶具风格，价格456元，充满欧式田园风情。 ",
+  "raw_capture_path": "evidence/raw/doubao-A-20260614T090851Z-9576740c98.json",
+  "screenshot_path": null,
+  "is_mock": false,
+  "named_brands": [],
+  "cited_sources": [
+    {
+      "url": "https://m.sohu.com/a/1022088778_122670902/",
+      "title": "2026 陶瓷茶具套装定制：东方美学与礼赠质感的双重体现",
+      "domain": "m.sohu.com",
+      "site_name": "手机搜狐网",
+      "auth_score": 0.3,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://m.1688.com/offer/1004904743170.html",
+      "title": "陶瓷水壶新款茶具套装高颜值家用波兰复古浮雕水具茶杯套装礼盒",
+      "domain": "m.1688.com",
+      "site_name": "1688阿里巴巴",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "http://www.taobao.com/chanpin/fb8d4a26de86835f015c84d08a6c0dd74911ac7f6afcbe29c4f1b8ea2cbda977.html",
+      "title": "中国特色茶具送老外-中国特色茶具送老外促销价格、中国特色茶具送老外品牌 - 淘宝",
+      "domain": "www.taobao.com",
+      "site_name": "淘宝",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://guangtao.taobao.com/topic-194812227.html",
+      "title": "大英茶具，轻奢仪式感",
+      "domain": "guangtao.taobao.com",
+      "site_name": "",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "http://www.zgswcn.com/shangxun/news.html?aid=596299",
+      "title": "2026年第二季度景德镇茶具采购指南：聚焦五家实力服务商",
+      "domain": "www.zgswcn.com",
+      "site_name": "中国商报网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://www.taobao.com/list/item/793811146829.htm",
+      "title": "高档陶瓷茶具套装家用客厅水杯杯具乔迁新居结婚茶壶茶杯轻奢水具",
+      "domain": "www.taobao.com",
+      "site_name": "淘宝",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.3
+    },
+    {
+      "url": "https://chinese.alibaba.com/product-detail/17pcs-European-Luxury-Classical-Style-High-1600492288486.html",
+      "title": "17pcs欧洲奢华古典风格高品质骨瓷茶具带茶壶",
+      "domain": "chinese.alibaba.com",
+      "site_name": "阿里巴巴中国站",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.3
+    },
+    {
+      "url": "https://www.1688.com/jiage/-CDF2C0EFB8DFB6CBC0F1C6B7.html",
+      "title": "共找到 1032 条",
+      "domain": "www.1688.com",
+      "site_name": "1688",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://m.jd.com/brand/6196cede86c58fc9cf5d.html",
+      "title": "高端瓷器礼品品牌及商品",
+      "domain": "m.jd.com",
+      "site_name": "京东",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.cnblogs.com/hynews/p/19881318",
+      "title": "2026年4月北京茶壶品牌、陶瓷茶具专业评测，从商务礼赠到日常品饮的优选：首选造诣堂",
+      "domain": "www.cnblogs.com",
+      "site_name": "博客园",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    }
+  ],
+  "product_cards": [],
+  "links": [],
+  "sentiment": "unscored",
+  "request_params": {
+    "endpoint": "https://ark.cn-beijing.volces.com/api/v3/bots/chat/completions",
+    "model": "bot-20260614150734-98qkm",
+    "attempt": 1
+  },
+  "parser_version": "0.2.0"
+}

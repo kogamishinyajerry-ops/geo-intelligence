@@ -1,0 +1,115 @@
+{
+  "id": "doubao-A-20260614T171919Z-19e471bc90",
+  "schema_version": "0.2.0",
+  "engine": "doubao",
+  "engine_model": "doubao-1-5-pro-32k-250115",
+  "query": "送澳大利亚客户的高端伴手礼推荐",
+  "buyer_segment": "A",
+  "timestamp": "2026-06-14T17:19:19.539596Z",
+  "raw_answer": "为你推荐以下几种适合送给澳大利亚客户的高端伴手礼：\n### 食品类\n- **麦卢卡蜂蜜**：澳大利亚有机认证（NASAA）的麦卢卡蜂蜜是企业伴手礼的明智之选。比如Manuka Health品牌的产品，采用环保包装，便于携带且保质期较长，具有保健功效，特别适合选购具有原产地保护标识（GI）的产品，更能体现礼品稀缺性。 \n- **夏威夷果巧克力**：像Haigh's Chocolates的夏威夷果巧克力，口感独特，是澳洲特色美食，包装精美，适合作为伴手礼。\n\n### 酒类\n- **天鹅庄澳大利亚原瓶进口红酒礼盒**：包含两支750ML的赤霞珠，是前澳驻华大使推荐的产品，品质与品位兼具。选用澳大利亚优质的赤霞珠葡萄精心酿造，酒体饱满，单宁柔和，入口顺滑。 \n- **皇冠袋鼠赤霞珠西拉红酒礼盒**：酒精度为15度，750ml的瓶装设计，礼盒包装高档。赤霞珠和西拉的完美结合，赋予红酒丰富的层次感和深邃的口感，能感受到浓郁的果香和微妙的香料味。 \n- **宝石树酒庄生物动力葡萄酒**：位于南澳大利亚州麦拿伦谷产区，拥有有机与生物动力的双认证，是“澳大利亚可持续葡萄种植协会”认证成员，还是CleanHub组织的合作伙伴。采用可持续包装材料，如可降解的纸质包装和甘蔗废料制成的酒标，可为企业提供定制化赠礼方案。\n- **四柱杜松子酒**：坐落于维多利亚州亚拉河谷希尔斯维尔的四柱杜松子酒厂，是澳大利亚首家获得碳中和认证的杜松子酒酿酒厂，获得Climate Active气候认证，实施了多项环保措施。其精品手工杜松子酒系列包含多种独特风味，甚至有无酒精选项，还可购买礼品券兑换调酒作坊体验课程。\n\n### 工艺品及饰品类\n- **澳宝珠宝**：澳大利亚是世界顶级澳宝产地，免税店的澳宝珠宝具有价格优势。优先选择带有澳大利亚宝石协会（AGTA）认证证书的经典镶嵌设计的胸针或吊坠，既适合正式场合佩戴，也具备收藏增值潜力。 \n- **原住民传统手工艺品**：例如手工雕刻的“普努”（木雕），可邀请达尔文艺术团体Aboriginal Bush Traders (ABT) 开办集体手工艺活动，或直接赠送其销售的符合道德采购标准的可持续产品，消费收益直接惠及当地原住民社区。\n\n### 生活用品类\n- **羊毛制品**：澳大利亚羊毛制品以卓越的保暖性和透气性著称。像超细羊毛西装（MJ Bale）、防过敏羊毛被（Woolstar）及户外功能型内衣（Icebreaker）等，实用性与高端属性兼备，注意选择有纯羊毛标志（Woolmark）认证的产品。 \n- **澳洲手工香薰**：由调香师在墨尔本工作室手工调配，每一批香氛精油都有细微差异。前调是澳洲本土的柠檬香桃木，中调是蓝丝柏的木质沉稳，尾调是沙漠橡树的温暖包裹。留香摆件采用天然硅藻土扩香，香气柔和不冲鼻。外观设计低调有质感，包装是手工缝制帆布收纳袋，送礼时附赠调香师手写卡片，仪式感十足。 ",
+  "raw_capture_path": "evidence/raw/doubao-A-20260614T171919Z-19e471bc90.json",
+  "screenshot_path": null,
+  "is_mock": false,
+  "named_brands": [],
+  "cited_sources": [
+    {
+      "url": "https://m.sohu.com/a/1035008600_121081803/",
+      "title": "外交家推荐的澳大利亚原瓶进口红酒，送礼自用两相宜！",
+      "domain": "m.sohu.com",
+      "site_name": "手机搜狐网",
+      "auth_score": 0.3,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://m.sohu.com/a/1036302937_121081803/",
+      "title": "送礼新选择！澳洲赤霞珠西拉红酒礼盒，绝对让你惊艳！",
+      "domain": "m.sohu.com",
+      "site_name": "手机搜狐网",
+      "auth_score": 0.3,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://sczil.com/a25175",
+      "title": "澳大利亚免税店必买清单（热销品推荐）",
+      "domain": "sczil.com",
+      "site_name": "保利智眸 POLY ZhiMou Service System",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://post.m.smzdm.com/zz/p/ago9nrdm/",
+      "title": "闭眼买！🦘澳洲伴手礼超全不踩雷指南",
+      "domain": "post.m.smzdm.com",
+      "site_name": "什么值得买社区频道",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.businessevents.australia.cn/zh-cn/news/7-sustainable-gifts-for-groups.html",
+      "title": "会奖团队首选的七款“绿色”礼物",
+      "domain": "www.businessevents.australia.cn",
+      "site_name": "澳大利亚商务会奖旅游",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.klook.com/zh-TW/blog/mustbuy-souvenir-australia/",
+      "title": "【澳洲必買】2026澳洲伴手禮推薦！零食藥妝保養品一次掃貨",
+      "domain": "www.klook.com",
+      "site_name": "Klook",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.maigoo.com/citiao/list_73881.html",
+      "title": "澳大利亚十大必买特产",
+      "domain": "m.maigoo.com",
+      "site_name": "买购网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.3
+    },
+    {
+      "url": "https://au0061.com/%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9A%E6%97%85%E6%B8%B8%E8%B4%AD%E7%89%A9%E6%8C%87%E5%8D%97%EF%BC%9A%E8%BF%99%E4%BA%9B%E7%89%B9%E8%89%B2%E4%BC%B4%E6%89%8B%E7%A4%BC%E7%BB%9D%E5%AF%B9%E4%B8%8D%E8%83%BD/",
+      "title": "澳大利亚旅游购物指南:这些特色伴手礼绝对不能错过!",
+      "domain": "au0061.com",
+      "site_name": "澳洲中文百科 AU6001.COM",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://au0061.com/%E6%BE%B3%E6%B4%B2%E5%BF%85%E4%B9%B0%E7%89%B9%E4%BA%A7%E6%B8%85%E5%8D%95%EF%BC%9A%E4%BB%8E%E7%BE%8E%E9%A3%9F%E5%88%B0%E6%89%8B%E4%BF%A1%EF%BC%8C%E4%B8%80%E7%AF%87%E5%B8%A6%E4%BD%A0%E4%B9%B0%E9%81%8D/",
+      "title": "澳洲必买特产清单：从美食到手信，一篇带你买遍全澳不踩雷",
+      "domain": "au0061.com",
+      "site_name": "澳洲中文百科 AU6001.COM",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://post.m.smzdm.com/p/a5rzllzx/",
+      "title": "手工调香的仪式感，这款澳洲香薰太懂生活了",
+      "domain": "post.m.smzdm.com",
+      "site_name": "什么值得买社区频道",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 1.0
+    }
+  ],
+  "product_cards": [],
+  "links": [],
+  "sentiment": "unscored",
+  "request_params": {
+    "endpoint": "https://ark.cn-beijing.volces.com/api/v3/bots/chat/completions",
+    "model": "bot-20260614150734-98qkm",
+    "attempt": 1
+  },
+  "parser_version": "0.2.0"
+}

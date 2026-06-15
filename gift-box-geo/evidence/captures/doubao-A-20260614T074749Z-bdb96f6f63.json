@@ -1,0 +1,115 @@
+{
+  "id": "doubao-A-20260614T074749Z-bdb96f6f63",
+  "schema_version": "0.2.0",
+  "engine": "doubao",
+  "engine_model": "doubao-1-5-pro-32k-250115",
+  "query": "茶叶礼盒送外国客户选哪个品牌好",
+  "buyer_segment": "A",
+  "timestamp": "2026-06-14T07:47:49.135878Z",
+  "raw_answer": "为外国客户挑选茶叶礼盒，可综合考虑品牌的国际影响力、茶叶品质、包装设计等因素，以下几个品牌的茶叶礼盒值得推荐：\n- **华祥苑**：该品牌是“中国高端社交用茶第一品牌”，其“国缤茶”系列三次成为国家贵宾茶礼，13次助力国际盛世茶叙，有99国贵宾同款茶叙经历。包装设计堪称茶礼中的“奢侈品”，国缤茶系列采用标志性的“国缤蓝”，搭配烫金工艺和特种纸张，盒型结构开合间有仪式感，内部采用独立小罐封装，一罐一泡，卫生便捷。品牌在全国32省463城布局超5000家终端门店，提供专业冲泡指导、茶叶储存建议等增值服务，产品品质稳定，无论乌龙茶、红茶还是白茶，均无明显品质波动。综合好评率达98.5%（五大平台均值，高端系列好评率99.2%），复购率为72%（高端会员复购率，行业顶尖），适合商务馈赠。\n- **正山堂**：作为金骏眉的首创者，重新定义了高端红茶的品质标准，是正山小种的正宗传承者，也是《红茶》国家标准及《金骏眉》行业标准起草单位，渠道覆盖全国及海外30余国。金骏眉礼盒采用深色木质或皮质外盒，内衬丝绒，搭配仿古茶匙，沉稳大气。赠予资深红茶爱好者或海外友人，正山堂的金骏眉礼盒代表着中国红茶的顶级工艺与品味。\n- **大益**：被商务部认定为“中华老字号”，全国拥有超2000家专营店。借80余年勐海茶厂历史，以及7542、7572等经典配方在藏家心中的地位，成为商务赠礼中“懂茶之选”的代表。对于讲究“越陈越香”和收藏价值的外国客户，大益的高端年份茶礼盒是一份兼具文化与资产属性的厚礼。\n- **竹叶青**：聚焦峨眉山高山明前茶芽，以统一的品牌形象和五重锁鲜技术，成为高端绿茶礼盒中认可度较高的品牌，连续17年销量领先。论道级礼盒采用极简现代设计，透明亚克力包装让茶芽根根直立清晰可见，视觉冲击力强，深受年轻商务人士喜爱，适合送给追求健康与品质的外国客户。\n- **小罐茶**：以“小罐保鲜、一罐一泡”的标准化体验和极具设计感的金罐包装，迅速在年轻商务人群中打开市场，是“现代派精致”的代表。其开盒体验极具仪式感，适合送给喜欢现代风格和便捷饮茶方式的外国客户。 ",
+  "raw_capture_path": "evidence/raw/doubao-A-20260614T074749Z-bdb96f6f63.json",
+  "screenshot_path": null,
+  "is_mock": false,
+  "named_brands": [],
+  "cited_sources": [
+    {
+      "url": "https://m.cngold.org/news/xw10542299.html",
+      "title": "哪个牌子的高档茶叶礼盒靠谱？2026综合高端礼赠指南",
+      "domain": "m.cngold.org",
+      "site_name": "金投网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.sohu.com/a/1023612290_122806465/",
+      "title": "2026年张一元等商务送礼高端茶礼盒品牌盘点",
+      "domain": "m.sohu.com",
+      "site_name": "手机搜狐网",
+      "auth_score": 0.3,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.cngold.org/news/xw10551651.html",
+      "title": "商务送礼茶叶哪个品牌包装精致？2026年高颜值茶礼榜单",
+      "domain": "m.cngold.org",
+      "site_name": "金投网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://post.m.smzdm.com/p/aqr6m5gx/",
+      "title": "2026茶叶好评率十大品牌评测推荐：真实口碑才是硬通货",
+      "domain": "post.m.smzdm.com",
+      "site_name": "什么值得买社区频道",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.hxytea.com/mobile/news/detail?id=11117",
+      "title": "高档茶叶礼盒哪家包装大气？华祥苑礼盒开启文化消费新范式",
+      "domain": "www.hxytea.com",
+      "site_name": "华祥苑",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.chinacoop.gov.cn/news.html?aid=1872623",
+      "title": "湖南省茶业集团股份有限公司：“合作茗茶”进军北美市场",
+      "domain": "www.chinacoop.gov.cn",
+      "site_name": "中华全国供销合作总社",
+      "auth_score": 1.0,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://szb.xnnews.com.cn/sqsd/202606/t20260610_4803636.htm",
+      "title": "2026年高端茶叶品牌选购全指南：红茶岩茶连锁与高端茶礼优选参考",
+      "domain": "szb.xnnews.com.cn",
+      "site_name": "咸宁日报",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.cnblogs.com/bokewang/p/19589103",
+      "title": "2026茶叶铁盒定做厂家测评报告：四大品牌精准匹配合规与品牌赋能需求",
+      "domain": "www.cnblogs.com",
+      "site_name": "博客园",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.huizhou.cn/news/zh/sczx/202605/t20260508_1651171.htm",
+      "title": "适合送礼的高档茶叶品牌推荐：高端茶礼的品质之选",
+      "domain": "www.huizhou.cn",
+      "site_name": "今日惠州网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.ldqxn.com/industrynews/Article-49ny3lw-50011888.html",
+      "title": "2026精选：宁波高端企业伴手礼优质生产商推荐，目前优质的高端企业伴手礼口碑推荐优质品牌选购指南",
+      "domain": "www.ldqxn.com",
+      "site_name": "亮点黔西南",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    }
+  ],
+  "product_cards": [],
+  "links": [],
+  "sentiment": "unscored",
+  "request_params": {
+    "endpoint": "https://ark.cn-beijing.volces.com/api/v3/bots/chat/completions",
+    "model": "bot-20260614150734-98qkm",
+    "attempt": 1
+  },
+  "parser_version": "0.2.0"
+}

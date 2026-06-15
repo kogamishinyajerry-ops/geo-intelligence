@@ -1,0 +1,39 @@
+# 品牌观察名单（watchlist）
+# ─────────────────────────────────────────────────────────────────────────
+# 设计理由（红线 #1 证据优先 / #2 可复现）：
+#   named_brands 的"证据级"抽取**只**匹配本名单词条 —— 确定性、可复现、可审计。
+#   不靠 LLM 做 NER（会幻觉、不可复现，污染证据层）。
+#   占答率 / 提及率 / 首选推荐率 = 对这些词条在【存档回答】里的纯函数统计。
+#
+# ⚠️ 这是 STARTER，需要和你一起策展（curate）。
+#   - 名单外的新对手不会被算作证据级 named_brand；"发现新对手"= Phase 1+ 的
+#     candidate-discovery，会单独标注为"候选/待确认"，绝不冒充 ground truth。
+#   - aliases：同一品牌的多种写法，命中任一即记为该品牌的 canonical name。
+# ─────────────────────────────────────────────────────────────────────────
+
+# 老外自己买 / 英文 AI（ChatGPT / Perplexity / ...）
+segment_B_en:
+  - name: "Harry & David"
+    aliases: ["Harry & David", "Harry and David"]
+  - name: "Williams Sonoma"
+    aliases: ["Williams Sonoma", "Williams-Sonoma"]
+  - name: "Goldbelly"
+    aliases: ["Goldbelly"]
+
+# 中国人买来送老外客户 / 中文 AI（豆包 / ...）
+# grounded（2026-06-14，12-query 真实批量）：只放豆包答案里真出现的【品牌】。
+# ⚠️ 景德镇/苏绣/汴绣/蜀绣/景泰蓝/紫砂/龙泉 = 工艺/产地【品类】，非品牌 → 不入名单。
+#   信尚礼品(3lipin.com) = 引用源霸主，走域名级占答率追踪（citation_leaderboard），非答案内品牌。
+segment_A_zh:
+  - name: "华为"
+    aliases: ["华为", "HUAWEI"]
+  - name: "小米"
+    aliases: ["小米", "Xiaomi"]
+  - name: "故宫文创"
+    aliases: ["故宫文创", "故宫"]
+  - name: "万事利"
+    aliases: ["万事利"]
+  - name: "茅台"
+    aliases: ["茅台"]
+  - name: "五粮液"
+    aliases: ["五粮液"]

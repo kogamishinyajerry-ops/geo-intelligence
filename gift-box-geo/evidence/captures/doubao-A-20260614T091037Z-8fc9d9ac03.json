@@ -1,0 +1,117 @@
+{
+  "id": "doubao-A-20260614T091037Z-8fc9d9ac03",
+  "schema_version": "0.2.0",
+  "engine": "doubao",
+  "engine_model": "doubao-1-5-pro-32k-250115",
+  "query": "公司要批量采购50份送外国客户的伴手礼盒怎么选性价比高",
+  "buyer_segment": "A",
+  "timestamp": "2026-06-14T09:10:37.503183Z",
+  "raw_answer": "为公司批量采购50份送外国客户的伴手礼盒，要实现高性价比，可以从礼品选择和供应商选择两方面考虑：\n\n### 礼品选择\n- **文创类**：\n    - **故宫文创千里江山系列文具套装**：以北宋王希孟《千里江山图》为视觉母题，笔记本封面采用绢布烫金工艺，钢笔镌刻山峦纹理，书签以黄铜蚀刻呈现局部画卷。文化IP辨识度高，价格亲民，适合大规模批量采购，能展现中国传统文化魅力，很适合外国客户。\n    - **东方美学伴手礼**：如带有中国传统元素（如青花瓷图案、中国结等）的工艺品，既具有文化特色，又能体现中国韵味，成本也相对可控。\n- **实用类**：\n    - **定制马克杯**：采用食品级釉面工艺，耐高温、不褪色，支持单件起订，且500件以上订单即享阶梯价，降幅达30%。可以在杯子上刻上公司LOGO和祝福语，实用又能起到宣传作用。\n    - **激光定制打火机盒**：单价仅8.96元，却能实现个性化姓名与节日祝福同步刻印，满足不同场景的精准表达，适用于有抽烟习惯的外国客户。\n- **科技类**：\n    - **亚克力小夜灯**：支持个性化文案雕刻，还能搭配企业LOGO与专属色彩，科技感十足，也方便携带，作为伴手礼比较合适。\n    - **可编程灯光、机械翻页设计与定制铭牌的科技风桌搭摆件**：实用性强，具备社交属性，客户收到后可能会在朋友圈晒图，有利于品牌传播。\n\n### 供应商选择\n- **1688平台**：平台上有众多供应商提供高性价比的伴手礼。比如外贸工厂直销的烫金咖啡杯，仅4.76元起；义乌市鹏利贸易的方形创意文案摆件，成本低至5.28元/件，还能实现2000 +件批量定制。且这些产品背后大多是真实工厂直供体系，企业不仅能拿到实惠，还能保证质量。\n- **源头工厂型企业**：\n    - **廊坊市美彩隆包装制品有限公司**：是集设计、生产、印刷、配装于一体的源头包装印刷工厂，无中间商加价，性价比更高。涵盖多种盒型，适配多行业需求，可承接大小订单，兼顾灵活定制与大批量规模化生产。还承诺质量问题免费重做，提供免费设计、免费打样服务。\n    - **全联包装有限公司**：作为深耕礼品包装行业18年的源头实力厂家，提供一站式定制能力，材质工艺库丰富精湛，大小批量订单均可承接，拥有严格的品质管理体系与生产流程，保障订单准时交付。作为生产厂家直销，省去中间环节，能提供更具市场竞争力的价格。 ",
+  "raw_capture_path": "evidence/raw/doubao-A-20260614T091037Z-8fc9d9ac03.json",
+  "screenshot_path": null,
+  "is_mock": false,
+  "named_brands": [
+    "故宫文创"
+  ],
+  "cited_sources": [
+    {
+      "url": "https://wiki.1688.com/zh/gifts/WKfkroqqad6k1s",
+      "title": "定制化伴手礼：让每一赠都成为心意的高光时刻",
+      "domain": "wiki.1688.com",
+      "site_name": "1688买家百科",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.zgswcn.com/shangxun/news.html?aid=705635",
+      "title": "2026年现阶段，徐州地区节日伴手礼盒实力厂商综合选择指南",
+      "domain": "www.zgswcn.com",
+      "site_name": "中国商报网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.zgswcn.com/shangxun/news.html?aid=714790",
+      "title": "2026年更新：探寻南京市场性价比高的高端礼品盒直销厂家全攻略",
+      "domain": "www.zgswcn.com",
+      "site_name": "中国商报网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://wiki.1688.com/zh/gifts/WKfj8lvns9axa8",
+      "title": "可印LOGO伴手礼设计：1688工厂直供，高性价比定制首选",
+      "domain": "wiki.1688.com",
+      "site_name": "1688买家百科",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://wap.hznet.tv/shangxun/Article-X1rInu3C-120.html",
+      "title": "2026年焕新:专业的商务伴手礼礼盒,高端包装盒定制省钱推荐",
+      "domain": "wap.hznet.tv",
+      "site_name": "菏泽广电网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://wiki.1688.com/zh/gifts/WKfh765447jsw0",
+      "title": "可印LOGO伴手礼设计：让每一份心意都独一无二",
+      "domain": "wiki.1688.com",
+      "site_name": "1688买家百科",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://goods.taobao.com/t/zhongqiuliwu_16972/4d11edab6d14754b66b96d2c058ea583.html",
+      "title": "25年最新实用伴手礼盒推荐：公司周年庆/入职/中秋商务创意礼物，定制logo超有仪式感",
+      "domain": "goods.taobao.com",
+      "site_name": "淘宝好物网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://m.xnnews.com.cn/cysx/202604/t20260430_4550881.shtml",
+      "title": "商务伴手礼怎么挑？这 5 款才是“性价比与格调”兼得",
+      "domain": "m.xnnews.com.cn",
+      "site_name": "咸宁新闻网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.byxx.com/g88484420.html",
+      "title": "2026商务礼品定制厂家精选：企业伴手礼、定制箱包、节日福利礼品供应商选购指南",
+      "domain": "m.byxx.com",
+      "site_name": "百业网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.jdzol.com/detuiyi/Article-tyKW5-847.html",
+      "title": "2026优选：热门的高端礼盒定制/伴手礼盒厂高性价比推荐",
+      "domain": "www.jdzol.com",
+      "site_name": "景德镇在线",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    }
+  ],
+  "product_cards": [],
+  "links": [],
+  "sentiment": "unscored",
+  "request_params": {
+    "endpoint": "https://ark.cn-beijing.volces.com/api/v3/bots/chat/completions",
+    "model": "bot-20260614150734-98qkm",
+    "attempt": 1
+  },
+  "parser_version": "0.2.0"
+}

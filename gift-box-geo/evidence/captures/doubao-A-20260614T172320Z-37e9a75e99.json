@@ -1,0 +1,115 @@
+{
+  "id": "doubao-A-20260614T172320Z-37e9a75e99",
+  "schema_version": "0.2.0",
+  "engine": "doubao",
+  "engine_model": "doubao-1-5-pro-32k-250115",
+  "query": "送泰国客户的商务伴手礼推荐",
+  "buyer_segment": "A",
+  "timestamp": "2026-06-14T17:23:20.105932Z",
+  "raw_answer": "为泰国客户挑选商务伴手礼时，建议选择具有特色且能体现尊重与诚意的物品。以下是一些推荐：\n### 传统手工艺品类\n- **木质花瓶**：以穆示工艺制成，外形优美精致，充满自然的想象力，是泰国传统文化的代表。\n- **泰式香薰灯**：外观吸引人，能增添家居氛围，还带有独特香气，可用于浴室、寝室、客厅等不同空间。\n- **手工缝制的草编箱子**：由相对柔软的木条交织而成，柔软且耐用，是东南亚地区传统手工艺品。\n### 特色小吃类\n- **泰国金枕头**：类似中式小笼包的椰浆饭小吃，是泰国人喜爱的美食，适合作为伴手礼。\n- **泰国榴莲糖**：将被誉为“水果之王”的榴莲制成糖果，方便携带和保存。\n- **香脆泰式鱼皮**：呈金黄色，味道香脆可口，是泰国传统技艺的产物。\n### 药膳健康类\n- **柠檬草茶**：泰国菜常用调料，其茶口感香醇、味道浓郁，茶包包装搭配各种果味，十分可口。\n- **泰国草药香茅膏**：有“泰国万金油”之称，能缓解肌肉酸痛、关节疼痛，改善呼吸系统。\n- **泰国天然护肤品**：包含各种新鲜花瓣和草药，可有效为肌肤保湿补水和保养。\n### 时尚配饰类\n- **泰国银装**：手工制造，优雅精致，极具装饰性，日常佩戴搭配泰国服装更显美感。\n- **泰国手染布**：色彩鲜艳，花纹和图案精美，质地柔软。\n### 创意新奇类\n- **芒果糯米饭沐浴露**：由BeNice与米其林推荐的芒果糯米饭老店Mae Varee联名推出，洗完后香味能还原芒果糯米饭的味道。\n- **SALZ手标泰奶牙膏**：泰国牙膏品牌Salz与国民茶饮“手标牌”联名产品，保留经典盐味配方，精准还原手标牌泰式奶茶的茶香。\n- **FeelFin城市香膏**：将泰国热门城市转化为各种香味，体积轻巧、包装设计感强，质地滋润，香气持久。\n- **蜡笔小新鼻通**：由“泰国版大创”Moshi Moshi推出的创意联名产品，造型可爱。使用时“脱下”小新裤子可吸取芳香缓解鼻塞或头晕；扭开头部是用于蚊虫叮咬的涂抹精油。\n- **Yes!泰奶糖**：精准还原泰式奶茶的独特茶香味与炼乳甜度，让人越含越有滋味。\n- **KUNNA冻干**：具有泰国特色，可作为伴手礼选择。 ",
+  "raw_capture_path": "evidence/raw/doubao-A-20260614T172320Z-37e9a75e99.json",
+  "screenshot_path": null,
+  "is_mock": false,
+  "named_brands": [],
+  "cited_sources": [
+    {
+      "url": "https://visionthai.net/zh-hans/article/2026-thailand-must-buy-souvenirs-creative-list/",
+      "title": "2026泰国旅游买什么？6款话题泰国伴手礼：泰奶牙膏、芒果糯米饭沐浴露必收！",
+      "domain": "visionthai.net",
+      "site_name": "Vision Thai 看見泰國",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://www.4100.cn/post/4555.html",
+      "title": "泰国旅游必买：这些最佳伴手礼清单推荐！",
+      "domain": "www.4100.cn",
+      "site_name": "意浓旅游网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://esim.holafly.com/zh/travel-tips/thailand-must-buy/",
+      "title": "泰国伴手礼推荐|18 个泰国必买零食、药膏、药妆和当地名产指南",
+      "domain": "esim.holafly.com",
+      "site_name": "Holafly",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://post.m.smzdm.com/zz/p/a44gqzl7/",
+      "title": "泰国伴手礼怎么买?这篇告诉你。没人比我还全#强烈推荐 #好物分享 #泰国旅游 #..._什么值得买",
+      "domain": "post.m.smzdm.com",
+      "site_name": "什么值得买社区频道",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://you.ctrip.com/travels/thailand100021/4161668.html",
+      "title": "必买泰国十大超人气伴手礼品牌推荐，实用好看又不踩雷，送人自用两相宜！",
+      "domain": "you.ctrip.com",
+      "site_name": "携程",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://k.sina.cn/article_7879922979_1d5ae152301901qyje.html",
+      "title": "推荐泰国地区特产:_抖超",
+      "domain": "k.sina.cn",
+      "site_name": "新浪看点",
+      "auth_score": 0.3,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://hk.trip.com/guide/info/%E6%B3%B0%E5%9C%8B%E6%89%8B%E4%BF%A1.html",
+      "title": "泰國手信 2026 40大人氣零食、藥妝、彩妝、本地品牌伴手禮",
+      "domain": "hk.trip.com",
+      "site_name": "Trip.com",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://k.sina.cn/article_7879922979_1d5ae152301901n9fk.html",
+      "title": "必买泰国十大超人气伴手礼品牌推荐，实用好看又不踩雷",
+      "domain": "k.sina.cn",
+      "site_name": "新浪看点",
+      "auth_score": 0.3,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://adventurousmark.com/things-to-buy-in-thailand/",
+      "title": "【泰国必买推荐2026】TOP37曼谷伴手礼、零食、泡面、包包、药妆!",
+      "domain": "adventurousmark.com",
+      "site_name": "Adventurous Mark",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://post.m.smzdm.com/zz/p/avvw9mgm/",
+      "title": "泰国必买伴手礼!没人比我更会买了😎_什么值得买",
+      "domain": "post.m.smzdm.com",
+      "site_name": "什么值得买社区频道",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    }
+  ],
+  "product_cards": [],
+  "links": [],
+  "sentiment": "unscored",
+  "request_params": {
+    "endpoint": "https://ark.cn-beijing.volces.com/api/v3/bots/chat/completions",
+    "model": "bot-20260614150734-98qkm",
+    "attempt": 1
+  },
+  "parser_version": "0.2.0"
+}

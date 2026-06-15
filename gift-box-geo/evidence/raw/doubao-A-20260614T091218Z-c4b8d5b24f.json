@@ -1,0 +1,29 @@
+{
+  "id": "021781428318224f9065cef9012c43073e2d0226029aed4dd22fd",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "送外国客户的礼盒可以配备英文说明卡，这有助于外国客户更好地了解礼盒中的物品。以下为你提供茶叶和丝绸的英文介绍示例：\n\n### 茶叶英文介绍\n\n#### 通用介绍\nDear customer,\n\nTea is a time - honored and globally beloved beverage with a rich history spanning thousands of years. Originating in ancient China, it has gradually spread across the world, winning the hearts of people from diverse cultures.\n\nThis tea in the box is carefully selected from the finest tea - growing regions. The tea leaves are hand - picked at the optimal time to ensure the highest quality. When brewed, it releases a delicate and refreshing aroma, and the taste is a harmonious blend of sweetness and umami.\n\nThere are various health benefits associated with tea. It contains antioxidants that can help boost the immune system, reduce the risk of certain diseases, and improve digestion. Whether you enjoy it in the morning to start your day or in the afternoon as a relaxing break, tea is a perfect choice.\n\n不同种类茶叶的额外介绍：\n\n#### 绿茶（Green Tea）\nGreen tea is known for its light color and fresh, grassy flavor. It is minimally processed, which retains a high amount of natural antioxidants. Drinking green tea can help with weight management, lower cholesterol levels, and enhance mental alertness.\n\n#### 红茶（Black Tea）\nBlack tea is fully fermented, resulting in a bold and robust flavor. It has a stronger taste compared to green tea and is often enjoyed with milk and sugar. Black tea is rich in theaflavins and thearubigins, which are beneficial for heart health.\n\n#### 乌龙茶（Oolong Tea）\nOolong tea is a semi - fermented tea that combines the best of both green and black teas. It has a complex flavor profile that can range from floral and fruity to nutty and earthy. Oolong tea is known for its ability to aid in digestion and balance blood sugar levels.\n\n\n### 丝绸英文介绍\n\nDear customer,\n\nSilk is a luxurious and exquisite fabric that has been a symbol of elegance and sophistication for centuries. It has a long - standing history in China, where it was first discovered and produced over 5,000 years ago.\n\nThe silk in this gift is made from the cocoons of silkworms through a meticulous and time - consuming process. The result is a fabric with a smooth, soft, and lustrous texture that feels incredibly gentle against the skin.\n\nSilk is not only beautiful but also has many practical advantages. It is a natural insulator, keeping you warm in the winter and cool in the summer. It is also hypoallergenic, making it suitable for people with sensitive skin.\n\nWhether it is used as a scarf, a piece of clothing, or a decorative item, silk adds a touch of luxury and refinement to any setting. It is a timeless gift that represents the best of traditional craftsmanship and cultural heritage. ",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1781428338,
+  "model": "doubao-1-5-pro-32k-250115",
+  "object": "chat.completion",
+  "bot_usage": {
+    "model_usage": [
+      {
+        "name": "doubao-1-5-pro-32k-250115",
+        "prompt_tokens": 963,
+        "completion_tokens": 631,
+        "total_tokens": 1594
+      }
+    ],
+    "action_usage": [],
+    "action_details": []
+  },
+  "metadata": {}
+}

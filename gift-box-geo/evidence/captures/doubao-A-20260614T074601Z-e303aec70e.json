@@ -1,0 +1,118 @@
+{
+  "id": "doubao-A-20260614T074601Z-e303aec70e",
+  "schema_version": "0.2.0",
+  "engine": "doubao",
+  "engine_model": "doubao-1-5-pro-32k-250115",
+  "query": "送欧美客户的高端商务礼品预算1000元左右",
+  "buyer_segment": "A",
+  "timestamp": "2026-06-14T07:46:01.892769Z",
+  "raw_answer": "为欧美客户选择1000元左右的高端商务礼品，可综合考虑其实用性、文化代表性以及环保可持续性，以下为您提供一些推荐：\n1. **品牌文具类**：万宝龙或派克钢笔，价格约800 - 1200元。钢笔是经典商务礼物，象征尊重和专业，搭配定制笔盒，可作为高档礼品赠送。\n2. **茶叶与茶具套装**：中国名茶（如龙井、普洱）搭配紫砂茶具，价格约600 - 1000元。茶叶是国际公认的健康饮品，茶具则具有艺术价值，这份伴手礼既能推广中国文化，又实用贴心。\n3. **电子产品**：小米或华为的智能手环或蓝牙耳机，价格约500 - 1000元。科技产品普遍受欢迎，且预算适中，确保产品具有国际保修，以避免售后问题。\n4. **丝绸与服饰配件**：真丝围巾或领带，价格约800 - 1200元。丝绸是中国传统材料，设计现代易搭配，这类纪念品轻便易携，适合作为旅行手信。\n5. **艺术品与工艺品**：小型雕塑或陶瓷摆件，价格约700 - 1100元。选择知名艺术家或品牌的作品，如景德镇瓷器，既能装饰办公室，又具有收藏价值。\n6. **食品与礼篮**：高级巧克力、干果或中国特色零食礼盒，价格约500 - 1000元。食品是安全的礼物选择，但需注意客户的饮食禁忌（如清真、素食等），包装成精美礼篮，增添节日气氛。\n7. **外企商务礼套装**：包含记事本、钥匙扣、名片夹和大容量优盘的套装。经典商务黑低调不张扬，每样东西都是客户日常能用得上的，还可根据客户需求印上公司名称、logo或客户名字。 \n\n送礼时，适合在会议结束、节日（如圣诞节、春节）或合作里程碑时赠送，避免在初次见面时送礼，以免显得突兀。同时，要使用精美且环保的包装，并附上一张用客户母语表达感谢的手写卡片。另外，需提前研究客户国家的送礼习俗，避免因文化差异产生尴尬。送礼后，可通过邮件或电话委婉确认客户是否喜欢，但避免过度强调，以免显得功利。 ",
+  "raw_capture_path": "evidence/raw/doubao-A-20260614T074601Z-e303aec70e.json",
+  "screenshot_path": null,
+  "is_mock": false,
+  "named_brands": [
+    "小米",
+    "华为"
+  ],
+  "cited_sources": [
+    {
+      "url": "http://www.3lipin.com/laowai/30313.html",
+      "title": "送外国客户礼物千元左右，精选礼品指南与贴心建议",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.jiemian.com/article/13792780.html",
+      "title": "商务赠礼指南：这三件千元级DIOR家居单品，精准避开收纳宿命",
+      "domain": "m.jiemian.com",
+      "site_name": "界面新闻",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.3lipin.com/laowai/30090.html",
+      "title": "送外国男客户什么礼物比较好？精选礼品指南与实用建议",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.3lipin.com/laowai/27771.html",
+      "title": "送国外客户礼物送什么好一点?送老外客户礼品指南，文化适配、实用心意与品牌格调的平衡",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.sohu.com/a/1028494146_122565369/",
+      "title": "千元商务伴手礼怎么选？2026 年精选推荐：这 5 款让高管\"随身带走\"",
+      "domain": "m.sohu.com",
+      "site_name": "手机搜狐网",
+      "auth_score": 0.3,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.3lipin.com/laowai/27954.html",
+      "title": "送外国客户礼物一般送什么好 跨越文化边界的诚意之选，送外国客户的实用礼品推荐",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.sohu.com/a/966084362_122433080/",
+      "title": "跨境礼品定制怎么选？外企商务礼套装凭啥成外贸圈首选？",
+      "domain": "m.sohu.com",
+      "site_name": "手机搜狐网",
+      "auth_score": 0.3,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.sohu.com/a/933813406_100046496",
+      "title": "如何为国外客户挑选得体且富有心意的礼物?给国外客户送礼物送什么比较好 跨文化送礼指南",
+      "domain": "www.sohu.com",
+      "site_name": "搜狐",
+      "auth_score": 0.3,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.3lipin.com/laowai/31586.html",
+      "title": "送老外客户的高端礼品有哪些？兼顾文化品位、实用价值与国际审美的12种精选方案",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.3lipin.com/laowai/29771.html",
+      "title": "适合送外国男客户的礼物，精选礼品指南与贴心建议",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    }
+  ],
+  "product_cards": [],
+  "links": [],
+  "sentiment": "unscored",
+  "request_params": {
+    "endpoint": "https://ark.cn-beijing.volces.com/api/v3/bots/chat/completions",
+    "model": "bot-20260614150734-98qkm",
+    "attempt": 2
+  },
+  "parser_version": "0.2.0"
+}

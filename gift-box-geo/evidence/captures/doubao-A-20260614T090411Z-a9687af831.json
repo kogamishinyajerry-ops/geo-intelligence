@@ -1,0 +1,117 @@
+{
+  "id": "doubao-A-20260614T090411Z-a9687af831",
+  "schema_version": "0.2.0",
+  "engine": "doubao",
+  "engine_model": "doubao-1-5-pro-32k-250115",
+  "query": "圣诞节送国外客户的高端礼盒选什么好",
+  "buyer_segment": "A",
+  "timestamp": "2026-06-14T09:04:11.895453Z",
+  "raw_answer": "为国外客户挑选圣诞节高端礼盒，需要综合考虑文化禁忌、行业属性、合作深度及个人偏好等因素。以下为你提供一些不同类型的选择建议：\n\n### 实用类\n- **高品质保温杯**：欧美客户普遍对兼具设计感与日常高频使用率的物品反馈良好，高品质保温杯能满足他们日常使用需求，且四季通用。\n- **无线充电器**：在电子设备普及的时代，无线充电器方便实用，是很贴心的礼物选择。\n- **环保材质笔记本**：既实用又符合当下环保理念，可用于记录工作、生活点滴。\n- **便携式咖啡滤杯**：对于爱喝咖啡的客户来说，便携式咖啡滤杯能让他们随时随地享受新鲜冲泡的咖啡。\n\n### 文化类\n- **定制工艺礼品**：向德国客户赠送一套精密工艺钢笔搭配本地匠人手工纸；给日本客户奉上京都老铺和纸信笺与苏州缂丝书签组合；为巴西客户搭配亚马逊雨林可持续认证的天然香薰与葡萄牙语版中国节气插画册等，这类礼物以文化互鉴为底色，能传递诚意。\n- **特色文化纪念品**：如双方首次签约地的手工微缩模型、合作项目所在地的风物复刻件等，承载文化符号与共同记忆，可将商业协作升华为可触摸的时间印记。\n\n### 美食类\n- **黄油曲奇礼盒**：精美包装，使用高端原料，如 42% 新西兰发酵黄油，入口酥松、奶香浓郁。耐储存、易运输，无论是欧洲的圣诞节还是亚洲的中秋节，都代表着分享与祝福，适合跨国寄送。\n- **高品质巧克力礼盒**：例如费列罗原装进口意大利巧克力礼盒、歌帝梵进口巧克力松露巧克力精选大师礼盒等，巧克力是经典的圣诞礼物选择，能给人带来愉悦的味觉体验。\n\n### 品牌类\n- **DIOR家居礼品**：\n    - **铃兰系列杯碟组合**：适合女性客户，手工吹制的玻璃水杯，成套出现极具视觉整体感。装饰托盘既可承托杯具，也可单独用于放置茶点、首饰或文具；水杯是每日饮水的贴心伴侣，能为客户打造充满仪式感的品牌体验。\n    - **笔记本套装和笔筒**：适合男性客户。Plan de Paris系列笔记本以巴黎地图为图案，有两本不同尺寸的笔记本，适配会议记录与随身备忘的不同需求；笔筒采用实心橡木或樱桃木制作，由知名设计师操刀，简约线条充满现代建筑感，能整理桌面，提升办公效率。\n\n### 其他类\n- **圣诞主题亲子睡衣套装**：可以选择羊毛材质的圣诞主题围巾手套套装，适合欧美家庭在圣诞节营造温馨氛围，且羊毛材质抗起球，适配北欧寒冷天气。 \n- **圣诞限定香薰礼盒**：含蜡烛和扩香石，包装采用圣诞红金配色，适合作为亲友互赠礼物，能为家居增添节日氛围。\n\n此外，还需注意食品安全与物流时效。含坚果、乳制品或酒精的礼品需提前确认进口法规；易碎的纪念品应采用蜂窝纸 + 气柱袋双重防护，并预留至少 20 天国际清关缓冲期。同时，避免选用带有强烈基督教意象的元素，如十字架、天使、圣诞老人等，可选用冬青、雪花、松果、暖光灯串等自然主题图案。 ",
+  "raw_capture_path": "evidence/raw/doubao-A-20260614T090411Z-a9687af831.json",
+  "screenshot_path": null,
+  "is_mock": false,
+  "named_brands": [
+    "华为"
+  ],
+  "cited_sources": [
+    {
+      "url": "http://www.3lipin.com/laowai/31533.html",
+      "title": "外国客户圣诞节送啥礼物好?兼顾文化尊重、实用价值与品牌温度的12种高分选择指南",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.3lipin.com/laowai/31530.html",
+      "title": "圣诞节送外国客户礼物推荐，兼顾文化尊重、实用价值与品牌温度的12款国际化优选方案",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.3
+    },
+    {
+      "url": "https://k.sina.cn/article_7857141524_1d4527714019037nc8.html",
+      "title": "圣诞商务礼遇:DIOR家居礼品如何精准匹配男女客户的不同品味?_场景_礼物_赠礼",
+      "domain": "k.sina.cn",
+      "site_name": "新浪看点",
+      "auth_score": 0.3,
+      "rel_score": 0.5,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://lowreyfoods.com/zh/blogs/%E6%96%B0%E9%97%BB/best-holiday-cookie-gifts",
+      "title": "节日送礼曲奇推荐|圣诞曲奇礼盒与最佳曲奇礼物 – Lowrey Foods",
+      "domain": "lowreyfoods.com",
+      "site_name": "LowreyFoods",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.3
+    },
+    {
+      "url": "https://www.airfrov.com/gifts/best-gift-sets-for-christmas/",
+      "title": "11 Best Gift Sets for Christmas 2026",
+      "domain": "www.airfrov.com",
+      "site_name": "Airfrov",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "http://sichuanhong.com/content/202511/1034984.html",
+      "title": "圣诞节怎么给国外客户送礼物？",
+      "domain": "sichuanhong.com",
+      "site_name": "北京红网",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://goods.taobao.com/t/pinganye_17061/9c4178f483dbc3ac29c094bcee3ac860.html",
+      "title": "平安夜是不是给外国人过?这份中西合璧的创意伴手礼给你答案",
+      "domain": "goods.taobao.com",
+      "site_name": "淘宝好物网",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.jd.com/hotitem/1320d457f0a115771807.html?page=3",
+      "title": "圣诞节巧克力大盒排行",
+      "domain": "m.jd.com",
+      "site_name": "京东",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://chinese.alibaba.com/g/christmas-gift-2026-ideas.html",
+      "title": "圣诞礼物2026想法(999+)  2026-06-03",
+      "domain": "chinese.alibaba.com",
+      "site_name": "阿里巴巴中国站",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://c.m.163.com/news/a/KGG662VL0553J9NC.html",
+      "title": "圣诞消费热潮来袭！欧美市场爆款选品指南，精准锁定家庭团聚需求",
+      "domain": "c.m.163.com",
+      "site_name": "网易新闻客户端",
+      "auth_score": 0.3,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    }
+  ],
+  "product_cards": [],
+  "links": [],
+  "sentiment": "unscored",
+  "request_params": {
+    "endpoint": "https://ark.cn-beijing.volces.com/api/v3/bots/chat/completions",
+    "model": "bot-20260614150734-98qkm",
+    "attempt": 1
+  },
+  "parser_version": "0.2.0"
+}

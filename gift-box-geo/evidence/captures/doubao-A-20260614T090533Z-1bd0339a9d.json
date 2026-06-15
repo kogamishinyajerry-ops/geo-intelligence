@@ -1,0 +1,115 @@
+{
+  "id": "doubao-A-20260614T090533Z-1bd0339a9d",
+  "schema_version": "0.2.0",
+  "engine": "doubao",
+  "engine_model": "doubao-1-5-pro-32k-250115",
+  "query": "送德国客户的商务伴手礼有什么讲究 德国人务实送什么合适",
+  "buyer_segment": "A",
+  "timestamp": "2026-06-14T09:05:33.816787Z",
+  "raw_answer": "为德国客户挑选商务伴手礼，需要了解德国文化特点，遵循一定的讲究，并选择合适的礼物，以下为你展开介绍：\n### 讲究\n- **注重品质与实用性**：德国人注重实用性、高品质和精细工艺，欣赏简洁、功能性强且设计精良的产品。所以礼物应具备实际使用价值，避免选择过于花哨或不实用的物品。\n- **避免奢华与浮夸**：德国人送礼讲究“少而精”，避免过于奢华或浮夸的包装，过于昂贵的礼物可能会让德国客户觉得过于炫耀或不切实际，应选择简约、大方的包装。\n- **了解文化背景**：了解德国的文化背景，选择具有文化特色的伴手礼，可以展示出对德国文化的尊重和了解。同时，要避免送具有强烈个人色彩、政治色彩或宗教敏感的礼物，以免引起不必要的尴尬或误解。\n- **考虑对方喜好**：在选购德国商务伴手礼时，要了解对方的喜好和需求，选择适合对方的礼物。\n- **注意赠送时机和方式**：在商业场合中，可以在初次见面、拜访客户、节日庆祝或合作达成等重要时刻当面赠送礼物。礼物交付方式要得当，可以选择当面交付或者邮寄。\n\n### 合适的礼物推荐\n- **传统手工艺品**：如德国瓷器（Meissen和Rosenthal等品牌），历史悠久，图案精美，工艺精湛，具有较高的收藏价值；德国手表（Swatch、Longines等品牌），品质可靠，设计新颖。\n- **工业制品**：德国刀具（Wüsthof、Zwilling等品牌），锋利耐用；德国机械设备（Siemens、Bosch等品牌），技术先进、性能稳定，适合送给工程技术人员。\n- **地域特色礼品**：巴伐利亚啤酒杯，具有浓厚的地方文化氛围；黑森林巧克力，口感独特，是德国著名的甜点。\n- **办公用品**：设计精良、功能齐全的办公用品，如高端笔记本、精致的笔具或优质的皮革文件夹。\n- **文化艺术品**：一幅德国艺术家的画作、一本介绍德国文化的书籍或一张德国音乐会的门票，能展现出对德国文化的尊重和兴趣。\n- **环保礼品**：德国人注重环境保护和可持续发展，可选择竹质笔记本、可回收的金属笔或有机棉制成的环保袋等。\n- **个性化定制礼品**：若与德国客户关系较为亲密，可考虑送刻有客户名字的皮具、定制的葡萄酒或根据客户喜好定制的专属礼品。 ",
+  "raw_capture_path": "evidence/raw/doubao-A-20260614T090533Z-1bd0339a9d.json",
+  "screenshot_path": null,
+  "is_mock": false,
+  "named_brands": [],
+  "cited_sources": [
+    {
+      "url": "https://www.siudz.com/news/de-guo-shang-wu-ban-shou-li-jie-mi-de-shi-jiang-xin-yu-di-dao-feng-qing-xuan-dui-li-wu-rang-shang-wu.html",
+      "title": "德国商务伴手礼：揭秘德式匠心与地道风情，选对礼物，让商务洽谈更添色彩",
+      "domain": "www.siudz.com",
+      "site_name": "岁序智库",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.3lipin.com/biz/16668.html",
+      "title": "送德国客户什么礼物好 ？精心挑选，深度解读：送德国客户礼物的最佳选择",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.3lipin.com/laowai/28229.html",
+      "title": "德国送老外客人礼品送什么比较好 德国文化视角下，如何为外宾挑选兼具心意的礼物与纪念品？",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.jiatianxiacm.com/post/136890.html",
+      "title": "德国客户喜欢什么礼物",
+      "domain": "www.jiatianxiacm.com",
+      "site_name": "天下旅游网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.drbdp.com/3-5248645.html",
+      "title": "给德国客户送什么礼物",
+      "domain": "www.drbdp.com",
+      "site_name": "格格网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.800tuangou.com/lw/64034.html",
+      "title": "德国威能仲夏礼物",
+      "domain": "www.800tuangou.com",
+      "site_name": "送礼800",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.3lipin.com/laowai/31533.html",
+      "title": "外国客户圣诞节送啥礼物好?兼顾文化尊重、实用价值与品牌温度的12种高分选择指南",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.amz123.com/ask/swzOm17f",
+      "title": "外贸卖家与客户交往中需要注意的禁忌",
+      "domain": "m.amz123.com",
+      "site_name": "AMZ123亚马逊导航",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.doc.wendoc.com/b242382dc18b2c1828ae6471dcb2bb92256429a76-2.html",
+      "title": "德国人的商务礼仪有哪些",
+      "domain": "m.doc.wendoc.com",
+      "site_name": "文档下载网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.sohu.com/a/662844726_121124020/",
+      "title": "德国人也爱送礼？商务答谢怎么送",
+      "domain": "m.sohu.com",
+      "site_name": "手机搜狐网",
+      "auth_score": 0.3,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    }
+  ],
+  "product_cards": [],
+  "links": [],
+  "sentiment": "unscored",
+  "request_params": {
+    "endpoint": "https://ark.cn-beijing.volces.com/api/v3/bots/chat/completions",
+    "model": "bot-20260614150734-98qkm",
+    "attempt": 1
+  },
+  "parser_version": "0.2.0"
+}

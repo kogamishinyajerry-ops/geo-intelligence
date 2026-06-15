@@ -1,0 +1,26 @@
+{
+  "id": "doubao-B-20260614T184830Z-a13761223b",
+  "schema_version": "0.2.0",
+  "engine": "doubao",
+  "engine_model": "doubao-seed-1-6-flash-250615",
+  "query": "hidden gems and local spots in Shanghai",
+  "buyer_segment": "B",
+  "timestamp": "2026-06-14T18:48:30.301933Z",
+  "raw_answer": "### Hidden Gems and Local Spots in Shanghai\n\n#### 1. **Wukang Road Area**  \nBeyond the iconic Wukang Building, explore lesser-known cafes like **La Maison de la Truffe** (truffle-themed delights) and stumble upon quiet vintage shops. The backstreets offer a more laid-back, local vibe.  \n\n\n#### 2. **M50 Creative Park (Less Crowded Corners)**  \nWhile M50 is popular, venture off the main path to discover smaller, independent galleries and studios with unique artworks, away from the tourist throngs.  \n\n\n#### 3. **Tongren Road Antique Market**  \nA hidden gem for antique lovers, this market is filled with quirky vintage items, collectibles, and unique finds, offering a nostalgic shopping experience.  \n\n\n#### 4. **Tianping Road**  \nThis street is lined with local eateries serving authentic Shanghainese cuisine, from savory snacks to hearty meals, providing a taste of everyday local life.  \n\n\n#### 5. **Songjiang Old Town**  \nLess touristy than Zhujiajiao, Songjiang Old Town features ancient architecture, tranquil canals, and local snacks like \"Songjiang pot stickers,\" perfect for a peaceful escape.  \n\n\n#### 6. **Dafeng Space**  \nAn art space nestled in a former textile factory, Dafeng Space hosts rotating art exhibitions in a relaxed, industrial setting.  \n\n\n#### 7. **Qibao Old Street (Backstreets)**  \nWhile the main Qibao Old Street is bustling, the backstreets offer quieter alleys with traditional shops, local snacks, and a more authentic old Shanghai atmosphere.  \n\n\n#### 8. **Minsheng Road Ferry**  \nTake the ferry from Minsheng Road to experience a different side of Shanghai’s skyline and enjoy a serene ride across the Huangpu River.  \n\n\n#### 9. **Xi'an Road Food Street**  \nA haven for foodies, this street is lined with local restaurants and snack stalls, serving everything from Shanghainese noodles to spicy Sichuan dishes.  \n\n\n#### 10. **800秀**  \nAn offshoot of M50, 800秀 is a creative park with fewer visitors, featuring art studios, cafes, and unique boutiques.  \n\n\n#### 11. **Wuning Road Night Market**  \nA vibrant local night market with a variety of street food, from grilled skewers to sweet treats, offering a lively evening experience.  \n\n\n#### 12. **Duolun Road Cultural Street**  \nThis street is dotted with independent bookstores, small galleries, and historical buildings, perfect for a leisurely stroll and cultural exploration.  \n\n\n#### 13. **Zhaojiabang Road Market**  \nA local wet market where you can find fresh produce, traditional snacks, and engage with Shanghai’s daily life.  \n\n\n#### 14. **Jing'an Sculpture Park**  \nA green oasis in the city, this park features modern art installations and peaceful walking paths, ideal for a break from the urban hustle.  \n\n\nThese spots offer a blend of culture, cuisine, and local charm, allowing you to experience Shanghai beyond the typical tourist trail.",
+  "raw_capture_path": "evidence/raw/doubao-B-20260614T184830Z-a13761223b.json",
+  "screenshot_path": null,
+  "is_mock": false,
+  "named_brands": [
+    "Zhujiajiao"
+  ],
+  "cited_sources": [],
+  "product_cards": [],
+  "links": [],
+  "sentiment": "unscored",
+  "request_params": {
+    "endpoint": "https://ark.cn-beijing.volces.com/api/v3/chat/completions",
+    "model": "doubao-seed-1-6-flash-250615",
+    "attempt": 1
+  },
+  "parser_version": "0.2.0"
+}

@@ -1,0 +1,119 @@
+{
+  "id": "doubao-A-20260614T074430Z-95b14df32c",
+  "schema_version": "0.2.0",
+  "engine": "doubao",
+  "engine_model": "doubao-1-5-pro-32k-250115",
+  "query": "签约仪式送外宾的高端礼盒选什么",
+  "buyer_segment": "A",
+  "timestamp": "2026-06-14T07:44:30.854834Z",
+  "raw_answer": "签约仪式送外宾高端礼盒可以考虑以下几类选择：\n### 商务办公类\n- **定制钢笔礼盒**：如万宝龙经典系列，支持激光雕刻企业LOGO。钢笔是全球通用的商务符号，搭配皮质笔记本与墨水套装，还可附赠手写英文感谢卡，由书法家书写企业寄语，体现对细节的追求和情感联结。\n- **智能办公套装**：例如Bose降噪耳机与Moleskine智能笔记本（支持手写转文字）的组合，能满足跨国会议与高效记录需求，体现对客户工作场景的深度洞察。\n- **非遗工艺定制笔记本/钢笔**：选择苏绣封面笔记本、景泰蓝钢笔或竹制雕刻签字笔，内页可烫印客户姓名或公司LOGO，打造专属纪念品，既实用又具收藏价值。\n\n### 生活美学类\n- **非遗工艺品**：\n    - 龙泉青瓷茶具，附上英文版开片工艺说明，通过二维码链接品牌纪录片讲述匠人数十年技艺传承。\n    - 苏州缂丝屏风（迷你版），同样可借助二维码等方式呈现文化故事。\n    - 戏曲熊猫双面绣摆件，将京剧艺术与熊猫形象融合，通过双面绣工艺传递“合作共赢”理念，兼具艺术收藏与外交礼仪功能。\n    - 汴绣清明上河图，以传统针法再现北宋市井百态，寓意商业合作繁荣。\n    - 盘金绣龙福摆件，以龙和福为设计元素，配色富贵，寓意事业腾飞、福运双全。\n- **高端香氛系统**：如Diptyque巴黎限定款香薰蜡烛搭配定制檀木扩香器，选择中性香调（如雪松、白茶），避免过于浓烈或甜腻，适配全球客户偏好。\n- **手工刺绣真丝丝巾套盒**：内含手工刺绣真丝丝巾、天然香薰精油和精致胸针。丝巾以桑蚕丝为基底，手工刺绣花卉纹样，触感柔滑、光泽温润，搭配香薰精油与胸针，营造多层次感官体验。\n\n### 收藏价值类\n- **限量版艺术衍生品**：像故宫文创《千里江山图》珐琅彩盘（附收藏证书）、大英博物馆罗塞塔石碑复刻摆件等，全球限量编号并带有艺术家签名，满足客户对独特性与艺术价值的需求。\n- **珍稀茶酒礼盒**：陈年普洱茶饼搭配品鉴指南，加上苏格兰单一麦芽威士忌（独立装瓶商定制酒标），再配上紫砂壶或水晶醒酒器，附赠双语品鉴手册，营造文化体验场景。\n- **五粮液仙林生态高档礼盒**：52度250mL 4瓶红福咏江南一盒。五粮液是中国著名白酒品牌，酿造工艺独特，口感醇厚，礼盒设计时尚大方，适合商务场合赠送。\n\n### 体验型类\n- **私人定制旅行**：如敦煌壁画修复体验之旅（含专家讲解和亲手临摹）、瑞士雪山直升机观光加米其林晚宴等。通过专属行程设计，将商务关系升华为深度友谊，但需提前确认客户时间与兴趣。\n- **大师课程礼遇**：例如景德镇陶瓷大师1对1拉坯课、法国蓝带厨艺学院线上甜品课，提供课程证书与作品邮寄服务，让客户在体验中感受品牌温度。\n\n在选择礼盒时，还需注意宗教与习俗，避免含宗教符号的礼物，优先选择中性设计；根据不同国家客户的喜好进行包装，如日本客户偏好素雅包装，中东客户可能重视金色元素。 ",
+  "raw_capture_path": "evidence/raw/doubao-A-20260614T074430Z-95b14df32c.json",
+  "screenshot_path": null,
+  "is_mock": false,
+  "named_brands": [
+    "故宫文创",
+    "五粮液",
+    "华为"
+  ],
+  "cited_sources": [
+    {
+      "url": "http://www.3lipin.com/laowai/27488.html",
+      "title": "送外国客户高档次礼物送什么好 臻选雅礼，送老外客户的高端礼品指南—文化交融与品质之选",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.sohu.com/a/919040814_120109808/",
+      "title": "商务人士的品质礼品清单！3款适合送客户的精选好礼，职场人必看",
+      "domain": "m.sohu.com",
+      "site_name": "手机搜狐网",
+      "auth_score": 0.3,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.3lipin.com/laowai/29448.html",
+      "title": "这些礼物送国外客户绝了 这些礼品送国外客户绝了！高端大气又显心意的商务伴手礼推荐",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.sohu.com/a/895782364_120109808",
+      "title": "还在头疼怎么给外国客户送礼?4款精选非遗好礼，老外直夸送的好",
+      "domain": "www.sohu.com",
+      "site_name": "搜狐",
+      "auth_score": 0.3,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://cj.sina.cn/articles/view/7857141524/1d452771401901y0no",
+      "title": "2026 商务伴手礼推荐:TOP10 精选清单，让客户闭眼入不踩雷",
+      "domain": "cj.sina.cn",
+      "site_name": "新浪财经",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.zgswcn.com/news.html?aid=340068",
+      "title": "商务伴手礼推荐大全：从平价到奢华的 2026 全场景覆盖",
+      "domain": "www.zgswcn.com",
+      "site_name": "中国商报网",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.sohu.com/a/1036253813_122806465/",
+      "title": "如何选择北京商务场景适用的高端茶叶礼盒",
+      "domain": "m.sohu.com",
+      "site_name": "手机搜狐网",
+      "auth_score": 0.3,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.3lipin.com/laowai/34622.html",
+      "title": "外企接待送外籍高管礼品，高端国风礼盒彰显待客之道，展现企业文化与尊贵礼仪",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.sohu.com/a/1034508864_121081803/",
+      "title": "商务送礼的绝佳选择！高档礼盒让你瞬间提升人际关系",
+      "domain": "m.sohu.com",
+      "site_name": "手机搜狐网",
+      "auth_score": 0.3,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.163.com/dy/article/KHNHB20S0534BDMS.html",
+      "title": "高端商务礼：以礼为媒，共筑合作新篇",
+      "domain": "www.163.com",
+      "site_name": "手机网易网",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    }
+  ],
+  "product_cards": [],
+  "links": [],
+  "sentiment": "unscored",
+  "request_params": {
+    "endpoint": "https://ark.cn-beijing.volces.com/api/v3/bots/chat/completions",
+    "model": "bot-20260614150734-98qkm",
+    "attempt": 3
+  },
+  "parser_version": "0.2.0"
+}

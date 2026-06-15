@@ -1,0 +1,115 @@
+{
+  "id": "doubao-A-20260614T091051Z-a393890f1c",
+  "schema_version": "0.2.0",
+  "engine": "doubao",
+  "engine_model": "doubao-1-5-pro-32k-250115",
+  "query": "小批量定制logo的商务礼盒送国外客户大概多少钱一套",
+  "buyer_segment": "A",
+  "timestamp": "2026-06-14T09:10:51.602717Z",
+  "raw_answer": "小批量定制logo的商务礼盒价格因多种因素而有较大差异，以下是不同类型礼盒的价格范围供你参考：\n- **普通纸质礼盒**：如浙江金华定制商务礼盒，50个起批，单价98元；500 - 999个，单价88元；1000个及以上，单价78元。深圳瑞祥纸品包装有限公司的2026甄选外贸高档礼盒，采用环保铜版纸、灰板纸，经高精度四色印刷、烫金、UV局部光油等工艺，价格为1.5元/个。\n- **创意礼品套装礼盒**：像广州礼韵文化的企业商务礼品定制盒115.54元起；杭州心触礼创的咖啡礼品套装价格69.01元；MIDU的金属徽章马克杯168元起，真皮烫金笔记本套装198元起，智能磁吸无线充238元起，3D浮雕U盘礼盒158元起，渐变色企业帆布包128元起。\n- **其他特色礼盒**：企业周年庆保温杯套装商务笔记本子定制礼盒416元；马年年会公司开业商务实用礼品纪念品套装定制logo礼盒58元；实用公司活动礼品套装定制logo端午节商务伴手礼88元。\n\n此外，国际运费、出口合规认证费用等也会增加总成本。如果礼盒需符合目标市场的合规要求，如欧盟CE认证、美国FDA认证等，会产生额外费用。 ",
+  "raw_capture_path": "evidence/raw/doubao-A-20260614T091051Z-a393890f1c.json",
+  "screenshot_path": null,
+  "is_mock": false,
+  "named_brands": [],
+  "cited_sources": [
+    {
+      "url": "https://detail.1688.com/offer/715066327609.html",
+      "title": "定制商务礼盒小批量高档礼物包装盒送客户员工活动伴手礼盒印LOGO",
+      "domain": "detail.1688.com",
+      "site_name": "1688阿里巴巴",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.3
+    },
+    {
+      "url": "https://wiki.1688.com/zh/gift-boxes/WKfks3r0e4pqtc",
+      "title": "企业专属LOGO会员礼盒定制，1688批发价直供，品质与性价比双重飞跃",
+      "domain": "wiki.1688.com",
+      "site_name": "1688买家百科",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://wiki.1688.com/zh/gift-boxes/WKfkduql2tnl6o",
+      "title": "企业专属LOGO会员礼盒定制，1688批发优选，品质与性价比双重保障",
+      "domain": "wiki.1688.com",
+      "site_name": "1688买家百科",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://guangtao.taobao.com/topic-136426975",
+      "title": "轻奢定制礼盒小批量",
+      "domain": "guangtao.taobao.com",
+      "site_name": "",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.3
+    },
+    {
+      "url": "https://mip.b2b168.com/wvs318932279.html",
+      "title": "2026来样定制礼盒厂怎么收费，商务礼盒厂、礼盒生产厂收费标准",
+      "domain": "mip.b2b168.com",
+      "site_name": "八方资源网",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://www.midu88.com/Mobile/MArticles/cylogoswlp.html",
+      "title": "创意LOGO商务礼品定制专家 | MIDU高端个性化定制方案",
+      "domain": "www.midu88.com",
+      "site_name": "深圳尊行者礼品厂",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.11467.com/product/d52263678.htm",
+      "title": "2026甄选：外贸高档礼盒印刷 童锁yuantouchangjia定制公司高性价比推荐",
+      "domain": "m.11467.com",
+      "site_name": "顺企网",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.dhgate.com/wholesale/boxes+from+japan.html",
+      "title": "Buy Boxes From Japan Wholesale in Bulk | DHgate",
+      "domain": "www.dhgate.com",
+      "site_name": "DHgate",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://mobile-phone.taobao.com/chanpin/951c771fa2a0913b76c439847e4aae51bda95279f05923d6f6329e9d3d780760.html",
+      "title": "共找到20769件",
+      "domain": "mobile-phone.taobao.com",
+      "site_name": "淘宝",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://chinese.alibaba.com/g/brand-name-box.html",
+      "title": "品牌名称框(999+)  2026-05-14",
+      "domain": "chinese.alibaba.com",
+      "site_name": "阿里巴巴中国站",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    }
+  ],
+  "product_cards": [],
+  "links": [],
+  "sentiment": "unscored",
+  "request_params": {
+    "endpoint": "https://ark.cn-beijing.volces.com/api/v3/bots/chat/completions",
+    "model": "bot-20260614150734-98qkm",
+    "attempt": 1
+  },
+  "parser_version": "0.2.0"
+}

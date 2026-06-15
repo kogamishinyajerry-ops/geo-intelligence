@@ -1,0 +1,115 @@
+{
+  "id": "doubao-A-20260614T090343Z-d3e37b59dd",
+  "schema_version": "0.2.0",
+  "engine": "doubao",
+  "engine_model": "doubao-1-5-pro-32k-250115",
+  "query": "出国出访带给国外客户的见面礼送什么合适",
+  "buyer_segment": "A",
+  "timestamp": "2026-06-14T09:03:43.685972Z",
+  "raw_answer": "给国外客户选择见面礼，需兼顾文化敏感性、功能实用性、视觉辨识度与情感温度，同时要完成“文化尽调”，规避高风险元素。以下是一些不同类型的礼物推荐：\n### 文化可译型礼品\n这类物品承载东方美学基因，通过极简设计实现跨文化理解零障碍，如以水墨意境设计的金属书签（镌刻中英双语励志箴言）、青花瓷纹样定制U盘（预装企业英文版介绍及行业白皮书）、苏州缂丝小方巾（尺寸适中，图案抽象化处理，规避龙凤等易引发误读的具象符号）。\n### 功能共鸣型礼物\n这类礼物能直击工作场景痛点，让客户在日常使用中自然联想到中方伙伴的专业支持。针对科技客户可选无线充电办公套装（含磁吸支架与环保竹制底座）；针对医疗客户可赠医用级抗菌笔记本 + 钛合金笔（内页附中英文健康金句）。\n### 体验沉浸式纪念品\n这类纪念品不单是物件，更是构建情感联结的叙事载体，例如将客户所在国家语言翻译成汉字篆刻的紫砂茶宠、融合双方城市天际线的激光内雕水晶镇纸、或由非遗传承人手绘的“一带一路”沿线十二城水彩明信片套装。\n### 轻量友好型伴手礼\n它们成本可控、便于收纳，却以细节彰显尊重，如独立包装的桂花龙井茶包（配多语种冲泡指南）、天然植物染蚕丝眼罩（印有水墨云纹与“Rest Well”字样）、或可降解材质的中式香囊（内填艾草与檀香，外绣简约经纬线图案）。\n\n此外，还可以根据不同国家和地区的特点来选择礼物：\n- **欧洲**：许多人喜欢艺术气息浓厚的礼物，比如精美的陶瓷制品或是高质量的红酒。也可送德国Lamy钢笔、英国骨瓷茶具、意大利Murano玻璃花瓶、法国L'Occitane香薰蜡烛等。\n- **亚洲**：\n    - **日本**：非常注重茶道文化，送一套精致的日式茶具、手工和纸笔记本 + 樱花纹样钢笔是不错的选择。中国的文房四宝、名人字画、工艺品等也受欢迎，但字画尺寸不宜过大，且包装不能草率，忌讳打上蝴蝶结，送礼数量避偶就奇，但忌讳“9”。\n    - **韩国**：以传统服饰韩服闻名，一件手工制作的传统服饰图案的丝巾会比较受欢迎。\n- **美国**：工作关系可送办公用品或具有民族特色的精美工艺品。去美国人家中做客可带鲜花、美酒和工艺品等小礼品。 \n\n需要注意不同国家的文化禁忌：中东客户忌用猪形、酒类相关设计；印度客户慎用牛皮制品与左手图案；巴西客户偏好明快色彩但忌讳紫色（象征哀悼）；德国客户重视精准与环保，反感过度包装；伊斯兰国家避免送酒、含酒精的食品、猪皮革制品，以及带有动物形象（尤其是猪、狗）的礼物；西方忌“13”；日本忌“4”和“9”，避免送钟表、梳子等。 ",
+  "raw_capture_path": "evidence/raw/doubao-A-20260614T090343Z-d3e37b59dd.json",
+  "screenshot_path": null,
+  "is_mock": false,
+  "named_brands": [],
+  "cited_sources": [
+    {
+      "url": "http://www.3lipin.com/laowai/31629.html",
+      "title": "送外国客户的见面礼物有哪些？兼顾文化尊重、实用价值与品牌温度的20款国际通用精选方案",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.3
+    },
+    {
+      "url": "http://www.sichuanhong.com/content/202511/1023877.html",
+      "title": "职场礼仪：国际商务中会见外宾礼节礼仪",
+      "domain": "www.sichuanhong.com",
+      "site_name": "四川红网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "http://www.3lipin.com/laowai/31113.html",
+      "title": "送外国客户的见面礼物送什么？挑选适合的文化礼品与伴手礼",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.3
+    },
+    {
+      "url": "https://m.hainengwenku.com/item/hN2U0NDA5NTNkNTFmNzcyZmMwZTJlZjMwa.html",
+      "title": "出国给外国朋友带什么中国特色的见面礼",
+      "domain": "m.hainengwenku.com",
+      "site_name": "海能知识库",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "http://www.3lipin.com/laowai/31508.html",
+      "title": "拜访外国客户都送什么礼物？兼顾文化尊重、品牌温度与实用价值的国际商务赠礼指南",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.3
+    },
+    {
+      "url": "https://m.liwucheng.com/q/46147939478.html",
+      "title": "公司要来一位外国的客户，我去接他送什么礼物当做见面礼",
+      "domain": "m.liwucheng.com",
+      "site_name": "礼物城",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.3
+    },
+    {
+      "url": "http://www.3lipin.com/laowai/27771.html",
+      "title": "送国外客户礼物送什么好一点?送老外客户礼品指南，文化适配、实用心意与品牌格调的平衡",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "http://sichuanhong.com/content/202511/1045286.html",
+      "title": "给外国友人馈赠礼品要尽可能考虑受礼人的喜好",
+      "domain": "sichuanhong.com",
+      "site_name": "北京红网",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "http://roll.zhejianglong.com/c/286995.html",
+      "title": "去国外拜访客户要注意什么礼物 去国外拜访客户带什么小礼物",
+      "domain": "roll.zhejianglong.com",
+      "site_name": "浙江龙网",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "http://www.3lipin.com/laowai/1069.html",
+      "title": "给国外客户带什么礼物好 拜访外国客人带什么礼物",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    }
+  ],
+  "product_cards": [],
+  "links": [],
+  "sentiment": "unscored",
+  "request_params": {
+    "endpoint": "https://ark.cn-beijing.volces.com/api/v3/bots/chat/completions",
+    "model": "bot-20260614150734-98qkm",
+    "attempt": 1
+  },
+  "parser_version": "0.2.0"
+}

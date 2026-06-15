@@ -1,0 +1,551 @@
+{
+  "snapshot_version": "1.0",
+  "captured_at": "2026-06-14T08:38:52.703880+00:00",
+  "segment": "A",
+  "n_captures": 12,
+  "capture_ids": [
+    "doubao-A-20260614T074032Z-7861f0a76e",
+    "doubao-A-20260614T074059Z-8ede9f6d3b",
+    "doubao-A-20260614T074131Z-f414993b0e",
+    "doubao-A-20260614T074306Z-6e9f533d04",
+    "doubao-A-20260614T074430Z-95b14df32c",
+    "doubao-A-20260614T074500Z-b75b324ad2",
+    "doubao-A-20260614T074525Z-3b34678b70",
+    "doubao-A-20260614T074601Z-e303aec70e",
+    "doubao-A-20260614T074658Z-17c425a380",
+    "doubao-A-20260614T074731Z-3a28783553",
+    "doubao-A-20260614T074749Z-bdb96f6f63",
+    "doubao-A-20260614T074808Z-4df0538ab4"
+  ],
+  "citation_leaderboard": [
+    {
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "in_answers": 8,
+      "coverage": 0.667,
+      "total_citations": 25,
+      "auth_avg": 0.5,
+      "rel_avg": 0.82,
+      "freshness_avg": 0.432
+    },
+    {
+      "domain": "m.sohu.com",
+      "site_name": "手机搜狐网",
+      "in_answers": 8,
+      "coverage": 0.667,
+      "total_citations": 16,
+      "auth_avg": 0.312,
+      "rel_avg": 0.75,
+      "freshness_avg": 0.581
+    },
+    {
+      "domain": "www.sohu.com",
+      "site_name": "搜狐",
+      "in_answers": 7,
+      "coverage": 0.583,
+      "total_citations": 13,
+      "auth_avg": 0.3,
+      "rel_avg": 0.846,
+      "freshness_avg": 0.538
+    },
+    {
+      "domain": "k.sina.cn",
+      "site_name": "新浪看点",
+      "in_answers": 5,
+      "coverage": 0.417,
+      "total_citations": 5,
+      "auth_avg": 0.34,
+      "rel_avg": 1.0,
+      "freshness_avg": 0.8
+    },
+    {
+      "domain": "www.zgswcn.com",
+      "site_name": "中国商报网",
+      "in_answers": 3,
+      "coverage": 0.25,
+      "total_citations": 4,
+      "auth_avg": 0.5,
+      "rel_avg": 0.875,
+      "freshness_avg": 0.75
+    },
+    {
+      "domain": "www.am10.com",
+      "site_name": "爱美日记",
+      "in_answers": 2,
+      "coverage": 0.167,
+      "total_citations": 4,
+      "auth_avg": 0.5,
+      "rel_avg": 1.0,
+      "freshness_avg": 1.0
+    },
+    {
+      "domain": "cj.sina.cn",
+      "site_name": "新浪财经",
+      "in_answers": 2,
+      "coverage": 0.167,
+      "total_citations": 2,
+      "auth_avg": 0.5,
+      "rel_avg": 0.5,
+      "freshness_avg": 0.5
+    },
+    {
+      "domain": "m.cngold.org",
+      "site_name": "金投网",
+      "in_answers": 1,
+      "coverage": 0.083,
+      "total_citations": 2,
+      "auth_avg": 0.5,
+      "rel_avg": 1.0,
+      "freshness_avg": 0.5
+    },
+    {
+      "domain": "jianghu.taobao.com",
+      "site_name": "淘江湖",
+      "in_answers": 1,
+      "coverage": 0.083,
+      "total_citations": 1,
+      "auth_avg": 0.5,
+      "rel_avg": 0.5,
+      "freshness_avg": 1.0
+    },
+    {
+      "domain": "mobile-phone.taobao.com",
+      "site_name": "淘宝",
+      "in_answers": 1,
+      "coverage": 0.083,
+      "total_citations": 1,
+      "auth_avg": 0.5,
+      "rel_avg": 1.0,
+      "freshness_avg": 1.0
+    },
+    {
+      "domain": "www.taobao.com",
+      "site_name": "淘宝",
+      "in_answers": 1,
+      "coverage": 0.083,
+      "total_citations": 1,
+      "auth_avg": 0.5,
+      "rel_avg": 1.0,
+      "freshness_avg": 1.0
+    },
+    {
+      "domain": "www.163.com",
+      "site_name": "手机网易网",
+      "in_answers": 1,
+      "coverage": 0.083,
+      "total_citations": 1,
+      "auth_avg": 0.5,
+      "rel_avg": 0.5,
+      "freshness_avg": 0.5
+    },
+    {
+      "domain": "m.thepaper.cn",
+      "site_name": "澎湃新闻",
+      "in_answers": 1,
+      "coverage": 0.083,
+      "total_citations": 1,
+      "auth_avg": 0.5,
+      "rel_avg": 1.0,
+      "freshness_avg": 1.0
+    },
+    {
+      "domain": "vn.world.taobao.com",
+      "site_name": "Taobao Vietnam",
+      "in_answers": 1,
+      "coverage": 0.083,
+      "total_citations": 1,
+      "auth_avg": 0.5,
+      "rel_avg": 1.0,
+      "freshness_avg": 0.5
+    },
+    {
+      "domain": "3lipin.com",
+      "site_name": "信尚礼品",
+      "in_answers": 1,
+      "coverage": 0.083,
+      "total_citations": 1,
+      "auth_avg": 0.5,
+      "rel_avg": 1.0,
+      "freshness_avg": 0.3
+    },
+    {
+      "domain": "hebei.ifeng.com",
+      "site_name": "凤凰网河北频道",
+      "in_answers": 1,
+      "coverage": 0.083,
+      "total_citations": 1,
+      "auth_avg": 0.5,
+      "rel_avg": 1.0,
+      "freshness_avg": 0.5
+    },
+    {
+      "domain": "www.harpersbazaar.com",
+      "site_name": "Harper's BAZAAR",
+      "in_answers": 1,
+      "coverage": 0.083,
+      "total_citations": 1,
+      "auth_avg": 0.5,
+      "rel_avg": 0.5,
+      "freshness_avg": 0.5
+    },
+    {
+      "domain": "mt.sohu.com",
+      "site_name": "搜狐网",
+      "in_answers": 1,
+      "coverage": 0.083,
+      "total_citations": 1,
+      "auth_avg": 0.3,
+      "rel_avg": 0.5,
+      "freshness_avg": 0.5
+    },
+    {
+      "domain": "askai.glarity.app",
+      "site_name": "Glarity",
+      "in_answers": 1,
+      "coverage": 0.083,
+      "total_citations": 1,
+      "auth_avg": 0.5,
+      "rel_avg": 0.5,
+      "freshness_avg": 0.5
+    },
+    {
+      "domain": "m.jiemian.com",
+      "site_name": "界面新闻",
+      "in_answers": 1,
+      "coverage": 0.083,
+      "total_citations": 1,
+      "auth_avg": 0.5,
+      "rel_avg": 1.0,
+      "freshness_avg": 0.5
+    },
+    {
+      "domain": "www.chinanews.com.cn",
+      "site_name": "中国新闻网",
+      "in_answers": 1,
+      "coverage": 0.083,
+      "total_citations": 1,
+      "auth_avg": 0.5,
+      "rel_avg": 1.0,
+      "freshness_avg": 0.5
+    },
+    {
+      "domain": "m.wenhua666.com",
+      "site_name": "河南一涵汴绣有限公司",
+      "in_answers": 1,
+      "coverage": 0.083,
+      "total_citations": 1,
+      "auth_avg": 0.5,
+      "rel_avg": 1.0,
+      "freshness_avg": 0.5
+    },
+    {
+      "domain": "m2.people.cn",
+      "site_name": "人民网",
+      "in_answers": 1,
+      "coverage": 0.083,
+      "total_citations": 1,
+      "auth_avg": 0.5,
+      "rel_avg": 1.0,
+      "freshness_avg": 0.5
+    },
+    {
+      "domain": "www.china.com.cn",
+      "site_name": "中国网",
+      "in_answers": 1,
+      "coverage": 0.083,
+      "total_citations": 1,
+      "auth_avg": 0.5,
+      "rel_avg": 1.0,
+      "freshness_avg": 0.5
+    },
+    {
+      "domain": "m.tech.china.com",
+      "site_name": "中华网科技频道",
+      "in_answers": 1,
+      "coverage": 0.083,
+      "total_citations": 1,
+      "auth_avg": 0.5,
+      "rel_avg": 1.0,
+      "freshness_avg": 0.5
+    },
+    {
+      "domain": "caifuhao.eastmoney.com",
+      "site_name": "财富号",
+      "in_answers": 1,
+      "coverage": 0.083,
+      "total_citations": 1,
+      "auth_avg": 0.5,
+      "rel_avg": 0.5,
+      "freshness_avg": 0.5
+    },
+    {
+      "domain": "post.m.smzdm.com",
+      "site_name": "什么值得买社区频道",
+      "in_answers": 1,
+      "coverage": 0.083,
+      "total_citations": 1,
+      "auth_avg": 0.5,
+      "rel_avg": 1.0,
+      "freshness_avg": 0.5
+    },
+    {
+      "domain": "www.hxytea.com",
+      "site_name": "华祥苑",
+      "in_answers": 1,
+      "coverage": 0.083,
+      "total_citations": 1,
+      "auth_avg": 0.5,
+      "rel_avg": 1.0,
+      "freshness_avg": 0.5
+    },
+    {
+      "domain": "www.chinacoop.gov.cn",
+      "site_name": "中华全国供销合作总社",
+      "in_answers": 1,
+      "coverage": 0.083,
+      "total_citations": 1,
+      "auth_avg": 1.0,
+      "rel_avg": 1.0,
+      "freshness_avg": 0.5
+    },
+    {
+      "domain": "szb.xnnews.com.cn",
+      "site_name": "咸宁日报",
+      "in_answers": 1,
+      "coverage": 0.083,
+      "total_citations": 1,
+      "auth_avg": 0.5,
+      "rel_avg": 1.0,
+      "freshness_avg": 0.5
+    },
+    {
+      "domain": "www.cnblogs.com",
+      "site_name": "博客园",
+      "in_answers": 1,
+      "coverage": 0.083,
+      "total_citations": 1,
+      "auth_avg": 0.5,
+      "rel_avg": 1.0,
+      "freshness_avg": 0.5
+    },
+    {
+      "domain": "www.huizhou.cn",
+      "site_name": "今日惠州网",
+      "in_answers": 1,
+      "coverage": 0.083,
+      "total_citations": 1,
+      "auth_avg": 0.5,
+      "rel_avg": 1.0,
+      "freshness_avg": 0.5
+    },
+    {
+      "domain": "www.ldqxn.com",
+      "site_name": "亮点黔西南",
+      "in_answers": 1,
+      "coverage": 0.083,
+      "total_citations": 1,
+      "auth_avg": 0.5,
+      "rel_avg": 1.0,
+      "freshness_avg": 0.5
+    },
+    {
+      "domain": "www.zljlp.com",
+      "site_name": "中礼集",
+      "in_answers": 1,
+      "coverage": 0.083,
+      "total_citations": 1,
+      "auth_avg": 0.5,
+      "rel_avg": 1.0,
+      "freshness_avg": 0.5
+    },
+    {
+      "domain": "m.1688.com",
+      "site_name": "1688阿里巴巴",
+      "in_answers": 1,
+      "coverage": 0.083,
+      "total_citations": 1,
+      "auth_avg": 0.5,
+      "rel_avg": 1.0,
+      "freshness_avg": 0.3
+    },
+    {
+      "domain": "goods.taobao.com",
+      "site_name": "淘宝好物网",
+      "in_answers": 1,
+      "coverage": 0.083,
+      "total_citations": 1,
+      "auth_avg": 0.5,
+      "rel_avg": 1.0,
+      "freshness_avg": 0.5
+    },
+    {
+      "domain": "bj.lieju.com",
+      "site_name": "北京列举网",
+      "in_answers": 1,
+      "coverage": 0.083,
+      "total_citations": 1,
+      "auth_avg": 0.5,
+      "rel_avg": 0.5,
+      "freshness_avg": 1.0
+    }
+  ],
+  "brand_sov": {
+    "华为": 0.36363636363636365,
+    "故宫文创": 0.2727272727272727,
+    "小米": 0.18181818181818182,
+    "五粮液": 0.09090909090909091,
+    "茅台": 0.09090909090909091
+  },
+  "per_query": [
+    {
+      "query": "送外国客户什么伴手礼盒比较高端得体",
+      "theme": "通用",
+      "opportunity": 0.0,
+      "n_citations": 10,
+      "named_brands": [
+        "华为"
+      ],
+      "top_domain": "www.3lipin.com",
+      "top_site": "信尚礼品 信尚文创",
+      "top_coverage": 1.0,
+      "avg_auth": 0.4
+    },
+    {
+      "query": "商务送礼 送给国外合作伙伴 高端礼盒推荐",
+      "theme": "通用",
+      "opportunity": 0.0,
+      "n_citations": 10,
+      "named_brands": [
+        "故宫文创"
+      ],
+      "top_domain": "www.3lipin.com",
+      "top_site": "信尚礼品 信尚文创",
+      "top_coverage": 1.0,
+      "avg_auth": 0.46
+    },
+    {
+      "query": "送老外客户的高端中国风伴手礼有哪些",
+      "theme": "通用",
+      "opportunity": 1.0,
+      "n_citations": 10,
+      "named_brands": [],
+      "top_domain": "www.am10.com",
+      "top_site": "爱美日记",
+      "top_coverage": 1.0,
+      "avg_auth": 0.42
+    },
+    {
+      "query": "外贸公司送国外客户的礼品推荐",
+      "theme": "场景-外贸",
+      "opportunity": 0.0,
+      "n_citations": 0,
+      "named_brands": [
+        "华为",
+        "小米"
+      ],
+      "top_domain": null,
+      "top_site": null,
+      "top_coverage": null,
+      "avg_auth": null
+    },
+    {
+      "query": "签约仪式送外宾的高端礼盒选什么",
+      "theme": "场景-签约",
+      "opportunity": 0.0,
+      "n_citations": 10,
+      "named_brands": [
+        "五粮液",
+        "华为",
+        "故宫文创"
+      ],
+      "top_domain": "www.3lipin.com",
+      "top_site": "信尚礼品 信尚文创",
+      "top_coverage": 1.0,
+      "avg_auth": 0.42
+    },
+    {
+      "query": "国际展会送客户的中国特色伴手礼推荐",
+      "theme": "场景-展会",
+      "opportunity": 1.0,
+      "n_citations": 10,
+      "named_brands": [],
+      "top_domain": "www.sohu.com",
+      "top_site": "搜狐",
+      "top_coverage": 1.0,
+      "avg_auth": 0.44
+    },
+    {
+      "query": "春节送国外客户的高端礼盒推荐",
+      "theme": "场景-节日",
+      "opportunity": 0.0,
+      "n_citations": 10,
+      "named_brands": [
+        "故宫文创"
+      ],
+      "top_domain": "m.sohu.com",
+      "top_site": "手机搜狐网",
+      "top_coverage": 1.0,
+      "avg_auth": 0.36
+    },
+    {
+      "query": "送欧美客户的高端商务礼品预算1000元左右",
+      "theme": "价位/地域-欧美",
+      "opportunity": 0.0,
+      "n_citations": 10,
+      "named_brands": [
+        "华为",
+        "小米"
+      ],
+      "top_domain": "www.3lipin.com",
+      "top_site": "信尚礼品 信尚文创",
+      "top_coverage": 1.0,
+      "avg_auth": 0.44
+    },
+    {
+      "query": "送日本客户的商务伴手礼有什么讲究",
+      "theme": "地域-日本",
+      "opportunity": 1.0,
+      "n_citations": 0,
+      "named_brands": [],
+      "top_domain": null,
+      "top_site": null,
+      "top_coverage": null,
+      "avg_auth": null
+    },
+    {
+      "query": "适合送外国人的中国非遗手工艺礼盒推荐",
+      "theme": "品类-非遗",
+      "opportunity": 1.0,
+      "n_citations": 10,
+      "named_brands": [],
+      "top_domain": "www.sohu.com",
+      "top_site": "搜狐",
+      "top_coverage": 1.0,
+      "avg_auth": 0.46
+    },
+    {
+      "query": "茶叶礼盒送外国客户选哪个品牌好",
+      "theme": "品类-茶",
+      "opportunity": 1.0,
+      "n_citations": 10,
+      "named_brands": [],
+      "top_domain": "m.cngold.org",
+      "top_site": "金投网",
+      "top_coverage": 1.0,
+      "avg_auth": 0.53
+    },
+    {
+      "query": "高端定制礼盒送海外VIP客户",
+      "theme": "定制",
+      "opportunity": 0.0,
+      "n_citations": 10,
+      "named_brands": [
+        "茅台"
+      ],
+      "top_domain": "www.3lipin.com",
+      "top_site": "信尚礼品 信尚文创",
+      "top_coverage": 1.0,
+      "avg_auth": 0.46
+    }
+  ]
+}

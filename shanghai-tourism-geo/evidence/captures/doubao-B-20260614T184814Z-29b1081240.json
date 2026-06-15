@@ -1,0 +1,35 @@
+{
+  "id": "doubao-B-20260614T184814Z-29b1081240",
+  "schema_version": "0.2.0",
+  "engine": "doubao",
+  "engine_model": "doubao-seed-1-6-flash-250615",
+  "query": "top tourist attractions in Shanghai",
+  "buyer_segment": "B",
+  "timestamp": "2026-06-14T18:48:14.786194Z",
+  "raw_answer": "### Top Tourist Attractions in Shanghai\n\n#### 1. The Bund  \nA famous waterfront area with stunning views of Pudong's modern skyline, featuring historical buildings and iconic landmarks like the Peace Hotel.  \n\n#### 2. Oriental Pearl Tower  \nA distinctive tower with observation decks offering panoramic views of Shanghai. It's a symbol of the city's modernity.  \n\n#### 3. Yu Garden (Yuyuan Garden)  \nA classical Chinese garden known for its beautiful architecture, rockeries, and traditional landscaping. Adjacent to the bustling Yu Garden Bazaar.  \n\n#### 4. Shanghai Tower  \nOne of the world's tallest buildings, with an observation deck (Shanghai Tower 118 Floor Skydeck) providing breathtaking views of the city.  \n\n#### 5. Tianzifang  \nA charming neighborhood with narrow alleys (longtang) lined with cafes, boutiques, and art galleries, showcasing Shanghai's unique blend of old and new.  \n\n#### 6. Shanghai Museum  \nA renowned museum housing a vast collection of Chinese art and history, including ceramics, calligraphy, and bronze artifacts.  \n\n#### 7. Nanjing Road  \nA famous shopping street, one of the world's busiest, with a mix of international brands and local stores, plus historical architecture.  \n\n#### 8. Jing'an Temple  \nA historic Buddhist temple surrounded by modern skyscrapers, known for its architecture and peaceful atmosphere.  \n\n#### 9. Zhujiajiao Ancient Town  \nA picturesque water town with canals, traditional houses, and stone bridges, located about an hour from central Shanghai.  \n\n#### 10. Shanghai Disney Resort  \nA popular theme park with various attractions, shows, and dining options, perfect for families and Disney enthusiasts.  \n\nThese attractions highlight Shanghai's blend of historical charm, modern skyscrapers, and cultural richness.",
+  "raw_capture_path": "evidence/raw/doubao-B-20260614T184814Z-29b1081240.json",
+  "screenshot_path": null,
+  "is_mock": false,
+  "named_brands": [
+    "The Bund",
+    "Oriental Pearl Tower",
+    "Yu Garden",
+    "Shanghai Tower",
+    "Tianzifang",
+    "Shanghai Museum",
+    "Nanjing Road",
+    "Jing'an Temple",
+    "Zhujiajiao",
+    "Shanghai Disneyland"
+  ],
+  "cited_sources": [],
+  "product_cards": [],
+  "links": [],
+  "sentiment": "unscored",
+  "request_params": {
+    "endpoint": "https://ark.cn-beijing.volces.com/api/v3/chat/completions",
+    "model": "doubao-seed-1-6-flash-250615",
+    "attempt": 1
+  },
+  "parser_version": "0.2.0"
+}

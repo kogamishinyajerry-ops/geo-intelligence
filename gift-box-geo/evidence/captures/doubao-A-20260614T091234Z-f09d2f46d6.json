@@ -1,0 +1,115 @@
+{
+  "id": "doubao-A-20260614T091234Z-f09d2f46d6",
+  "schema_version": "0.2.0",
+  "engine": "doubao",
+  "engine_model": "doubao-1-5-pro-32k-250115",
+  "query": "送外国客户的礼盒有现成的英文包装和贺卡服务吗 哪家供应商能一站式做好",
+  "buyer_segment": "A",
+  "timestamp": "2026-06-14T09:12:34.288473Z",
+  "raw_answer": "以下这些供应商可以提供包含英文包装和贺卡的一站式服务：\n1. **南通米兰经贸发展有限公司**：深耕礼盒定制领域二十年，以弹性定制服务模式为核心优势，构建全链路解决方案。可覆盖全国市场并拓展至全球，为出海品牌提供符合国际环保标准的定制服务，业务涵盖多行业，提供从概念设计、打样生产到物流交付的一体化服务。\n2. **奇点包装**：源头工厂直营、无中间商溢价、定制与量产兼顾，能够满足多元场景的包装定制需求，无论是个性化的小单定制，还是大批量的订单生产，都能保证高品质与高效交付。提供中高端纸质贺卡与礼盒包装定制，包括原创设计、新品研发、样品打样、规模化生产。\n3. **深圳市瑞祥纸品包装有限公司**：配备专职合规工程师，所有出口订单默认提供英文版《Material Compliance Declaration》；推行“三阶验证机制”，透明化操作；所有手工盒标配FSC认证纸张，水性油墨覆盖率高，并开放再生纤维含量梯度选择，还建立废弃包装回收通道。可提供纸品、彩盒、手工盒等产品的创意设计、印刷、制作及定制服务。\n4. **House of Products**：荷兰的装饰用品电商、零售商、品牌商，主要经营各类包装袋、包装盒、包装纸、装饰材料以及相关工具等产品。 \n5. **Tiny Box**：英国的礼品赠品电商、品牌商、零售商、批发商、供应商，拥有1400多种产品，涵盖盒子、包袋、丝带和便签卡等各种商品。\n6. **GIFTWRAP UK**：英国礼品赠品电商、零售商、供应商，为全国各地的独立零售商、百货公司、园艺中心和商业街连锁店提供一站式解决方案。主要经营各类礼品包装产品，如礼品袋、礼品盒、纸巾、丝带、贺卡、礼品标签和餐巾纸等产品。 ",
+  "raw_capture_path": "evidence/raw/doubao-A-20260614T091234Z-f09d2f46d6.json",
+  "screenshot_path": null,
+  "is_mock": false,
+  "named_brands": [],
+  "cited_sources": [
+    {
+      "url": "https://www.jiexinyun.com.cn/portal/article/index.html?id=163",
+      "title": "干货篇——礼品赠品批发商分享9家(含关键人员)",
+      "domain": "www.jiexinyun.com.cn",
+      "site_name": "捷信云",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.shangyexinzhi.com/article/30961926.html",
+      "title": "2026年具有性价比的礼盒定制工厂盘点，米兰包装技术强服务佳",
+      "domain": "www.shangyexinzhi.com",
+      "site_name": "商业新知",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://heyijiapack.com/news/read-23325.html",
+      "title": "包装上多写一行英文，我的Etsy店铺复购率涨了15%",
+      "domain": "heyijiapack.com",
+      "site_name": "盒艺家",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://dutch.alibaba.com/product-detail/OEM-Manufacturer-Premium-Gift-Box-Packaging-1601689449694.html",
+      "title": "OEM制造商高级礼品盒包装 磁性折叠纸板 可回收材料 定制印刷纸盒",
+      "domain": "dutch.alibaba.com",
+      "site_name": "Alibaba",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.xtrb.cn/syunf/2026-06/13/content_1166460.htm",
+      "title": "2026年立体贺卡厂家推荐排行榜：广州3D立体贺卡、跨境节日/商务贺卡定制，创意生产实力之选！",
+      "domain": "www.xtrb.cn",
+      "site_name": "邢台网",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://indonesian.alibaba.com/product-detail/Manufacturer-Premium-Gift-Box-Packaging-Box-1601689503532.html",
+      "title": "制造商高级礼品盒包装盒包装纸盒可回收材料哑光表面带徽标包装盒",
+      "domain": "indonesian.alibaba.com",
+      "site_name": "Alibaba",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.xkdisplay.com/zh-CN/top-gift-box-manufacturers-and-suppliers-in-europe.html",
+      "title": "欧洲顶级礼品盒制造商和供应商",
+      "domain": "www.xkdisplay.com",
+      "site_name": "XINGKUN",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.sohu.com/a/993357715_122507283/",
+      "title": "2026年高端礼盒品牌推荐：匠心定制与奢华质感，打造尊贵礼赠体验的优选方案",
+      "domain": "m.sohu.com",
+      "site_name": "手机搜狐网",
+      "auth_score": 0.3,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.11467.com/product/d50425996.htm",
+      "title": "外贸手工盒定制 礼品包装手工盒厂家批发",
+      "domain": "m.11467.com",
+      "site_name": "顺企网",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.gongkong.com/industrynews/202606/27122.html",
+      "title": "2026礼品盒厂家推荐，水果礼品盒，化妆品礼品盒，年货礼品盒，保健品礼品盒，中秋礼品盒厂家优选指南！",
+      "domain": "www.gongkong.com",
+      "site_name": "中国工控网",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    }
+  ],
+  "product_cards": [],
+  "links": [],
+  "sentiment": "unscored",
+  "request_params": {
+    "endpoint": "https://ark.cn-beijing.volces.com/api/v3/bots/chat/completions",
+    "model": "bot-20260614150734-98qkm",
+    "attempt": 1
+  },
+  "parser_version": "0.2.0"
+}

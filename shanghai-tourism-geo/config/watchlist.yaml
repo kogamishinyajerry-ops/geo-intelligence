@@ -1,0 +1,105 @@
+# 上海景点观察名单（watchlist）— 本项目的"实体"= 景点
+# ─────────────────────────────────────────────────────────────────────────
+# 设计理由（红线 #1 证据优先 / #2 可复现）：
+#   named_brands 字段（引擎通用）在本项目承载【景点实体】。证据级抽取**只**匹配本名单词条
+#   —— 确定性、可复现、可审计；不靠 LLM 做 NER（会幻觉、不可复现，污染证据层）。
+#   景点占答率 / 提及率 / 首选推荐率 = 对这些词条在【存档的豆包回答】里的纯函数统计。
+#
+# ⚠️ STARTER，需与你一起策展：名单外的景点不会被算作证据级实体；"发现名单外新景点"
+#   = recon 阶段的 candidate-discovery，单独标注"候选/待确认"，绝不冒充 ground truth。
+#   aliases：同一景点的多种写法，命中任一即记为该景点的 canonical name。
+#   外地客(A)与本地客(C)共享同一景点宇宙（YAML anchor）；入境客(B)用英文名。
+# ─────────────────────────────────────────────────────────────────────────
+
+# 外地国内游客（中文 / 豆包）
+segment_A_domestic: &sh_attractions
+  # ── 核心地标 ──
+  - {name: "外滩", aliases: ["外滩", "the Bund"]}
+  - {name: "东方明珠", aliases: ["东方明珠", "东方明珠塔", "东方明珠广播电视塔"]}
+  - {name: "豫园", aliases: ["豫园"]}
+  - {name: "城隍庙", aliases: ["城隍庙", "上海城隍庙"]}
+  - {name: "南京路", aliases: ["南京路", "南京路步行街", "南京东路"]}
+  - {name: "陆家嘴", aliases: ["陆家嘴"]}
+  - {name: "人民广场", aliases: ["人民广场"]}
+  - {name: "上海中心", aliases: ["上海中心", "上海中心大厦", "上海之巅"]}
+  - {name: "环球金融中心", aliases: ["环球金融中心", "上海环球金融中心"]}
+  - {name: "金茂大厦", aliases: ["金茂大厦", "金茂"]}
+  # ── 主题乐园 / 亲子 ──
+  - {name: "上海迪士尼", aliases: ["上海迪士尼", "迪士尼乐园", "上海迪士尼乐园", "迪士尼"]}
+  - {name: "上海野生动物园", aliases: ["上海野生动物园", "野生动物园"]}
+  - {name: "海昌海洋公园", aliases: ["海昌海洋公园", "上海海昌海洋公园", "海昌"]}
+  - {name: "上海海洋水族馆", aliases: ["上海海洋水族馆", "海洋水族馆"]}
+  - {name: "上海欢乐谷", aliases: ["欢乐谷", "上海欢乐谷"]}
+  - {name: "锦江乐园", aliases: ["锦江乐园"]}
+  - {name: "上海乐高乐园", aliases: ["上海乐高乐园", "乐高乐园"]}
+  # ── 博物馆 / 文化场馆 ──
+  - {name: "上海博物馆", aliases: ["上海博物馆", "上博"]}
+  - {name: "上海科技馆", aliases: ["上海科技馆", "科技馆"]}
+  - {name: "上海自然博物馆", aliases: ["上海自然博物馆", "自然博物馆"]}
+  - {name: "上海天文馆", aliases: ["上海天文馆", "天文馆"]}
+  - {name: "中华艺术宫", aliases: ["中华艺术宫"]}
+  - {name: "当代艺术博物馆", aliases: ["当代艺术博物馆", "上海当代艺术博物馆", "PSA"]}
+  - {name: "上海大剧院", aliases: ["上海大剧院"]}
+  - {name: "上海图书馆东馆", aliases: ["上海图书馆东馆", "上图东馆"]}
+  - {name: "杜莎夫人蜡像馆", aliases: ["杜莎夫人蜡像馆", "杜莎夫人"]}
+  # ── 街区 / citywalk / 网红 ──
+  - {name: "新天地", aliases: ["新天地", "上海新天地"]}
+  - {name: "田子坊", aliases: ["田子坊"]}
+  - {name: "武康路", aliases: ["武康路", "武康大楼"]}
+  - {name: "思南公馆", aliases: ["思南公馆", "思南路"]}
+  - {name: "安福路", aliases: ["安福路"]}
+  - {name: "愚园路", aliases: ["愚园路"]}
+  - {name: "衡山路", aliases: ["衡山路"]}
+  - {name: "多伦路", aliases: ["多伦路", "多伦路文化名人街"]}
+  - {name: "张园", aliases: ["张园"]}
+  - {name: "1933老场坊", aliases: ["1933老场坊", "1933"]}
+  - {name: "M50创意园", aliases: ["M50", "M50创意园"]}
+  # ── 公园 / 自然 ──
+  - {name: "世纪公园", aliases: ["世纪公园"]}
+  - {name: "共青森林公园", aliases: ["共青森林公园", "共青森林"]}
+  - {name: "顾村公园", aliases: ["顾村公园"]}
+  - {name: "辰山植物园", aliases: ["辰山植物园", "上海辰山植物园"]}
+  - {name: "上海植物园", aliases: ["上海植物园"]}
+  - {name: "复兴公园", aliases: ["复兴公园"]}
+  - {name: "中山公园", aliases: ["中山公园"]}
+  - {name: "鲁迅公园", aliases: ["鲁迅公园"]}
+  - {name: "徐汇滨江", aliases: ["徐汇滨江", "西岸"]}
+  - {name: "杨浦滨江", aliases: ["杨浦滨江"]}
+  # ── 宗教 / 古迹 ──
+  - {name: "静安寺", aliases: ["静安寺"]}
+  - {name: "龙华寺", aliases: ["龙华寺", "龙华塔"]}
+  - {name: "玉佛寺", aliases: ["玉佛寺", "玉佛禅寺"]}
+  - {name: "广富林", aliases: ["广富林", "广富林文化遗址"]}
+  # ── 美术馆（西岸艺术带）──
+  - {name: "龙美术馆", aliases: ["龙美术馆"]}
+  - {name: "余德耀美术馆", aliases: ["余德耀美术馆"]}
+  - {name: "西岸美术馆", aliases: ["西岸美术馆"]}
+  # ── 江河游览 ──
+  - {name: "黄浦江游览", aliases: ["黄浦江游览", "浦江游览", "黄浦江游船", "浦江夜游"]}
+  - {name: "苏州河", aliases: ["苏州河"]}
+  # ── 周边古镇 / 水乡 ──
+  - {name: "朱家角", aliases: ["朱家角", "朱家角古镇"]}
+  - {name: "七宝老街", aliases: ["七宝", "七宝老街", "七宝古镇"]}
+  - {name: "枫泾古镇", aliases: ["枫泾", "枫泾古镇"]}
+  - {name: "召稼楼", aliases: ["召稼楼", "召稼楼古镇"]}
+  - {name: "南翔古镇", aliases: ["南翔古镇", "南翔老街"]}
+  - {name: "醉白池", aliases: ["醉白池"]}
+  - {name: "上海影视乐园", aliases: ["上海影视乐园", "车墩影视基地", "车墩"]}
+
+# 本地客（中文 / 豆包）— 共享同一景点宇宙
+segment_C_local: *sh_attractions
+
+# 入境外籍游客（英文 / ChatGPT·Perplexity，待 key）
+segment_B_inbound:
+  - {name: "The Bund", aliases: ["The Bund", "Bund"]}
+  - {name: "Oriental Pearl Tower", aliases: ["Oriental Pearl", "Oriental Pearl Tower"]}
+  - {name: "Yu Garden", aliases: ["Yu Garden", "Yuyuan", "Yuyuan Garden"]}
+  - {name: "Shanghai Disneyland", aliases: ["Shanghai Disneyland", "Disneyland", "Disney"]}
+  - {name: "Nanjing Road", aliases: ["Nanjing Road"]}
+  - {name: "Tianzifang", aliases: ["Tianzifang"]}
+  - {name: "Xintiandi", aliases: ["Xintiandi"]}
+  - {name: "Shanghai Tower", aliases: ["Shanghai Tower"]}
+  - {name: "Shanghai Museum", aliases: ["Shanghai Museum"]}
+  - {name: "Zhujiajiao", aliases: ["Zhujiajiao", "Zhujiajiao Water Town"]}
+  - {name: "Jing'an Temple", aliases: ["Jing'an Temple", "Jingan Temple"]}
+  - {name: "French Concession", aliases: ["French Concession", "former French Concession"]}

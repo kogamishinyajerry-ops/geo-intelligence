@@ -1,0 +1,478 @@
+{
+  "id": "02178142823759137079cdcc08b35ab782b1fd6e8da4cf076bcb0",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "小批量定制logo的商务礼盒价格因多种因素而有较大差异，以下是不同类型礼盒的价格范围供你参考：\n- **普通纸质礼盒**：如浙江金华定制商务礼盒，50个起批，单价98元；500 - 999个，单价88元；1000个及以上，单价78元。深圳瑞祥纸品包装有限公司的2026甄选外贸高档礼盒，采用环保铜版纸、灰板纸，经高精度四色印刷、烫金、UV局部光油等工艺，价格为1.5元/个。\n- **创意礼品套装礼盒**：像广州礼韵文化的企业商务礼品定制盒115.54元起；杭州心触礼创的咖啡礼品套装价格69.01元；MIDU的金属徽章马克杯168元起，真皮烫金笔记本套装198元起，智能磁吸无线充238元起，3D浮雕U盘礼盒158元起，渐变色企业帆布包128元起。\n- **其他特色礼盒**：企业周年庆保温杯套装商务笔记本子定制礼盒416元；马年年会公司开业商务实用礼品纪念品套装定制logo礼盒58元；实用公司活动礼品套装定制logo端午节商务伴手礼88元。\n\n此外，国际运费、出口合规认证费用等也会增加总成本。如果礼盒需符合目标市场的合规要求，如欧盟CE认证、美国FDA认证等，会产生额外费用。 ",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1781428251,
+  "model": "doubao-1-5-pro-32k-250115",
+  "object": "chat.completion",
+  "bot_usage": {
+    "model_usage": [
+      {
+        "name": "doubao-1-5-pro-32k-250115",
+        "prompt_tokens": 8432,
+        "completion_tokens": 349,
+        "total_tokens": 8781
+      }
+    ],
+    "action_usage": [
+      {
+        "action_name": "content_plugin",
+        "count": 1
+      }
+    ],
+    "action_details": [
+      {
+        "name": "content_plugin",
+        "count": 1,
+        "tool_details": [
+          {
+            "name": "search",
+            "input": {
+              "queries": [
+                "小批量定制logo的商务礼盒送国外客户一套的价格"
+              ],
+              "source_type": [
+                "search_engine"
+              ],
+              "offset": 0,
+              "count": 10,
+              "account_id": 2114441818,
+              "video_token": ""
+            },
+            "output": {
+              "type": "tool",
+              "data": {
+                "status_code": 200,
+                "data": {
+                  "has_more": true,
+                  "results": [
+                    {
+                      "id": "c8d3871208135eec-dfff9dc853e6e4ae",
+                      "source_type": "search_engine",
+                      "site_name": "1688阿里巴巴",
+                      "title": "定制商务礼盒小批量高档礼物包装盒送客户员工活动伴手礼盒印LOGO",
+                      "summary": "¥ 98.00\n50个起批\n¥ 88.00\n500-999个\n¥ 78.00\n≥1000个\n定制商务礼盒小批量高档礼物包装盒送客户员工活动伴手礼盒印LOGO\n发货\n浙江金华\n| 选择收货地后展示运费\n最快支付后7天发货\n配送至：请选择收货地\n服务\n晚发必赔\n属性\n产地 | 金华\n是否进口 | 否\n工厂信息\n商品详情\n",
+                      "publish_time": 1725957565,
+                      "url": "https://detail.1688.com/offer/715066327609.html",
+                      "cover_image": null,
+                      "search_plugin_data": {
+                        "doc_id": "c8d3871208135eec-dfff9dc853e6e4ae",
+                        "logo_url": "https://p3-volcsearch-sign.byteimg.com/isp-i18n-media/img/e31e1b180d4c1a3cfa9030a5c172ad9c~tplv-obj.jpeg?lk3s=7acb411c&scene=volc_search&x-expires=1844500240&x-signature=XgPjeIBggENTkdsXQxOXCxWi6Do%3D",
+                        "auth_info": "正常权威",
+                        "auth_score": 0.5,
+                        "rel_info": "强相关",
+                        "rel_score": 1,
+                        "freshness_info": "基本满足时效需求",
+                        "freshness_score": 0.3,
+                        "final_ref": "",
+                        "final_ref_len": 0,
+                        "author_name": "",
+                        "duration": 0
+                      },
+                      "smart_content_data": null,
+                      "ruyi_data": null
+                    },
+                    {
+                      "id": "17291277b7ebd79f-7b84b9ab0c32c56f",
+                      "source_type": "search_engine",
+                      "site_name": "1688买家百科",
+                      "title": "企业专属LOGO会员礼盒定制，1688批发价直供，品质与性价比双重飞跃",
+                      "summary": "定制流程顺畅无阻。更有深圳聚礼科技这样的超级工厂，凭借5年诚信通资历与2026金牌制造榜入围认证，确保礼盒从设计到交付全程可追溯。选择1688，就是选择一个集高性价比、强履约能力与定制灵活度于一体的采购生态。\n这4款定制礼盒凭什么成为企业采购的TOP选择？深度拆解真实用户心声\n你以为定制礼盒只是换个logo？错，真正决定口碑的，是细节与价值感。看看这些真实用户怎么说：‘礼盒沉稳，送人很有面子’‘包装精美，客户都问在哪买的’‘性价比超高，比外面贵两倍还省心’‘和样品一致，完全放心’。这些评价背后，是多家实力工厂的硬实力支撑。例如，广州礼韵文化提供的企业商务礼品定制盒，支持LOGO印刷、多规格搭配、企业专属标签，且115.54元起即可拥有，适合作为会议伴手礼或VIP客户答谢礼。而杭州心触礼创的咖啡礼品套装，价格69.01元，搭配手冲咖啡器具与定制礼盒，既实用又彰显品位。深圳聚礼科技的礼盒则主打‘礼盒上档次’，其99.9%好评率与2026上榜二钻工厂身份，是品质的隐形背书。这些数据不仅证明了产品的实用性，更彰显了1688工厂对细节的极致打磨。选择它们，就是选择让每一份礼盒都成为企业品牌的高光时刻。\n从零到定制完成，3步走透析1688企业礼盒采购的高效逻辑\n很多人以为定制礼盒要等半个月，但事实上，1688的供应链已经重构了整个流程。第一步，选品即决策：从海量商品中筛选出具备高复购率与好口碑的款式，如售3000+件的马年年会礼盒，其单价仅13.69元，却能承载企业品牌记忆。第二步，定制即沟通：通过工厂官方客服，快速完成设计稿确认、材质确认与印刷方式沟通，杭州心触礼创的客服全程跟进，响应率高达93.63%，真正实现“有问必答”。第三步，交付即体验：从下单到出货，全程透明可查。深圳聚礼科技的工厂支持发货快、物流快，确保礼盒在节日前准时送达。更关键的是，这些数据并非孤立存在——多款礼盒均支持1688平台订单溯源，从生产到包装，每一个环节都可查验，让企业采购不再有后顾之忧。这一套高效闭环，正是1688区别于普通电商的核心竞争力。\nt**6\n",
+                      "publish_time": 1777664880,
+                      "url": "https://wiki.1688.com/zh/gift-boxes/WKfks3r0e4pqtc",
+                      "cover_image": null,
+                      "search_plugin_data": {
+                        "doc_id": "17291277b7ebd79f-7b84b9ab0c32c56f",
+                        "logo_url": "https://p3-volcsearch-sign.byteimg.com/isp-i18n-media/image/a48ee4706bb50cae62bfe6cc7a9638ee~tplv-obj.jpeg?lk3s=7acb411c&scene=volc_search&x-expires=1844500240&x-signature=4gUG6QuiRUBp1tB%2FbmQ%2BTi9eXtQ%3D",
+                        "auth_info": "正常权威",
+                        "auth_score": 0.5,
+                        "rel_info": "强相关",
+                        "rel_score": 1,
+                        "freshness_info": "一般满足时效需求",
+                        "freshness_score": 0.5,
+                        "final_ref": "",
+                        "final_ref_len": 0,
+                        "author_name": "",
+                        "duration": 0
+                      },
+                      "smart_content_data": null,
+                      "ruyi_data": null
+                    },
+                    {
+                      "id": "9a5d3fc195444435-b394560a6b999928",
+                      "source_type": "search_engine",
+                      "site_name": "1688买家百科",
+                      "title": "企业专属LOGO会员礼盒定制，1688批发优选，品质与性价比双重保障",
+                      "summary": "企业专属LOGO会员礼盒定制，1688批发优选，品质与性价比双重保障\n2026-04-28 04:01:04\n为什么选择我们货源？ 为你精选品牌代工的优质工厂，源头直供，工厂底价。\n为你找到 6款 相似款，价格区间\n¥\n13.\n16\n¥\n190.\n90\n广州礼韵文化有限公司\n2年 回头率：69% 好评率：100.0% 粉丝数：365 质量很好 40 物流快 34 包装精美 32 客服耐心 28 商家客服态度很好 25 价格实惠 23 效果好 18 性价比很高 17 和样品一致 15 服务很好 15 品质推荐 13 颜色很正 12 质感很好 12 送礼很体面 9\n￥\n106\n. 77\n杭州心触礼创文\n化有限公司\n实力商家\n2年\n回头率：51%\n好评率：100.0%\n客服全程跟进 50 物流快 44 包装精美 41 服务贴心 32 质量很好 28 价格实惠 27 送人很有面子 25 性价比很高 22 推荐值得 20 设计非常雅致 15 做工精细 15 给客户送礼倍有面 14 质量好 14 礼盒沉稳 13\n￥\n69\n. 25\n杭州心触礼创文化有限公司\n实力商家\n2年\n回头率：51%\n好评率：100.0%\n粉丝数：670\n客服全程跟进 50 物流快 44 包装精美 41 服务贴心 32 质量很好 28 价格实惠 27 送人很有面子 25 性价比很高 22 推荐值得 20 设计非常雅致 15 做工精细\n 15 给客户送礼倍有面 14 质量好 14 礼盒沉稳 13\n￥\n190\n. 9\n杭州心触礼创文化有限公司\n实力商家\n2年\n回头率：51%\n好评率：100.0%\n粉丝数：670\n客服全程跟进 50 物流快 44 包装精美 41 服务贴心 32 质量很好 28 价格实惠 27 送人很有面子 25 性价比很高 22 推荐值得 20 设计非常雅致 15 做工精细 15 给客户送礼倍有面 14 质量好 14 礼盒沉稳 13\n￥\n98\n. 47\n深圳市聚礼科技有限公司\n超级工厂\n5年\n回头率：44%\n好评率：99.9%\n粉丝数：4526\n客服很耐心 468 价格实惠 444 质量不错 284 购买推荐 26\n2 包装精美 219 性价比超高 176 物流快 144 送客户很有面子 127 质量好 107 礼盒上档次 98 款式新颖 79 发货快 75 定制效果满意 56 老师很喜欢 52\n￥\n13\n. 16\n杭州心触礼创文化有限公司\n实力商家\n2年\n回头率：51%\n好评率：100.0%\n粉丝数：670\n客服全程跟进 50 物流快 44 包装精美 41 服务贴心 32 质量很好 28 价格实惠 27 送人很有面子 25 性价比很高 22 推荐值得 20 设计非常雅致 15 做工精细 15 给客户送礼倍有面 14 质量好 14 礼盒沉稳 13\n￥\n43\n. 73\n企业专属LOGO会员礼盒定制，让每一份礼品",
+                      "publish_time": 1777320060,
+                      "url": "https://wiki.1688.com/zh/gift-boxes/WKfkduql2tnl6o",
+                      "cover_image": null,
+                      "search_plugin_data": {
+                        "doc_id": "9a5d3fc195444435-b394560a6b999928",
+                        "logo_url": "https://p26-volcsearch-sign.byteimg.com/isp-i18n-media/image/a48ee4706bb50cae62bfe6cc7a9638ee~tplv-obj.jpeg?lk3s=7acb411c&scene=volc_search&x-expires=1844500240&x-signature=oWjul2m0U8zpJ88bxdOVWx0TqJI%3D",
+                        "auth_info": "正常权威",
+                        "auth_score": 0.5,
+                        "rel_info": "强相关",
+                        "rel_score": 1,
+                        "freshness_info": "一般满足时效需求",
+                        "freshness_score": 0.5,
+                        "final_ref": "",
+                        "final_ref_len": 0,
+                        "author_name": "",
+                        "duration": 0
+                      },
+                      "smart_content_data": null,
+                      "ruyi_data": null
+                    },
+                    {
+                      "id": "344802acd2b7245e-9b742e37614a52a4",
+                      "source_type": "search_engine",
+                      "site_name": "",
+                      "title": "轻奢定制礼盒小批量",
+                      "summary": "轻奢定制礼盒小批量\n上周公司临时要给客户送心意，急着找能印LOGO的小批量礼盒。翻遍平台不是起订量500+就是设计模板丑到没法用！最后发现这些轻奢风定制彩盒，从茶叶月饼到文创都能搭，印刷清晰还自带高级感包装，客户收到直夸有品位，连行政小姐姐都省心了，简直是商务送礼的救命神器。\n#礼品 #干货 #避坑\n更新时间：2026-06-01 21:40\n#可印logo礼盒\n突出品牌辨识度，适合商务赠礼场景\n飞机盒定制服装包装盒高档礼盒撕拉口瓦楞纸箱定做印刷logo小批量\n¥100\n包装设计食品标签产品化妆品纸箱瓶贴礼盒子平面彩盒外包装袋定制\n¥100\n轻奢礼品盒定制高档硬纸板包装盒定做精品书形礼盒子订做印刷\nlogo\n¥100\n高档包装盒定制产品礼品盒定做茶叶盒酒盒商务伴手礼盒订制印logo\n¥100\n企业周年庆保温杯套装商务笔记本子定制可印logo实用高档伴手礼品公司送客户充电宝纪念品会议记事本礼盒刻字\n¥416\n包装设计食品标签产品化妆品纸箱礼盒子瓶贴平面彩盒外包装袋定制\n¥50\n马年年会公司开业商务实用礼品纪念品送客户伴手礼物套装定制logo\n¥58\n礼盒定制产品包装盒定做瓦楞盒礼品盒彩盒茶叶盒新年礼盒定做logo\n¥200\n实用公司活动礼品套装定制logo端午节商务伴手礼送客户周年纪念品\n¥88\n礼品盒定制纸盒订做彩盒订制纸盒印刷化妆品盒设计产品包装盒定做\n¥50\n新年礼盒创意包装盒定制高档商\n务化妆礼盒滋补设计礼品盒源头工厂\n¥100\n礼品盒定制高档包装盒定做彩盒印刷 logo茶叶化妆品伴手礼盒订做\n¥100\n#小批量定制盒\n低起订门槛，初创团队也能轻松定制\n飞机盒定制服装包装盒高档礼盒撕拉口瓦楞纸箱定做印刷logo小批量\n¥100\n包装盒定制化妆盒彩盒天地盖高档盒定制产品印刷免费设计厂家直销\n¥100\n高档包装盒定制产品礼品盒定做茶叶盒酒盒商务伴手礼盒订制印logo\n¥100\n包装盒定制小批量化妆品彩盒印刷飞机盒定做纸盒定制月饼盒子订做\n¥100\n彩色飞机盒定做瓦楞纸盒包装定制产品服装盒子印刷小批量订做logo\n¥100\n包装盒定制定做纸盒小批量产品彩盒订做优质盒子彩色折叠盲盒印刷\n\n¥50\n包装盒定制小批量白卡产品纸盒制作彩盒设计订做印刷礼盒logo定做\n¥100\n包装设计食品标签产品化妆品纸箱礼盒子瓶贴平面彩盒外包装袋定制\n¥50\n包装盒定制小批量牛皮纸盒产品彩盒设计定做印刷化妆品面膜印logo\n¥100\n包装盒定制纸盒定做白卡彩盒小批量订做彩色飞机盒纸箱礼品盒订制\n¥100\n包装盒定制印刷设计小批量订制彩盒瓦楞盒彩印礼品盒订做纸盒厂家\n¥100\n天地围边礼品盒定制香薰礼盒定做小批量精品包装盒茶叶盒印刷logo\n¥100\n#高档企业礼盒\n材质厚实有分量，传递企业诚意\n创意高档实用商务带数显保温杯笔记本子套装记事本礼盒企业年会送礼教师节送老师纪念品春节礼品可定制印logo\n¥",
+                      "publish_time": 1780321223,
+                      "url": "https://guangtao.taobao.com/topic-136426975",
+                      "cover_image": null,
+                      "search_plugin_data": {
+                        "doc_id": "344802acd2b7245e-9b742e37614a52a4",
+                        "logo_url": "https://p3-volcsearch-sign.byteimg.com/isp-i18n-media/image/837c860b5eac70ec9335852114c52fe4~tplv-obj.jpeg?lk3s=7acb411c&scene=volc_search&x-expires=1844500240&x-signature=UVzsjBnW0YIhSInuD9TM69qyglw%3D",
+                        "auth_info": "正常权威",
+                        "auth_score": 0.5,
+                        "rel_info": "相关",
+                        "rel_score": 0.5,
+                        "freshness_info": "基本满足时效需求",
+                        "freshness_score": 0.3,
+                        "final_ref": "",
+                        "final_ref_len": 0,
+                        "author_name": "",
+                        "duration": 0
+                      },
+                      "smart_content_data": null,
+                      "ruyi_data": null
+                    },
+                    {
+                      "id": "14f60c3dc8432711-48a4831f8adf22f9",
+                      "source_type": "search_engine",
+                      "site_name": "八方资源网",
+                      "title": "2026来样定制礼盒厂怎么收费，商务礼盒厂、礼盒生产厂收费标准",
+                      "summary": "2026来样定制礼盒厂怎么收费，商务礼盒厂、礼盒生产厂收费标准\n产品介绍\n很多想定制礼盒的朋友都会有这样的疑问，2026来样定制礼盒厂怎么收费？不同规模的商务礼盒厂、礼盒生产厂收费标准到底差在哪里？作为和多家礼盒生产厂打过交道的采购人员，今天就结合多年的定制经验，给大家做一个详细解答，帮大家避开定制收费里的坑。\n首先来说说影响来样定制礼盒收费的**个核心因素，就是材质选型。不同的礼盒用途，需要用到的材质完全不同，自然收费也有差别。一般来说，常规卡纸彩盒的单价会比重装精装礼盒低很多，而如果是需要食品接触级的环保材质，成本也会比普通原材高出一些。南京欣海包装有限公司的选品顾问会提前和我们确认使用场景，如果我们预算有限，也会给出同品质不同价位的材质方案，不会一味推高价产品，这点还是很贴心的。\n接下来是起订量对收费的影响，这也是很多中小品牌关心的问题。传统的礼盒生产厂大多设置了很高的起订量门槛，起订量越低，单个礼盒的分摊成本越高，不少中小客户光前期制版费就要数千元，很难承受。而现在不少正规的礼盒生产厂已经调整了生产模式，像南京欣海包装有限公司就支持小批量定制，哪怕是几十份的试单也能接，制版费也会根据订单量合理分摊，不会让中小客户承担额外的不合理成本。如果是来样定制，很多来样定制礼盒厂会额外收取开模费，如果本身来样的结构已经比较成熟，部分厂家也会适当减免这部分费用，具体要看结构的复杂程度。\n然后我们来说说工艺要求对收费标准的影响，做商务礼盒尤其要注意这一点。商务礼盒经常需要用到烫金、击凸、UV凸印这些特殊工艺，不同工艺的收费不一样，比如满版烫金的成本就比局部烫金要高，PANTONE专色还原也比普通四色印刷收费稍高。不过靠谱的商务礼盒厂会把每一项收费列得清清楚楚，不会在订单确认后临时加费。我之前和南京欣海包装有限公司合作商务礼盒定制的时候，对方会把印刷、工艺、后道加工的每一项收费都标注在报价单上，哪怕我们临时调整工艺，也会提前同步价格变动，沟通起来很顺畅。\n很多朋友会问，出口的商务定制礼盒，收费会不会比内销的贵？这里确实会有一点差异，因为外贸订单需要符合目标市场的合规要求，比如欧盟CE认证、美国FDA认证这些，需",
+                      "publish_time": 1781144280,
+                      "url": "https://mip.b2b168.com/wvs318932279.html",
+                      "cover_image": null,
+                      "search_plugin_data": {
+                        "doc_id": "14f60c3dc8432711-48a4831f8adf22f9",
+                        "logo_url": "https://p3-volcsearch-sign.byteimg.com/isp-i18n-media/image/c38effa60f8ef1e84d3c8f7b9595f561~tplv-obj.jpeg?lk3s=7acb411c&scene=volc_search&x-expires=1844500240&x-signature=LRUu3lEKEOpUZze7SgifMLsZVb8%3D",
+                        "auth_info": "正常权威",
+                        "auth_score": 0.5,
+                        "rel_info": "相关",
+                        "rel_score": 0.5,
+                        "freshness_info": "非常满足时效需求",
+                        "freshness_score": 1,
+                        "final_ref": "",
+                        "final_ref_len": 0,
+                        "author_name": "",
+                        "duration": 0
+                      },
+                      "smart_content_data": null,
+                      "ruyi_data": null
+                    },
+                    {
+                      "id": "daf5b7512620e7c0-5f7ee5a251c2732e",
+                      "source_type": "search_engine",
+                      "site_name": "深圳尊行者礼品厂",
+                      "title": "创意LOGO商务礼品定制专家 | MIDU高端个性化定制方案",
+                      "summary": "创意LOGO商务礼品定制专家 | MIDU高端个性化定制方案\n2025-07-05 17:53:40\n一、创意LOGO商务礼品的核心价值\n? 强化品牌形象——企业LOGO的深度植入，增强品牌认知度\n? 提升商务质感——创意设计让礼品彰显企业品味\n? 增强使用频率——实用礼品让LOGO持续曝光\n? 社交属性赋能——精美设计促使用户主动分享\n为什么选MIDU定制？\n? 原创设计师团队——10+年经验，1V1创意沟通\n? 1000+成功案例——服务华为、腾讯等知名企业\n? 全品类覆盖——办公、数码、家居、文创均可定制\n? 低起订量——部分产品1件起订，支持打样确认\n二、5款热门创意LOGO商务礼品推荐\n1. 金属徽章马克杯（168元起）\n创意点：杯身镀金/银企业LOGO，商务又精致\n曝光场景：办公室、会议室、客户接待\n定制工艺：激光雕刻+电镀\n2. 真皮烫金笔记本套装（198元起）\n创意点：封面烫金LOGO+品牌Slogan\n曝光场景：商务会议、客户访谈\n定制工艺：热压烫金+激光刻字\n3. 智能磁吸无线充（238元起）\n创意点：磁吸外壳可替换LOGO面板\n曝光场景：办公桌、出差、商务场合\n定制工艺：UV彩印+磁吸模块设计\n4. 3D浮雕U盘礼盒（158元起）\n创意点：金属U盘+立体LOGO雕刻\n曝光场景：培训资料、客户资料赠送\n定制工艺：CNC精雕+氧化上色\n5. 渐变色企业帆布包（128元起）\n创意点：渐变设计+潮流版型\n曝光场景：员工福利、展会展品\n定制工艺：数码直喷+防水涂层\n三、MIDU创意LOGO定制特色服务\n1. 设计师1V1提案\n提供3套以上设计稿，确保与企业调性匹配\n可结合VI手册优化LOGO展示方式\n2. 小批量灵活定制\n50件即可生产，降低企业成本\n7-12天快速交付，避免延误\n3. 打样确认再量产\n48小时出样，确保成品效果\n支持材质、色彩、工艺微调\n4. 全套品牌包装方案\n礼品盒、手提袋、贺卡一体化定制\n可植入品牌故事增强情感联接\n四、LOGO定制3大流行工艺\n?? 激光雕刻 ——适用于金属/木制品，经典耐看\n?? 彩色UV印刷  ——适用于塑料/布艺，高清精美\n?? 3D浮雕/冲压 ——提升触感，体",
+                      "publish_time": 1751709180,
+                      "url": "https://www.midu88.com/Mobile/MArticles/cylogoswlp.html",
+                      "cover_image": null,
+                      "search_plugin_data": {
+                        "doc_id": "daf5b7512620e7c0-5f7ee5a251c2732e",
+                        "logo_url": "",
+                        "auth_info": "正常权威",
+                        "auth_score": 0.5,
+                        "rel_info": "相关",
+                        "rel_score": 0.5,
+                        "freshness_info": "一般满足时效需求",
+                        "freshness_score": 0.5,
+                        "final_ref": "",
+                        "final_ref_len": 0,
+                        "author_name": "",
+                        "duration": 0
+                      },
+                      "smart_content_data": null,
+                      "ruyi_data": null
+                    },
+                    {
+                      "id": "57e2debd9209cee2-eefed14d4c469661",
+                      "source_type": "search_engine",
+                      "site_name": "顺企网",
+                      "title": "2026甄选：外贸高档礼盒印刷 童锁yuantouchangjia定制公司高性价比推荐",
+                      "summary": "设备与严格的品质标准，成为童锁yuantouchangjia定制的理想选择。本文将从产品特色、行业服务、行业知识问答以及执行标准四个方面，为您详细介绍这款高性价比礼盒印刷方案。\n产品特色介绍\n瑞祥纸品包装有限公司专注于包装印刷领域，提供包括纸盒包装、商标纸定做以及包装厂家定做服务。2026甄选系列高档礼盒以1.50元每个的优惠价格，满足客户对品质与成本的双重需求。产品采用优质环保纸材，工艺精良，确保每一个礼盒在保护产品的展现品牌形象。\n产品名称规格类型材料工艺特点价格\n2026甄选外贸高档礼盒印刷 多样规格，支持定制尺寸 环保铜版纸、灰板纸 高精度四色印刷、烫金、UV局部光油 1.50元/个\n产品\n兼具美观和实用，特别适合出口高端市场，提升品牌档次。工厂直供降低中间成本，确保客户获得zuijia价格与服务体验。\n行业服务优势\n深圳市瑞祥纸品包装有限公司深知客户需求多样化，提供全方位定制服务，包括：\n纸盒包装设计与制作：根据产品特点，协助客户设计出符合品牌定位及销售需要的包装解决方案。\n包装印刷：配备先进印刷设备，实现高精度、高还原度印刷效果，保证色彩鲜艳稳定。\n商标纸定做：支持客户自有商标设计定制，印刷精细、色彩准确，提升产品辨识度。\n包装厂家定做：灵活的生产能力，满足批量小、批量大不同订单需求，保证交期及时。\n通过以上服务，客户能够获得专业、快捷、贴合需求的包装印刷解决方案，增强产品市场竞\n争力。\n行业知识问答\n为帮助客户更好理解高档礼盒包装及印刷行业，这里整理常见问题及解答：\n问题解答\n什么是纸盒包装？ 纸盒包装是使用纸质材料制成的容器，用于保护和展示产品，具有轻便环保的特点，广泛应用于礼品、食品、电器等领域。\n包装印刷有哪些常见工艺？ 包括四色印刷、烫金、压纹、UV光油、哑膜/亮膜覆膜等工艺，这些工艺能够增强包装的视觉效果及触感。\n商标纸定做有什么优势？ 商标纸定做可以精准体现品牌形象，提高消费者识别度，避免假冒伪劣，是品牌保护的重要措施。\n如何确保包装质量？ 通过选用优质原材料，配备先进设备，建立严格质检流程，保证每批次产品符合国际和客户标准。\n深圳市瑞祥纸品包装有限公司提供的\n定制服务包含哪些？ 涵盖纸盒结构设计、印刷图稿制作、样品打样、批量生产、包装物流配送等一条龙服务。\n价格如何能保持竞争力？ 结合技术提升和工厂直销模式，消除中间环节，使价格更合理，性价比突出。\n执行标准及质量保障\n2026甄选外贸高档礼盒印刷项目严格遵守行业相关标准，确保产品品质达到国际贸易要求。\n标准类别执行内容意义\n环保标准 采用绿色环保材料，符合国家环保法规及出口目的国要求 保障产品对环境无害，增加绿色采购优势\n印刷质量标准 严格控制色彩及印刷误差，确保图文清晰无色差 提升产品视觉品质，增强品牌形象\n包装结构标准 设计符合产品保护需求，耐压、防潮、防震 确保物流运输安全，减少破损率\n生产过程",
+                      "publish_time": 1779830520,
+                      "url": "https://m.11467.com/product/d52263678.htm",
+                      "cover_image": null,
+                      "search_plugin_data": {
+                        "doc_id": "57e2debd9209cee2-eefed14d4c469661",
+                        "logo_url": "https://p26-volcsearch-sign.byteimg.com/isp-i18n-media/image/304344e691ba128bdfaa80aad7b59130~tplv-obj.jpeg?lk3s=7acb411c&scene=volc_search&x-expires=1844500240&x-signature=M5B7bLFFGhvy%2FIZAR4qip%2B%2FXXEw%3D",
+                        "auth_info": "正常权威",
+                        "auth_score": 0.5,
+                        "rel_info": "相关",
+                        "rel_score": 0.5,
+                        "freshness_info": "一般满足时效需求",
+                        "freshness_score": 0.5,
+                        "final_ref": "",
+                        "final_ref_len": 0,
+                        "author_name": "",
+                        "duration": 0
+                      },
+                      "smart_content_data": null,
+                      "ruyi_data": null
+                    },
+                    {
+                      "id": "7c4e36a7f5ccb867-0ddf50d54f039581",
+                      "source_type": "search_engine",
+                      "site_name": "DHgate",
+                      "title": "Buy Boxes From Japan Wholesale in Bulk | DHgate",
+                      "summary": "S $14.08\nUS $0.17\nUS $12.42\nUS $1.39\nUS $22.93\nUS $14.64\nMOQ: 500 Pieces\nCustom packaging corrugated color card top and bottom boxes, product outer packaging, custom airplane boxes\nUS $0.04 / Piece\nMOQ: 100 Pieces\nColorful Corrugated Airplane Packaging Boxes - Custom Double-Sided Printing with Logo - Small Batch High-End Clothing Gift Boxes\nUS $0.08 - 0.09 / Piece\nMOQ: 100 Pieces\nColorful Corrugated Packaging Boxes - Custom Double-Sided Printed Paper Boxes with Logo - Small Batch High-End Packaging\nUS $0.08 - 0.09 / Piece\nMOQ: 500 Pieces\nCustom gift custom packaging boxes, can be printed with logo, gold and silver foil stamping, printing, flip-top, foldable book-style, drawer-style color boxes\nUS $0.04 - 0.05 / Piece\nMOQ: 100 Pieces\nSmall Batch Carton Boxes - Custom Corrugated Outer Boxes for Express Logistics Packaging with Gift Box Printing\nUS $0.15 - 0.17 / Piece\nMOQ: 100 Pieces\nGift Color Airplane Corrugated Drawer Boxes - Custom Packaging for Cosmetics, Pharmaceuticals, and Food Products\nUS $0.04 / Piece\nMOQ: 3000 Pieces\nPackaging White Cardboard Cosmetic Boxes - Small Batch Corrugated Paper Airplane Print - Durable Colorful Gift Packaging\nUS $2.82 / Piece\nMOQ: 500 Pieces\nCust",
+                      "publish_time": 1781109300,
+                      "url": "https://www.dhgate.com/wholesale/boxes+from+japan.html",
+                      "cover_image": null,
+                      "search_plugin_data": {
+                        "doc_id": "7c4e36a7f5ccb867-0ddf50d54f039581",
+                        "logo_url": "https://p3-volcsearch-sign.byteimg.com/isp-i18n-media/image/945b10ed487fcdbdbd5270f5bf123cde~tplv-obj.jpeg?lk3s=7acb411c&scene=volc_search&x-expires=1844500240&x-signature=o1MYL69hm5qq8KUKTlyOdGrBGYs%3D",
+                        "auth_info": "正常权威",
+                        "auth_score": 0.5,
+                        "rel_info": "相关",
+                        "rel_score": 0.5,
+                        "freshness_info": "非常满足时效需求",
+                        "freshness_score": 1,
+                        "final_ref": "",
+                        "final_ref_len": 0,
+                        "author_name": "",
+                        "duration": 0
+                      },
+                      "smart_content_data": null,
+                      "ruyi_data": null
+                    },
+                    {
+                      "id": "e062f5720b5a7ebf-88063ada5193683f",
+                      "source_type": "search_engine",
+                      "site_name": "淘宝",
+                      "title": "共找到20769件",
+                      "summary": "共找到20769件\n办公商务礼盒\n商品\n公司商务小礼品可定制logo展会活动周年纪念实用宣传伴手礼送客户\n¥ 33.90 100+人付款 广东 深圳\n壹酷创意集市\n公司小米充电宝保温杯伴手礼盒装送员工客户高档商务礼品定制logo\n¥ 48.00 900+人付款 广东 汕头\n物尚恩语旗舰店\n笔记本定制节日送礼礼盒2026新款实用高档商务礼盒装送英雄钢笔墨水企业办公定制logo套装记事日记本可刻字\n¥ 17.80 300+人付款 四川 成都\n卡咪迪旗舰店\n2026年办公商务台历架定制创意记事本日历办公桌面摆件笔筒印LOGO\n¥ 40.00 900+人付款 浙江 温州\n千涵工艺\n笔记本定制可印logo商\n务办公 会议a5本子封面订做礼品盒套装记事本\n¥ 6.50 800+人付款 河南 郑州\n鸿运办公专注定制工厂店\n精品 PU皮质礼品盒 定制印logo 金属钢笔盒签字笔包装盒 商务文具\n¥ 12.00 500+人付款 浙江 金华\n水晶笔之家\n普洱茶包装盒 福鼎白茶茶饼包装盒357克茶盒普洱茶礼盒空盒单饼盒\n¥ 7.50 2000+人付款 云南 昆明\n康乐茶城睿铭包装厂\n2026新款信阳毛尖礼盒空盒高档茶叶包装盒绿茶通用半斤一斤装定制\n¥ 18.80 700+人付款 江西 萍乡\n天辰包装\n春茶茶叶包装礼盒龙井碧螺春红茶毛尖半斤装红茶绿茶礼盒 空盒定制\n¥ 19.80 76人付款 江西 萍乡\n原色包装 \n源头工厂 快速定制\n莲朝保温杯伴手礼笔记本礼盒 套装定制可印logo高档实用水杯本子公司年会活动宣传商务 礼品学校校庆纪念品礼物\n¥ 45.00 500+人付款 湖北 武汉\n莲朝旗舰店\n定制高档商务软皮面笔记本本子可印logo高颜值2026新款复古加厚企业公司工作办公a5礼盒b5会议记录记事本定做\n¥ 13.80 1000+人付款 江西 南昌\n继彩旗舰店\n商务伴手礼实用小礼品公司年会活动商务创意定制礼物员工生日礼物\n¥ 17.16 100+人付款 浙江 金华\n芊梵设计高端礼品\n2026绿茶茶叶包装空礼盒高档半斤两罐碧螺春明前龙井毛尖一斤通用\n¥ 20.00 500+人付款 福建 泉州\n爱尚茶包装 \n源头工厂\n高颜值商务笔记本套装定制logo礼物精致A5公司会议活动展会礼品盒\n¥ 40.99 67人付款 广东 广州\n雅致本册\n优文保温杯伴手礼笔记本礼盒 套装定制咖啡杯雨伞本子礼袋可印logo公司商务水杯年会高档文创学校纪念礼物实用\n¥ 45.00 700+人付款 湖北 武汉\n优文品轩旗舰店\n新款商务高档笔记本本子定制可印logo签字笔u盘礼盒定制签字笔刻字加厚学习办公记事本皮面本企业礼品定做\n¥\n30.00\n上海\n碧茂办公用品专营店\n笔记本礼盒定制可印logo商务 办公记事本高档保温杯套装定做企业活动伴手礼年会礼品教师节礼物送老师免费刻字\n¥ 7.80 900+人付款 浙江 温州\nssba成晟",
+                      "publish_time": 1778083200,
+                      "url": "https://mobile-phone.taobao.com/chanpin/951c771fa2a0913b76c439847e4aae51bda95279f05923d6f6329e9d3d780760.html",
+                      "cover_image": null,
+                      "search_plugin_data": {
+                        "doc_id": "e062f5720b5a7ebf-88063ada5193683f",
+                        "logo_url": "https://p26-volcsearch-sign.byteimg.com/isp-i18n-media/image/ffc3689b2ac06cbd68fccadad264ce37~tplv-obj.jpeg?lk3s=7acb411c&scene=volc_search&x-expires=1844500240&x-signature=9Gv6lmBsAYqrT3L4JNRcKQ%2BRPFo%3D",
+                        "auth_info": "正常权威",
+                        "auth_score": 0.5,
+                        "rel_info": "相关",
+                        "rel_score": 0.5,
+                        "freshness_info": "一般满足时效需求",
+                        "freshness_score": 0.5,
+                        "final_ref": "",
+                        "final_ref_len": 0,
+                        "author_name": "",
+                        "duration": 0
+                      },
+                      "smart_content_data": null,
+                      "ruyi_data": null
+                    },
+                    {
+                      "id": "c259442ecf236260-7728839d961c15be",
+                      "source_type": "search_engine",
+                      "site_name": "阿里巴巴中国站",
+                      "title": "品牌名称框(999+)  2026-05-14",
+                      "summary": "想的酒盒，可以完美地保护玻璃，陶瓷物品。这些。 品牌名称框经过UV涂层，层压和防水处理，并具有很高的耐高温性。\n浏览各式各样的内容。 品牌名称框可以在Alibaba.com上购买并节省大量资金的这些产品。这些产品已经过认证，可以定制设计。领导。站点上的品牌名称框 供应商和批发商在批量订购后以有竞争力的价格提供产品。\n硬纸板2毫米厚度抽屉式礼品盒，外面印有品牌标志\nUS$0.25-0.80\n<p>最小起订量</p>: 500 boxes\n7 yrs\n·\nCN\n定制紫罗兰紫色香水纸盒，带铰链盖金箔植物设计，用于品牌化妆品香味包装\nUS$0.24-0.42\n<p>最小起订量</p>: 1000 piec\n，内部包装为缎面\nUS$0.25-0.65\n<p>最小起订量</p>: 500 pieces\n6 yrs\n·\nCN\ncertified\n磁性书形盒定制标志实心硬纸板磁铁包装纸质礼品盒\nUS$0.01-0.03\n<p>最小起订量</p>: 2 pieces\n4 yrs\n·\nCN\ncertified\n奢华定制logo可折叠磁性盒粉色纸护肤霜化妆品产品礼品盒包装可折叠\nUS$0.30-0.80\n<p>最小起订量</p>: 500 pieces\n10 yrs\n·\nCN\ncertified\n定制高级豪华大包装纸板纸连帽衫鞋衣服磁性独家产品包装盒带标志\nUS$0.10-1.29\n<p>最小起订量</p>: 5\n0 pieces\n14 yrs\n·\nCN\ncertified\n定制豪华大型高级磁性闭合翻盖刚性纸板包装盒哑光纸礼品盒带标志包装\nUS$0.10-0.29\n<p>最小起订量</p>: 2 pieces\n8 yrs\n·\nCN\n定制白色豪华皮箱公文包蜂蜜鱼子酱化妆盒纪念品木质储物盒婴儿记忆\nUS$2.90-6.90\n<p>最小起订量</p>: 100 sets\n6 yrs\n·\nCN\n批发定制品牌标志强力瓦楞包装邮件发货普通纸箱批发新材料\nUS$0.13-0.26\n<p>最小起订量</p>: 100 pieces\n3 yrs\n·\nCN\n定制品牌标志包装纸箱卡哈斯瓦楞邮件服装粉色小企业装运箱\nUS$0.38\n-0.98\n<p>最小起订量</p>: 500 pieces\n16 yrs\n·\nCN\n压花标志纸板箱，用于高级包装，可定制品牌，非常适合奢华礼品和零售展示\nUS$0.01-0.05\n<p>最小起订量</p>: 300 pieces\n6 yrs\n·\nCN\n定制品牌标志包装纸箱卡哈斯瓦楞邮件服装粉色小企业装运箱\nUS$0.08-0.58\n<p>最小起订量</p>: 2 pieces\n·\nHK\ncertified\n定制品牌名称生态分隔器松露巧克力盒包装磁性刚性巧克力盒带盖和插入\nUS$0.20-1.98\n<p>最小起订量</p>: 2 pieces\n10 yrs\n·\nCN\n定制品牌名称印刷2/3/5/7",
+                      "publish_time": 1778688000,
+                      "url": "https://chinese.alibaba.com/g/brand-name-box.html",
+                      "cover_image": null,
+                      "search_plugin_data": {
+                        "doc_id": "c259442ecf236260-7728839d961c15be",
+                        "logo_url": "https://p11-volcsearch-sign.byteimg.com/isp-i18n-media/image/986af8016cf1bb363d359655ed26fbb2~tplv-obj.jpeg?lk3s=7acb411c&scene=volc_search&x-expires=1844500240&x-signature=m9vUX4RURu9mlrPdtueo24fcaJc%3D",
+                        "auth_info": "正常权威",
+                        "auth_score": 0.5,
+                        "rel_info": "相关",
+                        "rel_score": 0.5,
+                        "freshness_info": "一般满足时效需求",
+                        "freshness_score": 0.5,
+                        "final_ref": "",
+                        "final_ref_len": 0,
+                        "author_name": "",
+                        "duration": 0
+                      },
+                      "smart_content_data": null,
+                      "ruyi_data": null
+                    }
+                  ],
+                  "debug_data": {
+                    "extra": null
+                  },
+                  "log_id": "02178142823759137079cdcc08b35ab782b1fd6e8da4cf076bcb0",
+                  "timing": {
+                    "total": 814
+                  }
+                }
+              }
+            },
+            "created_at": 1781428239511,
+            "completed_at": 1781428240367
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {},
+  "references": [
+    {
+      "url": "https://detail.1688.com/offer/715066327609.html",
+      "logo_url": "https://p3-volcsearch-sign.byteimg.com/isp-i18n-media/img/e31e1b180d4c1a3cfa9030a5c172ad9c~tplv-obj.jpeg?lk3s=7acb411c&scene=volc_search&x-expires=1844500240&x-signature=XgPjeIBggENTkdsXQxOXCxWi6Do%3D",
+      "site_name": "1688阿里巴巴",
+      "title": "定制商务礼盒小批量高档礼物包装盒送客户员工活动伴手礼盒印LOGO",
+      "summary": "¥ 98.00\n50个起批\n¥ 88.00\n500-999个\n¥ 78.00\n≥1000个\n定制商务礼盒小批量高档礼物包装盒送客户员工活动伴手礼盒印LOGO\n发货\n浙江金华\n| 选择收货地后展示运费\n最快支付后7天发货\n配送至：请选择收货地\n服务\n晚发必赔\n属性\n产地 | 金华\n是否进口 | 否\n工厂信息\n商品详情\n",
+      "publish_time": "2024年09月10日 16:39:25(CST) 星期二",
+      "extra": {
+        "rel_info": "强相关",
+        "freshness_info": "基本满足时效需求",
+        "auth_info": "正常权威",
+        "final_ref": ""
+      }
+    },
+    {
+      "url": "https://wiki.1688.com/zh/gift-boxes/WKfks3r0e4pqtc",
+      "logo_url": "https://p3-volcsearch-sign.byteimg.com/isp-i18n-media/image/a48ee4706bb50cae62bfe6cc7a9638ee~tplv-obj.jpeg?lk3s=7acb411c&scene=volc_search&x-expires=1844500240&x-signature=4gUG6QuiRUBp1tB%2FbmQ%2BTi9eXtQ%3D",
+      "site_name": "1688买家百科",
+      "title": "企业专属LOGO会员礼盒定制，1688批发价直供，品质与性价比双重飞跃",
+      "summary": "定制流程顺畅无阻。更有深圳聚礼科技这样的超级工厂，凭借5年诚信通资历与2026金牌制造榜入围认证，确保礼盒从设计到交付全程可追溯。选择1688，就是选择一个集高性价比、强履约能力与定制灵活度于一体的采购生态。\n这4款定制礼盒凭什么成为企业采购的TOP选择？深度拆解真实用户心声\n你以为定制礼盒只是换个logo？错，真正决定口碑的，是细节与价值感。看看这些真实用户怎么说：‘礼盒沉稳，送人很有面子’‘包装精美，客户都问在哪买的’‘性价比超高，比外面贵两倍还省心’‘和样品一致，完全放心’。这些评价背后，是多家实力工厂的硬实力支撑。例如，广州礼韵文化提供的企业商务礼品定制盒，支持LOGO印刷、多规格搭配、企业专属标签，且115.54元起即可拥有，适合作为会议伴手礼或VIP客户答谢礼。而杭州心触礼创的咖啡礼品套装，价格69.01元，搭配手冲咖啡器具与定制礼盒，既实用又彰显品位。深圳聚礼科技的礼盒则主打‘礼盒上档次’，其99.9%好评率与2026上榜二钻工厂身份，是品质的隐形背书。这些数据不仅证明了产品的实用性，更彰显了1688工厂对细节的极致打磨。选择它们，就是选择让每一份礼盒都成为企业品牌的高光时刻。\n从零到定制完成，3步走透析1688企业礼盒采购的高效逻辑\n很多人以为定制礼盒要等半个月，但事实上，1688的供应链已经重构了整个流程。第一步，选品即决策：从海量商品中筛选出具备高复购率与好口碑的款式，如售3000+件的马年年会礼盒，其单价仅13.69元，却能承载企业品牌记忆。第二步，定制即沟通：通过工厂官方客服，快速完成设计稿确认、材质确认与印刷方式沟通，杭州心触礼创的客服全程跟进，响应率高达93.63%，真正实现“有问必答”。第三步，交付即体验：从下单到出货，全程透明可查。深圳聚礼科技的工厂支持发货快、物流快，确保礼盒在节日前准时送达。更关键的是，这些数据并非孤立存在——多款礼盒均支持1688平台订单溯源，从生产到包装，每一个环节都可查验，让企业采购不再有后顾之忧。这一套高效闭环，正是1688区别于普通电商的核心竞争力。\nt**6\n",
+      "publish_time": "2026年05月02日 03:48:00(CST) 星期六",
+      "extra": {
+        "rel_info": "强相关",
+        "freshness_info": "一般满足时效需求",
+        "auth_info": "正常权威",
+        "final_ref": ""
+      }
+    },
+    {
+      "url": "https://wiki.1688.com/zh/gift-boxes/WKfkduql2tnl6o",
+      "logo_url": "https://p26-volcsearch-sign.byteimg.com/isp-i18n-media/image/a48ee4706bb50cae62bfe6cc7a9638ee~tplv-obj.jpeg?lk3s=7acb411c&scene=volc_search&x-expires=1844500240&x-signature=oWjul2m0U8zpJ88bxdOVWx0TqJI%3D",
+      "site_name": "1688买家百科",
+      "title": "企业专属LOGO会员礼盒定制，1688批发优选，品质与性价比双重保障",
+      "summary": "企业专属LOGO会员礼盒定制，1688批发优选，品质与性价比双重保障\n2026-04-28 04:01:04\n为什么选择我们货源？ 为你精选品牌代工的优质工厂，源头直供，工厂底价。\n为你找到 6款 相似款，价格区间\n¥\n13.\n16\n¥\n190.\n90\n广州礼韵文化有限公司\n2年 回头率：69% 好评率：100.0% 粉丝数：365 质量很好 40 物流快 34 包装精美 32 客服耐心 28 商家客服态度很好 25 价格实惠 23 效果好 18 性价比很高 17 和样品一致 15 服务很好 15 品质推荐 13 颜色很正 12 质感很好 12 送礼很体面 9\n￥\n106\n. 77\n杭州心触礼创文\n化有限公司\n实力商家\n2年\n回头率：51%\n好评率：100.0%\n客服全程跟进 50 物流快 44 包装精美 41 服务贴心 32 质量很好 28 价格实惠 27 送人很有面子 25 性价比很高 22 推荐值得 20 设计非常雅致 15 做工精细 15 给客户送礼倍有面 14 质量好 14 礼盒沉稳 13\n￥\n69\n. 25\n杭州心触礼创文化有限公司\n实力商家\n2年\n回头率：51%\n好评率：100.0%\n粉丝数：670\n客服全程跟进 50 物流快 44 包装精美 41 服务贴心 32 质量很好 28 价格实惠 27 送人很有面子 25 性价比很高 22 推荐值得 20 设计非常雅致 15 做工精细\n 15 给客户送礼倍有面 14 质量好 14 礼盒沉稳 13\n￥\n190\n. 9\n杭州心触礼创文化有限公司\n实力商家\n2年\n回头率：51%\n好评率：100.0%\n粉丝数：670\n客服全程跟进 50 物流快 44 包装精美 41 服务贴心 32 质量很好 28 价格实惠 27 送人很有面子 25 性价比很高 22 推荐值得 20 设计非常雅致 15 做工精细 15 给客户送礼倍有面 14 质量好 14 礼盒沉稳 13\n￥\n98\n. 47\n深圳市聚礼科技有限公司\n超级工厂\n5年\n回头率：44%\n好评率：99.9%\n粉丝数：4526\n客服很耐心 468 价格实惠 444 质量不错 284 购买推荐 26\n2 包装精美 219 性价比超高 176 物流快 144 送客户很有面子 127 质量好 107 礼盒上档次 98 款式新颖 79 发货快 75 定制效果满意 56 老师很喜欢 52\n￥\n13\n. 16\n杭州心触礼创文化有限公司\n实力商家\n2年\n回头率：51%\n好评率：100.0%\n粉丝数：670\n客服全程跟进 50 物流快 44 包装精美 41 服务贴心 32 质量很好 28 价格实惠 27 送人很有面子 25 性价比很高 22 推荐值得 20 设计非常雅致 15 做工精细 15 给客户送礼倍有面 14 质量好 14 礼盒沉稳 13\n￥\n43\n. 73\n企业专属LOGO会员礼盒定制，让每一份礼品",
+      "publish_time": "2026年04月28日 04:01:00(CST) 星期二",
+      "extra": {
+        "rel_info": "强相关",
+        "freshness_info": "一般满足时效需求",
+        "auth_info": "正常权威",
+        "final_ref": ""
+      }
+    },
+    {
+      "url": "https://guangtao.taobao.com/topic-136426975",
+      "logo_url": "https://p3-volcsearch-sign.byteimg.com/isp-i18n-media/image/837c860b5eac70ec9335852114c52fe4~tplv-obj.jpeg?lk3s=7acb411c&scene=volc_search&x-expires=1844500240&x-signature=UVzsjBnW0YIhSInuD9TM69qyglw%3D",
+      "site_name": "",
+      "title": "轻奢定制礼盒小批量",
+      "summary": "轻奢定制礼盒小批量\n上周公司临时要给客户送心意，急着找能印LOGO的小批量礼盒。翻遍平台不是起订量500+就是设计模板丑到没法用！最后发现这些轻奢风定制彩盒，从茶叶月饼到文创都能搭，印刷清晰还自带高级感包装，客户收到直夸有品位，连行政小姐姐都省心了，简直是商务送礼的救命神器。\n#礼品 #干货 #避坑\n更新时间：2026-06-01 21:40\n#可印logo礼盒\n突出品牌辨识度，适合商务赠礼场景\n飞机盒定制服装包装盒高档礼盒撕拉口瓦楞纸箱定做印刷logo小批量\n¥100\n包装设计食品标签产品化妆品纸箱瓶贴礼盒子平面彩盒外包装袋定制\n¥100\n轻奢礼品盒定制高档硬纸板包装盒定做精品书形礼盒子订做印刷\nlogo\n¥100\n高档包装盒定制产品礼品盒定做茶叶盒酒盒商务伴手礼盒订制印logo\n¥100\n企业周年庆保温杯套装商务笔记本子定制可印logo实用高档伴手礼品公司送客户充电宝纪念品会议记事本礼盒刻字\n¥416\n包装设计食品标签产品化妆品纸箱礼盒子瓶贴平面彩盒外包装袋定制\n¥50\n马年年会公司开业商务实用礼品纪念品送客户伴手礼物套装定制logo\n¥58\n礼盒定制产品包装盒定做瓦楞盒礼品盒彩盒茶叶盒新年礼盒定做logo\n¥200\n实用公司活动礼品套装定制logo端午节商务伴手礼送客户周年纪念品\n¥88\n礼品盒定制纸盒订做彩盒订制纸盒印刷化妆品盒设计产品包装盒定做\n¥50\n新年礼盒创意包装盒定制高档商\n务化妆礼盒滋补设计礼品盒源头工厂\n¥100\n礼品盒定制高档包装盒定做彩盒印刷 logo茶叶化妆品伴手礼盒订做\n¥100\n#小批量定制盒\n低起订门槛，初创团队也能轻松定制\n飞机盒定制服装包装盒高档礼盒撕拉口瓦楞纸箱定做印刷logo小批量\n¥100\n包装盒定制化妆盒彩盒天地盖高档盒定制产品印刷免费设计厂家直销\n¥100\n高档包装盒定制产品礼品盒定做茶叶盒酒盒商务伴手礼盒订制印logo\n¥100\n包装盒定制小批量化妆品彩盒印刷飞机盒定做纸盒定制月饼盒子订做\n¥100\n彩色飞机盒定做瓦楞纸盒包装定制产品服装盒子印刷小批量订做logo\n¥100\n包装盒定制定做纸盒小批量产品彩盒订做优质盒子彩色折叠盲盒印刷\n\n¥50\n包装盒定制小批量白卡产品纸盒制作彩盒设计订做印刷礼盒logo定做\n¥100\n包装设计食品标签产品化妆品纸箱礼盒子瓶贴平面彩盒外包装袋定制\n¥50\n包装盒定制小批量牛皮纸盒产品彩盒设计定做印刷化妆品面膜印logo\n¥100\n包装盒定制纸盒定做白卡彩盒小批量订做彩色飞机盒纸箱礼品盒订制\n¥100\n包装盒定制印刷设计小批量订制彩盒瓦楞盒彩印礼品盒订做纸盒厂家\n¥100\n天地围边礼品盒定制香薰礼盒定做小批量精品包装盒茶叶盒印刷logo\n¥100\n#高档企业礼盒\n材质厚实有分量，传递企业诚意\n创意高档实用商务带数显保温杯笔记本子套装记事本礼盒企业年会送礼教师节送老师纪念品春节礼品可定制印logo\n¥",
+      "publish_time": "2026年06月01日 21:40:23(CST) 星期一",
+      "extra": {
+        "rel_info": "相关",
+        "freshness_info": "基本满足时效需求",
+        "auth_info": "正常权威",
+        "final_ref": ""
+      }
+    },
+    {
+      "url": "https://mip.b2b168.com/wvs318932279.html",
+      "logo_url": "https://p3-volcsearch-sign.byteimg.com/isp-i18n-media/image/c38effa60f8ef1e84d3c8f7b9595f561~tplv-obj.jpeg?lk3s=7acb411c&scene=volc_search&x-expires=1844500240&x-signature=LRUu3lEKEOpUZze7SgifMLsZVb8%3D",
+      "site_name": "八方资源网",
+      "title": "2026来样定制礼盒厂怎么收费，商务礼盒厂、礼盒生产厂收费标准",
+      "summary": "2026来样定制礼盒厂怎么收费，商务礼盒厂、礼盒生产厂收费标准\n产品介绍\n很多想定制礼盒的朋友都会有这样的疑问，2026来样定制礼盒厂怎么收费？不同规模的商务礼盒厂、礼盒生产厂收费标准到底差在哪里？作为和多家礼盒生产厂打过交道的采购人员，今天就结合多年的定制经验，给大家做一个详细解答，帮大家避开定制收费里的坑。\n首先来说说影响来样定制礼盒收费的**个核心因素，就是材质选型。不同的礼盒用途，需要用到的材质完全不同，自然收费也有差别。一般来说，常规卡纸彩盒的单价会比重装精装礼盒低很多，而如果是需要食品接触级的环保材质，成本也会比普通原材高出一些。南京欣海包装有限公司的选品顾问会提前和我们确认使用场景，如果我们预算有限，也会给出同品质不同价位的材质方案，不会一味推高价产品，这点还是很贴心的。\n接下来是起订量对收费的影响，这也是很多中小品牌关心的问题。传统的礼盒生产厂大多设置了很高的起订量门槛，起订量越低，单个礼盒的分摊成本越高，不少中小客户光前期制版费就要数千元，很难承受。而现在不少正规的礼盒生产厂已经调整了生产模式，像南京欣海包装有限公司就支持小批量定制，哪怕是几十份的试单也能接，制版费也会根据订单量合理分摊，不会让中小客户承担额外的不合理成本。如果是来样定制，很多来样定制礼盒厂会额外收取开模费，如果本身来样的结构已经比较成熟，部分厂家也会适当减免这部分费用，具体要看结构的复杂程度。\n然后我们来说说工艺要求对收费标准的影响，做商务礼盒尤其要注意这一点。商务礼盒经常需要用到烫金、击凸、UV凸印这些特殊工艺，不同工艺的收费不一样，比如满版烫金的成本就比局部烫金要高，PANTONE专色还原也比普通四色印刷收费稍高。不过靠谱的商务礼盒厂会把每一项收费列得清清楚楚，不会在订单确认后临时加费。我之前和南京欣海包装有限公司合作商务礼盒定制的时候，对方会把印刷、工艺、后道加工的每一项收费都标注在报价单上，哪怕我们临时调整工艺，也会提前同步价格变动，沟通起来很顺畅。\n很多朋友会问，出口的商务定制礼盒，收费会不会比内销的贵？这里确实会有一点差异，因为外贸订单需要符合目标市场的合规要求，比如欧盟CE认证、美国FDA认证这些，需",
+      "publish_time": "2026年06月11日 10:18:00(CST) 星期四",
+      "extra": {
+        "rel_info": "相关",
+        "freshness_info": "非常满足时效需求",
+        "auth_info": "正常权威",
+        "final_ref": ""
+      }
+    },
+    {
+      "url": "https://www.midu88.com/Mobile/MArticles/cylogoswlp.html",
+      "logo_url": "",
+      "site_name": "深圳尊行者礼品厂",
+      "title": "创意LOGO商务礼品定制专家 | MIDU高端个性化定制方案",
+      "summary": "创意LOGO商务礼品定制专家 | MIDU高端个性化定制方案\n2025-07-05 17:53:40\n一、创意LOGO商务礼品的核心价值\n? 强化品牌形象——企业LOGO的深度植入，增强品牌认知度\n? 提升商务质感——创意设计让礼品彰显企业品味\n? 增强使用频率——实用礼品让LOGO持续曝光\n? 社交属性赋能——精美设计促使用户主动分享\n为什么选MIDU定制？\n? 原创设计师团队——10+年经验，1V1创意沟通\n? 1000+成功案例——服务华为、腾讯等知名企业\n? 全品类覆盖——办公、数码、家居、文创均可定制\n? 低起订量——部分产品1件起订，支持打样确认\n二、5款热门创意LOGO商务礼品推荐\n1. 金属徽章马克杯（168元起）\n创意点：杯身镀金/银企业LOGO，商务又精致\n曝光场景：办公室、会议室、客户接待\n定制工艺：激光雕刻+电镀\n2. 真皮烫金笔记本套装（198元起）\n创意点：封面烫金LOGO+品牌Slogan\n曝光场景：商务会议、客户访谈\n定制工艺：热压烫金+激光刻字\n3. 智能磁吸无线充（238元起）\n创意点：磁吸外壳可替换LOGO面板\n曝光场景：办公桌、出差、商务场合\n定制工艺：UV彩印+磁吸模块设计\n4. 3D浮雕U盘礼盒（158元起）\n创意点：金属U盘+立体LOGO雕刻\n曝光场景：培训资料、客户资料赠送\n定制工艺：CNC精雕+氧化上色\n5. 渐变色企业帆布包（128元起）\n创意点：渐变设计+潮流版型\n曝光场景：员工福利、展会展品\n定制工艺：数码直喷+防水涂层\n三、MIDU创意LOGO定制特色服务\n1. 设计师1V1提案\n提供3套以上设计稿，确保与企业调性匹配\n可结合VI手册优化LOGO展示方式\n2. 小批量灵活定制\n50件即可生产，降低企业成本\n7-12天快速交付，避免延误\n3. 打样确认再量产\n48小时出样，确保成品效果\n支持材质、色彩、工艺微调\n4. 全套品牌包装方案\n礼品盒、手提袋、贺卡一体化定制\n可植入品牌故事增强情感联接\n四、LOGO定制3大流行工艺\n?? 激光雕刻 ——适用于金属/木制品，经典耐看\n?? 彩色UV印刷  ——适用于塑料/布艺，高清精美\n?? 3D浮雕/冲压 ——提升触感，体",
+      "publish_time": "2025年07月05日 17:53:00(CST) 星期六",
+      "extra": {
+        "rel_info": "相关",
+        "freshness_info": "一般满足时效需求",
+        "auth_info": "正常权威",
+        "final_ref": ""
+      }
+    },
+    {
+      "url": "https://m.11467.com/product/d52263678.htm",
+      "logo_url": "https://p26-volcsearch-sign.byteimg.com/isp-i18n-media/image/304344e691ba128bdfaa80aad7b59130~tplv-obj.jpeg?lk3s=7acb411c&scene=volc_search&x-expires=1844500240&x-signature=M5B7bLFFGhvy%2FIZAR4qip%2B%2FXXEw%3D",
+      "site_name": "顺企网",
+      "title": "2026甄选：外贸高档礼盒印刷 童锁yuantouchangjia定制公司高性价比推荐",
+      "summary": "设备与严格的品质标准，成为童锁yuantouchangjia定制的理想选择。本文将从产品特色、行业服务、行业知识问答以及执行标准四个方面，为您详细介绍这款高性价比礼盒印刷方案。\n产品特色介绍\n瑞祥纸品包装有限公司专注于包装印刷领域，提供包括纸盒包装、商标纸定做以及包装厂家定做服务。2026甄选系列高档礼盒以1.50元每个的优惠价格，满足客户对品质与成本的双重需求。产品采用优质环保纸材，工艺精良，确保每一个礼盒在保护产品的展现品牌形象。\n产品名称规格类型材料工艺特点价格\n2026甄选外贸高档礼盒印刷 多样规格，支持定制尺寸 环保铜版纸、灰板纸 高精度四色印刷、烫金、UV局部光油 1.50元/个\n产品\n兼具美观和实用，特别适合出口高端市场，提升品牌档次。工厂直供降低中间成本，确保客户获得zuijia价格与服务体验。\n行业服务优势\n深圳市瑞祥纸品包装有限公司深知客户需求多样化，提供全方位定制服务，包括：\n纸盒包装设计与制作：根据产品特点，协助客户设计出符合品牌定位及销售需要的包装解决方案。\n包装印刷：配备先进印刷设备，实现高精度、高还原度印刷效果，保证色彩鲜艳稳定。\n商标纸定做：支持客户自有商标设计定制，印刷精细、色彩准确，提升产品辨识度。\n包装厂家定做：灵活的生产能力，满足批量小、批量大不同订单需求，保证交期及时。\n通过以上服务，客户能够获得专业、快捷、贴合需求的包装印刷解决方案，增强产品市场竞\n争力。\n行业知识问答\n为帮助客户更好理解高档礼盒包装及印刷行业，这里整理常见问题及解答：\n问题解答\n什么是纸盒包装？ 纸盒包装是使用纸质材料制成的容器，用于保护和展示产品，具有轻便环保的特点，广泛应用于礼品、食品、电器等领域。\n包装印刷有哪些常见工艺？ 包括四色印刷、烫金、压纹、UV光油、哑膜/亮膜覆膜等工艺，这些工艺能够增强包装的视觉效果及触感。\n商标纸定做有什么优势？ 商标纸定做可以精准体现品牌形象，提高消费者识别度，避免假冒伪劣，是品牌保护的重要措施。\n如何确保包装质量？ 通过选用优质原材料，配备先进设备，建立严格质检流程，保证每批次产品符合国际和客户标准。\n深圳市瑞祥纸品包装有限公司提供的\n定制服务包含哪些？ 涵盖纸盒结构设计、印刷图稿制作、样品打样、批量生产、包装物流配送等一条龙服务。\n价格如何能保持竞争力？ 结合技术提升和工厂直销模式，消除中间环节，使价格更合理，性价比突出。\n执行标准及质量保障\n2026甄选外贸高档礼盒印刷项目严格遵守行业相关标准，确保产品品质达到国际贸易要求。\n标准类别执行内容意义\n环保标准 采用绿色环保材料，符合国家环保法规及出口目的国要求 保障产品对环境无害，增加绿色采购优势\n印刷质量标准 严格控制色彩及印刷误差，确保图文清晰无色差 提升产品视觉品质，增强品牌形象\n包装结构标准 设计符合产品保护需求，耐压、防潮、防震 确保物流运输安全，减少破损率\n生产过程",
+      "publish_time": "2026年05月27日 05:22:00(CST) 星期三",
+      "extra": {
+        "rel_info": "相关",
+        "freshness_info": "一般满足时效需求",
+        "auth_info": "正常权威",
+        "final_ref": ""
+      }
+    },
+    {
+      "url": "https://www.dhgate.com/wholesale/boxes+from+japan.html",
+      "logo_url": "https://p3-volcsearch-sign.byteimg.com/isp-i18n-media/image/945b10ed487fcdbdbd5270f5bf123cde~tplv-obj.jpeg?lk3s=7acb411c&scene=volc_search&x-expires=1844500240&x-signature=o1MYL69hm5qq8KUKTlyOdGrBGYs%3D",
+      "site_name": "DHgate",
+      "title": "Buy Boxes From Japan Wholesale in Bulk | DHgate",
+      "summary": "S $14.08\nUS $0.17\nUS $12.42\nUS $1.39\nUS $22.93\nUS $14.64\nMOQ: 500 Pieces\nCustom packaging corrugated color card top and bottom boxes, product outer packaging, custom airplane boxes\nUS $0.04 / Piece\nMOQ: 100 Pieces\nColorful Corrugated Airplane Packaging Boxes - Custom Double-Sided Printing with Logo - Small Batch High-End Clothing Gift Boxes\nUS $0.08 - 0.09 / Piece\nMOQ: 100 Pieces\nColorful Corrugated Packaging Boxes - Custom Double-Sided Printed Paper Boxes with Logo - Small Batch High-End Packaging\nUS $0.08 - 0.09 / Piece\nMOQ: 500 Pieces\nCustom gift custom packaging boxes, can be printed with logo, gold and silver foil stamping, printing, flip-top, foldable book-style, drawer-style color boxes\nUS $0.04 - 0.05 / Piece\nMOQ: 100 Pieces\nSmall Batch Carton Boxes - Custom Corrugated Outer Boxes for Express Logistics Packaging with Gift Box Printing\nUS $0.15 - 0.17 / Piece\nMOQ: 100 Pieces\nGift Color Airplane Corrugated Drawer Boxes - Custom Packaging for Cosmetics, Pharmaceuticals, and Food Products\nUS $0.04 / Piece\nMOQ: 3000 Pieces\nPackaging White Cardboard Cosmetic Boxes - Small Batch Corrugated Paper Airplane Print - Durable Colorful Gift Packaging\nUS $2.82 / Piece\nMOQ: 500 Pieces\nCust",
+      "publish_time": "2026年06月11日 00:35:00(CST) 星期四",
+      "extra": {
+        "rel_info": "相关",
+        "freshness_info": "非常满足时效需求",
+        "auth_info": "正常权威",
+        "final_ref": ""
+      }
+    },
+    {
+      "url": "https://mobile-phone.taobao.com/chanpin/951c771fa2a0913b76c439847e4aae51bda95279f05923d6f6329e9d3d780760.html",
+      "logo_url": "https://p26-volcsearch-sign.byteimg.com/isp-i18n-media/image/ffc3689b2ac06cbd68fccadad264ce37~tplv-obj.jpeg?lk3s=7acb411c&scene=volc_search&x-expires=1844500240&x-signature=9Gv6lmBsAYqrT3L4JNRcKQ%2BRPFo%3D",
+      "site_name": "淘宝",
+      "title": "共找到20769件",
+      "summary": "共找到20769件\n办公商务礼盒\n商品\n公司商务小礼品可定制logo展会活动周年纪念实用宣传伴手礼送客户\n¥ 33.90 100+人付款 广东 深圳\n壹酷创意集市\n公司小米充电宝保温杯伴手礼盒装送员工客户高档商务礼品定制logo\n¥ 48.00 900+人付款 广东 汕头\n物尚恩语旗舰店\n笔记本定制节日送礼礼盒2026新款实用高档商务礼盒装送英雄钢笔墨水企业办公定制logo套装记事日记本可刻字\n¥ 17.80 300+人付款 四川 成都\n卡咪迪旗舰店\n2026年办公商务台历架定制创意记事本日历办公桌面摆件笔筒印LOGO\n¥ 40.00 900+人付款 浙江 温州\n千涵工艺\n笔记本定制可印logo商\n务办公 会议a5本子封面订做礼品盒套装记事本\n¥ 6.50 800+人付款 河南 郑州\n鸿运办公专注定制工厂店\n精品 PU皮质礼品盒 定制印logo 金属钢笔盒签字笔包装盒 商务文具\n¥ 12.00 500+人付款 浙江 金华\n水晶笔之家\n普洱茶包装盒 福鼎白茶茶饼包装盒357克茶盒普洱茶礼盒空盒单饼盒\n¥ 7.50 2000+人付款 云南 昆明\n康乐茶城睿铭包装厂\n2026新款信阳毛尖礼盒空盒高档茶叶包装盒绿茶通用半斤一斤装定制\n¥ 18.80 700+人付款 江西 萍乡\n天辰包装\n春茶茶叶包装礼盒龙井碧螺春红茶毛尖半斤装红茶绿茶礼盒 空盒定制\n¥ 19.80 76人付款 江西 萍乡\n原色包装 \n源头工厂 快速定制\n莲朝保温杯伴手礼笔记本礼盒 套装定制可印logo高档实用水杯本子公司年会活动宣传商务 礼品学校校庆纪念品礼物\n¥ 45.00 500+人付款 湖北 武汉\n莲朝旗舰店\n定制高档商务软皮面笔记本本子可印logo高颜值2026新款复古加厚企业公司工作办公a5礼盒b5会议记录记事本定做\n¥ 13.80 1000+人付款 江西 南昌\n继彩旗舰店\n商务伴手礼实用小礼品公司年会活动商务创意定制礼物员工生日礼物\n¥ 17.16 100+人付款 浙江 金华\n芊梵设计高端礼品\n2026绿茶茶叶包装空礼盒高档半斤两罐碧螺春明前龙井毛尖一斤通用\n¥ 20.00 500+人付款 福建 泉州\n爱尚茶包装 \n源头工厂\n高颜值商务笔记本套装定制logo礼物精致A5公司会议活动展会礼品盒\n¥ 40.99 67人付款 广东 广州\n雅致本册\n优文保温杯伴手礼笔记本礼盒 套装定制咖啡杯雨伞本子礼袋可印logo公司商务水杯年会高档文创学校纪念礼物实用\n¥ 45.00 700+人付款 湖北 武汉\n优文品轩旗舰店\n新款商务高档笔记本本子定制可印logo签字笔u盘礼盒定制签字笔刻字加厚学习办公记事本皮面本企业礼品定做\n¥\n30.00\n上海\n碧茂办公用品专营店\n笔记本礼盒定制可印logo商务 办公记事本高档保温杯套装定做企业活动伴手礼年会礼品教师节礼物送老师免费刻字\n¥ 7.80 900+人付款 浙江 温州\nssba成晟",
+      "publish_time": "2026年05月07日 00:00:00(CST) 星期四",
+      "extra": {
+        "rel_info": "相关",
+        "freshness_info": "一般满足时效需求",
+        "auth_info": "正常权威",
+        "final_ref": ""
+      }
+    },
+    {
+      "url": "https://chinese.alibaba.com/g/brand-name-box.html",
+      "logo_url": "https://p11-volcsearch-sign.byteimg.com/isp-i18n-media/image/986af8016cf1bb363d359655ed26fbb2~tplv-obj.jpeg?lk3s=7acb411c&scene=volc_search&x-expires=1844500240&x-signature=m9vUX4RURu9mlrPdtueo24fcaJc%3D",
+      "site_name": "阿里巴巴中国站",
+      "title": "品牌名称框(999+)  2026-05-14",
+      "summary": "想的酒盒，可以完美地保护玻璃，陶瓷物品。这些。 品牌名称框经过UV涂层，层压和防水处理，并具有很高的耐高温性。\n浏览各式各样的内容。 品牌名称框可以在Alibaba.com上购买并节省大量资金的这些产品。这些产品已经过认证，可以定制设计。领导。站点上的品牌名称框 供应商和批发商在批量订购后以有竞争力的价格提供产品。\n硬纸板2毫米厚度抽屉式礼品盒，外面印有品牌标志\nUS$0.25-0.80\n<p>最小起订量</p>: 500 boxes\n7 yrs\n·\nCN\n定制紫罗兰紫色香水纸盒，带铰链盖金箔植物设计，用于品牌化妆品香味包装\nUS$0.24-0.42\n<p>最小起订量</p>: 1000 piec\n，内部包装为缎面\nUS$0.25-0.65\n<p>最小起订量</p>: 500 pieces\n6 yrs\n·\nCN\ncertified\n磁性书形盒定制标志实心硬纸板磁铁包装纸质礼品盒\nUS$0.01-0.03\n<p>最小起订量</p>: 2 pieces\n4 yrs\n·\nCN\ncertified\n奢华定制logo可折叠磁性盒粉色纸护肤霜化妆品产品礼品盒包装可折叠\nUS$0.30-0.80\n<p>最小起订量</p>: 500 pieces\n10 yrs\n·\nCN\ncertified\n定制高级豪华大包装纸板纸连帽衫鞋衣服磁性独家产品包装盒带标志\nUS$0.10-1.29\n<p>最小起订量</p>: 5\n0 pieces\n14 yrs\n·\nCN\ncertified\n定制豪华大型高级磁性闭合翻盖刚性纸板包装盒哑光纸礼品盒带标志包装\nUS$0.10-0.29\n<p>最小起订量</p>: 2 pieces\n8 yrs\n·\nCN\n定制白色豪华皮箱公文包蜂蜜鱼子酱化妆盒纪念品木质储物盒婴儿记忆\nUS$2.90-6.90\n<p>最小起订量</p>: 100 sets\n6 yrs\n·\nCN\n批发定制品牌标志强力瓦楞包装邮件发货普通纸箱批发新材料\nUS$0.13-0.26\n<p>最小起订量</p>: 100 pieces\n3 yrs\n·\nCN\n定制品牌标志包装纸箱卡哈斯瓦楞邮件服装粉色小企业装运箱\nUS$0.38\n-0.98\n<p>最小起订量</p>: 500 pieces\n16 yrs\n·\nCN\n压花标志纸板箱，用于高级包装，可定制品牌，非常适合奢华礼品和零售展示\nUS$0.01-0.05\n<p>最小起订量</p>: 300 pieces\n6 yrs\n·\nCN\n定制品牌标志包装纸箱卡哈斯瓦楞邮件服装粉色小企业装运箱\nUS$0.08-0.58\n<p>最小起订量</p>: 2 pieces\n·\nHK\ncertified\n定制品牌名称生态分隔器松露巧克力盒包装磁性刚性巧克力盒带盖和插入\nUS$0.20-1.98\n<p>最小起订量</p>: 2 pieces\n10 yrs\n·\nCN\n定制品牌名称印刷2/3/5/7",
+      "publish_time": "2026年05月14日 00:00:00(CST) 星期四",
+      "extra": {
+        "rel_info": "相关",
+        "freshness_info": "一般满足时效需求",
+        "auth_info": "正常权威",
+        "final_ref": ""
+      }
+    }
+  ]
+}

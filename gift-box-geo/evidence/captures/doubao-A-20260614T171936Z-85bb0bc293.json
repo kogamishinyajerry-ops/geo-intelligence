@@ -1,0 +1,115 @@
+{
+  "id": "doubao-A-20260614T171936Z-85bb0bc293",
+  "schema_version": "0.2.0",
+  "engine": "doubao",
+  "engine_model": "doubao-1-5-pro-32k-250115",
+  "query": "送意大利客户的高端礼盒选什么 意大利人重设计品味",
+  "buyer_segment": "A",
+  "timestamp": "2026-06-14T17:19:36.907931Z",
+  "raw_answer": "为注重设计品味的意大利客户挑选高端礼盒，可考虑以下几种选择：\n### 食品类\n- **意大利原装进口BABBI维尼森黑巧克力威化礼盒**：它是意大利老牌甜品，创立于1952年，专注高端手工巧克力和威化制作。礼盒整体设计极简干净，低奢简约，搭配专属定制礼袋，质感高级。威化采用纯可可脂黑巧克力涂层，有纯粹的可可醇香，黑巧风味微微带苦，回甘明显。\n- **VENCHI鱼子酱状巧克力礼盒**：义大利原装进口，采用夹心巧克力配方，不含代可可脂，提供纯正浓郁口感。有科莫、威尼斯、罗马等多种主题的金属书形礼盒设计，兼具艺术与收藏价值，还具备多种风味选择，富有文化寓意。\n- **意大利酒庄红酒礼盒装**：包装设计精美，大气的礼盒上印着精致图案，透露出浓浓的意大利风情。选用优质的葡萄，经过精心酿造和陈年，口感醇厚，风味独特，能带来浓郁的果香和丝滑的酒体。\n- **Dolce&Gabbana风味臻选礼盒**：包含西西里杏仁Colomba复活节蛋糕、西西里开心果潘妮朵尼面包等特色美食，将爱的心意化作珍贵礼物，充满意大利风味。\n\n### 香氛类\nDr.Vranjes馥意世藤条香薰蜡烛节日礼盒：源自1983年的意大利高端香氛品牌，带着文艺复兴的艺术基因。深酒红哑光礼盒搭配烫金浮雕logo，触感如高端皮具，透着低调贵气。藤条香薰与香薰蜡烛采用同款分层调香，精选全球天然植物精油，拒绝人工合成香精。无火藤条香薰香气均匀渗透不刺鼻，香薰蜡烛燃烧时无黑烟无异味。\n\n### 手工艺品和时尚美妆类\n- **穆拉诺玻璃首饰**：是威尼斯特色的手工艺品，色彩绚丽，可作为独特的伴手礼。\n- **佛罗伦萨植鞣革钱包**：托斯卡纳皮具的代表，质感优良，设计简约大方，体现了意大利的工艺品质。\n- **Santa Maria Novella香水**：源自佛罗伦萨的百年老店品牌，如“佛罗伦萨天使之水”与“修道院玫瑰”香水，包装复古，香味富有故事感。 ",
+  "raw_capture_path": "evidence/raw/doubao-A-20260614T171936Z-85bb0bc293.json",
+  "screenshot_path": null,
+  "is_mock": false,
+  "named_brands": [],
+  "cited_sources": [
+    {
+      "url": "https://post.m.smzdm.com/p/ak80d22r/",
+      "title": "高考送礼绝杀！意大利BABBI维尼森黑巧威化礼盒",
+      "domain": "post.m.smzdm.com",
+      "site_name": "什么值得买社区频道",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://post.m.smzdm.com/p/an5l3rop/",
+      "title": "✨马年送礼封神款｜Dr.Vranjes礼盒把托斯卡纳年味装进家",
+      "domain": "post.m.smzdm.com",
+      "site_name": "什么值得买社区频道",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://post.m.smzdm.com/p/ad7xdm0n/",
+      "title": "送谁都夸！🇮🇹意大利伴手礼20选",
+      "domain": "post.m.smzdm.com",
+      "site_name": "什么值得买社区频道",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.taobao.com/list/item/581113309823.htm",
+      "title": "VENCHI鱼子酱状巧克力礼盒 七夕情人节送礼首选 科莫主题书形礼盒 意大利进口夹心巧克力",
+      "domain": "www.taobao.com",
+      "site_name": "淘宝",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.3lipin.com/laowai/31691.html",
+      "title": "送意大利客户伴手礼送什么？兼顾文化尊重、实用价值与东方美学的12款高情商选择指南",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://post.smzdm.com/p/agwqnvr3/",
+      "title": "闻绮(Venchi)进口黑巧克力薄片礼盒:诠释高端零食的奢华韵味",
+      "domain": "post.smzdm.com",
+      "site_name": "什么值得买",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://post.m.smzdm.com/p/al465q9e/",
+      "title": "🇮🇹自存一些意大利小众伴手礼清单",
+      "domain": "post.m.smzdm.com",
+      "site_name": "什么值得买社区频道",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://post.m.smzdm.com/talk/p/amvz77xv/",
+      "title": "520送礼就选Venchi艺术绮遇巧克力礼盒",
+      "domain": "post.m.smzdm.com",
+      "site_name": "什么值得买社区频道",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://post.m.smzdm.com/p/arrv6dkz/",
+      "title": "意大利酒庄红酒礼盒装，高档进口干红，送礼首选！",
+      "domain": "post.m.smzdm.com",
+      "site_name": "什么值得买社区频道",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.dolcegabbana.com/zh-hk/%E7%BE%8E%E9%A3%9F%E5%92%8C%E9%A5%AE%E5%93%81/%E7%BE%8E%E9%A3%9F/?originalQuery=Search-Show%3Fcgid=food-beverage-food",
+      "title": "Dolce&Gabbana® Italian gourmet food | DG®",
+      "domain": "www.dolcegabbana.com",
+      "site_name": "Dolce& Gabbana",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    }
+  ],
+  "product_cards": [],
+  "links": [],
+  "sentiment": "unscored",
+  "request_params": {
+    "endpoint": "https://ark.cn-beijing.volces.com/api/v3/bots/chat/completions",
+    "model": "bot-20260614150734-98qkm",
+    "attempt": 1
+  },
+  "parser_version": "0.2.0"
+}

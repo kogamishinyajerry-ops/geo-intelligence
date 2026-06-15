@@ -1,0 +1,115 @@
+{
+  "id": "doubao-A-20260614T172409Z-bb712e5ac6",
+  "schema_version": "0.2.0",
+  "engine": "doubao",
+  "engine_model": "doubao-1-5-pro-32k-250115",
+  "query": "送马来西亚客户的礼盒选什么合适",
+  "buyer_segment": "A",
+  "timestamp": "2026-06-14T17:24:09.474472Z",
+  "raw_answer": "为马来西亚客户挑选礼盒，可结合商务场合特点和马来西亚文化习俗来选，以下是一些合适的礼盒推荐：\n### 体现中国特色文化的礼盒\n- **文化艺术品礼盒**：可以选择如中国结、剪纸、书法作品等具有中国传统文化韵味的物品组成礼盒。中国结寓意吉祥如意；剪纸能展现中国民间艺术的魅力；书法作品则体现了中国书法的博大精深。这些礼物既具有观赏价值，又能传递中国文化。\n- **文具礼盒**：像笔、墨、纸、砚等文具，蕴含深厚的文化底蕴。例如一支精美的祥云笔，书写流畅，笔身上的龙纹设计象征权力和财富，符合商务场合送礼需求；一套文房四宝礼盒也能让客户体验中国书法的魅力。\n- **具有中国元素的家居装饰品礼盒**：例如玫瑰花烛台，能为客户的家增添温馨氛围，点燃蜡烛时营造浪漫神秘的感觉；中国的水晶球摆件，其纯净透明寓意着清澈和真诚。 \n### 马来西亚特色食品礼盒\n- **顶级白咖啡礼盒**：如怡保旧街场白咖啡礼盒，包装精美，是马来西亚极具代表性的饮品。选择低糖或无糖款，能照顾到健康需求，适合在会议后或拜访客户时共享。\n- **特色糕点礼盒**：槟城淡汶饼，外皮酥脆，内馅是甜咸交织的斑斓叶绿豆沙，口感独特且不易腻，适合配茶聊天；还可以选择融合南洋风味的娘惹糕点，如椰丝球、香兰椰丝卷、九层糕等，这些糕点不仅是味觉享受，还蕴含着吉祥寓意。\n- **榴莲制品礼盒**：如果客户喜爱榴莲，猫山王榴莲干或榴莲糖是不错的选择。真空冷冻干燥的榴莲干保留了浓郁香气，且方便携带；还有榴莲巧克力，将榴莲果肉与黑巧克力结合，是当地受欢迎的甜点。\n### 其他特色礼盒\n- **锡器制品礼盒**：皇家雪兰莪是全球顶级的锡镴品牌，选择小件的茶漏、名片夹或相框等组成礼盒，低调奢华，极具收藏价值，适合赠予重要合作伙伴。\n- **燕窝礼盒**：马来西亚是燕窝主产地，正规品牌的即食燕窝低糖且温润，适合作为礼物表达对客户的关怀。比如“过节送礼即食燕窝饮品8瓶礼盒装”，方便携带，能在会议间隙快速享用。 ",
+  "raw_capture_path": "evidence/raw/doubao-A-20260614T172409Z-bb712e5ac6.json",
+  "screenshot_path": null,
+  "is_mock": false,
+  "named_brands": [],
+  "cited_sources": [
+    {
+      "url": "https://www.madechango.com/study-guide/view/1690",
+      "title": "解析马来西亚不同场合伴手礼",
+      "domain": "www.madechango.com",
+      "site_name": "马到成功",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://post.m.smzdm.com/p/al35dqzp/",
+      "title": "🇲🇾马来西亚伴手礼不踩雷清单 | 附地址✨",
+      "domain": "post.m.smzdm.com",
+      "site_name": "什么值得买社区频道",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://post.m.smzdm.com/zz/p/a9k0dvv5/",
+      "title": "马来西亚伴手礼怎么选?本地人精选 6 大马必买特产_什么值得买",
+      "domain": "post.m.smzdm.com",
+      "site_name": "什么值得买社区频道",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.mafengwo.cn/mweng/wengdetail/?id=1838683761182551",
+      "title": "马来西亚8种吃货伴手礼，跟着买就对了!",
+      "domain": "m.mafengwo.cn",
+      "site_name": "马蜂窝",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://qifu.zcqtz.com/article/106019.html",
+      "title": "送马来西亚人什么礼物(马来西亚人礼物推荐)",
+      "domain": "qifu.zcqtz.com",
+      "site_name": "丝路企服",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.mafengwo.cn/mweng/wengdetailssr/weng?id=1841123658056935",
+      "title": "菲芘快乐分享的旅行笔记-马蜂窝",
+      "domain": "m.mafengwo.cn",
+      "site_name": "马蜂窝",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://wiki.1688.com/zh/birdsnest/WKfhtoel1b18g0",
+      "title": "马来西亚燕窝：天然滋养的东方瑰宝，品质之选与健康之礼",
+      "domain": "wiki.1688.com",
+      "site_name": "1688买家百科",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://sichuanhong.com/content/202511/2540405.html",
+      "title": "在马来西亚买什么手信最好？",
+      "domain": "sichuanhong.com",
+      "site_name": "北京红网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.3lipin.com/laowai/24242.html",
+      "title": "圣诞节送马来西亚人什么中国礼物合适 圣诞节赠马来西亚客户，精选中国礼品纪念品传递文化与祝福",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://sczil.com/a220034",
+      "title": "马来西亚中国人最喜欢的特产名单",
+      "domain": "sczil.com",
+      "site_name": "保利智眸 POLY ZhiMou Service System",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    }
+  ],
+  "product_cards": [],
+  "links": [],
+  "sentiment": "unscored",
+  "request_params": {
+    "endpoint": "https://ark.cn-beijing.volces.com/api/v3/bots/chat/completions",
+    "model": "bot-20260614150734-98qkm",
+    "attempt": 1
+  },
+  "parser_version": "0.2.0"
+}

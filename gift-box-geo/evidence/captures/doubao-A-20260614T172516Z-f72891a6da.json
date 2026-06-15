@@ -1,0 +1,115 @@
+{
+  "id": "doubao-A-20260614T172516Z-f72891a6da",
+  "schema_version": "0.2.0",
+  "engine": "doubao",
+  "engine_model": "doubao-1-5-pro-32k-250115",
+  "query": "送北欧瑞典客户的高端礼盒推荐",
+  "buyer_segment": "A",
+  "timestamp": "2026-06-14T17:25:16.365111Z",
+  "raw_answer": "为你推荐以下几种适合送给北欧瑞典客户的高端礼盒：\n### 香氛类\n- **Skandinavisk香薰礼盒**：主打北欧极简美学，采用100%天然大豆蜡和棉芯，燃烧无黑烟和刺鼻气味，可持续燃烧约60小时。包含经典款、限定款、季节款三支独立包装蜡烛，香味层次丰富，初调有冷杉与雪松，中调为苔藓与白麝香，尾调具木质沉静感，能营造“冬日森林氧吧”氛围。可以平衡现代人焦虑情绪，且通过欧盟CE认证及SGS环保检测。\n- **百瑞德香水礼盒**：瑞典香氛品牌，包装极简高级，适合追求小众审美的人群。其香水能带来独特的嗅觉体验，展现优雅与品味。\n- **Mälaren香水** ：灵感源于瑞典自然风景，香气清新自然，让人仿佛置身于瑞典的湖泊与森林之间。瓶身设计极简，清透且线条优美，适合追求自然生活方式的客户。\n\n### 生活家居类\n- **沃尔沃汽车模型**：沃尔沃代表着安全、可靠与环保的汽车制造理念。免税店中的精工沃尔沃汽车模型，如XC90或经典P1800模型，细节逼真，象征着稳固、信任与长远发展，适合送给重要的男性商业伙伴。\n- **欧瑞诗水晶制品礼盒**：瑞典皇室御用品牌，每一件作品都凝聚了百年玻璃工艺的结晶，切割精准，流光溢彩。例如水晶威士忌杯或花瓶，无论是装饰办公室还是作为对卓越合作伙伴的敬意表达，都能提升格调。\n- **Georg Jensen不锈钢保温壶**：虽为丹麦品牌但在瑞典很流行，Drip - Free Kettle线条流畅，保温性能极佳，是北欧设计的典范。\n- **Design House Stockholm灯具或地毯**：该品牌集合了众多北欧设计师，Snowball（雪球）台灯或Fogia的Tobbe地毯，是经典之作。若预算有限，也可考虑文具系列或玻璃器皿。\n- **Svenskt Tenn印花茶巾或帆布袋**：瑞典皇室御用品牌，以绚丽的Josef Frank风格印花著称，图案极具辨识度，可挂在厨房或背在街上。\n\n### 时尚配饰类\n- **北极狐背包**：经典的Kanken背包设计简约实用、坚固耐用，风靡全球。选择色彩雅致的款式，能传递积极健康、探索自然的生活态度，且品牌倡导可持续发展理念，契合现代企业的社会责任价值观。\n- **Acne Studios围巾或配饰**：作为瑞典时尚先锋，其羊毛围巾柔软保暖、设计简约。在黑五或圣诞促销时购买，可享20 - 30%折扣。\n- **Samsonite瑞典限量版行李箱**：由瑞典工厂生产，带有北欧图案，外观独特，实用性强。\n\n### 食品类\n- **瑞典特色巧克力和糖果礼盒**：如Daim巧克力（杏仁焦糖夹心）、“Lördagsgodis”（周六糖果）混合包，包含各种口味的软糖和硬糖，色彩鲜艳，包装可爱。Cloetta的Kex Chocolate（夹心巧克力饼干）也是不错的选择。\n- **Västerbotten奶酪**：半硬质奶酪，是瑞典的国宝级食品，带有坚果风味。选择真空包装版本，便于过关，适合搭配咖啡享用，体验瑞典的“Fika”文化。\n- **Gravlax（腌渍三文鱼）**：推荐购买真空包装的“Svensk Lax”品牌，便于国际携带，搭配瑞典芥末酱，可作为开胃礼品。 ",
+  "raw_capture_path": "evidence/raw/doubao-A-20260614T172516Z-f72891a6da.json",
+  "screenshot_path": null,
+  "is_mock": false,
+  "named_brands": [],
+  "cited_sources": [
+    {
+      "url": "https://mgoods.taobao.com/t/xiangxunlazhu_3743/fe5489010b42e08280d67db0a1ecd098.html",
+      "title": "25年最新｜Skandinavisk蜡烛香薰礼盒卧室香氛必买！小众高级感送礼天花板",
+      "domain": "mgoods.taobao.com",
+      "site_name": "淘宝好物网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://sczil.com/a25894",
+      "title": "瑞典免税店必买清单（热销品推荐）",
+      "domain": "sczil.com",
+      "site_name": "保利智眸 POLY ZhiMou Service System",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.sohu.com/a/1024655479_122720375/",
+      "title": "高颜值伴手礼哪个品牌好",
+      "domain": "m.sohu.com",
+      "site_name": "手机搜狐网",
+      "auth_score": 0.3,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://wiki.1688.com/zh/gift-boxes/WKfm9gc7i5zqww",
+      "title": "欧式风格礼品盒：高端质感与实惠价格的完美碰撞",
+      "domain": "wiki.1688.com",
+      "site_name": "1688买家百科",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://www.siudz.com/news/rui-dian-te-se-ban-shou-li-bi-mai-qing-dan-yu-gou-wu-tui-shui-quan-gong-lve-mai-dui-li-wu-sheng-xia.html",
+      "title": "瑞典特色伴手礼必买清单与购物退税全攻略 买对礼物省下更多钱",
+      "domain": "www.siudz.com",
+      "site_name": "岁序智库",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.siudz.com/news/rui-dian-te-se-ban-shou-li-tui-jian-cong-bei-ji-guang-xia-de-ikea-jing-dian-dao-bei-ou-she-ji-xiao-w.html",
+      "title": "瑞典特色伴手礼推荐 从北极光下的IKEA经典到北欧设计小物 选购指南与避坑攻略",
+      "domain": "www.siudz.com",
+      "site_name": "岁序智库",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.sohu.com/a/1022424066_122645049/",
+      "title": "施丹兰护手霜礼盒：北欧进口的滋润保湿之选",
+      "domain": "m.sohu.com",
+      "site_name": "手机搜狐网",
+      "auth_score": 0.3,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.hkhotel193.com/hotels/%E7%91%9E%E5%85%B8%E5%BF%85%E8%B2%B7%E7%B2%BE%E5%93%81%E3%80%81%E8%A8%AD%E8%A8%88%E5%93%81%E7%89%8C%E8%88%87%E4%BC%B4%E6%89%8B%E7%A6%AE%E6%8E%A8%E8%96%A6/",
+      "title": "瑞典必买精品、品牌与伴手礼推荐，解锁北欧风格!",
+      "domain": "www.hkhotel193.com",
+      "site_name": "自由行GO",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.jiatianxiacm.com/post/123841.html",
+      "title": "瑞典有什么伴手礼",
+      "domain": "www.jiatianxiacm.com",
+      "site_name": "天下旅游网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://goods.taobao.com/t/yixing_1456/d19996f432e19fd5bbd4c3d44bc1ca6c.html",
+      "title": "🎉北欧风情，描金水晶酒杯套装，让你的派对瞬间升级🌟",
+      "domain": "goods.taobao.com",
+      "site_name": "淘宝好物网",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.3
+    }
+  ],
+  "product_cards": [],
+  "links": [],
+  "sentiment": "unscored",
+  "request_params": {
+    "endpoint": "https://ark.cn-beijing.volces.com/api/v3/bots/chat/completions",
+    "model": "bot-20260614150734-98qkm",
+    "attempt": 1
+  },
+  "parser_version": "0.2.0"
+}

@@ -1,0 +1,478 @@
+{
+  "id": "021781457833771f504b82143f6241d8073830594408a043f648c",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "为马来西亚客户挑选礼盒，可结合商务场合特点和马来西亚文化习俗来选，以下是一些合适的礼盒推荐：\n### 体现中国特色文化的礼盒\n- **文化艺术品礼盒**：可以选择如中国结、剪纸、书法作品等具有中国传统文化韵味的物品组成礼盒。中国结寓意吉祥如意；剪纸能展现中国民间艺术的魅力；书法作品则体现了中国书法的博大精深。这些礼物既具有观赏价值，又能传递中国文化。\n- **文具礼盒**：像笔、墨、纸、砚等文具，蕴含深厚的文化底蕴。例如一支精美的祥云笔，书写流畅，笔身上的龙纹设计象征权力和财富，符合商务场合送礼需求；一套文房四宝礼盒也能让客户体验中国书法的魅力。\n- **具有中国元素的家居装饰品礼盒**：例如玫瑰花烛台，能为客户的家增添温馨氛围，点燃蜡烛时营造浪漫神秘的感觉；中国的水晶球摆件，其纯净透明寓意着清澈和真诚。 \n### 马来西亚特色食品礼盒\n- **顶级白咖啡礼盒**：如怡保旧街场白咖啡礼盒，包装精美，是马来西亚极具代表性的饮品。选择低糖或无糖款，能照顾到健康需求，适合在会议后或拜访客户时共享。\n- **特色糕点礼盒**：槟城淡汶饼，外皮酥脆，内馅是甜咸交织的斑斓叶绿豆沙，口感独特且不易腻，适合配茶聊天；还可以选择融合南洋风味的娘惹糕点，如椰丝球、香兰椰丝卷、九层糕等，这些糕点不仅是味觉享受，还蕴含着吉祥寓意。\n- **榴莲制品礼盒**：如果客户喜爱榴莲，猫山王榴莲干或榴莲糖是不错的选择。真空冷冻干燥的榴莲干保留了浓郁香气，且方便携带；还有榴莲巧克力，将榴莲果肉与黑巧克力结合，是当地受欢迎的甜点。\n### 其他特色礼盒\n- **锡器制品礼盒**：皇家雪兰莪是全球顶级的锡镴品牌，选择小件的茶漏、名片夹或相框等组成礼盒，低调奢华，极具收藏价值，适合赠予重要合作伙伴。\n- **燕窝礼盒**：马来西亚是燕窝主产地，正规品牌的即食燕窝低糖且温润，适合作为礼物表达对客户的关怀。比如“过节送礼即食燕窝饮品8瓶礼盒装”，方便携带，能在会议间隙快速享用。 ",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1781457849,
+  "model": "doubao-1-5-pro-32k-250115",
+  "object": "chat.completion",
+  "bot_usage": {
+    "model_usage": [
+      {
+        "name": "doubao-1-5-pro-32k-250115",
+        "prompt_tokens": 5795,
+        "completion_tokens": 533,
+        "total_tokens": 6328
+      }
+    ],
+    "action_usage": [
+      {
+        "action_name": "content_plugin",
+        "count": 1
+      }
+    ],
+    "action_details": [
+      {
+        "name": "content_plugin",
+        "count": 1,
+        "tool_details": [
+          {
+            "name": "search",
+            "input": {
+              "queries": [
+                "适合送给马来西亚客户的礼盒"
+              ],
+              "source_type": [
+                "search_engine"
+              ],
+              "offset": 0,
+              "count": 10,
+              "account_id": 2114441818,
+              "video_token": ""
+            },
+            "output": {
+              "type": "tool",
+              "data": {
+                "status_code": 200,
+                "data": {
+                  "has_more": true,
+                  "results": [
+                    {
+                      "id": "f08498d1420f55d6-c105f49652b8a671",
+                      "source_type": "search_engine",
+                      "site_name": "马到成功",
+                      "title": "解析马来西亚不同场合伴手礼",
+                      "summary": "解析马来西亚不同场合伴手礼\n雾里看花\n2026-05-18 15:21\n摘要\n马来西亚的伴手礼，因其独特的多元文化融合（马来、中华、印度及土著风味）与浓郁的南洋风情，在不同的社交场合中，都能传递恰到好处的关怀与尊重。选择合适的伴手礼，不仅能表达心意，更能展现送礼者的周到。\n以下结合马来西亚特色，按不同场合为您解析：\n一、 职场与商务场合：体面、雅致、展现文化特色\n商务场合讲究稳重与品味，礼物应避免过于私人化或气味浓烈。\n· 推荐礼物：顶级白咖啡或锡器制品\n· 怡保旧街场白咖啡礼盒：包装精美，是马来西亚最具代表性的饮品。选择低糖或无糖款，照顾健康需求，适合会议后或拜访客户时共享。\n· 皇家雪兰莪锡器：这是全球顶级的锡镴品牌。小件的茶漏、名片夹或相框，低调奢华，极具收藏价值，适合赠予重要合作伙伴或领导。\n· 适合场景：\n· 公司拜访、商务会议、答谢客户、年终感谢。\n二、 亲友团聚与家宴：分享滋味、老少皆宜\n回国探亲或去朋友家做客，适合带一些能全家共享、有记忆点的食品。\n· 推荐礼物：淡汶饼或榴莲制品\n· 槟城淡汶饼：外皮酥脆，内馅是甜咸交织的斑斓叶绿豆沙，口感独特，不易腻，适合配茶聊天。\n· 猫山王榴莲干或榴莲糖：如果家人喜爱榴莲，这是极品。真空冷冻干燥的榴莲干保留了浓郁香气，且方便携带，适合作为给年轻朋友或家人的“勇敢者惊喜”。\n· 适合场景：\n· 春节、中秋节等传统节日回乡；亲戚聚餐；日常拜访。\n三、 探病或慰问：温和、天然、传递关怀\n此时礼物需温和、无刺激，最好具有安抚情绪或天然养生的属性。\n· 推荐礼物：马来西亚燕窝或豆蔻膏/豆蔻油\n· 即食燕窝：马来西亚是燕窝主产地，正规品牌的即食燕窝低糖且温润，适合术后或体弱的长辈，表达细致关怀。\n· 槟城豆蔻膏/油：对于肌肉酸痛或感冒鼻塞，豆蔻制品有传统舒缓效果。它不贵重，但非常贴心实",
+                      "publish_time": 1779060060,
+                      "url": "https://www.madechango.com/study-guide/view/1690",
+                      "cover_image": null,
+                      "search_plugin_data": {
+                        "doc_id": "f08498d1420f55d6-c105f49652b8a671",
+                        "logo_url": "https://p26-volcsearch-sign.byteimg.com/isp-i18n-media/image/cbc4283147d7efbaf278257fa4f1ad7a~tplv-obj.jpeg?lk3s=7acb411c&scene=volc_search&x-expires=1844529835&x-signature=DMhXua1HRwYViRBBsiGC8JNKqCI%3D",
+                        "auth_info": "正常权威",
+                        "auth_score": 0.5,
+                        "rel_info": "强相关",
+                        "rel_score": 1,
+                        "freshness_info": "一般满足时效需求",
+                        "freshness_score": 0.5,
+                        "final_ref": "",
+                        "final_ref_len": 0,
+                        "author_name": "",
+                        "duration": 0
+                      },
+                      "smart_content_data": null,
+                      "ruyi_data": null
+                    },
+                    {
+                      "id": "a67affd041bdaef7-188f37e96915ecf2",
+                      "source_type": "search_engine",
+                      "site_name": "什么值得买社区频道",
+                      "title": "🇲🇾马来西亚伴手礼不踩雷清单 | 附地址✨",
+                      "summary": "🇲🇾马来西亚伴手礼不踩雷清单 | 附地址✨\n源自小红薯：一只鸡蛋派\n04-17 16:29\n马来西亚旅游归来，针对当地热门伴手礼进行了实测与整理。选购攻略涵盖必买特产美食、南洋风情文创小物及特色冰箱贴三大类别，内容包含具体购买地点、价格对比及避坑建议，旨在提供一份实用的购物参考。\n01 特产美食：经典风味与价格优选\n华阳冰室咸咖啡\n马六甲特色伴手礼，风味独特且香气浓郁，适合咖啡爱好者。\n三叔公姜母茶及白咖啡\n马六甲老字号品牌。姜母茶为独立包装，口感醇厚；白咖啡包装精美，适合赠送偏好甜口或非重度咖啡饮用的朋友。\n屈臣氏豆蔻膏\n价格优势明显。在屈臣氏购买约66.5马币/5瓶，折合单瓶约13.3马币，相比其他店铺通常售价14.9至15.5马币/瓶更为划算，适合家庭采购。\n02 文创小物：吉隆坡中央艺术坊推荐\n吉隆坡中央艺术坊是购买南洋风情文创的主要场所，主打拼布与花布工艺。\n商品名称 价格 特点描述\n拼布杯垫 25 RM/个 采用双面设计，正面为拼布图案，背面为马来西亚特色花布，具有浓郁南洋风情。\n特色花布发圈 8-15 RM/个 花色多样，建议多询价比价，兼具美观与实用性。\n花布香薰手工皂 60 RM/10个 单款均价6 RM，包含不同香味，外包装精美，适合送礼或自用。\n吉隆坡中央艺术坊文创商品价格对比\n03 冰箱贴：地标打卡与低价攻略\n冰箱贴作为热门旅游纪念品，不同城市的景点与店铺价格差异较大，合理选择购买地点可节省预算。\n购买地点 参考价格 推荐款式与备注\n马六甲鸡场街老爷爷宝藏店 3 RM/个 全马最低价。推荐荷兰红屋、钟楼、圣地亚哥古城门、娘惹建筑及南洋咖啡款式。\n马六甲其他店铺 4 RM/个 或 10 RM/3个 价格相对较高，建议比价后再购买。\n槟城壁画街 市价 款式独特且偏向小众风格，适合寻找个性化纪念品的游客。\n榴莲煎蕊款式 5.9 RM/个 特定主题款，价格偏高。\n不同地区冰箱贴价格横向对比\n精选参考来源\n🇲🇾马来西亚伴手礼不踩雷清单 | 附地址✨\n一只鸡蛋派 2026-04-14\n",
+                      "publish_time": 1776096000,
+                      "url": "https://post.m.smzdm.com/p/al35dqzp/",
+                      "cover_image": null,
+                      "search_plugin_data": {
+                        "doc_id": "a67affd041bdaef7-188f37e96915ecf2",
+                        "logo_url": "https://p26-volcsearch-sign.byteimg.com/isp-i18n-media/image/1a44b9ef64d4f823f24d9493b4fe660a~tplv-obj.jpeg?lk3s=7acb411c&scene=volc_search&x-expires=1844529835&x-signature=3GNkvm5KQtIs2UjBV1k7Nb3kxe0%3D",
+                        "auth_info": "正常权威",
+                        "auth_score": 0.5,
+                        "rel_info": "强相关",
+                        "rel_score": 1,
+                        "freshness_info": "一般满足时效需求",
+                        "freshness_score": 0.5,
+                        "final_ref": "",
+                        "final_ref_len": 0,
+                        "author_name": "",
+                        "duration": 0
+                      },
+                      "smart_content_data": null,
+                      "ruyi_data": null
+                    },
+                    {
+                      "id": "6d7c8b1c87bc87fe-ff98d93f93b1a026",
+                      "source_type": "search_engine",
+                      "site_name": "什么值得买社区频道",
+                      "title": "马来西亚伴手礼怎么选?本地人精选 6 大马必买特产_什么值得买",
+                      "summary": "狮子头汤圆\n选伴手礼，其实挑的是那份能代表当地生活气息的小物。像肉骨茶包、白咖喱面这类食品，既接地气又方便携带，比香水或巧克力更有记忆点，毕竟味道最能唤起旅行的回忆\n马来西亚伴手礼怎么选？本地人精选 6 大马必买特产\n文章介绍了马来西亚的六种必买特产，包括方便携带的肉骨茶汤料包、著名的榴莲巧克力品牌Beryl's、荣获全球美味泡面第一名的MyKuali槟城白咖喱面、口感醇香的OldTown白咖啡、本土时尚品牌Padini及其旗下品牌Vincci的服饰和鞋包，以及马来西亚本土香水品牌Legendary的兰花香水和其他受欢迎的香水系列。\n",
+                      "publish_time": 1762516560,
+                      "url": "https://post.m.smzdm.com/zz/p/a9k0dvv5/",
+                      "cover_image": null,
+                      "search_plugin_data": {
+                        "doc_id": "6d7c8b1c87bc87fe-ff98d93f93b1a026",
+                        "logo_url": "https://p11-volcsearch-sign.byteimg.com/isp-i18n-media/image/1a44b9ef64d4f823f24d9493b4fe660a~tplv-obj.jpeg?lk3s=7acb411c&scene=volc_search&x-expires=1844529835&x-signature=F7KeHQc3zmDDasnTuK43duNK46Y%3D",
+                        "auth_info": "正常权威",
+                        "auth_score": 0.5,
+                        "rel_info": "强相关",
+                        "rel_score": 1,
+                        "freshness_info": "一般满足时效需求",
+                        "freshness_score": 0.5,
+                        "final_ref": "",
+                        "final_ref_len": 0,
+                        "author_name": "",
+                        "duration": 0
+                      },
+                      "smart_content_data": null,
+                      "ruyi_data": null
+                    },
+                    {
+                      "id": "6ef6d083ea2caae0-21944102b5944802",
+                      "source_type": "search_engine",
+                      "site_name": "马蜂窝",
+                      "title": "马来西亚8种吃货伴手礼，跟着买就对了!",
+                      "summary": "吃西瓜的熊\n6月前\n马来西亚\n马来西亚8种吃货伴手礼，跟着买就对了！\n这趟大马之旅真的让我大开眼界！不仅风景美、人热情，吃的更是多到买不完🤤 分享我帮朋友们精挑细选的8款【超好吃】【好带回国】【包装高级】的伴手礼🎁 尤其【榴莲宝宝DurianBB】的产品，强烈建议多囤几盒！ 1️⃣ 榴莲酥｜DurianBB Musang Cake 📍DurianBB Lot 10 包装像日系礼盒，质感满满！内有独立包装的猫山王榴莲酥，不加香精和防腐剂，保存期3周。 外酥内浓，榴莲香气超级足，我还特别送了一个给领导，超有面子！ 2️⃣ Beryl’s 巧克力 📍Beryl’s Lot 10（茨厂街店也推荐） 本地品牌巧克力，最爱Tiramisu系列，抹茶杏仁、薄荷、牛奶口\n拍摄于 2025-08-05\n",
+                      "publish_time": 1754323200,
+                      "url": "https://m.mafengwo.cn/mweng/wengdetail/?id=1838683761182551",
+                      "cover_image": null,
+                      "search_plugin_data": {
+                        "doc_id": "6ef6d083ea2caae0-21944102b5944802",
+                        "logo_url": "https://p3-volcsearch-sign.byteimg.com/isp-i18n-media/image/354db5405c8065380645ac8f41548b0e~tplv-obj.jpeg?lk3s=7acb411c&scene=volc_search&x-expires=1844529835&x-signature=UY91n91hRG0PxCP9QYX8yI0894c%3D",
+                        "auth_info": "正常权威",
+                        "auth_score": 0.5,
+                        "rel_info": "强相关",
+                        "rel_score": 1,
+                        "freshness_info": "一般满足时效需求",
+                        "freshness_score": 0.5,
+                        "final_ref": "",
+                        "final_ref_len": 0,
+                        "author_name": "",
+                        "duration": 0
+                      },
+                      "smart_content_data": null,
+                      "ruyi_data": null
+                    },
+                    {
+                      "id": "b834ed3a7114fd65-f95a46faac20b304",
+                      "source_type": "search_engine",
+                      "site_name": "丝路企服",
+                      "title": "送马来西亚人什么礼物(马来西亚人礼物推荐)",
+                      "summary": "意避免一些可能引起误解或不适的礼物类型。比如，刀具（包括剪刀、瑞士军刀等）在许多文化中象征着割断关系，不宜作为礼物；钟表（尤其是送给长辈）在中文语境中有“送终”之意，也应避免；此外，过于昂贵或奢侈的礼物可能会让对方感到压力，认为你有求于他或试图贿赂，反而适得其反。\n四、具体推荐及理由\n1. 特色食品礼盒：如中国的茶叶、糕点或是马来西亚本地不易买到的特色零食，既能满足味蕾，又能展现你的用心。\n2. 文化艺术品：如中国结、剪纸、书法作品或是马来西亚特色的银制饰品、蜡染布料，这些既具有观赏价值，又能传递文化韵味。\n3. 体验类礼物：如预订一次SPA按摩、烹饪课程或是户外探险活动，让对方享受一段特别的时光，增进彼此间的情感交流。\n4. 书籍或音乐专辑：根据对方的兴趣选择一本好书或是一张他们喜欢歌手的音乐专辑，既体现了你对他们的了解，也是一份精神食粮。\n五、结语：用心选择，传递温暖\n最终，送礼物的意义在于表达情感和增进理解，而不仅仅是物质上的交换。在为马来西亚朋友挑选礼物时，最重要的是用心去了解他们的文化、兴趣和需求，让每一份礼物都承载着真诚与祝福。无论礼物的大小或价值如何，只要它能够触动人心，就是最完美的赠予。\n",
+                      "publish_time": 1732366740,
+                      "url": "https://qifu.zcqtz.com/article/106019.html",
+                      "cover_image": null,
+                      "search_plugin_data": {
+                        "doc_id": "b834ed3a7114fd65-f95a46faac20b304",
+                        "logo_url": "https://p3-volcsearch-sign.byteimg.com/isp-i18n-media/image/7621223d2749454ddb18c84ef26e568d~tplv-obj.jpeg?lk3s=7acb411c&scene=volc_search&x-expires=1844529835&x-signature=4OOOoREgh%2BLY9T8H%2Br7kV7KMW7M%3D",
+                        "auth_info": "正常权威",
+                        "auth_score": 0.5,
+                        "rel_info": "强相关",
+                        "rel_score": 1,
+                        "freshness_info": "一般满足时效需求",
+                        "freshness_score": 0.5,
+                        "final_ref": "",
+                        "final_ref_len": 0,
+                        "author_name": "",
+                        "duration": 0
+                      },
+                      "smart_content_data": null,
+                      "ruyi_data": null
+                    },
+                    {
+                      "id": "565c8f219f726f4f-f27f2017bc087cea",
+                      "source_type": "search_engine",
+                      "site_name": "马蜂窝",
+                      "title": "菲芘快乐分享的旅行笔记-马蜂窝",
+                      "summary": "菲芘快乐分享 2国3城\n8月前\n马来西亚\n马来西亚2025年度最热门伴手礼\n2025年最热门的马来西亚伴手礼新鲜出炉啦！来到马来西亚，千万不能空手而归。今年旅客最爱带走的伴手礼，依旧以“好吃、好用、好看”为主打。 榴莲制品稳坐榜首，都是必买首选；白咖啡依然是经典，香醇顺滑，男女老少都爱；肉骨茶包则让你在家也能煮出道地风味。 除了美食，东马砂拉越的胡椒、娘惹风味小点、椰子糖、传统手工蜡染（Batik）和精美锡器，也是国际游客最爱的伴手礼。既能代表马来西亚的文化特色，又实用有意义，难怪是2025年的送礼首选！\n马来西亚伴手礼\n马来西亚什么值得买\n手信\n白咖啡\n榴莲\n榴莲冰箱贴\n吉隆坡\n马来西亚\n拍摄于 2025-08-22\n走走停停：\n不一样的旅程，欣赏！\n自由自在：\n抽空去体验一下\n",
+                      "publish_time": 1755792000,
+                      "url": "https://m.mafengwo.cn/mweng/wengdetailssr/weng?id=1841123658056935",
+                      "cover_image": null,
+                      "search_plugin_data": {
+                        "doc_id": "565c8f219f726f4f-f27f2017bc087cea",
+                        "logo_url": "https://p3-volcsearch-sign.byteimg.com/isp-i18n-media/image/354db5405c8065380645ac8f41548b0e~tplv-obj.jpeg?lk3s=7acb411c&scene=volc_search&x-expires=1844529835&x-signature=UY91n91hRG0PxCP9QYX8yI0894c%3D",
+                        "auth_info": "正常权威",
+                        "auth_score": 0.5,
+                        "rel_info": "强相关",
+                        "rel_score": 1,
+                        "freshness_info": "一般满足时效需求",
+                        "freshness_score": 0.5,
+                        "final_ref": "",
+                        "final_ref_len": 0,
+                        "author_name": "",
+                        "duration": 0
+                      },
+                      "smart_content_data": null,
+                      "ruyi_data": null
+                    },
+                    {
+                      "id": "b330b04221731293-86808129891241d9",
+                      "source_type": "search_engine",
+                      "site_name": "1688买家百科",
+                      "title": "马来西亚燕窝：天然滋养的东方瑰宝，品质之选与健康之礼",
+                      "summary": "窝’，正是我最青睐的商务礼赠之选。它不仅具备高端健康属性，更拥有极强的价值感与稀缺性。比如‘CAIQ马来西亚五星溯源燕窝干盏’，其单价高达354.73元/50克 ，但其溯源码覆盖率100%，且由‘广州颐源滋补批发’等实力商家提供，确保了每一笔交易的可追溯性。在2026年4月初这个关键节点，我正为重要客户准备一份商务礼盒，特意选择了‘过节送礼即食燕窝饮品8瓶礼盒装’，既方便携带，又能在会议间隙快速享用，无需复杂准备，高效又体面。其背后供应商‘1688选品中心官方供应链’，粉丝量已突破20.18万，并且拥有96.27%的30天响应率，说明其服务体系成熟。更重要的是，这类高端燕窝已形成‘高价值、高信任、高复购’的良性循环。选择马来西亚燕窝，不仅是送礼，更是传递一种对合作方的尊重与期待。在这个强调信任与效率的时代，一份有品质背书的燕窝，就是最好的沟通桥梁。\n",
+                      "publish_time": 1775088180,
+                      "url": "https://wiki.1688.com/zh/birdsnest/WKfhtoel1b18g0",
+                      "cover_image": null,
+                      "search_plugin_data": {
+                        "doc_id": "b330b04221731293-86808129891241d9",
+                        "logo_url": "https://p11-volcsearch-sign.byteimg.com/isp-i18n-media/image/a48ee4706bb50cae62bfe6cc7a9638ee~tplv-obj.jpeg?lk3s=7acb411c&scene=volc_search&x-expires=1844529835&x-signature=G0S%2BS%2FHoNvvsqy6FYEjQV%2FJ5Rec%3D",
+                        "auth_info": "正常权威",
+                        "auth_score": 0.5,
+                        "rel_info": "强相关",
+                        "rel_score": 1,
+                        "freshness_info": "一般满足时效需求",
+                        "freshness_score": 0.5,
+                        "final_ref": "",
+                        "final_ref_len": 0,
+                        "author_name": "",
+                        "duration": 0
+                      },
+                      "smart_content_data": null,
+                      "ruyi_data": null
+                    },
+                    {
+                      "id": "4f1b62b39db2599d-b8429cd6618d4177",
+                      "source_type": "search_engine",
+                      "site_name": "北京红网",
+                      "title": "在马来西亚买什么手信最好？",
+                      "summary": "在马来西亚买什么手信最好？\n2026-04-30\n马来西亚流行的手写信件：\n1.榴莲巧克力 。马来西亚是亚太地区最大的可可生产国 。除了巧克力，可可还被用来制作沐浴露、美容和彩妆产品 。马来西亚的巧克力制造商很好地利用了该国丰富的榴莲特色，由榴莲果肉结合黑巧克力制成的榴莲巧克力成为许多游客爱不释手的甜点 。\n1.BOH袋泡茶 。马来西亚金马伦高地出产的红茶和绿茶价格非常合理实惠，质量处于中上水平，所以BOH袋泡茶成为了很多游客喜爱的手信 。还有很多造型独特，口感好的茶包 。\n【在马来西亚买什么手信最好？】3.马来西亚的白咖啡 。这是不加焦糖的咖啡豆\n",
+                      "publish_time": 1777478400,
+                      "url": "http://sichuanhong.com/content/202511/2540405.html",
+                      "cover_image": null,
+                      "search_plugin_data": {
+                        "doc_id": "4f1b62b39db2599d-b8429cd6618d4177",
+                        "logo_url": "https://p26-volcsearch-sign.byteimg.com/isp-i18n-media/img/1520d895528b8eaf9fb610d94e60e6ee~tplv-obj.jpeg?lk3s=7acb411c&scene=volc_search&x-expires=1844529835&x-signature=v3niGJ7THqhg4qxH9%2B9GASJsLA8%3D",
+                        "auth_info": "正常权威",
+                        "auth_score": 0.5,
+                        "rel_info": "强相关",
+                        "rel_score": 1,
+                        "freshness_info": "一般满足时效需求",
+                        "freshness_score": 0.5,
+                        "final_ref": "",
+                        "final_ref_len": 0,
+                        "author_name": "",
+                        "duration": 0
+                      },
+                      "smart_content_data": null,
+                      "ruyi_data": null
+                    },
+                    {
+                      "id": "b453ccced9ff2cf6-feb7abbee42a614f",
+                      "source_type": "search_engine",
+                      "site_name": "信尚礼品 信尚文创",
+                      "title": "圣诞节送马来西亚人什么中国礼物合适 圣诞节赠马来西亚客户，精选中国礼品纪念品传递文化与祝福",
+                      "summary": "圣诞节送马来西亚人什么中国礼物合适 圣诞节赠马来西亚客户，精选中国礼品纪念品传递文化与祝福\n随着全球化的推进，圣诞节这一西方传统节日已逐渐被世界各地的人们所接受和喜爱，在这样一个充满欢乐与祝福的日子里，给远在马来西亚的客人朋友送上一份精心挑选的中国礼物，不仅能表达节日的祝福，还能加深彼此间的友谊与合作，在琳琅满目的中国商品中，哪些礼物既具有中国特色，又能贴合马来西亚友人的喜好呢？\n一、寓意吉祥的文具\n文具作为日常办公的必需品，既实用又具有文化内涵，中国的文具，如笔、墨、纸、砚等，都蕴含着深厚的文化底蕴，一支精美的中国笔，如祥云笔，不仅书写流畅，更寓意着吉祥和顺利，笔身上的龙纹设计，象征着权力和财富，非常符合商务场合的送礼选择，一套文房四宝礼盒也是极佳的选择，它包含了中国传统书法的所有必需品，既体现了送礼人的用心，也能让客户在闲暇之余体验中国书法的魅力。\n二、具有中国元素的家居装饰品\n家居装饰品是体现个人品味和文化素养的重要载体，中国的家居装饰品，如摆件、烛台等，都充满了东方韵味，一个精美的玫瑰花烛台，不仅能为客户的家增添一份温馨，还能在点燃蜡烛时，营造出浪漫而神秘的氛围，中国的水晶球摆件也是不错的选择，水晶的纯净与透明寓意着清澈和真诚，非常适合作为圣诞节的礼物。\n三、体现中国文化的工艺品\n工艺品是传承和展示文化的重要方式，中国的工艺品，如刺绣、木雕等，都体现了匠人的精湛技艺和深厚文化底蕴，一幅手工刺绣的熊猫图案，不仅精美绝伦，还寓意着和平与友好，熊猫作为中国的国宝，深受世界各国人民的喜爱，将其作为礼物送给马来西亚客户，定能收获满满的赞誉，木雕招财牛摆件也是极佳的选择，牛在中国文化中象征着勤劳和坚韧，寓意着事业的成功和财富的",
+                      "publish_time": 1780951898,
+                      "url": "http://www.3lipin.com/laowai/24242.html",
+                      "cover_image": null,
+                      "search_plugin_data": {
+                        "doc_id": "b453ccced9ff2cf6-feb7abbee42a614f",
+                        "logo_url": "https://p11-volcsearch-sign.byteimg.com/isp-i18n-media/image/00432041645887e25eef1a5829baba38~tplv-obj.jpeg?lk3s=7acb411c&scene=volc_search&x-expires=1844529835&x-signature=fRQjlT4XYwgdhLdksIuA8lHYJfY%3D",
+                        "auth_info": "正常权威",
+                        "auth_score": 0.5,
+                        "rel_info": "强相关",
+                        "rel_score": 1,
+                        "freshness_info": "一般满足时效需求",
+                        "freshness_score": 0.5,
+                        "final_ref": "",
+                        "final_ref_len": 0,
+                        "author_name": "",
+                        "duration": 0
+                      },
+                      "smart_content_data": null,
+                      "ruyi_data": null
+                    },
+                    {
+                      "id": "d744ca10d3463ff8-a3b1ddd6c07142c8",
+                      "source_type": "search_engine",
+                      "site_name": "保利智眸 POLY ZhiMou Service System",
+                      "title": "马来西亚中国人最喜欢的特产名单",
+                      "summary": "品类，深入分析其文化价值、市场定位及采购策略，为企业跨文化商务活动提供实用参考。\n马来西亚特产的独特魅力源于其多元文化背景与得天独厚的自然资源。对于寻求高端商务礼品或跨境贸易机会的企业决策者而言，精准把握马来西亚华人群体偏好的特产品类，不仅能提升礼品馈赠的精准度，更能为商业合作注入文化共鸣。本文将深入剖析18类兼具文化内涵与市场价值的热门特产，并提供专业级采购建议。\n热带果干与蜜饯类特产的价值解析\n马来西亚热带水果经过加工后形成的果干制品，因其便携性和长保质期成为跨境礼品首选。猫山王榴莲干采用真空冷冻干燥技术保留浓郁香气，其金黄色泽与酥脆口感完美复现鲜果风味，高端定制包装版本常被企业用作VIP客户赠礼。芒果干选用当地黄金芒果品种，切片厚度控制在3-5毫米以确保柔韧度，糖度配比精准契合华人偏好的甜中带酸口味。菠萝蜜干采用未完全成熟果肉制作，嚼劲十足且纤维感明显，特别适合搭配茶饮食用。值得注意的是\n，高端果干品牌会标注果园溯源信息，企业采购时应重点关注有机认证与添加剂控制标准。\n传统糕点的文化符号意义\n融合南洋风味的娘惹糕点不仅是味觉享受，更是文化传播载体。椰丝球（Kuih Loyang）采用蜂巢状模具烘烤成形，表面撒上椰糖炒制的椰丝，其镂空造型蕴含\"通达顺利\"的吉祥寓意。香兰椰丝卷（Kuih Ketayap）用蝶豆花与香兰叶染制的薄饼皮包裹现炒椰丝，视觉上呈现渐变绿色层次。九层糕（Kuih Lapis）通过交替蒸制不同颜色米浆形成彩虹般分层，工艺复杂度使其成为礼品市场的高溢价产品。企业定制时可要求糕点上压印公司标识，但需注意糖度调整以适应中国客群健康需求。\n咖啡与茶饮的地域特色\n马来西亚白咖啡（White Coffee）采用低温烘焙技术去除焦苦味，呈现诱人的琥珀色泽，其中怡保地区老字号品牌采用传统配方添加植物黄油增香。槟城炭烧咖啡则保留南洋古法，在陶壶中用炭火慢炒咖啡豆，赋予独特烟熏风\nVeterinary Health Mark），确保符合中国海关进口标准。\n巧克力工艺的创新突破\n马来西亚热带可可豆富含单宁酸，赋予巧克力独特果香回甘。品牌如Beryl's（品牌名称）创新推出榴莲风味巧克力，采用-45℃急速冷冻技术将猫山王果肉制成粉末掺入可可脂，熔点调整至34℃以实现入口即化。抹茶芒果巧克力则采用三层夹心工艺，外层63%黑巧包裹抹茶白巧，最内层为芒果冻干粉，形成味觉冲击梯度。限量版礼盒常采用锡罐包装内置湿度调节剂，适合长途运输存储。\n东革阿里与药草制品\n这种马来人参（Tongkat Ali）的根部提取物被制成胶囊、茶包等多种形态，优质产品会标注标准化提取物含量（通常为1：200浓缩比）。搭配卡琪花蒂玛（Kacip Fatimah）的复合配方女士养生茶近年销量激增，采购时需查验马来西亚卫生部颁发的传统药品认证（Malaysian Traditional Medicine Pro",
+                      "publish_time": 1767568560,
+                      "url": "https://sczil.com/a220034",
+                      "cover_image": null,
+                      "search_plugin_data": {
+                        "doc_id": "d744ca10d3463ff8-a3b1ddd6c07142c8",
+                        "logo_url": "https://p3-volcsearch-sign.byteimg.com/isp-i18n-media/image/689563b3225bbac4a273cc5746f5fbaf~tplv-obj.jpeg?lk3s=7acb411c&scene=volc_search&x-expires=1844529835&x-signature=k5HKqr1B2Kl3s%2FEfNOdK0bPcMtw%3D",
+                        "auth_info": "正常权威",
+                        "auth_score": 0.5,
+                        "rel_info": "强相关",
+                        "rel_score": 1,
+                        "freshness_info": "一般满足时效需求",
+                        "freshness_score": 0.5,
+                        "final_ref": "",
+                        "final_ref_len": 0,
+                        "author_name": "",
+                        "duration": 0
+                      },
+                      "smart_content_data": null,
+                      "ruyi_data": null
+                    }
+                  ],
+                  "debug_data": {
+                    "extra": null
+                  },
+                  "log_id": "021781457833771f504b82143f6241d8073830594408a043f648c",
+                  "timing": {
+                    "total": 728
+                  }
+                }
+              }
+            },
+            "created_at": 1781457834824,
+            "completed_at": 1781457835586
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {},
+  "references": [
+    {
+      "url": "https://www.madechango.com/study-guide/view/1690",
+      "logo_url": "https://p26-volcsearch-sign.byteimg.com/isp-i18n-media/image/cbc4283147d7efbaf278257fa4f1ad7a~tplv-obj.jpeg?lk3s=7acb411c&scene=volc_search&x-expires=1844529835&x-signature=DMhXua1HRwYViRBBsiGC8JNKqCI%3D",
+      "site_name": "马到成功",
+      "title": "解析马来西亚不同场合伴手礼",
+      "summary": "解析马来西亚不同场合伴手礼\n雾里看花\n2026-05-18 15:21\n摘要\n马来西亚的伴手礼，因其独特的多元文化融合（马来、中华、印度及土著风味）与浓郁的南洋风情，在不同的社交场合中，都能传递恰到好处的关怀与尊重。选择合适的伴手礼，不仅能表达心意，更能展现送礼者的周到。\n以下结合马来西亚特色，按不同场合为您解析：\n一、 职场与商务场合：体面、雅致、展现文化特色\n商务场合讲究稳重与品味，礼物应避免过于私人化或气味浓烈。\n· 推荐礼物：顶级白咖啡或锡器制品\n· 怡保旧街场白咖啡礼盒：包装精美，是马来西亚最具代表性的饮品。选择低糖或无糖款，照顾健康需求，适合会议后或拜访客户时共享。\n· 皇家雪兰莪锡器：这是全球顶级的锡镴品牌。小件的茶漏、名片夹或相框，低调奢华，极具收藏价值，适合赠予重要合作伙伴或领导。\n· 适合场景：\n· 公司拜访、商务会议、答谢客户、年终感谢。\n二、 亲友团聚与家宴：分享滋味、老少皆宜\n回国探亲或去朋友家做客，适合带一些能全家共享、有记忆点的食品。\n· 推荐礼物：淡汶饼或榴莲制品\n· 槟城淡汶饼：外皮酥脆，内馅是甜咸交织的斑斓叶绿豆沙，口感独特，不易腻，适合配茶聊天。\n· 猫山王榴莲干或榴莲糖：如果家人喜爱榴莲，这是极品。真空冷冻干燥的榴莲干保留了浓郁香气，且方便携带，适合作为给年轻朋友或家人的“勇敢者惊喜”。\n· 适合场景：\n· 春节、中秋节等传统节日回乡；亲戚聚餐；日常拜访。\n三、 探病或慰问：温和、天然、传递关怀\n此时礼物需温和、无刺激，最好具有安抚情绪或天然养生的属性。\n· 推荐礼物：马来西亚燕窝或豆蔻膏/豆蔻油\n· 即食燕窝：马来西亚是燕窝主产地，正规品牌的即食燕窝低糖且温润，适合术后或体弱的长辈，表达细致关怀。\n· 槟城豆蔻膏/油：对于肌肉酸痛或感冒鼻塞，豆蔻制品有传统舒缓效果。它不贵重，但非常贴心实",
+      "publish_time": "2026年05月18日 07:21:00(CST) 星期一",
+      "extra": {
+        "rel_info": "强相关",
+        "freshness_info": "一般满足时效需求",
+        "auth_info": "正常权威",
+        "final_ref": ""
+      }
+    },
+    {
+      "url": "https://post.m.smzdm.com/p/al35dqzp/",
+      "logo_url": "https://p26-volcsearch-sign.byteimg.com/isp-i18n-media/image/1a44b9ef64d4f823f24d9493b4fe660a~tplv-obj.jpeg?lk3s=7acb411c&scene=volc_search&x-expires=1844529835&x-signature=3GNkvm5KQtIs2UjBV1k7Nb3kxe0%3D",
+      "site_name": "什么值得买社区频道",
+      "title": "🇲🇾马来西亚伴手礼不踩雷清单 | 附地址✨",
+      "summary": "🇲🇾马来西亚伴手礼不踩雷清单 | 附地址✨\n源自小红薯：一只鸡蛋派\n04-17 16:29\n马来西亚旅游归来，针对当地热门伴手礼进行了实测与整理。选购攻略涵盖必买特产美食、南洋风情文创小物及特色冰箱贴三大类别，内容包含具体购买地点、价格对比及避坑建议，旨在提供一份实用的购物参考。\n01 特产美食：经典风味与价格优选\n华阳冰室咸咖啡\n马六甲特色伴手礼，风味独特且香气浓郁，适合咖啡爱好者。\n三叔公姜母茶及白咖啡\n马六甲老字号品牌。姜母茶为独立包装，口感醇厚；白咖啡包装精美，适合赠送偏好甜口或非重度咖啡饮用的朋友。\n屈臣氏豆蔻膏\n价格优势明显。在屈臣氏购买约66.5马币/5瓶，折合单瓶约13.3马币，相比其他店铺通常售价14.9至15.5马币/瓶更为划算，适合家庭采购。\n02 文创小物：吉隆坡中央艺术坊推荐\n吉隆坡中央艺术坊是购买南洋风情文创的主要场所，主打拼布与花布工艺。\n商品名称 价格 特点描述\n拼布杯垫 25 RM/个 采用双面设计，正面为拼布图案，背面为马来西亚特色花布，具有浓郁南洋风情。\n特色花布发圈 8-15 RM/个 花色多样，建议多询价比价，兼具美观与实用性。\n花布香薰手工皂 60 RM/10个 单款均价6 RM，包含不同香味，外包装精美，适合送礼或自用。\n吉隆坡中央艺术坊文创商品价格对比\n03 冰箱贴：地标打卡与低价攻略\n冰箱贴作为热门旅游纪念品，不同城市的景点与店铺价格差异较大，合理选择购买地点可节省预算。\n购买地点 参考价格 推荐款式与备注\n马六甲鸡场街老爷爷宝藏店 3 RM/个 全马最低价。推荐荷兰红屋、钟楼、圣地亚哥古城门、娘惹建筑及南洋咖啡款式。\n马六甲其他店铺 4 RM/个 或 10 RM/3个 价格相对较高，建议比价后再购买。\n槟城壁画街 市价 款式独特且偏向小众风格，适合寻找个性化纪念品的游客。\n榴莲煎蕊款式 5.9 RM/个 特定主题款，价格偏高。\n不同地区冰箱贴价格横向对比\n精选参考来源\n🇲🇾马来西亚伴手礼不踩雷清单 | 附地址✨\n一只鸡蛋派 2026-04-14\n",
+      "publish_time": "2026年04月14日 00:00:00(CST) 星期二",
+      "extra": {
+        "rel_info": "强相关",
+        "freshness_info": "一般满足时效需求",
+        "auth_info": "正常权威",
+        "final_ref": ""
+      }
+    },
+    {
+      "url": "https://post.m.smzdm.com/zz/p/a9k0dvv5/",
+      "logo_url": "https://p11-volcsearch-sign.byteimg.com/isp-i18n-media/image/1a44b9ef64d4f823f24d9493b4fe660a~tplv-obj.jpeg?lk3s=7acb411c&scene=volc_search&x-expires=1844529835&x-signature=F7KeHQc3zmDDasnTuK43duNK46Y%3D",
+      "site_name": "什么值得买社区频道",
+      "title": "马来西亚伴手礼怎么选?本地人精选 6 大马必买特产_什么值得买",
+      "summary": "狮子头汤圆\n选伴手礼，其实挑的是那份能代表当地生活气息的小物。像肉骨茶包、白咖喱面这类食品，既接地气又方便携带，比香水或巧克力更有记忆点，毕竟味道最能唤起旅行的回忆\n马来西亚伴手礼怎么选？本地人精选 6 大马必买特产\n文章介绍了马来西亚的六种必买特产，包括方便携带的肉骨茶汤料包、著名的榴莲巧克力品牌Beryl's、荣获全球美味泡面第一名的MyKuali槟城白咖喱面、口感醇香的OldTown白咖啡、本土时尚品牌Padini及其旗下品牌Vincci的服饰和鞋包，以及马来西亚本土香水品牌Legendary的兰花香水和其他受欢迎的香水系列。\n",
+      "publish_time": "2025年11月07日 19:56:00(CST) 星期五",
+      "extra": {
+        "rel_info": "强相关",
+        "freshness_info": "一般满足时效需求",
+        "auth_info": "正常权威",
+        "final_ref": ""
+      }
+    },
+    {
+      "url": "https://m.mafengwo.cn/mweng/wengdetail/?id=1838683761182551",
+      "logo_url": "https://p3-volcsearch-sign.byteimg.com/isp-i18n-media/image/354db5405c8065380645ac8f41548b0e~tplv-obj.jpeg?lk3s=7acb411c&scene=volc_search&x-expires=1844529835&x-signature=UY91n91hRG0PxCP9QYX8yI0894c%3D",
+      "site_name": "马蜂窝",
+      "title": "马来西亚8种吃货伴手礼，跟着买就对了!",
+      "summary": "吃西瓜的熊\n6月前\n马来西亚\n马来西亚8种吃货伴手礼，跟着买就对了！\n这趟大马之旅真的让我大开眼界！不仅风景美、人热情，吃的更是多到买不完🤤 分享我帮朋友们精挑细选的8款【超好吃】【好带回国】【包装高级】的伴手礼🎁 尤其【榴莲宝宝DurianBB】的产品，强烈建议多囤几盒！ 1️⃣ 榴莲酥｜DurianBB Musang Cake 📍DurianBB Lot 10 包装像日系礼盒，质感满满！内有独立包装的猫山王榴莲酥，不加香精和防腐剂，保存期3周。 外酥内浓，榴莲香气超级足，我还特别送了一个给领导，超有面子！ 2️⃣ Beryl’s 巧克力 📍Beryl’s Lot 10（茨厂街店也推荐） 本地品牌巧克力，最爱Tiramisu系列，抹茶杏仁、薄荷、牛奶口\n拍摄于 2025-08-05\n",
+      "publish_time": "2025年08月05日 00:00:00(CST) 星期二",
+      "extra": {
+        "rel_info": "强相关",
+        "freshness_info": "一般满足时效需求",
+        "auth_info": "正常权威",
+        "final_ref": ""
+      }
+    },
+    {
+      "url": "https://qifu.zcqtz.com/article/106019.html",
+      "logo_url": "https://p3-volcsearch-sign.byteimg.com/isp-i18n-media/image/7621223d2749454ddb18c84ef26e568d~tplv-obj.jpeg?lk3s=7acb411c&scene=volc_search&x-expires=1844529835&x-signature=4OOOoREgh%2BLY9T8H%2Br7kV7KMW7M%3D",
+      "site_name": "丝路企服",
+      "title": "送马来西亚人什么礼物(马来西亚人礼物推荐)",
+      "summary": "意避免一些可能引起误解或不适的礼物类型。比如，刀具（包括剪刀、瑞士军刀等）在许多文化中象征着割断关系，不宜作为礼物；钟表（尤其是送给长辈）在中文语境中有“送终”之意，也应避免；此外，过于昂贵或奢侈的礼物可能会让对方感到压力，认为你有求于他或试图贿赂，反而适得其反。\n四、具体推荐及理由\n1. 特色食品礼盒：如中国的茶叶、糕点或是马来西亚本地不易买到的特色零食，既能满足味蕾，又能展现你的用心。\n2. 文化艺术品：如中国结、剪纸、书法作品或是马来西亚特色的银制饰品、蜡染布料，这些既具有观赏价值，又能传递文化韵味。\n3. 体验类礼物：如预订一次SPA按摩、烹饪课程或是户外探险活动，让对方享受一段特别的时光，增进彼此间的情感交流。\n4. 书籍或音乐专辑：根据对方的兴趣选择一本好书或是一张他们喜欢歌手的音乐专辑，既体现了你对他们的了解，也是一份精神食粮。\n五、结语：用心选择，传递温暖\n最终，送礼物的意义在于表达情感和增进理解，而不仅仅是物质上的交换。在为马来西亚朋友挑选礼物时，最重要的是用心去了解他们的文化、兴趣和需求，让每一份礼物都承载着真诚与祝福。无论礼物的大小或价值如何，只要它能够触动人心，就是最完美的赠予。\n",
+      "publish_time": "2024年11月23日 20:59:00(CST) 星期六",
+      "extra": {
+        "rel_info": "强相关",
+        "freshness_info": "一般满足时效需求",
+        "auth_info": "正常权威",
+        "final_ref": ""
+      }
+    },
+    {
+      "url": "https://m.mafengwo.cn/mweng/wengdetailssr/weng?id=1841123658056935",
+      "logo_url": "https://p3-volcsearch-sign.byteimg.com/isp-i18n-media/image/354db5405c8065380645ac8f41548b0e~tplv-obj.jpeg?lk3s=7acb411c&scene=volc_search&x-expires=1844529835&x-signature=UY91n91hRG0PxCP9QYX8yI0894c%3D",
+      "site_name": "马蜂窝",
+      "title": "菲芘快乐分享的旅行笔记-马蜂窝",
+      "summary": "菲芘快乐分享 2国3城\n8月前\n马来西亚\n马来西亚2025年度最热门伴手礼\n2025年最热门的马来西亚伴手礼新鲜出炉啦！来到马来西亚，千万不能空手而归。今年旅客最爱带走的伴手礼，依旧以“好吃、好用、好看”为主打。 榴莲制品稳坐榜首，都是必买首选；白咖啡依然是经典，香醇顺滑，男女老少都爱；肉骨茶包则让你在家也能煮出道地风味。 除了美食，东马砂拉越的胡椒、娘惹风味小点、椰子糖、传统手工蜡染（Batik）和精美锡器，也是国际游客最爱的伴手礼。既能代表马来西亚的文化特色，又实用有意义，难怪是2025年的送礼首选！\n马来西亚伴手礼\n马来西亚什么值得买\n手信\n白咖啡\n榴莲\n榴莲冰箱贴\n吉隆坡\n马来西亚\n拍摄于 2025-08-22\n走走停停：\n不一样的旅程，欣赏！\n自由自在：\n抽空去体验一下\n",
+      "publish_time": "2025年08月22日 00:00:00(CST) 星期五",
+      "extra": {
+        "rel_info": "强相关",
+        "freshness_info": "一般满足时效需求",
+        "auth_info": "正常权威",
+        "final_ref": ""
+      }
+    },
+    {
+      "url": "https://wiki.1688.com/zh/birdsnest/WKfhtoel1b18g0",
+      "logo_url": "https://p11-volcsearch-sign.byteimg.com/isp-i18n-media/image/a48ee4706bb50cae62bfe6cc7a9638ee~tplv-obj.jpeg?lk3s=7acb411c&scene=volc_search&x-expires=1844529835&x-signature=G0S%2BS%2FHoNvvsqy6FYEjQV%2FJ5Rec%3D",
+      "site_name": "1688买家百科",
+      "title": "马来西亚燕窝：天然滋养的东方瑰宝，品质之选与健康之礼",
+      "summary": "窝’，正是我最青睐的商务礼赠之选。它不仅具备高端健康属性，更拥有极强的价值感与稀缺性。比如‘CAIQ马来西亚五星溯源燕窝干盏’，其单价高达354.73元/50克 ，但其溯源码覆盖率100%，且由‘广州颐源滋补批发’等实力商家提供，确保了每一笔交易的可追溯性。在2026年4月初这个关键节点，我正为重要客户准备一份商务礼盒，特意选择了‘过节送礼即食燕窝饮品8瓶礼盒装’，既方便携带，又能在会议间隙快速享用，无需复杂准备，高效又体面。其背后供应商‘1688选品中心官方供应链’，粉丝量已突破20.18万，并且拥有96.27%的30天响应率，说明其服务体系成熟。更重要的是，这类高端燕窝已形成‘高价值、高信任、高复购’的良性循环。选择马来西亚燕窝，不仅是送礼，更是传递一种对合作方的尊重与期待。在这个强调信任与效率的时代，一份有品质背书的燕窝，就是最好的沟通桥梁。\n",
+      "publish_time": "2026年04月02日 08:03:00(CST) 星期四",
+      "extra": {
+        "rel_info": "强相关",
+        "freshness_info": "一般满足时效需求",
+        "auth_info": "正常权威",
+        "final_ref": ""
+      }
+    },
+    {
+      "url": "http://sichuanhong.com/content/202511/2540405.html",
+      "logo_url": "https://p26-volcsearch-sign.byteimg.com/isp-i18n-media/img/1520d895528b8eaf9fb610d94e60e6ee~tplv-obj.jpeg?lk3s=7acb411c&scene=volc_search&x-expires=1844529835&x-signature=v3niGJ7THqhg4qxH9%2B9GASJsLA8%3D",
+      "site_name": "北京红网",
+      "title": "在马来西亚买什么手信最好？",
+      "summary": "在马来西亚买什么手信最好？\n2026-04-30\n马来西亚流行的手写信件：\n1.榴莲巧克力 。马来西亚是亚太地区最大的可可生产国 。除了巧克力，可可还被用来制作沐浴露、美容和彩妆产品 。马来西亚的巧克力制造商很好地利用了该国丰富的榴莲特色，由榴莲果肉结合黑巧克力制成的榴莲巧克力成为许多游客爱不释手的甜点 。\n1.BOH袋泡茶 。马来西亚金马伦高地出产的红茶和绿茶价格非常合理实惠，质量处于中上水平，所以BOH袋泡茶成为了很多游客喜爱的手信 。还有很多造型独特，口感好的茶包 。\n【在马来西亚买什么手信最好？】3.马来西亚的白咖啡 。这是不加焦糖的咖啡豆\n",
+      "publish_time": "2026年04月30日 00:00:00(CST) 星期四",
+      "extra": {
+        "rel_info": "强相关",
+        "freshness_info": "一般满足时效需求",
+        "auth_info": "正常权威",
+        "final_ref": ""
+      }
+    },
+    {
+      "url": "http://www.3lipin.com/laowai/24242.html",
+      "logo_url": "https://p11-volcsearch-sign.byteimg.com/isp-i18n-media/image/00432041645887e25eef1a5829baba38~tplv-obj.jpeg?lk3s=7acb411c&scene=volc_search&x-expires=1844529835&x-signature=fRQjlT4XYwgdhLdksIuA8lHYJfY%3D",
+      "site_name": "信尚礼品 信尚文创",
+      "title": "圣诞节送马来西亚人什么中国礼物合适 圣诞节赠马来西亚客户，精选中国礼品纪念品传递文化与祝福",
+      "summary": "圣诞节送马来西亚人什么中国礼物合适 圣诞节赠马来西亚客户，精选中国礼品纪念品传递文化与祝福\n随着全球化的推进，圣诞节这一西方传统节日已逐渐被世界各地的人们所接受和喜爱，在这样一个充满欢乐与祝福的日子里，给远在马来西亚的客人朋友送上一份精心挑选的中国礼物，不仅能表达节日的祝福，还能加深彼此间的友谊与合作，在琳琅满目的中国商品中，哪些礼物既具有中国特色，又能贴合马来西亚友人的喜好呢？\n一、寓意吉祥的文具\n文具作为日常办公的必需品，既实用又具有文化内涵，中国的文具，如笔、墨、纸、砚等，都蕴含着深厚的文化底蕴，一支精美的中国笔，如祥云笔，不仅书写流畅，更寓意着吉祥和顺利，笔身上的龙纹设计，象征着权力和财富，非常符合商务场合的送礼选择，一套文房四宝礼盒也是极佳的选择，它包含了中国传统书法的所有必需品，既体现了送礼人的用心，也能让客户在闲暇之余体验中国书法的魅力。\n二、具有中国元素的家居装饰品\n家居装饰品是体现个人品味和文化素养的重要载体，中国的家居装饰品，如摆件、烛台等，都充满了东方韵味，一个精美的玫瑰花烛台，不仅能为客户的家增添一份温馨，还能在点燃蜡烛时，营造出浪漫而神秘的氛围，中国的水晶球摆件也是不错的选择，水晶的纯净与透明寓意着清澈和真诚，非常适合作为圣诞节的礼物。\n三、体现中国文化的工艺品\n工艺品是传承和展示文化的重要方式，中国的工艺品，如刺绣、木雕等，都体现了匠人的精湛技艺和深厚文化底蕴，一幅手工刺绣的熊猫图案，不仅精美绝伦，还寓意着和平与友好，熊猫作为中国的国宝，深受世界各国人民的喜爱，将其作为礼物送给马来西亚客户，定能收获满满的赞誉，木雕招财牛摆件也是极佳的选择，牛在中国文化中象征着勤劳和坚韧，寓意着事业的成功和财富的",
+      "publish_time": "2026年06月09日 04:51:38(CST) 星期二",
+      "extra": {
+        "rel_info": "强相关",
+        "freshness_info": "一般满足时效需求",
+        "auth_info": "正常权威",
+        "final_ref": ""
+      }
+    },
+    {
+      "url": "https://sczil.com/a220034",
+      "logo_url": "https://p3-volcsearch-sign.byteimg.com/isp-i18n-media/image/689563b3225bbac4a273cc5746f5fbaf~tplv-obj.jpeg?lk3s=7acb411c&scene=volc_search&x-expires=1844529835&x-signature=k5HKqr1B2Kl3s%2FEfNOdK0bPcMtw%3D",
+      "site_name": "保利智眸 POLY ZhiMou Service System",
+      "title": "马来西亚中国人最喜欢的特产名单",
+      "summary": "品类，深入分析其文化价值、市场定位及采购策略，为企业跨文化商务活动提供实用参考。\n马来西亚特产的独特魅力源于其多元文化背景与得天独厚的自然资源。对于寻求高端商务礼品或跨境贸易机会的企业决策者而言，精准把握马来西亚华人群体偏好的特产品类，不仅能提升礼品馈赠的精准度，更能为商业合作注入文化共鸣。本文将深入剖析18类兼具文化内涵与市场价值的热门特产，并提供专业级采购建议。\n热带果干与蜜饯类特产的价值解析\n马来西亚热带水果经过加工后形成的果干制品，因其便携性和长保质期成为跨境礼品首选。猫山王榴莲干采用真空冷冻干燥技术保留浓郁香气，其金黄色泽与酥脆口感完美复现鲜果风味，高端定制包装版本常被企业用作VIP客户赠礼。芒果干选用当地黄金芒果品种，切片厚度控制在3-5毫米以确保柔韧度，糖度配比精准契合华人偏好的甜中带酸口味。菠萝蜜干采用未完全成熟果肉制作，嚼劲十足且纤维感明显，特别适合搭配茶饮食用。值得注意的是\n，高端果干品牌会标注果园溯源信息，企业采购时应重点关注有机认证与添加剂控制标准。\n传统糕点的文化符号意义\n融合南洋风味的娘惹糕点不仅是味觉享受，更是文化传播载体。椰丝球（Kuih Loyang）采用蜂巢状模具烘烤成形，表面撒上椰糖炒制的椰丝，其镂空造型蕴含\"通达顺利\"的吉祥寓意。香兰椰丝卷（Kuih Ketayap）用蝶豆花与香兰叶染制的薄饼皮包裹现炒椰丝，视觉上呈现渐变绿色层次。九层糕（Kuih Lapis）通过交替蒸制不同颜色米浆形成彩虹般分层，工艺复杂度使其成为礼品市场的高溢价产品。企业定制时可要求糕点上压印公司标识，但需注意糖度调整以适应中国客群健康需求。\n咖啡与茶饮的地域特色\n马来西亚白咖啡（White Coffee）采用低温烘焙技术去除焦苦味，呈现诱人的琥珀色泽，其中怡保地区老字号品牌采用传统配方添加植物黄油增香。槟城炭烧咖啡则保留南洋古法，在陶壶中用炭火慢炒咖啡豆，赋予独特烟熏风\nVeterinary Health Mark），确保符合中国海关进口标准。\n巧克力工艺的创新突破\n马来西亚热带可可豆富含单宁酸，赋予巧克力独特果香回甘。品牌如Beryl's（品牌名称）创新推出榴莲风味巧克力，采用-45℃急速冷冻技术将猫山王果肉制成粉末掺入可可脂，熔点调整至34℃以实现入口即化。抹茶芒果巧克力则采用三层夹心工艺，外层63%黑巧包裹抹茶白巧，最内层为芒果冻干粉，形成味觉冲击梯度。限量版礼盒常采用锡罐包装内置湿度调节剂，适合长途运输存储。\n东革阿里与药草制品\n这种马来人参（Tongkat Ali）的根部提取物被制成胶囊、茶包等多种形态，优质产品会标注标准化提取物含量（通常为1：200浓缩比）。搭配卡琪花蒂玛（Kacip Fatimah）的复合配方女士养生茶近年销量激增，采购时需查验马来西亚卫生部颁发的传统药品认证（Malaysian Traditional Medicine Pro",
+      "publish_time": "2026年01月05日 07:16:00(CST) 星期一",
+      "extra": {
+        "rel_info": "强相关",
+        "freshness_info": "一般满足时效需求",
+        "auth_info": "正常权威",
+        "final_ref": ""
+      }
+    }
+  ]
+}

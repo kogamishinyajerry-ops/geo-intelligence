@@ -1,0 +1,115 @@
+{
+  "id": "doubao-A-20260614T171900Z-c9728bcbd6",
+  "schema_version": "0.2.0",
+  "engine": "doubao",
+  "engine_model": "doubao-1-5-pro-32k-250115",
+  "query": "送加拿大客户的商务礼品送什么合适",
+  "buyer_segment": "A",
+  "timestamp": "2026-06-14T17:19:00.266221Z",
+  "raw_answer": "为加拿大客户选择商务礼品，需要考虑文化中立性、功能实用性与情感识别度，同时要规避敏感符号和宗教禁忌，并且留意部分国家对木质、种子类伴手礼的严格检疫限制。以下为你推荐一些合适的礼物：\n### 实用类\n- **保暖用品**：加拿大冬季漫长寒冷，像Smartwool羊毛袜、YETI保温杯等保暖性好的用品很实用。客户在寒冷天气使用时能感受到关怀，比如在零下三十度的清晨，手握保温杯喝热咖啡，会对送礼者心怀好感。\n- **户外用品**：加拿大人热爱户外活动，高性能头灯方便他们天黑后搭帐篷；轻便的折叠露营椅可让他们在篝火旁舒适休息；国家公园年票能让他们自由前往全国的壮丽风景；驱蚊水、防熊喷雾等在特定场景中更是实用。\n- **办公用品**：书写流畅、笔身镌刻企业LOGO的金属签字笔，满足办公需求，还能强化品牌印象；采用FSC认证纸材印制的多语种笔记本，内页预留中英双语合作备忘录模板，兼具功能性与专业性。\n- **礼品卡**：如加拿大轮胎店（Canadian Tire）或者家得宝（Home Depot）的礼品卡，给予对方选择的自由，当他们需要雪铲、融雪盐等物品时，礼品卡能派上用场。\n### 特色类\n- **具有中国特色的产品**：如中国结、特色丝巾等，既体现中国文化，又不会有文化理解上的隔阂。但要注意避免选择带有强烈本土符号且可能引发误解的物品。\n- **本国特色工艺品**：例如工艺书签、苏绣书签、青花瓷U盘等，价值不超过50加元的小礼物适合首次见面赠送。\n### 食品类\n- **冰酒**：加拿大冰酒是该国标志性特产，产自安大略省和不列颠哥伦比亚省，冬季葡萄自然冰冻后采摘压榨酿制而成，甜而不腻、醇厚优雅。作为节日、庆典佳酿，用于商务馈赠能彰显品味与诚意，还可提升品牌形象。\n- **枫糖浆及其制品**：枫糖浆是加拿大国家象征，富含矿物质，风味独特。除瓶装糖浆外，枫糖块、枫糖黄油、枫糖饼干等衍生品也受欢迎。食品相关行业企业还可考虑将枫糖元素融入产品开发。\n- **烟熏三文鱼**：来自不列颠哥伦比亚省等地的冷熏三文鱼，口感细腻，有独特烟熏香气，开袋即食，适合作为伴手礼或商务会议茶歇小点，且富含优质蛋白和欧米伽 - 3脂肪酸，符合健康饮食潮流。\n### 保健品\n- **西洋参**：安大略省等地出产的西洋参（花旗参）享誉全球，有滋阴补气、清热生津功效，品质优于许多其他产地同类产品。整支原参、切片或胶囊制剂，都是馈赠客户尤其是注重调理人士的首选，选购时要认准知名品牌和正规渠道。\n- **辅酶Q10与深海鱼油**：随着健康意识提升，这些经现代科学验证的保健品在华人中接受度高。加拿大保健品行业监管严格，产品质量有保障，辅酶Q10辅助保护心脏，深海鱼油有益健康。 ",
+  "raw_capture_path": "evidence/raw/doubao-A-20260614T171900Z-c9728bcbd6.json",
+  "screenshot_path": null,
+  "is_mock": false,
+  "named_brands": [],
+  "cited_sources": [
+    {
+      "url": "https://sczil.com/a284251",
+      "title": "加拿大中国人最喜欢的特产名单",
+      "domain": "sczil.com",
+      "site_name": "保利智眸 POLY ZhiMou Service System",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.3lipin.com/laowai/31620.html",
+      "title": "送外国客户送什么礼物比较好？兼顾文化尊重、实用价值与品牌温度的国际商务馈赠指南",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.youleliwu.com/225880.html",
+      "title": "送加拿大人什么礼物",
+      "domain": "www.youleliwu.com",
+      "site_name": "优乐礼物网",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://mgoods.taobao.com/t/tianxingputaojiuhanguifu_13100/4a3010c7acca2559ec7a614b0ed2f646.html",
+      "title": "ICEWINE加拿大VQA冰酒礼盒｜送礼自饮两相宜，一口沦陷热带果香🍇🍷",
+      "domain": "mgoods.taobao.com",
+      "site_name": "淘宝好物网",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.sohu.com/a/1035782300_662157/",
+      "title": "给员工送什么福利，才算真的用心？——来自加拿大极地净土的答案",
+      "domain": "m.sohu.com",
+      "site_name": "手机搜狐网",
+      "auth_score": 0.3,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.bilibili.com/opus/1139474610547326982",
+      "title": "2025年加拿大商务考察注意事项速览",
+      "domain": "www.bilibili.com",
+      "site_name": "哔哩哔哩",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://yzwb.sjzdaily.com.cn/zixun/2026/03/27/wap_991035204.html",
+      "title": "2026一季度西洋参测评榜单：5-7年参龄皂苷含量实测避坑指南",
+      "domain": "yzwb.sjzdaily.com.cn",
+      "site_name": "燕赵晚报",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.11467.com/product/d19952621.htm",
+      "title": "【老外贸人精髓点子分享加拿大客户】外贸出口加拿大站特点以及注意事项，一定要收藏！",
+      "domain": "m.11467.com",
+      "site_name": "顺企网",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.sohu.com/a/958679330_122479196",
+      "title": "加拿大商务考察注意事项(2025年版)",
+      "domain": "www.sohu.com",
+      "site_name": "搜狐",
+      "auth_score": 0.3,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.jiatianxiacm.com/post/128642.html",
+      "title": "加拿大有什么手信",
+      "domain": "www.jiatianxiacm.com",
+      "site_name": "天下旅游网",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    }
+  ],
+  "product_cards": [],
+  "links": [],
+  "sentiment": "unscored",
+  "request_params": {
+    "endpoint": "https://ark.cn-beijing.volces.com/api/v3/bots/chat/completions",
+    "model": "bot-20260614150734-98qkm",
+    "attempt": 1
+  },
+  "parser_version": "0.2.0"
+}

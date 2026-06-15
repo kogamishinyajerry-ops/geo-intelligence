@@ -1,0 +1,115 @@
+{
+  "id": "doubao-A-20260614T172025Z-32a8291c37",
+  "schema_version": "0.2.0",
+  "engine": "doubao",
+  "engine_model": "doubao-1-5-pro-32k-250115",
+  "query": "送瑞士客户的高端商务礼盒推荐",
+  "buyer_segment": "A",
+  "timestamp": "2026-06-14T17:20:25.867129Z",
+  "raw_answer": "为你推荐以下几种适合送给瑞士客户的高端商务礼盒：\n### 护肤品礼盒\n- **QLUX抗老礼盒**：这是本地认可度很高的高端护肤品牌，有着“旅游+药房+高端护肤”的组合，充满“在地仪式感”。其包装简约大气，质感高级，彰显高端。产品实用性强，作为每天都能用到的护肤品，能让客户每次护肤时都想起你的用心。\n- **莱伯妮鱼子精华系列礼盒**：运用独家的细胞囊泡技术，可将深海鲟鱼子酱活性成分精准导入肌肤，是具备生物科技背景的护肤精品，适合作为企业女性高管礼遇礼品。\n- **法尔曼生机系列礼盒**：从阿尔卑斯山冰川水中提取稀有矿物质，其生机系列产品经临床验证可提升皮肤含水量达300%，适合作为企业女性高管的礼物。\n\n### 巧克力礼盒\n- **爱普诗瑞士85%可可黑巧克力礼盒**：采用独立包装设计，能保持新鲜口感，食用方便。85%的可可含量，低糖高纤，是健康之选。优雅的铁罐包装，彰显品位与关怀。巧克力以浓郁苦味为主，带微妙甘甜，回味无穷。还获得了雨林联盟认证，体现对环境的责任感。\n- **瑞士莲大师系列限量版礼盒**：采用独家研创的冷凝结晶技术，使巧克力产生如丝绸般柔滑的口感。礼盒常融入瑞士自然元素设计，适合作为企业周年庆礼品。\n- **托伊勒香槟松露巧克力礼盒**：创新性地将Dom Pérignon气泡酒融入可可原料，每颗独立包装，精致感十足，适合高端会议茶歇配置。\n\n### 其他类型礼盒\n- **维氏企业家系列瑞士军刀礼盒**：工匠精神体现在0.02毫米精度的零件装配工艺上，最新推出的企业家系列整合了USB存储模块和激光指示器，完美契合商务人士需求。\n- **罗伊克音乐盒商务定制系列**：采用瑞士传统音梳技术，限量版作品往往镶嵌珍稀木材与贵金属。支持企业标识雕刻功能，可将公司司歌与机械艺术完美结合，是具有收藏价值的企业形象礼品。\n- **浪琴机械腕表礼盒**：\n    - **浪琴康卡斯潜水系列**：将专业潜水表的强悍基因融入商务场景，300米防水深度配合旋入式表冠设计，表壳内部配备防磁软铁罩，指针与时标涂覆Super - LumiNova荧光材料，还有钢带快拆系统，适配多种场合。\n    - **浪琴名匠系列月相腕表**：表盘6点钟位置有月相显示窗，精确呈现月相29.5天周期变化。蓝钢指针、麦粒纹饰表盘、鳄鱼皮表带，尽显精致。\n    - **浪琴军旗系列**：以1957年经典设计为蓝本，12点钟位置有立体旗帜徽章，表身纤薄至9.5mm，具备100米生活防水性能。 ",
+  "raw_capture_path": "evidence/raw/doubao-A-20260614T172025Z-32a8291c37.json",
+  "screenshot_path": null,
+  "is_mock": false,
+  "named_brands": [],
+  "cited_sources": [
+    {
+      "url": "https://m.sohu.com/a/1033642009_122727164/",
+      "title": "2026年瑞士伴手礼口碑之选：QLUX高端护肤礼赠佳",
+      "domain": "m.sohu.com",
+      "site_name": "手机搜狐网",
+      "auth_score": 0.3,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://post.m.smzdm.com/p/a3mk5lp7/",
+      "title": "私人定制高端礼品推荐：十大适合VIP、重要场合的独家品牌",
+      "domain": "post.m.smzdm.com",
+      "site_name": "什么值得买社区频道",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://mgoods.taobao.com/t/tongyonghoubeixiangdian_6026/bbcbec41610424270e2228fdf162bf06.html",
+      "title": "25年必买!瑞士鼎级品质免税礼盒，顺丰包邮送人超有面儿",
+      "domain": "mgoods.taobao.com",
+      "site_name": "淘宝好物网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.sohu.com/a/1030387288_122528565/",
+      "title": "探索奢华与健康的完美结合：爱普诗瑞士85%可可黑巧克力",
+      "domain": "m.sohu.com",
+      "site_name": "手机搜狐网",
+      "auth_score": 0.3,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://sczil.com/a221675",
+      "title": "瑞士中国人最喜欢的特产名单",
+      "domain": "sczil.com",
+      "site_name": "保利智眸 POLY ZhiMou Service System",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.am10.com/I5mnzLpnLrjov6ol7ZknTHZulGb/pp",
+      "title": "lindt瑞士莲礼盒哪个牌子好？",
+      "domain": "www.am10.com",
+      "site_name": "爱美日记",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://pcdetail.taobao.com/WGxCRi8xeU1XZ3d2NGpoVzBHSWJHUT09.html",
+      "title": "品精选礼盒瑞士奢侈品精选礼盒",
+      "domain": "pcdetail.taobao.com",
+      "site_name": "淘宝商品网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.3
+    },
+    {
+      "url": "http://www.ldqxn.com/flxx/1fa719d8ad94837.html",
+      "title": "2026年热门的商务礼品/商务礼品送客户领导工厂哪家靠谱（热销）",
+      "domain": "www.ldqxn.com",
+      "site_name": "亮点黔西南",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://www.jd.com/jiage/13209606f1e1f681c36b.html",
+      "title": "巧克力与爱价格报价行情 - 京东",
+      "domain": "www.jd.com",
+      "site_name": "京东",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://m.sohu.com/a/1014720052_122471764/",
+      "title": "瑞士机械腕表精选：商务场合的品质之选",
+      "domain": "m.sohu.com",
+      "site_name": "手机搜狐网",
+      "auth_score": 0.3,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    }
+  ],
+  "product_cards": [],
+  "links": [],
+  "sentiment": "unscored",
+  "request_params": {
+    "endpoint": "https://ark.cn-beijing.volces.com/api/v3/bots/chat/completions",
+    "model": "bot-20260614150734-98qkm",
+    "attempt": 1
+  },
+  "parser_version": "0.2.0"
+}

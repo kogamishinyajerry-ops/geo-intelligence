@@ -1,0 +1,115 @@
+{
+  "id": "doubao-A-20260614T090736Z-d381537eab",
+  "schema_version": "0.2.0",
+  "engine": "doubao",
+  "engine_model": "doubao-1-5-pro-32k-250115",
+  "query": "送印度客户什么礼盒合适 印度教客户忌牛皮要注意吗",
+  "buyer_segment": "A",
+  "timestamp": "2026-06-14T09:07:36.367674Z",
+  "raw_answer": "给印度教客户送礼盒时，需要注意避免赠送牛皮制品，因为牛在印度教中被视为神圣动物，送牛皮制品可能会冒犯对方。以下为你推荐一些合适的礼盒：\n1. **茶叶礼盒**：印度本身是茶叶消费大国，但他们日常多喝加入各种香料的马萨拉茶，对中国的清茶、乌龙茶、普洱茶既熟悉又陌生。可以选择一套精致的中国茶具，配上顶级的西湖龙井、武夷山大红袍等茶叶。\n2. **传统手工艺品礼盒**：印度手工艺品以精湛工艺和独特设计闻名，如精美的手工刺绣纱丽、雕刻精美的木雕摆件、色彩斑斓的手工绘画等，能展现对印度文化的赞赏。\n3. **糖果礼盒**：可选择印度传统甜点（如Ladoo、Barfi）或坚果礼盒，注意要有清真认证（HALAL），包装选用红色或金色，避免黑色、白色。\n4. **特色美食礼盒**：可以挑选一些具有印度特色的美食，像咖喱、马萨拉茶、印度糕点等，让对方在品尝美食时感受印度风情。\n5. **丝绸制品礼盒**：如丝绸围巾等，丝绸制品通常会受到欢迎。\n6. **文化相关礼盒**：若客户对印度的历史、文化或艺术感兴趣，赠送相关的书籍或音像制品礼盒是不错的选择，能满足其求知欲和好奇心，加深对印度的了解。\n\n此外，在赠送礼物时，要用右手递礼物，或双手递上更显尊重；礼物需包装精美，避免使用黑色、白色包装纸，红色、金色为宜；对方可能不会当场打开礼物，这是礼貌的表现，不要追问对方是否喜欢。 ",
+  "raw_capture_path": "evidence/raw/doubao-A-20260614T090736Z-d381537eab.json",
+  "screenshot_path": null,
+  "is_mock": false,
+  "named_brands": [],
+  "cited_sources": [
+    {
+      "url": "https://m.10100.com/article/3489951",
+      "title": "外贸送礼雷区：22国禁忌清单+20款安全选择",
+      "domain": "m.10100.com",
+      "site_name": "大数跨境",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.chwang.com/article/197689998814",
+      "title": "2025排灯节(Deepavali)外贸人营销全攻略:选品、推广、祝福，一文教你抓住印度年度黄金销售季!",
+      "domain": "www.chwang.com",
+      "site_name": "出海网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.youleliwu.com/226339.html",
+      "title": "送印度客户什么礼物好",
+      "domain": "www.youleliwu.com",
+      "site_name": "优乐礼物网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://k.sina.cn/article_7857141524_1d45277140190354zc.html",
+      "title": "给客户送的6种“作死型”礼物",
+      "domain": "k.sina.cn",
+      "site_name": "新浪看点",
+      "auth_score": 0.3,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.docin.com/touch_new/preview_new.do?id=4925622103",
+      "title": "印度商务礼仪细节.pdf",
+      "domain": "www.docin.com",
+      "site_name": "豆丁网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.siudz.com/news/yin-du-li-bin-wen-hua-shen-du-jie-xi-cong-chuan-tong-xi-su-dao-xian-dai-she-jiao-li-yi-de-quan-fang.html",
+      "title": "印度礼宾文化深度解析从传统习俗到现代社交礼仪的全方位指南",
+      "domain": "www.siudz.com",
+      "site_name": "岁序智库",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://qianwen.qcbec.com/1329.html",
+      "title": "外贸干货 | 踩雷预警！外贸人注意，这些礼物万万送不得！",
+      "domain": "qianwen.qcbec.com",
+      "site_name": "骞问智库",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.3lipin.com/biz/12992.html",
+      "title": "送印度客户什么礼物 ？** 精心挑选，传递文化：送给印度客户的独特礼物指南",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.10100.com/article/2830551",
+      "title": "不同国家送礼禁忌",
+      "domain": "m.10100.com",
+      "site_name": "大数跨境",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.sohu.com/a/780518794_121831753",
+      "title": "怎么给国外的外贸客户送礼?错过这篇你可就亏大了!",
+      "domain": "www.sohu.com",
+      "site_name": "搜狐",
+      "auth_score": 0.3,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    }
+  ],
+  "product_cards": [],
+  "links": [],
+  "sentiment": "unscored",
+  "request_params": {
+    "endpoint": "https://ark.cn-beijing.volces.com/api/v3/bots/chat/completions",
+    "model": "bot-20260614150734-98qkm",
+    "attempt": 2
+  },
+  "parser_version": "0.2.0"
+}

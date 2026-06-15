@@ -1,0 +1,117 @@
+{
+  "id": "doubao-A-20260614T090932Z-3f3e32aac6",
+  "schema_version": "0.2.0",
+  "engine": "doubao",
+  "engine_model": "doubao-1-5-pro-32k-250115",
+  "query": "送外国客户的高端礼盒预算3000元左右选什么好",
+  "buyer_segment": "A",
+  "timestamp": "2026-06-14T09:09:32.887993Z",
+  "raw_answer": "为外国客户挑选3000元左右的高端礼盒，需要综合考虑文化背景、实用价值、品牌格调等因素，以下为你提供不同类型的推荐：\n### 商务场景类\n- **定制钢笔礼盒**：如万宝龙经典系列钢笔，支持激光雕刻企业LOGO，搭配皮质笔记本与墨水套装，再附赠手写英文感谢卡，由书法家书写企业寄语。钢笔是全球通用的商务符号，能体现对细节的追求和对客户的尊重。\n- **智能办公套装**：Bose降噪耳机搭配Moleskine智能笔记本（支持手写转文字），满足跨国会议与高效记录需求，体现对客户工作场景的深度洞察。\n### 生活美学类\n- **非遗工艺品礼盒**：龙泉青瓷茶具（附英文版开片工艺说明）或苏州缂丝屏风（迷你版）。通过二维码链接至品牌纪录片，可讲述匠人数十年技艺传承，将礼物转化为文化体验。\n- **高端香氛系统**：Diptyque巴黎限定款香薰蜡烛搭配定制檀木扩香器。选择中性香调，如雪松、白茶，避免过于浓烈或甜腻，适配全球客户偏好。\n### 收藏价值类\n- **限量版艺术衍生品**：故宫文创《千里江山图》珐琅彩盘（附收藏证书）或大英博物馆罗塞塔石碑复刻摆件。全球限量编号并带有艺术家签名，满足客户对独特性与艺术价值的双重需求。\n- **珍稀茶酒礼盒**：陈年普洱茶饼（附品鉴指南）搭配苏格兰单一麦芽威士忌（独立装瓶商定制酒标），再配上紫砂壶或水晶醒酒器，附赠双语品鉴手册，增添品鉴仪式感。\n### 体验型礼物类\n- **私人定制旅行**：为客户安排当地特色体验，如敦煌壁画修复体验之旅（含专家讲解 + 亲手临摹）、瑞士雪山直升机观光 + 米其林晚宴等，但需提前确认客户时间与兴趣。\n- **大师课程礼遇**：赠送景德镇陶瓷大师1对1拉坯课、法国蓝带厨艺学院线上甜品课等，提供课程证书与作品邮寄服务，让客户在体验中感受品牌温度。 \n\n此外，还需注意以下几点：\n- **文化适配**：提前了解客户所在国家的文化习俗和禁忌，避免送可能引起误解或冒犯的礼物。比如欧美礼物价值不宜过高，避免贿赂嫌疑；日本礼物需精致包装且价值不宜超过5000日元（约300元人民币）；中东礼物需体现奢华感，若客户为穆斯林，要确认礼物是否符合清真标准。\n- **包装定制**：使用企业VI色系包装，搭配多语言感谢卡，提升礼物的仪式感。\n- **合规性**：提前确认礼物价值是否超出目的地国免税额度，避免税务纠纷。 ",
+  "raw_capture_path": "evidence/raw/doubao-A-20260614T090932Z-3f3e32aac6.json",
+  "screenshot_path": null,
+  "is_mock": false,
+  "named_brands": [
+    "故宫文创"
+  ],
+  "cited_sources": [
+    {
+      "url": "http://www.3lipin.com/laowai/27771.html",
+      "title": "送国外客户礼物送什么好一点?送老外客户礼品指南，文化适配、实用心意与品牌格调的平衡",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.harpersbazaar.com/tw/fashion/news/a69627035/best-fashion-beauty-home-gifts-editors-picks-2025/",
+      "title": "送禮品味無關預算！從千元入手到預算無上限BAZAAR100編輯精選禮物清單",
+      "domain": "www.harpersbazaar.com",
+      "site_name": "Harper's BAZAAR",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.3lipin.com/laowai/27488.html",
+      "title": "送外国客户高档次礼物送什么好 臻选雅礼，送老外客户的高端礼品指南—文化交融与品质之选",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.3
+    },
+    {
+      "url": "https://k.sina.cn/article_7879922980_1d5ae152401901ewxi.html",
+      "title": "Lowrey 高端美食礼盒：甄选曲奇与太妃糖",
+      "domain": "k.sina.cn",
+      "site_name": "新浪看点",
+      "auth_score": 0.3,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://k.sina.cn/article_7857141524_1d452771401901ov3w.html",
+      "title": "送外国朋友的礼物怎么选?这5款小众又高级，老外一眼就爱上!_寓意_中国_刺绣",
+      "domain": "k.sina.cn",
+      "site_name": "新浪看点",
+      "auth_score": 0.3,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.3lipin.com/laowai/31586.html",
+      "title": "送老外客户的高端礼品有哪些？兼顾文化品位、实用价值与国际审美的12种精选方案",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.3
+    },
+    {
+      "url": "https://m.sohu.com/a/966084362_122433080/",
+      "title": "跨境礼品定制怎么选？外企商务礼套装凭啥成外贸圈首选？",
+      "domain": "m.sohu.com",
+      "site_name": "手机搜狐网",
+      "auth_score": 0.3,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://cj.sina.cn/articles/view/7857141524/1d452771401901y0no",
+      "title": "2026 商务伴手礼推荐:TOP10 精选清单，让客户闭眼入不踩雷",
+      "domain": "cj.sina.cn",
+      "site_name": "新浪财经",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.zgswcn.com/shangxun/news.html?aid=714790",
+      "title": "2026年更新：探寻南京市场性价比高的高端礼品盒直销厂家全攻略",
+      "domain": "www.zgswcn.com",
+      "site_name": "中国商报网",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "http://www.3lipin.com/laowai/29699.html",
+      "title": "送外国客户什么贵重礼物合适，精选高端礼品与纪念品指南",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.3
+    }
+  ],
+  "product_cards": [],
+  "links": [],
+  "sentiment": "unscored",
+  "request_params": {
+    "endpoint": "https://ark.cn-beijing.volces.com/api/v3/bots/chat/completions",
+    "model": "bot-20260614150734-98qkm",
+    "attempt": 1
+  },
+  "parser_version": "0.2.0"
+}

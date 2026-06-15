@@ -1,0 +1,117 @@
+{
+  "id": "doubao-A-20260614T091016Z-ae83d3d874",
+  "schema_version": "0.2.0",
+  "engine": "doubao",
+  "engine_model": "doubao-1-5-pro-32k-250115",
+  "query": "几百块钱送老外客户的轻礼伴手礼有没有体面的推荐",
+  "buyer_segment": "A",
+  "timestamp": "2026-06-14T09:10:16.785616Z",
+  "raw_answer": "以下为你推荐一些价格在几百块以内，适合送给老外客户的体面伴手礼：\n### 实用类\n- **檀木梳**：具有中国风特色，实用又养生，价格为19.1元 ，已有6000+人付款。\n- **304青花瓷餐具**：可定制的商务礼品，适合作为出国随手礼，价格9.9元，已有100+人付款。\n- **中国风特色茶杯**：如故宫文创茶杯，是实用的中国特色礼物，折后价36.5元，销量4000+。 \n- **熊猫丝绸画**：具有中国特色，可作为四川纪念品伴手礼品，价格94.5元。\n### 艺术文化类\n- **苏绣摆件**：如刺绣熊猫伴手礼三件套盒，是中国特色商务文创礼品，价格218元，已有1000+人付款。 \n- **博物馆故宫文创丝绸卷轴画**：非遗工艺品，是有特色的伴手礼，价格220元，已有400+人付款。 \n- **京剧脸谱餐具筷碗**：有北京纪念品特产特色，价格38元，已有1000+人付款。 \n- **苏绣双面刺绣团扇**：宫廷古风，纯手工制作，是出国外事礼品的不错选择，折后价74.8元，销量200+。\n### 创意装饰类\n- **熊猫元素周边**：像熊猫元素冰箱贴、胸针等，冰箱贴折后价33.13元，已有2000+人付款；胸针价格33元，有300+人付款。 \n- **京剧人物冰箱贴**：磁吸贵妃装饰磁贴，有北京文创中国风特色，价格4.5元，已有500+人付款。 \n- **金属熊猫书签**：具有中华国宝熊猫元素和中国风特色，价格18元。 \n- **中国风特色文创小夜灯**：中式古风纪念品，可作为商务伴手礼，价格53.8元，有400+人付款。 ",
+  "raw_capture_path": "evidence/raw/doubao-A-20260614T091016Z-ae83d3d874.json",
+  "screenshot_path": null,
+  "is_mock": false,
+  "named_brands": [
+    "故宫文创"
+  ],
+  "cited_sources": [
+    {
+      "url": "https://www.taobao.com/chanpin/2ece3536db645e049a1696e39f6927a12a3ba77ece7bae213e0a38d54152b581e5ecdf6b5fc10f5381714f72e3f25b42.html",
+      "title": "共找到347件",
+      "domain": "www.taobao.com",
+      "site_name": "淘宝",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://vn.world.taobao.com/product/%E4%B8%AD%E5%9B%BD%E9%A3%8E%E7%A4%BC%E7%89%A9%E9%80%81%E8%80%81%E5%A4%96%E4%BC%A0%E7%BB%9F.htm",
+      "title": "chinese style gift for foreigners traditional Latest Best Selling Praise Recommendation | Taobao Vietnam | 中国风礼物送老外传统最新热卖好评推荐",
+      "domain": "vn.world.taobao.com",
+      "site_name": "Taobao Vietnam",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.taobao.com/chanpin/4ff4f1f0ccc29b7fff4fff66f8d44a31b05e13241a4e5a5d9d8d2e2ac7e284c0.html",
+      "title": "送老外的中国特色礼物-送老外的中国特色礼物促销价格、送老外的中国特色礼物品牌 - 淘宝",
+      "domain": "www.taobao.com",
+      "site_name": "淘宝",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://vn.world.taobao.com/product/%E9%80%81%E8%80%81%E5%A4%96%E4%B8%AD%E5%9B%BD%E9%A3%8E%E7%86%8A%E7%8C%AB.htm",
+      "title": "send old chinese style panda Latest Best Selling Praise Recommendation | Taobao Vietnam | 送老外中国风熊猫最新热卖好评推荐",
+      "domain": "vn.world.taobao.com",
+      "site_name": "Taobao Vietnam",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.1688.com/jiage/-D6D0B9FACCD8C9ABC9CCCEF1C0F1C6B7.html",
+      "title": "共找到 4265 条",
+      "domain": "www.1688.com",
+      "site_name": "1688",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://www.am10.com/pm458S65WSa59uZ5/xl",
+      "title": "2026年06月国外礼物销量排行榜",
+      "domain": "www.am10.com",
+      "site_name": "爱美日记",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://www.am10.com/_265mmL5ju756iY5WSa5BCI6BCY6BOZ58S65ymI65m459uZ5tiL5/xl",
+      "title": "2026年06月中国特色礼品送老外刺绣书签销量排行榜",
+      "domain": "www.am10.com",
+      "site_name": "爱美日记",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://www.1688.com/jiage/-CDE2B1F6C2C3D3CE.html",
+      "title": "共找到 63 条",
+      "domain": "www.1688.com",
+      "site_name": "1688",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://mobile-phone.taobao.com/chanpin/ea51c667c5740251d49f8d55725fa30ec67d1ee6999c22815d279d02390ff724.html",
+      "title": "共找到1616件",
+      "domain": "mobile-phone.taobao.com",
+      "site_name": "淘宝",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://au.world.taobao.com/product/%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E5%B0%8F%E7%A4%BC%E5%93%81%E9%80%81%E8%80%81%E5%A4%96.htm?sort=sale-des",
+      "title": "chinese special gifts for foreigners Latest Best Selling Praise Recommendation | Taobao Australia | Tmall Australia | 中国特色小礼品送老外最新热卖好评推荐 - 2026年6月 | 淘宝 澳大利亚 | 天猫 澳大利亚",
+      "domain": "au.world.taobao.com",
+      "site_name": "Taobao Australia",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.3
+    }
+  ],
+  "product_cards": [],
+  "links": [],
+  "sentiment": "unscored",
+  "request_params": {
+    "endpoint": "https://ark.cn-beijing.volces.com/api/v3/bots/chat/completions",
+    "model": "bot-20260614150734-98qkm",
+    "attempt": 1
+  },
+  "parser_version": "0.2.0"
+}

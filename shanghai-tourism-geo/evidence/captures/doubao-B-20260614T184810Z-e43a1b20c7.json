@@ -1,0 +1,34 @@
+{
+  "id": "doubao-B-20260614T184810Z-e43a1b20c7",
+  "schema_version": "0.2.0",
+  "engine": "doubao",
+  "engine_model": "doubao-seed-1-6-flash-250615",
+  "query": "best places to visit in Shanghai for first time",
+  "buyer_segment": "B",
+  "timestamp": "2026-06-14T18:48:10.786654Z",
+  "raw_answer": "When visiting Shanghai for the first time, there are several iconic and diverse places that showcase the city's blend of history, modernity, and culture. Here’s a curated list:\n\n\n### 1. **The Bund**  \nA historic waterfront promenade with stunning views of Pudong’s modern skyline. Walk along the Bund to admire landmarks like the Peace Hotel, the Custom House, and see towering skyscrapers such as the Oriental Pearl Tower, Shanghai Tower, and Jin Mao Tower across the Huangpu River.\n\n\n### 2. **Oriental Pearl Tower**  \nOne of Shanghai’s most recognizable landmarks. Visit the observation decks for panoramic views of the city. It’s especially magical at night when the lights illuminate the skyline.\n\n\n### 3. **Yu Garden and Yu Garden Bazaar**  \nStep into a traditional Chinese garden with intricate architecture, lush landscapes, and colorful pavilions. The adjacent Yu Garden Bazaar is a bustling market selling handicrafts, snacks, and souvenirs.\n\n\n### 4. **Nanjing Road**  \nA world-famous shopping street, bustling with locals and tourists. It’s lined with department stores, boutiques, and eateries, offering a mix of international brands and local specialties.\n\n\n### 5. **Tianzifang**  \nA trendy neighborhood with narrow alleys (longtang) filled with quirky cafes, art galleries, boutique shops, and traditional Shanghai cuisine. Perfect for a stroll and soaking up the local vibe.\n\n\n### 6. **Shanghai Tower**  \nThe tallest building in China, offering breathtaking views from its observation decks. The glass floors in the Sky Deck provide a thrilling experience.\n\n\n### 7. **Jing’an Temple**  \nA historic Buddhist temple surrounded by modern skyscrapers. Explore the temple grounds, admire the architecture, and enjoy the peaceful atmosphere in the heart of the city.\n\n\n### 8. **Shanghai Museum**  \nHousing a vast collection of Chinese art, history, and culture. With its unique design and extensive exhibits, it’s a must-visit for history and art enthusiasts.\n\n\n### 9. **French Concession**  \nA charming area with tree-lined streets, vintage cafes, independent boutiques, and European-style architecture. Ideal for a leisurely walk, people-watching, and discovering local cafes and hidden gems.\n\n\n### 10. **Shanghai Disney Resort**  \nPerfect for families, offering magical rides, shows, and themed areas. Experience the enchantment of Disney in a uniquely Shanghai-inspired setting.\n\n\n### 11. **Century Park**  \nA large urban park with gardens, lakes, and walking paths. It’s a great place to relax and escape the city hustle, especially on a sunny day.\n\n\nThese spots cover a range of experiences, from historical landmarks to modern marvels, ensuring you get a well-rounded introduction to Shanghai’s vibrant essence.",
+  "raw_capture_path": "evidence/raw/doubao-B-20260614T184810Z-e43a1b20c7.json",
+  "screenshot_path": null,
+  "is_mock": false,
+  "named_brands": [
+    "The Bund",
+    "Oriental Pearl Tower",
+    "Shanghai Tower",
+    "Yu Garden",
+    "Nanjing Road",
+    "Tianzifang",
+    "Shanghai Museum",
+    "French Concession",
+    "Shanghai Disneyland"
+  ],
+  "cited_sources": [],
+  "product_cards": [],
+  "links": [],
+  "sentiment": "unscored",
+  "request_params": {
+    "endpoint": "https://ark.cn-beijing.volces.com/api/v3/chat/completions",
+    "model": "doubao-seed-1-6-flash-250615",
+    "attempt": 1
+  },
+  "parser_version": "0.2.0"
+}

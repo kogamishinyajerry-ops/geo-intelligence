@@ -1,0 +1,115 @@
+{
+  "id": "doubao-A-20260614T090601Z-3e037b077c",
+  "schema_version": "0.2.0",
+  "engine": "doubao",
+  "engine_model": "doubao-1-5-pro-32k-250115",
+  "query": "送美国客户的高端商务礼品推荐 美国人收礼有什么禁忌",
+  "buyer_segment": "A",
+  "timestamp": "2026-06-14T09:06:01.759544Z",
+  "raw_answer": "以下为你推荐一些适合送给美国客户的高端商务礼品：\n### 通用类\n- **Amazon礼品卡**：亚马逊是美国最大的电商平台，涵盖品类丰富，收礼人能按需购买所需或喜欢的物品，实用性强。可在Amazon官网购买，金额可自定义，参考价格为25 - 100美元以上。\n- **高品质美食礼盒**：包含巧克力、特色饼干或多种美味零食的礼盒，无论是节日还是日常赠送都很合适，可与他人分享。像Harry & David、Olive & Cocoa等品牌的礼盒不错，也可在当地精品超市自选。参考价格为30 - 80美元以上，购买渠道有Harry & David官网、Olive & Cocoa官网、Target、Costco等大型超市。\n- **香氛蜡烛或室内扩香**：精致的香氛产品能为居家增添氛围感，可选择清新、大众接受度高的香味。例如Bath & Body Works（多种香味可选）、Voluspa等品牌。参考价格为15 - 50美元以上，购买地点有Bath & Body Works门店及官网、Sephora、West Elm等家居店。\n\n### 体现文化特色类\n- **丝绸类物品**：如丝绸睡衣、丝绸被褥、丝巾等，具有中国特色，能展现中国文化魅力。\n- **白酒或茶叶**：若客户对中国文化感兴趣，像优质白酒、红茶都是不错的选择，很多美国人喜欢喝红茶。\n- **艺术品**：具有代表性的画作、雕塑、摄影作品，或如汴绣清明上河图等具有中国传统特色的高档礼品，适合对艺术有浓厚兴趣的客户。\n\n### 个性化定制类\n- **定制礼品**：印有客户名字或公司logo的定制服装、饰品、办公用品等，能体现对客户的关注与尊重。\n- **定制钥匙扣、笔记本**：钥匙扣可印上公司logo或祝福语，方便携带；笔记本可用于记录重要会议内容，实用且有纪念意义。\n\n### 办公实用类\n- **笔类礼品**：金属笔简约大方，适合送给重要客户或合作伙伴；定制笔可刻上公司logo或姓名，更具个性化。\n- **办公用品**：桌面文具套装（包含笔、便签、剪刀等）方便日常使用；文件架有助于整理办公桌，提高工作效率。\n- **茶具或咖啡具**：茶和咖啡是商务活动常见饮品，一套精美的茶具或咖啡具能体现品味，促进交流。\n\n### 体验类\n- **音乐会门票、瑜伽课程或烹饪课程**：为客户提供独特体验，能让其在忙碌工作之余放松身心，加深彼此友谊与合作。\n- **慈善捐赠**：若客户关注社会问题、热衷慈善事业，以他们名义进行慈善捐赠意义深远，能体现社会责任感及对客户的尊重与共鸣。\n\n给美国客户送礼时，需注意以下禁忌：\n- **避免贵重礼物**：过于昂贵的礼物可能让对方觉得你在“贿赂”或有其他企图，给对方带来压力。\n- **颜色禁忌**：黑色常与不吉利相关，红色常与危险和警告相关联，白色常与丧事和悲伤联系在一起，应避免使用这些颜色包装礼物。\n- **物品类型禁忌**：刀、剪刀等尖锐物品可能象征“切断关系”，若要送，可让对方“支付”一美分化解；钟表象征“时间流逝”，手帕常与悲伤和哭泣联系在一起，最好避开；香水、内衣、减肥产品属于私密或可能冒犯的礼物，尤其是异性之间，要慎重赠送；除非确定对方宗教信仰，否则避免赠送带有宗教意味的物品；除特定场合或长辈给晚辈，平辈之间尽量不送现金，可用礼品卡代替。\n- **数量禁忌**：美国人认为单数是吉利的，送礼时尽量避免送双数的东西。\n- **包装风格**：美国人喜欢简洁大方的包装，避免过度包装和奢华装饰，一个简洁精美的礼品袋或礼盒即可。 \n- **其他注意事项**：一些企业有严格收礼规定，提前了解可避免尴尬；送礼时附上一张手写感谢卡，表达感激与祝福；若送的礼物可退换，附上小票体现周到。 ",
+  "raw_capture_path": "evidence/raw/doubao-A-20260614T090601Z-3e037b077c.json",
+  "screenshot_path": null,
+  "is_mock": false,
+  "named_brands": [],
+  "cited_sources": [
+    {
+      "url": "https://www.dealmoon.com/post/2560671",
+      "title": "受邀去美国朋友家做客带什么？送贵礼=没礼貌？美国新人必看文化差异避坑指南",
+      "domain": "www.dealmoon.com",
+      "site_name": "Dealmoon 北美省钱快报",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://3lipin.com/biz/4423.html",
+      "title": "送什么礼物给美国客户 ?跨越文化鸿沟:给美国客户挑选礼物的艺术与策略",
+      "domain": "3lipin.com",
+      "site_name": "信尚礼品",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.dealmoon.com/post/2573141",
+      "title": "做客美国人家不尴尬！$10-$50超实用送礼清单，让你瞬间变高情商！",
+      "domain": "www.dealmoon.com",
+      "site_name": "Dealmoon 北美省钱快报",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.oryoy.com/news/mei-guo-guan-wang-jie-mi-shang-wu-li-pin-xuan-gou-gong-lve-qing-song-tiao-xuan-xin-yi-hao-li.html",
+      "title": "美国官网揭秘：商务礼品选购攻略，轻松挑选心仪好礼",
+      "domain": "www.oryoy.com",
+      "site_name": "云原生实践",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.hupu.com/bbs/630447631.html",
+      "title": "别看美国人大大咧咧，送礼却有讲究！",
+      "domain": "m.hupu.com",
+      "site_name": "虎扑",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.gnbk.net/changshi/vqLaJprVok.html",
+      "title": "送美国人什么礼物合适",
+      "domain": "m.gnbk.net",
+      "site_name": "广纳百科",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.sohu.com/a/933813406_100046496",
+      "title": "如何为国外客户挑选得体且富有心意的礼物?给国外客户送礼物送什么比较好 跨文化送礼指南",
+      "domain": "www.sohu.com",
+      "site_name": "搜狐",
+      "auth_score": 0.3,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.3lipin.com/laowai/29940.html",
+      "title": "送老外客户商务礼品指南，如何挑选得体又难忘的礼物",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.book118.com/html/2025/1224/7112161131011030.shtm",
+      "title": "vip 文档名称: 2026年职场商务礼品赠送文化禁忌规避技巧.pptx",
+      "domain": "m.book118.com",
+      "site_name": "原创力文档",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://liuxue.xdf.cn/blog/yangzhaoxia/blog/5315802.shtml",
+      "title": "美国生活礼仪_杨昭霞的博客-新东方前途出国",
+      "domain": "liuxue.xdf.cn",
+      "site_name": "新东方前途出国",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    }
+  ],
+  "product_cards": [],
+  "links": [],
+  "sentiment": "unscored",
+  "request_params": {
+    "endpoint": "https://ark.cn-beijing.volces.com/api/v3/bots/chat/completions",
+    "model": "bot-20260614150734-98qkm",
+    "attempt": 1
+  },
+  "parser_version": "0.2.0"
+}

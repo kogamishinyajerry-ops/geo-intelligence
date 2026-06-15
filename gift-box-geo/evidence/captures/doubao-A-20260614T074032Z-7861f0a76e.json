@@ -1,0 +1,117 @@
+{
+  "id": "doubao-A-20260614T074032Z-7861f0a76e",
+  "schema_version": "0.2.0",
+  "engine": "doubao",
+  "engine_model": "doubao-1-5-pro-32k-250115",
+  "query": "送外国客户什么伴手礼盒比较高端得体",
+  "buyer_segment": "A",
+  "timestamp": "2026-06-14T07:40:32.902945Z",
+  "raw_answer": "为外国客户选择高端得体的伴手礼盒，可从文化、实用、艺术等多个维度考虑，以下为您推荐一些合适的礼盒：\n### 体现中国特色文化类\n- **手工刺绣臻品礼盒**：如手工刺绣国风书签、戏曲熊猫刺绣摆件、手工刺绣胸针礼盒、功夫熊猫双面绣摆件、手工刺绣真丝丝巾等。这些刺绣作品将非遗匠艺与吉祥寓意融为一体，既有东方韵味又贴合国际审美。像手工刺绣国风书签以温润黄铜为胚，雕刻国风纹样，流苏处的手工刺绣蝴蝶结精美绝伦，寓意福气连绵；戏曲熊猫刺绣摆件融合熊猫与戏曲两大文化符号，彰显文化互鉴、友谊长存。\n- **宋式非遗套盒**：集宋代美学与非物质文化遗产之大成，包含汝瓷、汴绣以及政和白茶等。每一件作品都承载着深厚的历史文化底蕴，是中国传统文化的瑰宝，寓意着和平、友好与幸福，能激发国外友人对中华文化的兴趣和热爱。\n- **定制化城市文化纪念品礼盒**：以上海石库门、北京胡同、广州骑楼等为灵感设计的黄铜镇纸、琉璃地标摆件等，让异国客户带走一座城市的立体记忆。\n### 实用高端类\n- **定制化高端书写工具礼盒**：如德国凌美（LAMY）或英国派克（Parker）的镌名钢笔套装，搭配丝绒礼盒与多语种贺卡，兼具权威背书与个人专属感。\n- **东方哲思系茶/咖啡礼盒**：选用武夷山正岩大红袍、云南古树普洱或云南精品阿拉比卡咖啡豆，配以手工柴烧建盏或日本备前烧杯，辅以中英双语品鉴手册，将饮馔升华为生活哲学。\n- **智能科技伴手礼礼盒**：如搭载多语言翻译功能的便携录音笔、支持无线快充的环保竹纤维充电宝等，以“低调黑科技”满足现代办公刚需。\n### 艺术联名限量版类\n与中央美院、敦煌研究院或国际插画师合作开发的丝巾、笔记本、香薰蜡烛系列等，让每一件礼物都成为可流通的文化IP。\n\n在选择伴手礼盒时，还需注意文化适配性，提前了解客户所在国家的文化禁忌，如颜色、数字、宗教等方面的忌讳；同时要考虑包装，避免使用客户所在国家视为不吉利的颜色，推荐使用金色、银色或品牌主色调；此外，可根据客户的性别、兴趣爱好等进行个性化选择。 ",
+  "raw_capture_path": "evidence/raw/doubao-A-20260614T074032Z-7861f0a76e.json",
+  "screenshot_path": null,
+  "is_mock": false,
+  "named_brands": [
+    "华为"
+  ],
+  "cited_sources": [
+    {
+      "url": "https://k.sina.cn/article_7857141524_1d452771401901tjz2.html?from=cul",
+      "title": "送外国朋友的礼物怎么选?这5款小众又高级,老外一眼就爱上!",
+      "domain": "k.sina.cn",
+      "site_name": "新浪看点",
+      "auth_score": 0.3,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "http://www.3lipin.com/laowai/27771.html",
+      "title": "送国外客户礼物送什么好一点?送老外客户礼品指南，文化适配、实用心意与品牌格调的平衡",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "http://www.3lipin.com/laowai/31586.html",
+      "title": "送老外客户的高端礼品有哪些？兼顾文化品位、实用价值与国际审美的12种精选方案",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.3
+    },
+    {
+      "url": "http://www.3lipin.com/laowai/31430.html",
+      "title": "送外国客户什么礼物比较好？兼顾文化尊重、实用价值与品牌温度的国际化礼品指南",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.3
+    },
+    {
+      "url": "https://www.sohu.com/a/878784479_120109808",
+      "title": "还在头疼怎么给外国客户送礼?4款让老外爱不释手的礼物，别错过",
+      "domain": "www.sohu.com",
+      "site_name": "搜狐",
+      "auth_score": 0.3,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.sohu.com/a/933813406_100046496",
+      "title": "如何为国外客户挑选得体且富有心意的礼物?给国外客户送礼物送什么比较好 跨文化送礼指南",
+      "domain": "www.sohu.com",
+      "site_name": "搜狐",
+      "auth_score": 0.3,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.3lipin.com/laowai/31471.html",
+      "title": "送老外的礼品有哪些呢图片—实用、体面又富文化特色的国际馈赠指南（含高清实物参考图）",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.3
+    },
+    {
+      "url": "https://m.sohu.com/a/953932173_120109808/",
+      "title": "如何给外国朋友挑选礼物？这5款老外最喜欢，送礼可以直接抄作业",
+      "domain": "m.sohu.com",
+      "site_name": "手机搜狐网",
+      "auth_score": 0.3,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.sohu.com/a/826013979_120109808/",
+      "title": "送国外客户的礼品清单！中国风十足的特色礼品，送人实用又贴心！",
+      "domain": "m.sohu.com",
+      "site_name": "手机搜狐网",
+      "auth_score": 0.3,
+      "rel_score": 0.5,
+      "freshness_score": 0.3
+    },
+    {
+      "url": "https://jianghu.taobao.com/detail/47665_79875236",
+      "title": "送老外礼品选什么才不显廉价又自带文化分量？",
+      "domain": "jianghu.taobao.com",
+      "site_name": "淘江湖",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 1.0
+    }
+  ],
+  "product_cards": [],
+  "links": [],
+  "sentiment": "unscored",
+  "request_params": {
+    "endpoint": "https://ark.cn-beijing.volces.com/api/v3/bots/chat/completions",
+    "model": "bot-20260614150734-98qkm",
+    "attempt": 1
+  },
+  "parser_version": "0.2.0"
+}

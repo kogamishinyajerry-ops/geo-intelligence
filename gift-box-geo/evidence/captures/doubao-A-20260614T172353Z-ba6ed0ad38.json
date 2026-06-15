@@ -1,0 +1,115 @@
+{
+  "id": "doubao-A-20260614T172353Z-ba6ed0ad38",
+  "schema_version": "0.2.0",
+  "engine": "doubao",
+  "engine_model": "doubao-1-5-pro-32k-250115",
+  "query": "送越南客户的商务礼品送什么好",
+  "buyer_segment": "A",
+  "timestamp": "2026-06-14T17:23:53.679069Z",
+  "raw_answer": "在开展中越经贸合作时，向越南客户赠送得体的礼品，不仅是商务礼仪的体现，更是建立长期信任关系的重要纽带。选择礼物时，需要考虑文化差异、个人喜好、礼物寓意以及实用性等因素。以下是不同类型的礼物推荐：\n### 茶叶类\n- 越南虽为产茶国，但中国普洱茶、福鼎白茶、武夷岩茶因陈化潜力与健康属性，广受越南中产及商务人士青睐。建议选用30 - 50克装的小规格礼盒，配以素雅棉麻布袋与手写越南语祝福卡，若搭配青花瓷茶具或竹制茶盘，更显大气。\n### 丝绸与刺绣制品\n- 越南传统奥黛与中式旗袍剪裁神韵相通，真丝围巾、桑蚕丝领带或手工刺绣书签，都能唤起文化共鸣。苏绣或蜀绣定制款，将河内还剑湖、下龙湾或胡志明市统一宫等越南地标，以水墨风格绣于真丝底料之上，背面附简短双语说明，颇具收藏价值。\n### 食品类 \n- 食品类礼物需谨慎选择，越南人普遍忌讳含酒精饮品、牛肉制品以及过于甜腻的糕点。像云南高原蜂蜜（标注无添加、有机认证）、宁夏枸杞礼盒（配越文养生说明）、苏州稻香村低糖桃酥（独立小包装防潮）是比较安全的选项。同时，要确保所有食品清关合规，外包装注明成分、保质期及中文/越文双语标签。\n### 办公文创类\n- 例如激光雕刻的黄铜书签，一面刻《大南实录》名句“和而不同”，另一面镌企业名称与访问日期；还有以中越建交年份（1950年）为灵感设计的笔记本，封面压印两国国旗色渐变纹样，内页预留越南语常用商务短语速查页，此类礼物不贵重却有心意。\n### 其他礼品\n- **中式茶具套装**：能体现中国深厚的茶文化，让越南客户在品茶时感受中华文明韵味，且具有实用性。\n- **中国书法或绘画作品**：作为中华艺术瑰宝，具有较高艺术和收藏价值，可彰显品味，让客户领略中华艺术的博大精深。\n- **地方特色手工艺品**：如剪纸、泥塑等，承载着浓厚的地域文化特色，能让客户感受到中国文化的多样性和独特魅力。 \n\n此外，在挑选和赠送礼物时，还有一些注意事项和技巧：\n- **尊重文化差异**：充分了解越南的文化习俗和礼仪规范，避免选择可能引起误解或不适的礼物。比如，在越南莲花和菊花常用于祭祀，不宜作为礼物赠送；忌讳黑色与白色组合用于喜庆场合，要避免送钟表、伞等。\n- **注重礼物包装**：精美的包装能提升礼物档次，体现诚意和尊重。可选择具有中国特色的包装材料，如红色丝绸或金色纸盒等。\n- **遵守适度原则**：避免送过于奢华昂贵或廉价简单的礼物，适中的价格和精致的挑选更能体现用心和尊重。\n- **附上贺卡或信件**：赠送礼物时附上温馨贺卡或信件，简要表达感激之情、合作愿望和美好祝福，让礼物更具情感和温度。\n- **把握送礼时机**：在商务场合中，可在会议结束、合同签订或节日庆典等特殊时刻赠送礼物。 ",
+  "raw_capture_path": "evidence/raw/doubao-A-20260614T172353Z-ba6ed0ad38.json",
+  "screenshot_path": null,
+  "is_mock": false,
+  "named_brands": [],
+  "cited_sources": [
+    {
+      "url": "http://www.3lipin.com/laowai/31469.html",
+      "title": "送越南外国客户什么礼物好？兼顾文化尊重、实用价值与中越友谊的12种精选推荐",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.3lipin.com/biz/5693.html",
+      "title": "送越南客户什么礼物 ？跨越千里，礼赞友谊：精选礼物传递中越深情厚意",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.3lipin.com/laowai/473.html",
+      "title": "送越南客户的礼物,送老外礼物要体贴他们不要太俗套",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.ystbeauty.com/39332.html",
+      "title": "送越南客人礼物，精心挑选，礼赞友谊，送给越南客人的独特礼物精选指南",
+      "domain": "www.ystbeauty.com",
+      "site_name": "伊绅网",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://post.m.smzdm.com/p/apqol872/",
+      "title": "百元搞定体面伴手礼，越南特产选购全攻略",
+      "domain": "post.m.smzdm.com",
+      "site_name": "什么值得买社区频道",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.exoplanetwar.com/zh/vietnam_491360",
+      "title": "送给越南女孩子什么礼物",
+      "domain": "www.exoplanetwar.com",
+      "site_name": "世界旅游网",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://maisui1.com/xl/BOZ58S65X2Y5KaL6",
+      "title": "2026年05月越南礼品品牌排行榜",
+      "domain": "maisui1.com",
+      "site_name": "麦穗日记",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://post.m.smzdm.com/p/arlndw3w/",
+      "title": "🛍️ 越南必买清单｜亲测不踩雷版",
+      "domain": "post.m.smzdm.com",
+      "site_name": "什么值得买社区频道",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.kafei.com.cn/post/9381019.html",
+      "title": "越南咖啡礼品：文化符号与味觉记忆的完美融合",
+      "domain": "www.kafei.com.cn",
+      "site_name": "咖啡知识网",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://vn.world.taobao.com/product/%E5%AE%A2%E6%88%B7%E5%91%A8%E5%B9%B4%E7%A4%BC%E7%89%A9.htm?sort=sales-des&style=list",
+      "title": "customer anniversary gift Latest Best Selling Praise Recommendation | Taobao Vietnam |Tmall Vietnam | 客户周年礼物最新热卖好评推荐 - 2026年6月 | 淘宝 越南 | 天猫 越南",
+      "domain": "vn.world.taobao.com",
+      "site_name": "Taobao Vietnam",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    }
+  ],
+  "product_cards": [],
+  "links": [],
+  "sentiment": "unscored",
+  "request_params": {
+    "endpoint": "https://ark.cn-beijing.volces.com/api/v3/bots/chat/completions",
+    "model": "bot-20260614150734-98qkm",
+    "attempt": 2
+  },
+  "parser_version": "0.2.0"
+}

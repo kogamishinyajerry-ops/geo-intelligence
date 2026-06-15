@@ -1,0 +1,117 @@
+{
+  "id": "doubao-A-20260614T074525Z-3b34678b70",
+  "schema_version": "0.2.0",
+  "engine": "doubao",
+  "engine_model": "doubao-1-5-pro-32k-250115",
+  "query": "春节送国外客户的高端礼盒推荐",
+  "buyer_segment": "A",
+  "timestamp": "2026-06-14T07:45:25.491656Z",
+  "raw_answer": "为国外客户挑选春节高端礼盒，需兼顾中国特色与国际接受度，同时要避开过于本土化元素、昂贵礼品和易变质食品等雷区。以下是不同类型的礼盒推荐：\n### 食品类\n- **喜多多经典新年礼盒**：全场景适配，内含椰果王、仙草丸子、鲜炖银耳、黑糖枸杞粥等6款“0添加”产品，覆盖早餐、下午茶、加餐等场景。礼盒以正红为底色，符合春节喜庆氛围，口感丰富、老少皆宜，适合注重健康、有家庭且喜欢实用礼品的客户。\n- **德芙2026浓情巧克力春节礼盒**：全球知名巧克力品牌，采用比利时进口可可豆，经10道研磨工艺，丝滑度提升20%，包含黑巧克力、牛奶巧克力、榛果巧克力。礼盒采用鎏金工艺，搭配天鹅、爱心等元素，质感高级，主打“浓情蜜意”，适合送商务伙伴、高端客户以彰显品味。\n- **Godiva「金马献瑞」巧克力礼盒**：以丝滑口感著称，是甜食爱好者的首选，生肖主题包装增添节日氛围，适合作为春节礼品送给国外客户。\n### 酒水类\n- **人头马《邑马当先》马年礼盒**：知名干邑品牌，马年限定包装，能展现独特品味，适合商务馈赠，让客户感受到节日的喜庆和对他们的重视。\n- **酩悦香槟2026马年纪念版气泡酒**：适合在亲友聚会时共享欢乐时光，为节日增添欢庆氛围，是送给国外客户的不错选择。\n### 健康养生类\n- **恋之坊土蜂蜜**：外盒是正红硬壳礼盒搭配烫金字体，有节日喜庆氛围又具商务高级感。内装高硼硅玻璃瓶，能锁住蜂蜜活性成分。配料仅为蜂蜜，产自秦岭太白山，富含多种活性物质。还搭配同源蜂王浆，构成自然养护方案。适合常年应酬、注重健康管理的商务人士客户。\n- **圣泽松茸菌丝体粉礼盒**：承袭松茸尊贵基因，通过生物技术保留完整营养，小分子更易吸收。一勺约等于2公斤野生松茸的营养，小罐装，配勺和食用指南，每日一勺温水冲服即可。适合需要健康守护的亚健康客户或追求品质生活的高管客户。\n### 文化创意类\n- **故宫文创「千里江山图」珐琅彩茶具**：将古典美学融入日常使用，承载深厚文化底蕴与情感寄托，能彰显送礼格调，适合赠予对中国文化感兴趣的艺术爱好者客户。\n### 美妆香氛类\n- **海蓝之谜精粹修护套装**：高端护肤界“顶流”，品牌认知度高。经典奇迹面霜主打深海修护精萃，适合熟龄肌肤。新年限定包装采用喜庆红色或金色元素，契合节日氛围，适合送给女性客户。\n- **祖玛珑限定版英国梨与小苍兰香水礼盒**：雅诗兰黛集团旗下高端沙龙香品牌，格调清新高雅。经典香型甜美沉稳，新年限定礼盒包含香水与香氛蜡烛，能增添温馨氛围感，适合送给追求生活情调的女性客户。 ",
+  "raw_capture_path": "evidence/raw/doubao-A-20260614T074525Z-3b34678b70.json",
+  "screenshot_path": null,
+  "is_mock": false,
+  "named_brands": [
+    "故宫文创"
+  ],
+  "cited_sources": [
+    {
+      "url": "https://m.sohu.com/a/988324960_122505426/",
+      "title": "2026年贸易公司春节给国外客户送礼盒的3大核心逻辑与4类优选方案",
+      "domain": "m.sohu.com",
+      "site_name": "手机搜狐网",
+      "auth_score": 0.3,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.sohu.com/a/992512435_122255128/",
+      "title": "2026高档新年礼：实用与奢华并存，送出满满心意",
+      "domain": "m.sohu.com",
+      "site_name": "手机搜狐网",
+      "auth_score": 0.3,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://hebei.ifeng.com/c/8qH6p7f080S",
+      "title": "春节给客户送什么礼物合适？2026十款高端商务礼推荐，体面又不贵",
+      "domain": "hebei.ifeng.com",
+      "site_name": "凤凰网河北频道",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.sohu.com/a/976917768_122505426",
+      "title": "2026年春节礼盒推荐Top3:从消费趋势到选品逻辑的专业洞察报告",
+      "domain": "www.sohu.com",
+      "site_name": "搜狐",
+      "auth_score": 0.3,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.harpersbazaar.com/tw/luxury/alcoholic/a70069164/2026-chinese-new-year-gifts/",
+      "title": "2026過年禮盒推薦：10+款春節「馬年酒禮盒」這樣送",
+      "domain": "www.harpersbazaar.com",
+      "site_name": "Harper's BAZAAR",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.sohu.com/a/976846720_122255128/",
+      "title": "2026 年春节送礼攻略：如何选择体面又有意义的高端礼物",
+      "domain": "m.sohu.com",
+      "site_name": "手机搜狐网",
+      "auth_score": 0.3,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://mt.sohu.com/a/962793010_121778239",
+      "title": "春节敬赠领导与贵人:这3款高端礼盒，闭眼入",
+      "domain": "mt.sohu.com",
+      "site_name": "搜狐网",
+      "auth_score": 0.3,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.sohu.com/a/976916671_122505426",
+      "title": "2026年春节送礼礼盒选品洞察:从“喜庆符号”到“心意传递”的3大逻辑与TOP4推荐",
+      "domain": "www.sohu.com",
+      "site_name": "搜狐",
+      "auth_score": 0.3,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.sohu.com/a/976843676_122255128",
+      "title": "2026 年春节送礼推荐:高预算与高档新年礼物清单，体面又实用",
+      "domain": "www.sohu.com",
+      "site_name": "搜狐",
+      "auth_score": 0.3,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://askai.glarity.app/zh-TW/search/2026%E5%B9%B4%E9%81%8E%E5%B9%B4%E7%AF%80%E7%A6%AE%E7%9B%92%E6%9C%89%E5%93%AA%E4%BA%9B%E6%8E%A8%E8%96%A6",
+      "title": "2026年过年节礼盒有哪些推荐?",
+      "domain": "askai.glarity.app",
+      "site_name": "Glarity",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    }
+  ],
+  "product_cards": [],
+  "links": [],
+  "sentiment": "unscored",
+  "request_params": {
+    "endpoint": "https://ark.cn-beijing.volces.com/api/v3/bots/chat/completions",
+    "model": "bot-20260614150734-98qkm",
+    "attempt": 1
+  },
+  "parser_version": "0.2.0"
+}

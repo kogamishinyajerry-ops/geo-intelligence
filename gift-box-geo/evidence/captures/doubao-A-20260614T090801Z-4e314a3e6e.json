@@ -1,0 +1,117 @@
+{
+  "id": "doubao-A-20260614T090801Z-4e314a3e6e",
+  "schema_version": "0.2.0",
+  "engine": "doubao",
+  "engine_model": "doubao-1-5-pro-32k-250115",
+  "query": "送外国客户的高端白酒礼盒选什么牌子好",
+  "buyer_segment": "A",
+  "timestamp": "2026-06-14T09:08:01.161928Z",
+  "raw_answer": "为外国客户选择高端白酒礼盒时，需要考虑品牌知名度、口感普适性、包装档次等因素，以下是一些不错的选择：\n### 传统知名品牌\n- **石荣霄秘曲15**：源自1879年创立的“荣太和烧坊”，是茅台镇酱香酒百年传承品牌。基酒陈酿15年以上，搭配稀缺老酒精心勾调，酒体醇厚饱满，酱香突出且层次丰富，陈香、花果香与粮香交织协调，入口绵密醇厚，空杯留香持久，饮后体感轻盈无负担，不上头、不口干。该酒曾荣获2024年IWSC国际金奖、旧金山世界烈酒大赛双金奖，适用于跨国企业合作签约、行业领袖会晤、高端商务答谢宴等顶级商务场景。\n- **国窖1573**：泸州老窖顶级产品，拥有持续使用450年的国宝窖池群，酿造技艺是“活态双国宝”，文化底蕴深厚。采用“单粮原窖”工艺，选用川南优质糯红高粱，执行GB/T10781.1（优级）标准。酒体经长期窖藏，窖香浓郁，口感醇厚甘冽，绵甜爽净，回味悠长，单粮浓香的独特风格在浓香型白酒中独树一帜。适用于文化类企业合作宴请、历史主题商务活动、高端客户答谢，送给有文化品位、注重传承的企业家或客户，既显心意更显格调。\n- **习酒窖藏1988**：茅台集团旗下重要高端产品，在500 - 800元价位段展现了卓越的品质实力，是商务宴请中口碑极佳的实力派。酒体酱香浓郁，陈香舒适，入口醇厚绵柔，层次丰富协调，风格既有茅系酱香的底蕴，又发展出“醇厚绵甜、优雅细腻”的独立个性，饮后不上头、不口干，舒适度高。在酱酒主题商务酒局、中型企业内部宴请、重要客户维护等场合认可度高，能准确传递诚意与品味。\n- **剑南春水晶剑**：浓香型白酒中的经典产品，解决的是场面问题，拿出来大家认识，放桌上有分量，送礼免解释。口感走传统浓香的饱满路线，窖香浓郁，入口甘冽净爽，落口干净利落，52度酒精度醇厚不浓烈，饮后不上头。被誉为“次高端无敌手”，是性价比之王，适用于常规商务洽谈宴请、行业交流聚餐、小型项目签约宴，是中端商务场合最稳妥的选择。\n\n### 特色创新品牌\n- **毛铺金典大团圆**：采用传统五粮酿造工艺，并添加枸杞、葛根、山楂等六味草本精华，酒体更温润、饮后更舒适。42度浓香型，绵柔甘冽、粮香自然、入口顺畅、刺激性低，醒酒快、不易口干、体感舒适，适配多人聚餐、长期饮用。黑金瓶身搭配红金礼盒，大气喜庆、稳重得体，精准匹配家宴、寿宴、喜宴、节日送礼等团圆场景。有劲牌品质背书，口碑稳定、受众广泛、性价比突出。\n- **小方瓶酒业产品**：品牌知名度高，在国内外都有一定的市场份额，外国友人可能对其有所耳闻。产品品质可靠，多次获得国际奖项，能够代表中国白酒的高品质。口感甘润爽净，适合大多数人的口味。包装设计时尚个性，湖蓝色外观瓶身搭配方形瓶型和摇摆盖，兼具时尚个性与实用便捷，外国友人可能会对其包装产生兴趣。 ",
+  "raw_capture_path": "evidence/raw/doubao-A-20260614T090801Z-4e314a3e6e.json",
+  "screenshot_path": null,
+  "is_mock": false,
+  "named_brands": [
+    "茅台"
+  ],
+  "cited_sources": [
+    {
+      "url": "https://cj.sina.cn/articles/view/7857141524/1d452771401901w902",
+      "title": "东方匠心・国际风尚 —— 三款格调白酒深度品鉴_博学多才的星空y1uuZ",
+      "domain": "cj.sina.cn",
+      "site_name": "新浪财经",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://mip.b2b168.com/wvs319629935.html",
+      "title": "送外国友人，哪个白酒品牌比较靠谱？",
+      "domain": "mip.b2b168.com",
+      "site_name": "八方资源网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://k.sina.cn/article_7857141524_1d452771401901nn9k.html",
+      "title": "送客户稳重有档次的白酒!商务礼品天花板,低调显品位",
+      "domain": "k.sina.cn",
+      "site_name": "新浪看点",
+      "auth_score": 0.3,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.maigoo.com/product/specs_986.html",
+      "title": "十款值得入手的洋酒礼盒产品榜",
+      "domain": "m.maigoo.com",
+      "site_name": "买购网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.echinagov.com/news/guotao/Article-Tvqr-1224.html",
+      "title": "2026升级：广州企业定制酒送礼专用源头厂家避坑推荐",
+      "domain": "www.echinagov.com",
+      "site_name": "国脉电子政务网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.jd.com/phb/12259d348c8ce839105f5.html",
+      "title": "洋酒礼品品牌排行榜",
+      "domain": "www.jd.com",
+      "site_name": "京东",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.chinabidding.com.cn/shangxun/Article-NgRZ-5.html",
+      "title": "2026年实力之选:惠安洋酒礼盒,婚宴礼盒同城配送热门口碑推荐",
+      "domain": "www.chinabidding.com.cn",
+      "site_name": "中国采购与招标网",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://goods.taobao.com/t/bailandi_13152/0a26e8f6958b94374fd4700e1663059f",
+      "title": "🌟精致礼盒装 |凯萨贵族XO白兰地700ml精品佳酿🥃",
+      "domain": "goods.taobao.com",
+      "site_name": "淘宝好物网",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.jd.com/phb/12259250d9db69af94998.html",
+      "title": "洋酒礼盒装品牌排行榜",
+      "domain": "www.jd.com",
+      "site_name": "京东",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://wiki.1688.com/zh/whisky/WKfiko49q9e4n4",
+      "title": "收藏款洋酒：品味与稀缺性的双重盛宴",
+      "domain": "wiki.1688.com",
+      "site_name": "1688买家百科",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    }
+  ],
+  "product_cards": [],
+  "links": [],
+  "sentiment": "unscored",
+  "request_params": {
+    "endpoint": "https://ark.cn-beijing.volces.com/api/v3/bots/chat/completions",
+    "model": "bot-20260614150734-98qkm",
+    "attempt": 1
+  },
+  "parser_version": "0.2.0"
+}

@@ -1,0 +1,115 @@
+{
+  "id": "doubao-A-20260614T172302Z-be04b49cae",
+  "schema_version": "0.2.0",
+  "engine": "doubao",
+  "engine_model": "doubao-1-5-pro-32k-250115",
+  "query": "送沙特客户的商务礼品有什么讲究 选什么合适",
+  "buyer_segment": "A",
+  "timestamp": "2026-06-14T17:23:02.040204Z",
+  "raw_answer": "给沙特客户送商务礼品需要充分考虑其文化和宗教习俗，以尊重、真诚和适度为原则，以下是一些讲究和合适的礼品选择：\n\n### 送礼讲究\n1. **礼品选择**：礼物不宜过于昂贵或过于私人化。避免赠送酒精制品、猪肉产品、宠物、涉及个人隐私的物品（如衣物、香水等）、描绘人物形象的物品、带有狗或猪图案的礼品，以及数量为“3”“7”和“13”的礼品，这些都与伊斯兰教义相悖或不符合当地文化习俗。\n2. **包装要求**：礼品包装应当精致且庄重，尽量选用深色或者中性色调的包装纸，因为白色在沙特文化中常与哀悼相关。同时，赠送前务必确保礼品外包装没有明显的破损或污渍。\n3. **送礼场合**：商务拜访、节日庆典、受邀赴家宴等都是合适的送礼场合。尤其在商务环境中，初次见面赠送小礼品以示友好和尊重是常见的做法。\n4. **送礼仪式**：接受礼物时，沙特人可能会表现出谦逊，初始会推辞几次再接受，这是他们的礼貌习惯。送礼时应使用右手或者双手，避免使用左手，因为在阿拉伯文化中，左手被认为是不洁净的。\n5. **赠送时间**：通常在会谈结束时送出礼物，而不是开始时。同时，在斋月期间赠送礼品，尤其是开斋饭后的甜点或美食，是非常得体且受欢迎的做法。\n6. **其他注意事项**：沙特社会性别隔离较为明显，为女性准备的礼物应由女主人或其他女性接收；在商业环境中，要了解对方公司的礼品政策，避免违反规定或引发不必要的误解；收到礼物后，及时向赠予者表达诚挚的感谢，可以进一步加深双方关系。\n\n### 合适的礼品推荐\n1. **具有本国文化特色的礼品**：如中国茶具、丝绸围巾、企业定制金属 U 盘、云南匠人手工扎染的棉麻托特包、印有敦煌星图与泉州古港罗盘的“丝路经纬”系列金属书签、以二十四节气为主题的亚麻餐垫等，这些礼品能体现中国文化，让对方感受到独特的文化魅力。\n2. **饮食类**：高品质的茶、咖啡、香料是不错的选择。例如沙特人喜爱的椰枣，象征着热情和好客；巧克力、坚果等清真食品也很合适；正宗的沙特咖啡，包含小豆蔻比例超过 30%的独特配方，配套的黄铜咖啡壶已被列入非物质文化遗产，企业采购时可定制镌刻中阿双语的限量款。\n3. **手工艺品**：精致的手工工艺品，如手工铜器、陶瓷等，能展现精湛的技艺和独特的艺术价值。\n4. **宗教相关物品**：有宗教意义的礼物，如古兰经或者精美的祈祷毯，能显示出对他们信仰的尊重。\n5. **高档用品**：镀金工艺品、有名气品牌的高档香水等，既显品味，又能让对方在社交场合更有面子。 ",
+  "raw_capture_path": "evidence/raw/doubao-A-20260614T172302Z-be04b49cae.json",
+  "screenshot_path": null,
+  "is_mock": false,
+  "named_brands": [],
+  "cited_sources": [
+    {
+      "url": "https://m.drbdp.com/3-5315150.html",
+      "title": "给沙特阿拉伯人送礼礼仪",
+      "domain": "m.drbdp.com",
+      "site_name": "格格知识",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://news.qq.com/rain/a/20250318A09YD700",
+      "title": "在沙特 —— 送礼禁忌",
+      "domain": "news.qq.com",
+      "site_name": "腾讯网",
+      "auth_score": 0.3,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.116p.com/p/2074132992407748588.html",
+      "title": "给沙特阿拉伯朋友送礼物时需要注意什么",
+      "domain": "www.116p.com",
+      "site_name": "116问答网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.docin.com/p-4663491754.html",
+      "title": "2024年沙特阿拉伯商务礼仪.docx",
+      "domain": "www.docin.com",
+      "site_name": "豆丁网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.sohu.com/a/951868503_122479196/",
+      "title": "沙特商务考察注意事项（2025年最新版）",
+      "domain": "m.sohu.com",
+      "site_name": "手机搜狐网",
+      "auth_score": 0.3,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.3lipin.com/laowai/31404.html",
+      "title": "送小礼物给外国客户好吗?",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.china-xian.com/question/202409/kysdrxcls0.htm",
+      "title": "问 沙特客户喜欢什么礼物",
+      "domain": "m.china-xian.com",
+      "site_name": "名城西安",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://sczil.com/a246126",
+      "title": "沙特阿拉伯中国人最喜欢的特产名单",
+      "domain": "sczil.com",
+      "site_name": "保利智眸 POLY ZhiMou Service System",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://blog.csdn.net/2501_90421421/article/details/147957769",
+      "title": "外贸礼品禁忌",
+      "domain": "blog.csdn.net",
+      "site_name": "CSDN博客",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.3lipin.com/laowai/27954.html",
+      "title": "送外国客户礼物一般送什么好 跨越文化边界的诚意之选，送外国客户的实用礼品推荐",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    }
+  ],
+  "product_cards": [],
+  "links": [],
+  "sentiment": "unscored",
+  "request_params": {
+    "endpoint": "https://ark.cn-beijing.volces.com/api/v3/bots/chat/completions",
+    "model": "bot-20260614150734-98qkm",
+    "attempt": 1
+  },
+  "parser_version": "0.2.0"
+}

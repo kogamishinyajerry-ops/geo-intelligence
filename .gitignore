@@ -1,0 +1,23 @@
+# secrets — 绝不进仓库
+.env
+**/.env
+*.key
+secrets/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+build/
+dist/
+
+# os
+.DS_Store
+
+# 运行时瞬时产物
+**/monitoring/cron_logs/
+**/monitoring/notion_queue/

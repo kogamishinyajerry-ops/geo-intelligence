@@ -1,0 +1,22 @@
+# secrets — 绝不进仓库（红线 §7）
+.env
+*.key
+secrets/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+build/
+dist/
+
+# os
+.DS_Store
+
+# 监测运行时产物（truth plane = history/alerts/ALERTS.md 入仓；下列为瞬时态，不入仓）
+monitoring/cron_logs/
+monitoring/notion_queue/

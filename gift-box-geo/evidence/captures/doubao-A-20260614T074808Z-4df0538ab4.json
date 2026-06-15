@@ -1,0 +1,117 @@
+{
+  "id": "doubao-A-20260614T074808Z-4df0538ab4",
+  "schema_version": "0.2.0",
+  "engine": "doubao",
+  "engine_model": "doubao-1-5-pro-32k-250115",
+  "query": "高端定制礼盒送海外VIP客户",
+  "buyer_segment": "A",
+  "timestamp": "2026-06-14T07:48:08.736784Z",
+  "raw_answer": "为海外VIP客户选择高端定制礼盒，既要体现企业的诚意和实力，又要尊重对方的文化习俗和个人喜好。以下是一些相关建议：\n### 礼品选择\n- **奢侈品系列**：像可定制刻名的Montblanc商务钢笔套装、有企业LOGO刺绣的Burberry羊绒围巾、限量定制款的Gucci真皮名片夹，这些知名品牌产品能彰显非凡格调。\n- **智能科技系列**：如企业定制版的Bose降噪耳机、迷你办公款的Dyson空气净化器、带有企业专属表盘的Apple Watch Ultra，可引领未来生活。\n- **健康养生系列**：奢华的La Mer节日护肤礼盒、定制款的OSIM肩颈按摩仪、企业联名款的戴森吹风机，体现贴心关怀。\n- **茶酒文化系列**：茅台年份酒搭配专属酒柜、大益普洱茶珍藏套装、Wedgwood英式下午茶具，能带来品味生活的体验。\n- **艺术品系列**：景德镇大师手作茶具、纯银书签套装、限量版艺术摆件，具有永久珍藏价值。\n- **其他特色礼品**：\n    - **私人旅行体验+定制收藏品**：能提供独特的体验和具有纪念意义的物品。\n    - **时令鲜果礼盒**：可选择车厘子、猕猴桃等耐储存易运输的品种，采用全球时令鲜果搭配高端包装，仪式感十足，还可选择宝卡（约9980元/年，每周1次配送）进行精细化维护。\n### 礼盒呈现升级\n- **包装设计**：采用可重复利用的木质礼盒，内衬丝绸或环保再生材料，并附赠品牌徽章作为纪念。\n- **交付仪式**：由企业高管亲自递送，或搭配手写视频贺卡，强化情感联结。\n### 合规性检查\n- **海关申报**：提前确认礼物价值是否超出目的地国免税额度，避免税务纠纷。\n- **反贿赂法**：确保礼物价值符合《海外反腐败法》（FCPA）等国际法规，避免法律风险。 \n### 定制注意事项\n- **了解文化背景**：不同国家和地区有各自独特的传统和禁忌，比如在日本，樱花图案的商品或带有茶道元素的礼物会受欢迎；在法国，优质红酒或精致手工巧克力是不错的选择。\n- **考虑兴趣爱好**：若知道对方喜欢艺术，限量版画作或精美陶瓷餐具是很棒的选择。  \n- **体现企业形象**：选择能代表公司形象或业务领域的定制化礼品，如刻有公司标志的钢笔、笔记本等。\n\n若有具体的定制需求，中礼集礼品可提供国际大牌授权、私人定制、礼品方案设计、全球配送等服务；也可选择如深圳中瑞纸品实业有限公司、杭州梵蓝文化创意有限公司等专业礼盒定制厂家。 ",
+  "raw_capture_path": "evidence/raw/doubao-A-20260614T074808Z-4df0538ab4.json",
+  "screenshot_path": null,
+  "is_mock": false,
+  "named_brands": [
+    "茅台"
+  ],
+  "cited_sources": [
+    {
+      "url": "http://www.3lipin.com/laowai/27488.html",
+      "title": "送外国客户高档次礼物送什么好 臻选雅礼，送老外客户的高端礼品指南—文化交融与品质之选",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.3
+    },
+    {
+      "url": "https://www.zljlp.com/Mobile/MArticles/sgdkhsmlpz.html",
+      "title": "送高端客户什么礼品彰显档次?",
+      "domain": "www.zljlp.com",
+      "site_name": "中礼集",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.zgswcn.com/shangxun/news.html?aid=560874",
+      "title": "2026年5月更新：石狮实用的护照夹礼盒订购厂家怎么选择？专业指南与推荐",
+      "domain": "www.zgswcn.com",
+      "site_name": "中国商报网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "http://www.zgswcn.com/shangxun/news.html?aid=705635",
+      "title": "2026年现阶段，徐州地区节日伴手礼盒实力厂商综合选择指南",
+      "domain": "www.zgswcn.com",
+      "site_name": "中国商报网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "http://m.1688.com/offer/1027133211184.html",
+      "title": "跨境高档商务笔记本套装礼盒定制烫金LOGO伴手礼含手提袋贺卡定做",
+      "domain": "m.1688.com",
+      "site_name": "1688阿里巴巴",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.3
+    },
+    {
+      "url": "https://goods.taobao.com/t/zhongqiuliwu_16972/be3fae0bf9ee5dab0f8014126ebc0ed1.html",
+      "title": "高档轻奢中秋礼盒推荐:定制男士生日礼物送老公、父亲、领导、外国客户都体面",
+      "domain": "goods.taobao.com",
+      "site_name": "淘宝好物网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.sohu.com/a/1029245504_122508344/",
+      "title": "商务私人全场景送礼攻略：周期式送礼优势及多预算方案",
+      "domain": "m.sohu.com",
+      "site_name": "手机搜狐网",
+      "auth_score": 0.3,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "http://www.3lipin.com/laowai/31349.html",
+      "title": "如何挑选一份得体而珍贵的礼物送给外国客户?选择一份既符合对方文化背景又体现自身诚意的礼物尤为重要",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.sohu.com/a/1026041167_122512783/",
+      "title": "送礼攻略评测：分场景人群预算定制鲜果礼盒高性价比维护关系",
+      "domain": "m.sohu.com",
+      "site_name": "手机搜狐网",
+      "auth_score": 0.3,
+      "rel_score": 0.5,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://bj.lieju.com/qitashangwufuwu/85492468.html",
+      "title": "2026年5月节日礼盒厂家推荐：端午中秋礼盒、商务伴手礼盒、",
+      "domain": "bj.lieju.com",
+      "site_name": "北京列举网",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 1.0
+    }
+  ],
+  "product_cards": [],
+  "links": [],
+  "sentiment": "unscored",
+  "request_params": {
+    "endpoint": "https://ark.cn-beijing.volces.com/api/v3/bots/chat/completions",
+    "model": "bot-20260614150734-98qkm",
+    "attempt": 1
+  },
+  "parser_version": "0.2.0"
+}

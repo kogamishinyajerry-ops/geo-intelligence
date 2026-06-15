@@ -1,0 +1,115 @@
+{
+  "id": "doubao-A-20260614T172451Z-09dd243d6e",
+  "schema_version": "0.2.0",
+  "engine": "doubao",
+  "engine_model": "doubao-1-5-pro-32k-250115",
+  "query": "送以色列客户的礼品有什么禁忌 犹太教饮食讲究",
+  "buyer_segment": "A",
+  "timestamp": "2026-06-14T17:24:51.705818Z",
+  "raw_answer": "犹太教对饮食有严格规定，送以色列客户礼物时，涉及食品方面需格外注意，以下是详细的饮食禁忌及其他相关禁忌信息：\n### 饮食禁忌\n- **食物成分**：犹太教遵循Kosher饮食规则，比清真要求更严格。必须避免送含有猪肉、贝类等成分的食品，以及非犹太教牧师在场宰杀的牛肉。此外，没有鱼鳞的鱼类也在禁食之列。\n- **食物搭配**：犹太教饮食规定中，肉类与奶制品不可同时食用，所以不要送包含肉类和奶制品组合的礼物。 \n\n### 其他禁忌\n- **宗教与政治敏感**：涉及政治、宗教争议或贬低他人信仰的礼物不可赠送，要避免评价以 - 巴冲突、阿拉伯国家及耶路撒冷归属等政治话题，保持中立态度。同时，不要送带有政治或宗教符号的礼物，如十字架、星月图案等物品。\n- **象征意义方面**：忌送数目为“13”的礼物，因为被视为不吉利；也不要送带有猪、贝壳图案的物品。\n- **公司合规**：部分欧美大公司规定员工收的单件礼物价值要低于50美元，超过就得上报，所以要注意礼物价值，避免赠送现金、礼品卡、购物卡、奢侈品等，以免被认为是贿赂。\n- **私人关系方面**：香水、衣物、首饰、化妆品等礼物容易让客户觉得暧昧或越界；健身器材、保健品等涉及隐私，除非与客户关系非常好，否则也不适合赠送。 \n- **广告意味**：避免送带明显Logo的杯子、T恤、文具等，以免让客户感觉是在做广告。\n- **包装颜色**：避免使用黑色或紫色等传统丧葬色包装礼物，选择鲜艳且喜庆的颜色更受欢迎。 ",
+  "raw_capture_path": "evidence/raw/doubao-A-20260614T172451Z-09dd243d6e.json",
+  "screenshot_path": null,
+  "is_mock": false,
+  "named_brands": [],
+  "cited_sources": [
+    {
+      "url": "http://www.3lipin.com/biz/15964.html",
+      "title": "送以色列客户什么礼物 ?精心挑选，礼遇以色列:送给以色列客户的绝佳礼物推荐",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.sohu.com/a/951149702_122479196",
+      "title": "以色列商务考察最新注意事项速览",
+      "domain": "www.sohu.com",
+      "site_name": "搜狐",
+      "auth_score": 0.3,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.miciall.com/news/1213.html",
+      "title": "以色列商务考察注意事项(2025年更新版)",
+      "domain": "www.miciall.com",
+      "site_name": "华制国际",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.zcqtz.com/news/2600624.html",
+      "title": "以色列人的见面礼节有哪些注意事项",
+      "domain": "www.zcqtz.com",
+      "site_name": "丝路印象",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://k.sina.cn/article_7857141524_1d45277140190354zc.html",
+      "title": "给客户送的6种“作死型”礼物",
+      "domain": "k.sina.cn",
+      "site_name": "新浪看点",
+      "auth_score": 0.3,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://bookshelf.docin.com/p-4925620784.html",
+      "title": "以色列人生活习俗及商务礼仪.pdf",
+      "domain": "bookshelf.docin.com",
+      "site_name": "豆丁网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://baike.baidu.hk/item/%E8%BF%91%E4%B8%9C/0?fromModule=lemma_inlink",
+      "title": "近东_百度百科",
+      "domain": "baike.baidu.hk",
+      "site_name": "百度百科",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://talkpal.ai/zh-hans/vocabulary/%E5%B8%8C%E4%BC%AF%E6%9D%A5%E8%AF%AD%E6%96%87%E5%8C%96%E7%A6%81%E5%BF%8C%E4%B8%8E%E7%A4%BC%E4%BB%AA%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/",
+      "title": "希伯来语文化禁忌与礼仪注意事项",
+      "domain": "talkpal.ai",
+      "site_name": "Talkpal",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://3g.163.com/news/article/K7IEIC4S05525BR6.html",
+      "title": "给客户送的6种“作死型”礼物",
+      "domain": "3g.163.com",
+      "site_name": "手机网易网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://oic.ustc.edu.cn/abroad/%E8%B5%B4%E4%BB%A5%E8%89%B2%E5%88%97%E6%B8%A9%E9%A6%A8%E6%8F%90%E7%A4%BA/",
+      "title": "赴以色列温馨提示",
+      "domain": "oic.ustc.edu.cn",
+      "site_name": "中国科学技术大学国际合作与交流部暨港澳台事务办公室",
+      "auth_score": 1.0,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    }
+  ],
+  "product_cards": [],
+  "links": [],
+  "sentiment": "unscored",
+  "request_params": {
+    "endpoint": "https://ark.cn-beijing.volces.com/api/v3/bots/chat/completions",
+    "model": "bot-20260614150734-98qkm",
+    "attempt": 1
+  },
+  "parser_version": "0.2.0"
+}

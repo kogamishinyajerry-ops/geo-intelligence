@@ -1,0 +1,33 @@
+{
+  "id": "doubao-B-20260614T184822Z-f272b74caa",
+  "schema_version": "0.2.0",
+  "engine": "doubao",
+  "engine_model": "doubao-seed-1-6-flash-250615",
+  "query": "things to do in Shanghai for 3 days itinerary",
+  "buyer_segment": "B",
+  "timestamp": "2026-06-14T18:48:22.155847Z",
+  "raw_answer": "### **3-Day Shanghai Itinerary: Mix of History, Modernity, and Culture**\n\n\n### **Day 1: Historic Shanghai & The Bund**  \n#### **Morning: The Bund**  \n- Start your day at **The Bund**, a iconic waterfront promenade. Walk along the bund to admire the juxtaposition of historic European-style buildings and modern skyscrapers in Pudong (e.g., the Oriental Pearl Tower, Shanghai Tower).  \n\n#### **Lunch: Nanjing Road**  \n- Head to **Nanjing Road**, one of China’s busiest shopping streets. Grab a bite at a local eatery here, like a xiaolongbao (steamed soup dumpling) restaurant.  \n\n#### **Afternoon: Yu Garden & Old Town**  \n- Visit **Yu Garden**, a classical Chinese garden built in the Ming dynasty. Explore the intricate pavilions, rockeries, and koi ponds.  \n- Wander through the **Old Town** surrounding Yu Garden, where you’ll find narrow alleys, traditional architecture, and stalls selling local snacks (e.g., tanghulu, scallion pancakes).  \n\n\n### **Day 2: Modern Shanghai & Pudong Skyline**  \n#### **Morning: Oriental Pearl Tower**  \n- Take the subway to **Pudong** and visit the **Oriental Pearl Tower**. Enjoy panoramic views from the observation decks and explore the tower’s interactive exhibits.  \n\n#### **Lunch: Lujiazui Area**  \n- Eat in the **Lujiazui** area, known for modern dining options. Try local specialties like Shanghainese cuisine.  \n\n#### **Afternoon: Shanghai Tower & Urban Planning Exhibition Center**  \n- Visit **Shanghai Tower**, the second-tallest building globally, for another perspective of the city.  \n- Walk to the **Shanghai Urban Planning Exhibition Center** to learn about Shanghai’s development through interactive displays.  \n\n#### **Evening: Tianzifang**  \n- Head to **Tianzifang**, a trendy neighborhood with narrow alleys lined with boutique shops, cafes, and restaurants. Experience the blend of traditional and contemporary Shanghai.  \n\n\n### **Day 3: Nature & Culture**  \n#### **Morning: Century Park**  \n- Go to **Century Park**, a large urban park with lakes, gardens, and walking paths. Relax amidst nature or rent a bike to explore.  \n\n#### **Lunch: Century Park Area**  \n- Have lunch near Century Park, with options ranging from casual eateries to local cuisine.  \n\n#### **Afternoon: Shanghai Museum**  \n- Visit the **Shanghai Museum**, which houses a vast collection of Chinese art, including ceramics, calligraphy, and bronze artifacts.  \n\n#### **Evening: Xintiandi**  \n- End your trip at **Xintiandi**, a mix of traditional Shikumen architecture and modern shops, restaurants, and bars. Enjoy the vibrant atmosphere as the sun sets.  \n\n\n**Transportation**: Shanghai’s subway (Metro) is efficient; use apps like \"Metro大都会\" for navigation.  \n**Food Tips**: Don’t miss xiaolongbao, soup noodles, and local desserts like mung bean cakes.  \n\nThis itinerary balances historical sites, modern skyscrapers, and cultural experiences, giving you a well-rounded view of Shanghai!",
+  "raw_capture_path": "evidence/raw/doubao-B-20260614T184822Z-f272b74caa.json",
+  "screenshot_path": null,
+  "is_mock": false,
+  "named_brands": [
+    "The Bund",
+    "Oriental Pearl Tower",
+    "Shanghai Tower",
+    "Nanjing Road",
+    "Yu Garden",
+    "Tianzifang",
+    "Shanghai Museum",
+    "Xintiandi"
+  ],
+  "cited_sources": [],
+  "product_cards": [],
+  "links": [],
+  "sentiment": "unscored",
+  "request_params": {
+    "endpoint": "https://ark.cn-beijing.volces.com/api/v3/chat/completions",
+    "model": "doubao-seed-1-6-flash-250615",
+    "attempt": 1
+  },
+  "parser_version": "0.2.0"
+}

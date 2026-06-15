@@ -1,0 +1,115 @@
+{
+  "id": "doubao-A-20260614T172435Z-c8261f13f8",
+  "schema_version": "0.2.0",
+  "engine": "doubao",
+  "engine_model": "doubao-1-5-pro-32k-250115",
+  "query": "送巴西客户的商务伴手礼推荐",
+  "buyer_segment": "A",
+  "timestamp": "2026-06-14T17:24:35.959517Z",
+  "raw_answer": "为巴西客户选择商务伴手礼，可考虑既具特色又能体现心意的物品，同时要注意避免紫色包装、手帕等禁忌。以下是一些推荐：\n### 具有巴西特色的礼品\n- **足球周边产品**：巴西是足球强国，足球在巴西文化中占据重要地位。可以选择知名球队的队服、球星签名的足球、足球钥匙链等，这类礼物能让客户感受到你对巴西文化的了解和尊重。\n- **雨林咖啡套装**：巴西是全球最大的咖啡生产国，咖啡文化深入人心。圣多斯产区的精品阿拉比卡豆，浓郁果香中带有巧克力余韵，适合馈赠给懂行的咖啡爱好者。若想体验更本土化的喝法，也可以带上几盒来自南里奥格兰德州的Mate马黛茶。 \n- **彩色宝石袖扣**：巴西以盛产宝石闻名，全球65%的宝石产自巴西，品种多样。彩色宝石袖扣精致又具有特色，适合商务场合佩戴，能展现佩戴者的品味。\n- **防水蓝牙音箱（适合海滩使用）**：巴西人热情奔放，喜欢在海滩享受生活。一款防水蓝牙音箱可以让他们在海滩、泳池等场景随时享受音乐，非常实用。\n- **巴西巧克力**：巴西生产的巧克力别具风味，当地制造商采用优质可可豆，融合热带水果独特风味。可以选择一款巴西混合巧克力礼盒，包含各种口味的巧克力，如加入椰子和朗姆酒口味、添加坚果碎粒的巧克力等。\n- **巴西陶器**：巴西制陶历史悠久，技艺成熟。陶器造型独特，有常规的碗、杯子，也有人形、动物形等；图案用简洁颜色绘制几何线条，工整严谨又富有变化。可以选择地域特色浓厚、带有独特花纹线条的陶器，更具纪念意义。 \n- **印第安人手工品**：巴西是印第安人的原居住地，有印第安人聚居区。可以选择富有印第安风情的手工艺品，如美丽的木器、草编饰物、贝壳制成的项链、吊坠和耳环等，这些都是独一无二的伴手礼。\n\n### 具有中国特色的礼品\n- **中国茶叶**：中国是茶的故乡，茶文化源远流长。高品质的中国茶叶，如龙井、普洱、铁观音等，不仅代表中国传统文化，也体现对品质生活的追求。茶叶包装应精致典雅，附上中英文对照的品茶指南，让巴西客户感受中国茶文化的博大精深。\n- **丝绸制品**：丝绸是中国古代的瑰宝，以光泽度好、柔软透气著称。可以选择质地光滑、图案精美的丝绸围巾，或者一套高雅的丝绸睡衣。附上丝绸制作工艺介绍，能增加礼物的文化内涵。\n- **中国书法艺术品**：中国书法被誉为无言的诗、无形的舞、无图的画、无声的乐。一幅精美的书法作品能装点空间，让客户领略中国文字的韵味与美感。可考虑定制一幅包含客户名字或者巴西与中国友谊主题的书法作品，更具纪念意义。\n- **中国传统工艺品**：中国结、剪纸、泥人等传统工艺品，以独特艺术风格和手工艺技巧深受喜爱。选择这类礼物时，附上工艺品的制作过程和寓意说明，让客户理解其背后的文化内涵。\n- **中国瓷器**：中国瓷器以细腻质地、精美造型和华丽装饰闻名。一件精美的瓷器作品，如茶具套装或瓷盘，既能作为日常用品，又能作为收藏品。选择具有中国传统元素如青花瓷、五彩瓷等，并附上瓷器鉴赏指南，帮助客户了解和欣赏中国瓷器之美。\n- **中国风书籍**：介绍中国文化、历史或哲学的书籍，如《论语》《道德经》的英文版，或者介绍中国传统节日、民俗的图书，能作为深入了解中国的窗口，激发客户对中国文化的探索欲望。\n- **中国特色小吃**：选择一些易于携带、保存且具有代表性的中国特色小吃，如月饼、粽子等。附上中英文对照的食谱和文化解说，让客户更好地品尝和理解这些小吃背后的文化故事。 ",
+  "raw_capture_path": "evidence/raw/doubao-A-20260614T172435Z-c8261f13f8.json",
+  "screenshot_path": null,
+  "is_mock": false,
+  "named_brands": [],
+  "cited_sources": [
+    {
+      "url": "https://post.m.smzdm.com/zz/p/a7g45er9/",
+      "title": "巴西圣保罗伴手礼攻略|本地人狂推好物_什么值得买",
+      "domain": "post.m.smzdm.com",
+      "site_name": "什么值得买社区频道",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.10100.com/article/3443381",
+      "title": "2025年全球外贸客户礼物指南",
+      "domain": "m.10100.com",
+      "site_name": "大数跨境",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.3
+    },
+    {
+      "url": "http://www.3lipin.com/laowai/24027.html",
+      "title": "圣诞节送巴西人什么中国风礼物好 圣诞伴手礼赠巴西客户，精选中国国粹伴手礼传递文化与情谊",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.3
+    },
+    {
+      "url": "https://braziloffbeat.com/what-to-buy-in-brazil/",
+      "title": "What to Buy in Brazil: 26 Best Brazil Souvenirs",
+      "domain": "braziloffbeat.com",
+      "site_name": "Brazil Offbeat",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.3
+    },
+    {
+      "url": "https://m.maigoo.com/top/431447.html",
+      "title": "巴西十大必买特产",
+      "domain": "m.maigoo.com",
+      "site_name": "买购网",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.3
+    },
+    {
+      "url": "https://qifu.zcqtz.com/article/1444690.html",
+      "title": "巴西旅游带什么特产回家",
+      "domain": "qifu.zcqtz.com",
+      "site_name": "丝路企服",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.11467.com/product/d50990238.htm",
+      "title": "2026巴西家庭用品礼品展：聚焦民族特色用品，挖掘南美文化消费新机遇",
+      "domain": "m.11467.com",
+      "site_name": "顺企网",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://pcdetail.taobao.com/p/265b59738ff3a17f4963eafbb5e24603",
+      "title": "巴西礼物精选和巴西礼物品牌价格与图片-淘宝商品网",
+      "domain": "pcdetail.taobao.com",
+      "site_name": "淘宝商品网",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.3
+    },
+    {
+      "url": "https://www.iflying.com/brazil/gouwu/",
+      "title": "巴西购物旅游",
+      "domain": "www.iflying.com",
+      "site_name": "飞扬旅游网",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://goods.taobao.com/t/shentizao_14450/a282862d51f90128b5c629c15a500cef",
+      "title": "🌟寻找独特伴手礼？巴西香皂Natura Ekos4件装送礼必备🌟",
+      "domain": "goods.taobao.com",
+      "site_name": "淘宝好物网",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 1.0
+    }
+  ],
+  "product_cards": [],
+  "links": [],
+  "sentiment": "unscored",
+  "request_params": {
+    "endpoint": "https://ark.cn-beijing.volces.com/api/v3/bots/chat/completions",
+    "model": "bot-20260614150734-98qkm",
+    "attempt": 1
+  },
+  "parser_version": "0.2.0"
+}

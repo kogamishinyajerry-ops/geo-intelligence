@@ -1,0 +1,115 @@
+{
+  "id": "doubao-A-20260614T172007Z-1c5e8aa1c7",
+  "schema_version": "0.2.0",
+  "engine": "doubao",
+  "engine_model": "doubao-1-5-pro-32k-250115",
+  "query": "送荷兰客户的商务礼品有什么禁忌 送什么合适",
+  "buyer_segment": "A",
+  "timestamp": "2026-06-14T17:20:07.707166Z",
+  "raw_answer": "在荷兰，商务送礼大体上没有特别的习俗或禁忌，但仍需注意以下方面：\n### 禁忌\n- **食品方面**：人们大多习惯吃生、冷食品，送礼忌送食品。送进口食物时，不要送巧克力和杜松子酒，因为荷兰人有他们自己的此类产品。\n- **包装方面**：礼物要用色彩鲜艳的纸制品包好，无论礼物多小多轻，外壳要讲究，或是古朴典雅，或是雍容华贵。\n- **其他方面**：到荷兰人家庭作客，切勿对女主人过于殷勤；在男女同上楼梯时，是男士在前，女士在后。此外，避免赠送与荷兰主导产业冲突的“特产”，除非是顶级珍品，否则易被视为班门弄斧。\n\n### 合适的礼物\n- **通用礼品**：有插图的书籍、质量高的皮革制品、办公用具、特制的精美食品、优质法国葡萄酒、西班牙雪利酒、威士忌等都是受欢迎的礼品。\n- **个人喜好礼品**：喜欢抽雪茄烟的人特别欢迎好的雪茄烟，喜欢喝白兰地的人则希望收到白兰地。\n- **具有中国特色的礼品**：\n    - **熊猫周边**：如冰箱贴、玩偶、书签等，深受欧美客户喜爱。\n    - **中国结**：象征吉祥、幸福，可用于车饰或家居，也是展会常用礼品。\n    - **陶瓷制品**：英国、荷兰客户喜爱骨瓷茶具。\n    - **特色文具/书写工具**：可以选择高品质钢笔搭配优质墨水，注重设计与书写体验。\n    - **艺术书籍/画册**：关于中国建筑、绘画、书法、非遗（瓷器、剪纸）的精装画册，内容权威、印刷精美，适合作为礼物。\n    - **地方特色手工艺品**：如苏绣/湘绣小画框、宜兴紫砂茶宠、木版年画镜框、东阳木雕、蔚县剪纸等，附上英文说明卡介绍工艺与文化背景，能提升价值感。 ",
+  "raw_capture_path": "evidence/raw/doubao-A-20260614T172007Z-1c5e8aa1c7.json",
+  "screenshot_path": null,
+  "is_mock": false,
+  "named_brands": [],
+  "cited_sources": [
+    {
+      "url": "https://m.zuowenku.net/fanwen/393219.shtml",
+      "title": "荷兰的商务礼仪知识",
+      "domain": "m.zuowenku.net",
+      "site_name": "作文库",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.4313.cn/w/hlsl88665.html",
+      "title": "荷兰送礼习俗",
+      "domain": "www.4313.cn",
+      "site_name": "",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.jinchutou.com/shtml/view-321441605.html",
+      "title": "荷兰的商务礼仪知识",
+      "domain": "m.jinchutou.com",
+      "site_name": "金锄头文库",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.docin.com/touch_new/preview_new.do?id=3908581169",
+      "title": "荷兰的商务礼仪知识（商务见面礼仪范文）.doc",
+      "domain": "www.docin.com",
+      "site_name": "豆丁网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.docin.com/p-4651806543.html",
+      "title": "如何与荷兰人打交道汇总一篇.docx",
+      "domain": "www.docin.com",
+      "site_name": "豆丁网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.newdu.com/1463488.html",
+      "title": "荷兰用餐礼仪(6篇)",
+      "domain": "www.newdu.com",
+      "site_name": "新都网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.10100.com/article/3489951",
+      "title": "外贸送礼雷区：22国禁忌清单+20款安全选择",
+      "domain": "m.10100.com",
+      "site_name": "大数跨境",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://m.fanwenlai.com/fwbaike-221155180/",
+      "title": "我国和西方国家在赠送礼物时不同的禁忌",
+      "domain": "m.fanwenlai.com",
+      "site_name": "范文来",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://jkw.gdkjw.com/techang/yiyufengqing/10454.html",
+      "title": "荷兰人的民风民俗",
+      "domain": "jkw.gdkjw.com",
+      "site_name": "",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://gobonni.com/newsdetail/319",
+      "title": "送礼门道多，踩雷毁所有，这份国际送礼防雷指南请收好!",
+      "domain": "gobonni.com",
+      "site_name": "邦尼",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    }
+  ],
+  "product_cards": [],
+  "links": [],
+  "sentiment": "unscored",
+  "request_params": {
+    "endpoint": "https://ark.cn-beijing.volces.com/api/v3/bots/chat/completions",
+    "model": "bot-20260614150734-98qkm",
+    "attempt": 1
+  },
+  "parser_version": "0.2.0"
+}

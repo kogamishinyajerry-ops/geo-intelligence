@@ -1,0 +1,115 @@
+{
+  "id": "doubao-A-20260614T090705Z-7858c5bda5",
+  "schema_version": "0.2.0",
+  "engine": "doubao",
+  "engine_model": "doubao-1-5-pro-32k-250115",
+  "query": "送韩国客户的高端伴手礼推荐 韩国商务送礼有什么规矩",
+  "buyer_segment": "A",
+  "timestamp": "2026-06-14T09:07:05.093261Z",
+  "raw_answer": "以下为您推荐一些适合送给韩国客户的高端伴手礼，并介绍韩国商务送礼的规矩。\n\n### 高端伴手礼推荐\n- **传统工艺品**：\n    - **瓷器茶具或餐具**：韩国瓷器工艺历史悠久，质地细腻、设计精美，一套精致的瓷器茶具或餐具既实用又能体现用心。\n    - **刺绣作品**：以丝绸为底料的韩国刺绣作品，色彩鲜艳、图案精美，艺术价值高。\n    - **韩纸手工艺**：用桑树皮制作的韩纸延续了1500多年的制作方式，其制成的笔记本、书签、灯笼、小装饰盒等，带有浓浓的韩国风情，且不笨重、不脆弱。\n    - **韩国传统面具**：用于韩国民间舞蹈和戏剧表演，每个面具代表不同角色，有夸张表情，适合喜欢收藏手工艺品或对墙面装饰有独特品味的人，市面上多为展示用的复制品。\n    - **韩服迷你版与书签**：韩服是韩国传统服装，整套携带不便且昂贵，迷你版的小韩服娃娃或书签，既体贴又轻便。\n- **食品与饮品**：\n    - **韩国红参**：在韩国被视为滋补佳品，具有很高的药用价值，一盒优质红参体现对客户健康的关心。\n    - **韩国茶**：韩国茶文化源远流长，茶叶品种繁多，一罐优质的韩国绿茶或红茶，能让客户品味韩国茶文化。\n    - **特色零食礼盒**：如巧克力派、Pepero、药果（蜂蜜饼干）、年糕等，包装精美，适合分享。\n- **时尚与美妆**：\n    - **韩流服饰或配饰**：韩国服饰设计时尚实用，选择品牌服饰或配饰，能满足客户日常需求，体现时尚品味。\n    - **美妆产品**：韩国美妆品牌在全球备受追捧，像雪花秀、后的护肤品套装等，注重天然成分和抗衰老功效，深受女性喜爱。\n- **电子产品与配件**：\n    - **手机或平板电脑**：韩国电子产品品牌如三星、LG等知名度高，产品质量和性能出色，送最新款的手机或平板电脑实用又受欢迎。\n    - **高质量配件**：如耳机、充电器等，实用性强，体现细心和关心。\n- **文化体验类**：\n    - **韩语学习课程**：让客户学习新语言，更好地融入韩国社会和文化。\n    - **韩国旅游套餐**：客户可在旅行中亲身体验韩国的自然风光和人文景观，留下难忘回忆。\n\n### 韩国商务送礼规矩\n- **尊重文化差异**：韩国文化深受儒家思想影响，重视礼仪和尊重，礼物选择要避免触犯对方禁忌。比如避免送钟表，因为“钟”在韩语中与“终”发音相似，象征结束；避免送刀具、剪刀，有“切断关系”的寓意；避免送有宗教色彩的物品，可能引起误解或不适；避免送现金，可能被视为不礼貌或暗示贿赂；送礼时避免送4件物品，数字4发音似“死”，视为不吉利。\n- **注重实用性**：韩国人普遍喜欢实用性强的礼物，过于奢华或不常用的物品可能不受欢迎。\n- **包装讲究**：韩国人非常注重礼物的外观，要选择精美的包装纸和丝带，包装色彩上，白色与黑色包装可能关联丧事，红、粉等暖色调更适宜。\n- **价格定位适中**：根据关系亲疏选择合适的价位，避免过于昂贵或太便宜。在韩国文化中，过于昂贵的礼品可能会被视为贿赂或讨好，礼物价值通常适中，约5万至10万韩元（约合300 - 600元人民币）为宜。\n- **集体优先**：若赠予团队，需准备数量与成员人数一致的礼品，或选择适合分享的物品，如礼盒装食品。\n- **赠送时机**：礼物应在商务会议结束时赠送，而非一开始，以免显得功利。节日如韩国新年（Seollal）或中秋节（Chuseok）是送礼的好时机，但需提前准备。\n- **表达谦逊**：赠送时应低调，无需过度强调礼品价值，附上手写卡片更能体现用心，用韩文或英文表达祝福。 ",
+  "raw_capture_path": "evidence/raw/doubao-A-20260614T090705Z-7858c5bda5.json",
+  "screenshot_path": null,
+  "is_mock": false,
+  "named_brands": [],
+  "cited_sources": [
+    {
+      "url": "https://www.yourkorea.life/zh-hans/blog/travel-leisure/discover-the-best-korean-souvenirs-traditional-modern-gifts-179/",
+      "title": "22款最佳韩国纪念品：2026年买什么好？",
+      "domain": "www.yourkorea.life",
+      "site_name": "YourKoreaLife",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.xhjyxxw.com/jxuwd/202601/3886162.html",
+      "title": "问 送韩国人礼物",
+      "domain": "www.xhjyxxw.com",
+      "site_name": "新中经知识网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://www.luyouqiwang.cn/zonhe/202602/1338136.html",
+      "title": "送韩国人礼物",
+      "domain": "www.luyouqiwang.cn",
+      "site_name": "极客汽车网",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://zixun.peixunwang.com.cn/yaowen/20260205/051803440.html",
+      "title": "问 送礼物给韩国人",
+      "domain": "zixun.peixunwang.com.cn",
+      "site_name": "东南教育网",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.3lipin.com/laowai/3700.html",
+      "title": "韩国客户礼品指南:如何挑选适合韩国文化的精致礼物(送什么礼物给韩国客户)",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.3lipin.com/laowai/7562.html",
+      "title": "韩国客户送什么伴手礼 ？韩国客户伴手礼推荐：文化、礼仪与独特选择",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://jiatianxiacm.com/post/184367.html",
+      "title": "送韩国客户什么礼物",
+      "domain": "jiatianxiacm.com",
+      "site_name": "天下旅游网",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://zixun.peixunwang.com.cn/yaowen/20260205/051803355.html",
+      "title": "问 送韩国人礼物",
+      "domain": "zixun.peixunwang.com.cn",
+      "site_name": "东南教育网",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://my.igpgift.com/article/1771/%E8%B7%A8%E6%96%87%E5%8C%96%E5%95%86%E5%8B%99%E7%A6%AE%E5%93%81%E6%8C%87%E5%8D%97%EF%BC%8C%E4%BA%9E%E5%A4%AA%E5%9C%B0%E5%8D%80%E9%80%81%E7%A6%AE%E7%A6%AE%E5%84%80",
+      "title": "跨文化商務禮品指南，亞太地區送禮禮儀",
+      "domain": "my.igpgift.com",
+      "site_name": "IGP",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "http://www.3lipin.com/biz/29695.html",
+      "title": "送韩国女客户什么礼物？精选礼品攻略与贴心建议",
+      "domain": "www.3lipin.com",
+      "site_name": "信尚礼品 信尚文创",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    }
+  ],
+  "product_cards": [],
+  "links": [],
+  "sentiment": "unscored",
+  "request_params": {
+    "endpoint": "https://ark.cn-beijing.volces.com/api/v3/bots/chat/completions",
+    "model": "bot-20260614150734-98qkm",
+    "attempt": 1
+  },
+  "parser_version": "0.2.0"
+}

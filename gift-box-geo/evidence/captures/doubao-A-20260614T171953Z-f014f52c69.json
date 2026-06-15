@@ -1,0 +1,115 @@
+{
+  "id": "doubao-A-20260614T171953Z-f014f52c69",
+  "schema_version": "0.2.0",
+  "engine": "doubao",
+  "engine_model": "doubao-1-5-pro-32k-250115",
+  "query": "送西班牙客户的商务伴手礼送什么好",
+  "buyer_segment": "A",
+  "timestamp": "2026-06-14T17:19:53.623902Z",
+  "raw_answer": "为西班牙客户选择商务伴手礼时，可考虑既具西班牙特色又符合商务场合氛围的礼物，以下是一些推荐：\n### 食品类\n- **巧克力**：西班牙巧克力品牌众多、口味多样，价格适中且味道佳。像阿玛特耶巧克力是欧洲老牌制造商，包装雅致，当作伴手礼很有面子；Senzza什锦混合巧克力有35%的高含量可可成分，不含代可可脂，健康安全，采用传统欧洲盒装包装，精致大气。\n- **火腿**：西班牙火腿举世闻名，是国宝级美食。如高端西班牙火腿切片，采用深红绒布礼盒+金属铭牌设计，内含10片独立真空包装，每片均标注产地与批次编号，彰显独一无二；伊比利亚火腿以伊比利亚黑猪为原料，肉质散发独特榛果香气，是世界顶级食材，5J火腿更是达到“超黑标”级别。 \n- **藏红花**：拉曼查地区生产的藏红花是世界顶级品质，香气浓度和着色能力远超普通产品，精品包装小巧精致，适合作为伴手礼，体现细心周到的商务礼仪。\n### 酒水类\n- **葡萄酒**：西班牙是著名的葡萄酒生产国，雪利酒是西班牙独有的加强型葡萄酒，赫雷斯地区生产的菲诺和欧洛罗索类型，免税店常有陈年30年以上的限量版，搭配精美礼盒包装，在国内市场极为罕见，适合在重要商务庆典场合开启。\n- **利口酒**：如Licor 43利口酒，具有独特风味，也是不错的选择。\n### 生活用品类\n- **皮具**：西班牙手工皮鞋以卓越的舒适度和耐久性受到商务人士青睐，像米格尔、马格利特等品牌，采用传统固特异工艺制作，鞋型适合多种脚型，长时间穿着不易疲劳；此外，钱包、皮带等皮具也质感在线，皮质软且耐造，款式经典。\n- **陶瓷工艺品**：瓦伦西亚和安达卢西亚地区的手工陶瓷制品，融合了阿拉伯与欧洲文化元素，如手工绘制的餐盘、花瓶等，既有艺术收藏价值，又是高档办公室装饰的佳品，部分制品配有艺术家签名证书。\n### 文化艺术类\n- **艺术复制品**：普拉多博物馆授权的名家画作精美复制品，如委拉斯开兹、戈雅作品的高精度复制画，配有博物馆认证证书，适合装饰公司会议室或总裁办公室，展现企业的艺术品味和文化底蕴。\n- **音乐或艺术作品**：西班牙的音乐和艺术作品也是很好的礼物选择，能体现对西班牙文化的尊重和欣赏。 \n\n在选择伴手礼时，还需注意礼物应包装得体，以体现对对方的尊重；同时可根据客户的个人喜好和双方关系亲疏来挑选，更好地传达心意。 ",
+  "raw_capture_path": "evidence/raw/doubao-A-20260614T171953Z-f014f52c69.json",
+  "screenshot_path": null,
+  "is_mock": false,
+  "named_brands": [],
+  "cited_sources": [
+    {
+      "url": "https://es.ecentime.com/article/ecentime-regalos-de-espania",
+      "title": "2025西班牙伴手礼超全攻略| 巧克力、保健品、厨具、美妆等",
+      "domain": "es.ecentime.com",
+      "site_name": "西班牙一分钱",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://sczil.com/a25950",
+      "title": "西班牙免税店买什么划算",
+      "domain": "sczil.com",
+      "site_name": "保利智眸 POLY ZhiMou Service System",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://wiki.1688.com/zh/spanish-ham/WKfgmerm2xep6o",
+      "title": "高端西班牙火腿切片：舌尖上的艺术与品质生活的秘密",
+      "domain": "wiki.1688.com",
+      "site_name": "1688买家百科",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://goods.taobao.com/t/bimaiqingdan_17092/8046b57fa173fdeb353d57f4ee2e51e5.html",
+      "title": "西班巧克❤推荐|Senzza混合粒装伴手礼🍫",
+      "domain": "goods.taobao.com",
+      "site_name": "淘宝好物网",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://mobile-phone.taobao.com/chanpin/a103d41f12de664ea35f4f655ffe1e37be81b922ce133460501b0875c1fa9a65.html",
+      "title": "共找到5000件",
+      "domain": "mobile-phone.taobao.com",
+      "site_name": "淘宝",
+      "auth_score": 0.5,
+      "rel_score": 1.0,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://www.sohu.com/a/693074953_121119269",
+      "title": "收藏!西班牙必买伴手礼清单",
+      "domain": "www.sohu.com",
+      "site_name": "搜狐",
+      "auth_score": 0.3,
+      "rel_score": 0.5,
+      "freshness_score": 0.3
+    },
+    {
+      "url": "https://jiatianxiacm.com/post/187792.html",
+      "title": "西班牙送礼送什么",
+      "domain": "jiatianxiacm.com",
+      "site_name": "天下旅游网",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 0.5
+    },
+    {
+      "url": "https://m.yidianziliao.com/view/yMTg3NmM4NTI1MDUzMjY4OTBiMTM3NmY3d.html",
+      "title": "西班牙有什么值得买的商品？",
+      "domain": "m.yidianziliao.com",
+      "site_name": "一点资料",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://weitoutiao.zjurl.cn/rogue/topic_share/?concern_id=1829040571359322&prevent_activate=1",
+      "title": "",
+      "domain": "weitoutiao.zjurl.cn",
+      "site_name": "",
+      "auth_score": 0.5,
+      "rel_score": 0.5,
+      "freshness_score": 1.0
+    },
+    {
+      "url": "https://k.sina.cn/article_7857141524_1d452771401901lah2.html",
+      "title": "巴塞罗那伴手礼好物清单🎁小众不撞款！平价又高级！",
+      "domain": "k.sina.cn",
+      "site_name": "新浪看点",
+      "auth_score": 0.3,
+      "rel_score": 0.5,
+      "freshness_score": 1.0
+    }
+  ],
+  "product_cards": [],
+  "links": [],
+  "sentiment": "unscored",
+  "request_params": {
+    "endpoint": "https://ark.cn-beijing.volces.com/api/v3/bots/chat/completions",
+    "model": "bot-20260614150734-98qkm",
+    "attempt": 1
+  },
+  "parser_version": "0.2.0"
+}
