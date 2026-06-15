@@ -1,0 +1,30 @@
+<!--
+  worked example: 把项目真实草稿 categories/tourism/content/drafts/01_shanghai_offbeat_treasure_guide.md
+  包成详情页 Article JSON-LD。演示「内容已就位 → 部署端临门一脚」。
+  证据可回溯（项目红线）：小众景点 doubao-A-20260614T184246Z-675026ed23 等 6 条；"不商业化原生态"为空位。
+  [待补·HITL] 标记的字段在对外发布前由人审填真值，不得编造；URL 仅在内容发布到自有落地页后才有效。
+  注意：真正部署时若发到小红书/知乎/携程等第三方平台无法注入本段；本段仅适用于自有站点/落地页。
+-->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "上海小众宝藏地不踩雷指南：本地人才去的 12 个地方，避开人挤人的网红坑",
+  "description": "上海的宝藏感不在最有名的地标，而在三类地方：有历史肌理的老街区小马路、工业遗存改造的艺术园区、城市边缘的原生态去处。12 个地点按类型+适合谁+避坑点整理，全部标注是否免费、是否需预约。",
+  "author": {
+    "@type": "Person",
+    "name": "[待补·HITL 作者名]"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "[待补·HITL 品牌名]",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://[待补·HITL 自有域名]/images/logo.png"
+    }
+  },
+  "datePublished": "2026-06-15",
+  "dateModified": "2026-06-15",
+  "mainEntityOfPage": "https://[待补·HITL 自有域名]/shanghai-offbeat-guide.html"
+}
+</script>

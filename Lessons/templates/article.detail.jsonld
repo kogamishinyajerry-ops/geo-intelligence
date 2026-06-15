@@ -1,0 +1,24 @@
+<!-- 详情页：Article 内容实体（吃 ~60% 答案引用流量）。日期用 ISO YYYY-MM-DD；description ≤150 字；mainEntityOfPage 用绝对 URL。原创用 Article，随笔用 BlogPosting，不混用。 -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "文章标题",
+  "description": "文章简短摘要，120-150 字以内，主题写清楚，会被 AI 当摘要/答案展示。",
+  "author": {
+    "@type": "Person",
+    "name": "作者名称"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "你的品牌名称",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.your-domain.com/images/logo.png"
+    }
+  },
+  "datePublished": "2026-01-01",
+  "dateModified": "2026-01-02",
+  "mainEntityOfPage": "https://www.your-domain.com/article.html"
+}
+</script>

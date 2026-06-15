@@ -1,0 +1,28 @@
+<!-- 首页：WebSite + Organization 双标准 Schema（2合1·权威确权）。放入 <head> 内，越靠前越好。 -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "name": "你的品牌名称",
+      "url": "https://www.your-domain.com"
+    },
+    {
+      "@type": "Organization",
+      "name": "你的公司官方全称",
+      "url": "https://www.your-domain.com",
+      "logo": "https://www.your-domain.com/images/logo.png",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "400-xxxx-xxx",
+        "contactType": "customer service"
+      },
+      "sameAs": [
+        "https://zhihu.com/people/your-account",
+        "https://weibo.com/your-account"
+      ]
+    }
+  ]
+}
+</script>
