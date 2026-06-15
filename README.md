@@ -36,7 +36,31 @@ python3 -m venv .venv && .venv/bin/pip install -e ".[dev]"
 .venv/bin/python -m geo.recon.batch --segment A --only-missing  # 真问豆包（增量、幂等）
 .venv/bin/python -m geo.reporting.tourism                       # 景点占答排行 + 机会图
 #（礼盒侧用 geo.reporting.aggregate / geo.reporting.selection）
+
+.venv/bin/python -m geo.reporting.dashboard                     # ⬅ 生成自包含 HTML 看板 → dashboard.html（真接证据数据）
 ```
+
+## 🎯 智能 GEO 机会指挥台（opportunity-board.html · 跨品类）
+
+```bash
+python3 opportunity_board.py            # 聚合两品类全部机会 → 一个 HTML 智能指挥台
+```
+
+把**两个品类的全部 GEO 机会聚合进一个看板**，智能地排序、分级、量化、给行动建议——回答"哪些空位最值得打、为什么能赢、该产什么内容"。当前真数据：**130 条机会**（礼盒 52 + 旅游 78），GO 82 · 候选 16 · 观望 32。
+
+- **可赢度排序**：跨品类按可赢度 score 统一排序（诚实披露两品类评分公式不同 → 方向性参考，非同尺度）。
+- **机会象限图**：x=可赢度 × y=空位红利（`1.0 if 纯空位 else 1−incumbent 覆盖`），按品类双色着色，高亮右上「易攻·大红利」象限。
+- **优先级三档** GO(攻)/候选(候)/观望(避) + **统一攻击榜**（每条可展开看 reason + 证据 capture_id + 行动建议 + 已挂草稿）+ **证据抽屉**。
+- **智能=确定性**：排序/象限/分级/行动建议全部从真证据纯函数派生、可回溯，**不靠 LLM 猜**（守"可复现、证据优先"红线）。
+- 架构：`opportunity_board.py`（gatherer：跨品类子进程聚合，零依赖）+ `opportunity_render.py`（纯函数 `render_html`）+ `test_opportunity_board.py`。`opportunity-board.html` 已 gitignore（重生）。
+
+## 可视化看板（dashboard.html · 单品类）
+
+`python -m geo.reporting.dashboard` 把**真实证据**（`evidence/captures/`）经现有纯函数算成指标，渲染成一个**自包含单文件 HTML 遥测看板**（CSS/JS 全内嵌、零外链、`file://` 双击即开）。八个区块：诚实横幅（已打通/待 key/局限）· 头号发现 hero · KPI 遥测墙 · 占答排行 · SoV · 机会图+可赢度 · 监测趋势 · 内容流水线，外加纯函数 provenance。
+
+- **真接数据**：每个数字来自存档 AI 回答经纯函数计算，可在「证据抽屉」点 `capture_id` 回溯原文；mock/real 诚实标注，未编造。
+- **build 产物**：`dashboard.html` 已 gitignore（每次跑重生），生成器（`geo/reporting/dashboard_{data,render}.py`）进 git。
+- 礼盒侧 = 引用/品牌信号（`kind=citation`）；旅游侧 = 景点占答信号（`kind=attraction`）；两侧共用同一渲染器。
 
 ## 关键发现速览
 

@@ -20,3 +20,6 @@ dist/
 # 监测运行时产物（truth plane = history/alerts/ALERTS.md 入仓；下列为瞬时态，不入仓）
 monitoring/cron_logs/
 monitoring/notion_queue/
+
+# 仪表盘 build 产物（python -m geo.reporting.dashboard 重新生成）
+dashboard.html

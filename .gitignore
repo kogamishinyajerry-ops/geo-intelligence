@@ -21,3 +21,11 @@ dist/
 # 运行时瞬时产物
 **/monitoring/cron_logs/
 **/monitoring/notion_queue/
+
+# 仪表盘 build 产物（可由 python -m geo.reporting.dashboard 重新生成）
+dashboard.html
+**/dashboard.html
+**/.dashboard_design/
+
+# 机会指挥台 build 产物（python3 opportunity_board.py 重新生成）
+opportunity-board.html

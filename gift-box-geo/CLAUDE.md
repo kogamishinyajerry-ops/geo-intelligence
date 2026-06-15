@@ -86,6 +86,13 @@ python -m geo.recon.run --phase0    # 需 .env 里的 ARK_API_KEY + ARK_MODEL
 - **监测基线重建**：12→34 cap（`snapshot --save`，不跑 diff 避假告警）→ Notion 监测日志。
 - 全套 35 测试绿。详见 [`docs/PHASE5_FINDINGS.md`](docs/PHASE5_FINDINGS.md)。
 
+## 可视化看板 dashboard.html（2026-06-15）
+
+- `python -m geo.reporting.dashboard` → 自包含单文件 HTML 遥测看板，**真接证据数据**（52 caps 经现有纯函数算指标，零写死、可回溯 capture_id）。
+- 文件：`geo/reporting/dashboard_data.py`（装配 payload，禁旁路）+ `dashboard_render.py`（纯函数 `render_html`，两品类共用、与旅游侧**字节相同**）+ `dashboard.py`（CLI）+ `tests/test_dashboard.py`（10 测试：契约形状/可回溯/可复现/真值渲染）。
+- 八区块：诚实横幅（已打通豆包·待 key 英文侧·局限）· hero（69% 空位 + 软文 incumbent 可取代，数据派生）· KPI 遥测墙 · 引用源排行 · 品牌 SoV · 机会图可赢度 · 监测趋势 · 内容流水线 + provenance。`dashboard.html` 已 gitignore（重生），生成器进 git。
+- **教训钩子**：① render JS 里 `const H` 重复声明 → 整脚本 SyntaxError 静默不渲染（所有 `—` 占位残留）；改 render 后**必 headless 渲染验 DOM**（`chrome --headless --dump-dom`），只验 `render_html` 返回串含子串会假绿。② hero/KPI 文案要 category-aware（payload 带 `hero`+按 `leaderboard.kind` 区分），别把礼盒"高空位"叙事套到旅游"低空位"上。③ 旧项目 `cp` 来的 .venv 带 stale editable `.pth`（指向旧 Desktop 路径）→ 跨 cwd import shadow，改 finder MAPPING 指向本地修复。
+
 ## 下一步路线（brief §6）
 
 Phase 1 Recon 引擎 ✅ → Phase 2 分析/选品/策略 ✅ → Phase 3 内容流水线（人审）✅ → Phase 4 监测+调度 ✅ → Phase 5 规模化侦察+内容 ✅（发布待人审放行）。每阶段先验证证据为真再往上盖。

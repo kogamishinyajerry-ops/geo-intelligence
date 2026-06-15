@@ -54,3 +54,10 @@
 - **Phase 1 Recon**：⏳ segment A 真侦察进行中（普通接口）。
 - **下一步**：A 跑完 → 景点占答排行 + 机会图 + 选点短名单 → 针对空位写内容（人审）→ C/B 补侦察。
 - **需人工/凭证**：① 内容草稿人审放行 ② 英文侧 Perplexity/OpenAI key ③ 联网配额恢复后补引用源情报。
+
+## 可视化看板 dashboard.html（2026-06-15）
+
+- `python -m geo.reporting.dashboard [--segment A|C|B]` → 自包含单文件 HTML 遥测看板，**真接证据数据**（默认 segment A 78 caps；实体=景点 `kind=attraction`，零写死、可回溯 capture_id）。
+- 文件：`geo/reporting/dashboard_data.py`（装配，旅游侧自补 capture_ids，零联网引用照实留空）+ `dashboard_render.py`（**与礼盒侧字节相同**的共用渲染器）+ `dashboard.py`（CLI）+ `tests/test_dashboard.py`（11 测试）。
+- hero = **外滩钉死头部（占答 51.3%/首选 39.7%）→ 机会在长尾**（locked 调，cyan；不把 6.4% 低空位率当头条/误报警）。八区块同礼盒侧；monitoring 0 快照 → 优雅降级"基线待建"。
+- 教训钩子见礼盒侧 CLAUDE.md（render `const H` 冲突静默不渲染 / 改 render 必 headless 验 DOM / 旧 .venv stale .pth 跨 cwd shadow）。
