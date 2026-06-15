@@ -15,7 +15,8 @@
 
 - ✅ 自动化**测量**：抓 AI 引擎的真实回答 → 存档原始证据 → 算占答率/提及率/首选推荐率/空位评分。
 - ✅ 找空位、产真权威内容（人审后发布）、再测量，闭环迭代。
-- ❌ **不**保证"进答案"，**不**注入广告、**不**铺假软文/刷量（脆弱 + 会被模型降权 + 违规）。
+- ✅ **部署端**：把已审草稿确定性转成结构化数据（首页 `WebSite+Organization` / 列表页 `ItemList` / 详情页 `Article` JSON-LD），让 AI 更易抓取引用——`python -m geo.reporting.schema`，同输入字节级可复现，红线写成校验。知识 canon 见 [`Lessons/GEO课程·深度学习笔记.md`](Lessons/GEO课程·深度学习笔记.md)。
+- ❌ **不**保证"进答案"，**不**注入广告、**不**铺假软文/刷量（脆弱 + 会被模型降权 + 违规）。Schema 只对**自有站点/落地页**有效，第三方平台（小红书/知乎等）无法注入。
 
 ## 核心设计（为什么可信）
 
@@ -31,8 +32,8 @@
 python3 -m venv .venv && .venv/bin/pip install -e ".[dev]"
 
 # 引擎测试（按品类分别跑，env 选品类）
-GEO_CATEGORY=gift-box .venv/bin/python -m pytest tests/gift_box   # 45 绿
-GEO_CATEGORY=tourism  .venv/bin/python -m pytest tests/tourism    # 51 绿
+GEO_CATEGORY=gift-box .venv/bin/python -m pytest tests/gift_box   # 69 绿
+GEO_CATEGORY=tourism  .venv/bin/python -m pytest tests/tourism    # 69 绿
 
 # 配好根 .env（火山方舟 ARK_API_KEY + ARK_MODEL）后真侦察（增量、幂等）：
 GEO_CATEGORY=tourism .venv/bin/python -m geo.recon.batch --segment A --only-missing

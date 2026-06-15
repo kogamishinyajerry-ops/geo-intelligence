@@ -30,3 +30,11 @@ dashboard.html
 
 # 机会指挥台 build 产物（python3 opportunity_board.py 重新生成）
 opportunity-board.html
+
+# Schema/JSON-LD build 产物（python -m geo.reporting.schema 从草稿重新生成）
+**/content/schema/
+
+# Lessons 教学视频源文件（37MB 二进制，知识已萃取进 GEO课程·深度学习笔记.md；不进 git 历史，留本地磁盘）
+Lessons/*.mp4
+# Lessons 视频抽帧/音频（可由 ffmpeg 从 *.mp4 重新生成）
+Lessons/_extract/
