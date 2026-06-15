@@ -4,7 +4,7 @@
 按可赢度（score）降序排，回答「哪些 GEO 空位最值得打、为什么能赢、该产什么内容」。
 
 设计底版 = 遥测台（SpaceX 遥测读数墙 × visionOS 玻璃材质 × 诚实即设计），
-与 gift-box-geo/geo/reporting/dashboard_render.py 共用视觉语言。
+与 geo/reporting/dashboard_render.py 共用视觉语言。
 
 红线：所有数字来自 payload（真证据纯函数算的），每条机会可回溯 capture_id；
 real/mock 诚实标注；**跨品类评分语义不同必须诚实披露**（caveats[0] 显眼，象限图旁注）。

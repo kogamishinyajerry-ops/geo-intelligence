@@ -15,6 +15,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import subprocess
 import sys
 from datetime import datetime, timezone
@@ -22,47 +23,50 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 
-# 品类登记（key / 目录 / 展示名 / 评分语义诚实标注）。
-REPOS = [
+# 品类登记（key / 展示名 / 评分语义诚实标注）。合并后一个共享引擎，品类靠 GEO_CATEGORY 选。
+CATEGORIES = [
     {
         "key": "gift-box",
-        "dir": "gift-box-geo",
         "title": "高端商务伴手礼盒",
         "score_basis": "引用权威弱 + 品牌空位（selection.winnability）",
     },
     {
         "key": "tourism",
-        "dir": "shanghai-tourism-geo",
         "title": "上海文旅景点",
         "score_basis": "景点稀薄 + 长尾未垄断（tourism.content_winnability）",
     },
 ]
 
-# 各 repo 用自己的 venv 跑：build_payload → JSON（带哨兵前缀，避开 venv 杂音行）。
+# 共享 venv 子进程跑：active profile.build_payload → JSON（带哨兵前缀，避开 venv 杂音行）。
+# 走子进程而非 import：active_profile 由 GEO_CATEGORY 在进程级选定，两品类各起一个进程互不串台。
 _DUMP = (
     "import json;"
-    "from geo.reporting.dashboard_data import build_payload;"
-    "print('@@JSON@@'+json.dumps(build_payload(), ensure_ascii=False))"
+    "from geo.category import active_profile;"
+    "from importlib import import_module;"
+    "p=active_profile();"
+    "m=import_module(f'categories.{p.pkg}.dashboard_data');"
+    "print('@@JSON@@'+json.dumps(m.build_payload(),ensure_ascii=False))"
 )
 
 
-def _load_repo(repo: dict) -> dict:
-    repo_dir = ROOT / repo["dir"]
-    venv_py = repo_dir / ".venv" / "bin" / "python"
+def _load(cat: dict) -> dict:
+    venv_py = ROOT / ".venv" / "bin" / "python"
     if not venv_py.exists():
-        raise RuntimeError(f"{repo['key']}: 缺 venv {venv_py}（先 python -m venv .venv && pip install -e .）")
+        raise RuntimeError(f"{cat['key']}: 缺 venv {venv_py}（先 python -m venv .venv && pip install -e .）")
+    env = {**os.environ, "GEO_CATEGORY": cat["key"]}
     proc = subprocess.run(
         [str(venv_py), "-c", _DUMP],
-        cwd=str(repo_dir),
+        cwd=str(ROOT),
+        env=env,
         capture_output=True,
         text=True,
         timeout=180,
     )
     if proc.returncode != 0:
-        raise RuntimeError(f"{repo['key']} build_payload 失败:\n{proc.stderr[-800:]}")
+        raise RuntimeError(f"{cat['key']} build_payload 失败:\n{proc.stderr[-800:]}")
     lines = [ln for ln in proc.stdout.splitlines() if ln.startswith("@@JSON@@")]
     if not lines:
-        raise RuntimeError(f"{repo['key']}: 未拿到 JSON 输出\n{proc.stdout[-400:]}")
+        raise RuntimeError(f"{cat['key']}: 未拿到 JSON 输出\n{proc.stdout[-400:]}")
     return json.loads(lines[-1][len("@@JSON@@"):])
 
 
@@ -97,19 +101,19 @@ def build_unified() -> dict:
     pending_engines: list[str] = []
     caveats: list[str] = []
 
-    for repo in REPOS:
-        payload = _load_repo(repo)
+    for cat in CATEGORIES:
+        payload = _load(cat)
         meta = payload["meta"]
         el = meta["entity_label"]
         cats.append({
-            "key": repo["key"],
-            "title": repo["title"],
+            "key": cat["key"],
+            "title": cat["title"],
             "entity_label": el,
             "n_captures": meta["n_captures"],
             "n_real": meta["n_real"],
             "n_mock": meta["n_mock"],
             "engine": meta["engine"],
-            "score_basis": repo["score_basis"],
+            "score_basis": cat["score_basis"],
         })
         hon = meta.get("honesty", {})
         real_engines += hon.get("real_engines", [])
@@ -126,17 +130,17 @@ def build_unified() -> dict:
         for cid, ev in payload.get("evidence", {}).items():
             key = cid
             if key in evidence and evidence[key].get("raw_excerpt") != ev.get("raw_excerpt"):
-                key = f"{repo['key']}:{cid}"
-            evidence[key] = {**ev, "category": repo["key"]}
+                key = f"{cat['key']}:{cid}"
+            evidence[key] = {**ev, "category": cat["key"]}
 
         for o in payload.get("opportunity", []):
             draft_title = next((cid2draft[c] for c in o.get("capture_ids", []) if c in cid2draft), None)
             opps.append({
                 **o,
-                "category": repo["key"],
-                "category_title": repo["title"],
+                "category": cat["key"],
+                "category_title": cat["title"],
                 "entity_label": el,
-                "score_basis": repo["score_basis"],
+                "score_basis": cat["score_basis"],
                 "dividend": _dividend(o),
                 "action": _action(o.get("go"), el, draft_title),
                 "draft": draft_title,
@@ -149,7 +153,7 @@ def build_unified() -> dict:
     n_candidate = sum(1 for o in opps if o["go"] == "候选")
     n_hold = len(opps) - n_go - n_candidate
     void_dividend = round(sum(o["dividend"] for o in go_opps) / n_go, 3) if n_go else 0.0
-    by_category_go = {r["key"]: sum(1 for o in go_opps if o["category"] == r["key"]) for r in REPOS}
+    by_category_go = {r["key"]: sum(1 for o in go_opps if o["category"] == r["key"]) for r in CATEGORIES}
 
     return {
         "meta": {
