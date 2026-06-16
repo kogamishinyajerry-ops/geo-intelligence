@@ -56,7 +56,7 @@ def main(argv=None) -> int:
         if not s2 and not prof.use_search:
             print("   [S2] 不适用：该品类 use_search=False，零引用是设计基线（不报漂移）。")
         elif not s2:
-            print("   [S2] 无结构漂移信号（或无基线/样本不足）。")
+            print("   [S2] 无结构漂移信号（样本不足 / 未联网 / 有基线且未骤降）。")
         intels += s2
     if "s5" in signals:
         from geo.evolution.signals.s5_candidates import discover_candidates
@@ -76,6 +76,7 @@ def main(argv=None) -> int:
     for it in intels:
         loc = ""
         if store is not None:
+            it = store.reconcile_history(it)  # 去抖链：保留 first_seen / 累加 times_seen / 链 prior_intel_id
             loc = f" → {store.save(it).name}"
         codex = "（需 Codex 异源审）" if it.proposed_change.get("requires_codex_review") else ""
         print(f"  [{it.signal_layer}] {it.confidence} · {it.claim}")

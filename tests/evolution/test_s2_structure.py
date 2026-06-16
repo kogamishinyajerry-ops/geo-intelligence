@@ -69,6 +69,41 @@ def test_s2_real_drop_produces_intel(monkeypatch, tmp_path):
     assert len(intel.evidence["internal"]) == 3  # 3 条可回溯 capture_id
 
 
+def test_s2_empty_search_not_false_drift(monkeypatch, tmp_path):
+    # Codex R1 P2：3 条健康 + 3 条「联网但引擎没搜到东西」(n_results=0,n_extracted=0)。
+    # 空搜索不是解析失败 → 排除出分母，命中率仍 1.0 不报。旧逻辑会算 0.5 → 误报骤降告警。
+    monkeypatch.setenv("GEO_CATEGORY", "gift-box")
+    caps = _synth_caps(tmp_path, [(True, 10, 5), (True, 10, 5), (True, 10, 5),
+                                  (True, 0, 0), (True, 0, 0), (True, 0, 0)])
+    assert run_s2(caps, baseline_rate=0.9, repo_root=tmp_path) == []
+
+
+def test_s2_fallback_rescue_flagged_as_drift(monkeypatch, tmp_path):
+    # 主路径 results 空(n_results=0)但实抽到引用(n_extracted=2，兜底 references[] 救回) = 主路径被改名/改层级。
+    # 新逻辑判为漂移嫌疑（旧逻辑只看 n_extracted==0，漏报此类）。
+    monkeypatch.setenv("GEO_CATEGORY", "gift-box")
+    caps = _synth_caps(tmp_path, [(True, 0, 2), (True, 0, 2), (True, 0, 2)])
+    out = run_s2(caps, baseline_rate=0.9, repo_root=tmp_path)
+    assert len(out) == 1
+    assert out[0].evidence["machine_verifiable"]["hit_rate"] == 0.0
+    assert len(out[0].evidence["internal"]) == 3
+
+
+def test_s2_no_baseline_records_measurement(monkeypatch, tmp_path):
+    # Codex R1 P2：缺 baseline 应「记录不报警」——产基线测量 intel（非漂移告警），而非整个丢弃 S2。
+    monkeypatch.setenv("GEO_CATEGORY", "gift-box")
+    caps = _synth_caps(tmp_path, [(True, 10, 5), (True, 10, 5), (True, 10, 8)])
+    out = run_s2(caps, baseline_rate=None, repo_root=tmp_path)
+    assert len(out) == 1
+    m = out[0]
+    assert m.signal_layer == "S2" and m.hitl_status == "PROPOSED"
+    assert m.proposed_change["kind"] == "baseline-record"
+    assert m.proposed_change["requires_codex_review"] is False  # 纯测量，非解析路径变更
+    assert m.evidence["machine_verifiable"]["baseline_rate"] is None
+    assert m.evidence["machine_verifiable"]["hit_rate"] == 1.0
+    assert "基线测量" in m.claim
+
+
 def test_s2_min_searched_guard(monkeypatch, tmp_path):
     monkeypatch.setenv("GEO_CATEGORY", "gift-box")
     caps = _synth_caps(tmp_path, [(True, 10, 0), (True, 10, 0)])  # 仅 2 条 < S2_MIN_SEARCHED(3)

@@ -88,38 +88,87 @@ def run_s2(captures=None, *, baseline_rate: float | None = None,
     n_searched = len(searched_structs)
     if single_round_guard and n_searched == 0:
         return []  # 本批全没联网 → 不报机制漂移（区分「没联网」vs「结构变了」）
-    if n_searched < S2_MIN_SEARCHED:
-        return []  # 样本不足，不报
 
-    zero_extract = [(c, s) for c, s in searched_structs if s["n_extracted"] == 0]
-    hit_rate = round((n_searched - len(zero_extract)) / n_searched, 3)
+    # 只在「引擎确实返回了可抽证据」的子集上判主路径健康度：
+    #   n_results>0（主路径有数据）或 n_extracted>0（兜底 references[] 救回）= 本条确有引用可抽。
+    #   两者皆 0 = 引擎本就没搜到东西，与「结构全改名致两路径皆失效」在单条上不可区分 →
+    #   排除出分母，避免「搜了个空」被误判成解析失败（false drift；Codex R1 P2）。
+    #   残余盲区：两路径同时被改名时本条隐形，靠 S2 其余有证样本 + 人审兜底。
+    evidenced = [(c, s) for c, s in searched_structs if s["n_results"] > 0 or s["n_extracted"] > 0]
+    n_evidenced = len(evidenced)
+    if n_evidenced < S2_MIN_SEARCHED:
+        return []  # 有证可抽样本不足，不报（滤小样本噪声）
+
+    # 主路径漂移嫌疑 = 有证可抽却非「主路径正常产出」：兜底救回（n_results==0 而 n_extracted>0，
+    # 主路径被改名/改层级）或 有结果却没抽出（解析断裂）。旧逻辑只看 n_extracted==0，漏掉兜底救回这类。
+    drift = [(c, s) for c, s in evidenced if not (s["n_results"] > 0 and s["n_extracted"] > 0)]
+    hit_rate = round((n_evidenced - len(drift)) / n_evidenced, 3)
+    stamp = now or datetime.now(timezone.utc).replace(microsecond=0).isoformat()
 
     if baseline_rate is None:
-        return []  # 无历史基线 → 只能记录不报警（基线落盘留待 P1/监测层统一）
+        # CLI 契约「缺基线只记录不报警」（Codex R1 P2）：登记当前命中率为基线候选，claim 不含 drift 断言。
+        seed = f"S2-baseline|{prof.pkg}|{hit_rate}|{n_evidenced}"
+        return [EvolutionIntel(
+            intel_id=make_intel_id("S2", prof.pkg, seed),
+            captured_at=stamp,
+            signal_layer="S2",
+            claim=(f"S2 基线测量：当前联网主路径抽取命中率 {hit_rate}"
+                   f"（{n_evidenced} 条有证联网样本，其中 {len(drift)} 条主路径未正常产出）。"
+                   f"无历史基线可比 → 登记为基线候选，不报漂移。"),
+            battlefield_type="qa_engine",
+            evidence={
+                "internal": [
+                    {"capture_id": c.id, "note": f"n_results={s['n_results']} n_extracted={s['n_extracted']}"}
+                    for c, s in evidenced
+                ],
+                "external": [],
+                "machine_verifiable": {
+                    "baseline_rate": None,
+                    "hit_rate": hit_rate,
+                    "n_searched": n_evidenced,
+                    "n_drift": len(drift),
+                    "parser_version": _PARSER_VERSION,
+                },
+            },
+            confidence="single-source",
+            source_independence="first-party-archive",
+            affected_assumption="geo.adapters.doubao._parse_references",
+            proposed_change={
+                "target_seam": "geo/evolution/signals/s2_structure.py:baseline_rate",
+                "kind": "baseline-record",
+                "intent_sketch": f"把当前命中率 {hit_rate} 登记为 S2 历史基线"
+                                 f"（人审确认后，下次以 --baseline-rate {hit_rate} 传入即可启用漂移告警）。",
+                "blast_radius": "仅 S2 自身基线校准；无下游派生指标影响",
+                "reversibility": "high",
+                "rederive_needed": False,
+                "requires_codex_review": False,   # 纯测量登记，非解析路径变更
+            },
+            first_seen=stamp,
+        )]
+
     if (baseline_rate - hit_rate) < S2_DROP_DELTA:
         return []  # 未骤降
 
-    stamp = now or datetime.now(timezone.utc).replace(microsecond=0).isoformat()
-    cids = sorted(c.id for c, _ in zero_extract) or sorted(c.id for c, _ in searched_structs)
+    cids = sorted(c.id for c, _ in drift) or sorted(c.id for c, _ in evidenced)
     seed = f"S2|{prof.pkg}|{baseline_rate}|{hit_rate}|{'|'.join(cids)}"
     intel = EvolutionIntel(
         intel_id=make_intel_id("S2", prof.pkg, seed),
         captured_at=stamp,
         signal_layer="S2",
         claim=(f"联网引用抽取命中率自基线 {baseline_rate} 降至 {hit_rate}"
-               f"（{n_searched} 条联网样本中 {len(zero_extract)} 条抽到 0 引用）→ 引擎响应结构漂移嫌疑"),
+               f"（{n_evidenced} 条有证联网样本中 {len(drift)} 条主路径未正常产出引用）→ 引擎响应结构漂移嫌疑"),
         battlefield_type="qa_engine",
         evidence={
             "internal": [
-                {"capture_id": c.id, "note": f"searched 但 n_results={s['n_results']} n_extracted=0"}
-                for c, s in zero_extract
+                {"capture_id": c.id, "note": f"主路径 n_results={s['n_results']} 实抽 n_extracted={s['n_extracted']}（主路径漂移嫌疑）"}
+                for c, s in drift
             ],
             "external": [],
             "machine_verifiable": {
                 "baseline_rate": baseline_rate,
                 "hit_rate": hit_rate,
-                "n_searched": n_searched,
-                "n_zero_extract": len(zero_extract),
+                "n_searched": n_evidenced,
+                "n_drift": len(drift),
                 "parser_version": _PARSER_VERSION,
             },
         },
