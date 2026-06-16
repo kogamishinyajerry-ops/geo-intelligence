@@ -300,6 +300,48 @@ _STYLE = r"""
   .drawer-missing .mi{font-size:22px;opacity:.6;margin-bottom:8px}
   .drawer-missing code{font-family:var(--mono);font-size:11px;color:var(--cyan);word-break:break-all}
   .nodata{font-size:12px;color:var(--ink-faint);font-style:italic}
+  /* ===== 02 · SITUATION（战略态势）===== */
+  .sit-flag{font-size:11px;color:var(--amber);background:rgba(255,200,87,.08);border:1px solid rgba(255,200,87,.28);
+    border-radius:10px;padding:7px 12px;margin:0 0 14px;display:flex;gap:8px;align-items:center}
+  .sit-flag .dot{background:var(--amber)}
+  .sit-grid{display:grid;grid-template-columns:minmax(380px,1.15fr) minmax(280px,1fr);gap:20px;align-items:start}
+  @media(max-width:920px){.sit-grid{grid-template-columns:1fr}}
+  .sit-radar-wrap{position:relative}
+  .sit-radar{width:100%;height:auto;display:block}
+  .sit-axislab{font-family:var(--mono);font-size:10.5px;fill:var(--ink-dim);letter-spacing:.04em}
+  .sit-axisval{font-family:var(--mono);font-size:11px;fill:var(--ink)}
+  .sit-legend{display:flex;gap:16px;justify-content:center;margin-top:6px;flex-wrap:wrap}
+  .sit-legend .lg{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--ink-dim)}
+  .sit-legend .lg i{width:14px;height:3px;border-radius:2px;display:inline-block}
+  .sit-cards{display:flex;flex-direction:column;gap:12px}
+  .sit-card{background:var(--glass);border:1px solid var(--stroke);border-radius:14px;padding:13px 15px}
+  .sit-card .ch{display:flex;align-items:center;gap:8px;margin-bottom:8px}
+  .sit-card .ch i{width:9px;height:9px;border-radius:50%;flex:none}
+  .sit-card .ch .ct{font-size:13px;color:var(--ink);font-weight:600}
+  .sit-play{font-size:12px;color:var(--ink-dim);margin:0 0 9px;line-height:1.5}
+  .sit-play b{color:var(--ink);font-family:var(--mono)}
+  .sit-chips{display:flex;flex-wrap:wrap;gap:6px}
+  .sit-chip{font-size:11px;border-radius:999px;padding:3px 9px;display:inline-flex;align-items:center;gap:5px;
+    border:1px solid var(--stroke);white-space:nowrap}
+  .sit-chip .v{font-family:var(--mono);opacity:.85}
+  .sit-chip.str{color:var(--green);border-color:rgba(54,226,164,.34);background:rgba(54,226,164,.08)}
+  .sit-chip.wk{color:var(--red);border-color:rgba(255,107,122,.34);background:rgba(255,107,122,.08)}
+  .sit-chip.gap{color:var(--amber);border-color:rgba(255,200,87,.30);background:rgba(255,200,87,.07)}
+  .sit-swlab{font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-faint);margin:9px 0 5px}
+  .sit-pipe{margin-top:18px}
+  .sit-pipe .pl-head{font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:9px}
+  .sit-pipe-track{display:flex;gap:0;align-items:stretch;flex-wrap:wrap}
+  .sit-stage{flex:1 1 0;min-width:104px;background:var(--glass);border:1px solid var(--stroke);border-radius:12px;
+    padding:9px 11px;position:relative;margin:3px}
+  .sit-stage .snum{font-family:var(--mono);font-size:9.5px;color:var(--ink-faint)}
+  .sit-stage .slab{font-size:12px;color:var(--ink);margin:2px 0 3px;font-weight:600}
+  .sit-stage .snote{font-size:10.5px;color:var(--ink-dim);line-height:1.4}
+  .sit-stage .sstatus{font-family:var(--mono);font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;
+    margin-top:6px;display:inline-flex;align-items:center;gap:4px}
+  .sit-stage .sstatus .d{width:6px;height:6px;border-radius:50%}
+  .sit-stage.measured{border-color:rgba(54,226,164,.30)} .sit-stage.measured .sstatus{color:var(--green)} .sit-stage.measured .sstatus .d{background:var(--green)}
+  .sit-stage.partial{border-color:rgba(255,200,87,.28)} .sit-stage.partial .sstatus{color:var(--amber)} .sit-stage.partial .sstatus .d{background:var(--amber)}
+  .sit-stage.declared{border-style:dashed;opacity:.78} .sit-stage.declared .sstatus{color:var(--ink-faint)} .sit-stage.declared .sstatus .d{background:var(--ink-faint)}
 """
 
 _BODY = r"""
@@ -361,6 +403,28 @@ _BODY = r"""
           <p id="quad-honest">两品类可赢度公式不同 → 横向位置为方向性参考，非同尺度精确比较。</p>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section class="card full">
+    <div class="sec-head">
+      <div>
+        <div class="st">战略态势 · 我们当前怎么打</div>
+        <div class="ss" id="sit-sub">五轴雷达 = 两品类 GEO 战场形状（全部对证据的确定性纯函数）· 优劣势按阈值机器派生 · 工作流成熟度三态诚实标注</div>
+      </div>
+      <div class="sec-num">02 · SITUATION</div>
+    </div>
+    <div class="sit-flag" id="sit-flag"><span class="dot"></span><span id="sit-flag-t">—</span></div>
+    <div class="sit-grid">
+      <div class="sit-radar-wrap">
+        <svg class="sit-radar" id="sit-radar" viewBox="0 0 480 460"></svg>
+        <div class="sit-legend" id="sit-legend"></div>
+      </div>
+      <div class="sit-cards" id="sit-cards"></div>
+    </div>
+    <div class="sit-pipe">
+      <div class="pl-head">GEO 工作流管线 · 成熟度（<span style="color:var(--green)">measured</span> 已产真产物 / <span style="color:var(--amber)">partial</span> 能跑覆盖未满 / <span style="color:var(--ink-faint)">declared</span> 仅规格）</div>
+      <div class="sit-pipe-track" id="sit-pipe"></div>
     </div>
   </section>
 
@@ -435,6 +499,7 @@ _SCRIPT = r"""
   var OPPS=(ROOT.opportunities||[]).slice();
   var EVID=ROOT.evidence||{};
   var HON=ROOT.honesty||{};
+  var SIT=ROOT.situation||{};
   var CATS=META.categories||[];
 
   /* category color + label lookup driven by meta.categories */
@@ -629,6 +694,72 @@ _SCRIPT = r"""
     });
   }
   buildQuadrant();
+
+  /* ===== 02 · SITUATION（战略态势：雷达 + 策略指纹 + 优劣势 + 工作流管线）===== */
+  function buildSituation(){
+    var radar=qsel('#sit-radar');
+    var AX=SIT.axes||[];
+    var BYC=SIT.by_category||{};
+    var catKeys=CATS.map(function(c){return c.key;}).filter(function(k){return BYC[k];});
+    if(!radar||!AX.length||!catKeys.length){if(radar)radar.style.display='none';return;}
+    var SCX=240, SCY=222, SR=142, SN=AX.length;
+    var sang=function(i){return (-90+i*360/SN)*Math.PI/180;};
+    var spt=function(i,v){var a=sang(i),r=SR*clamp(+v||0,0,1);return [SCX+r*Math.cos(a),SCY+r*Math.sin(a)];};
+    var spoly=function(pts){return pts.map(function(p){return p[0].toFixed(1)+','+p[1].toFixed(1);}).join(' ');};
+    var sp=[];
+    sp.push('<defs><filter id="sitglow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>');
+    [0.25,0.5,0.75,1.0].forEach(function(rg){
+      var pts=AX.map(function(_a,i){return spt(i,rg);});
+      sp.push('<polygon points="'+spoly(pts)+'" fill="none" stroke="rgba(132,156,210,'+(rg===1?0.28:0.12)+')" stroke-width="1"/>');
+    });
+    AX.forEach(function(ax,i){
+      var end=spt(i,1.0), lp=spt(i,1.18);
+      sp.push('<line x1="'+SCX+'" y1="'+SCY+'" x2="'+end[0].toFixed(1)+'" y2="'+end[1].toFixed(1)+'" stroke="rgba(132,156,210,.16)" stroke-width="1"/>');
+      var anc=Math.abs(lp[0]-SCX)<8?'middle':(lp[0]>SCX?'start':'end');
+      var dy=lp[1]<SCY-8?'-1':(lp[1]>SCY+8?'11':'4');
+      sp.push('<text class="sit-axislab" x="'+lp[0].toFixed(1)+'" y="'+lp[1].toFixed(1)+'" text-anchor="'+anc+'" dy="'+dy+'">'+esc(ax.label)+'</text>');
+    });
+    catKeys.forEach(function(k){
+      var vals=BYC[k].values||{}, col=catColor(k);
+      var pts=AX.map(function(ax,i){return spt(i,vals[ax.key]);});
+      sp.push('<polygon points="'+spoly(pts)+'" fill="'+col+'" fill-opacity="0.14" stroke="'+col+'" stroke-width="2" stroke-linejoin="round"/>');
+      pts.forEach(function(p){sp.push('<circle cx="'+p[0].toFixed(1)+'" cy="'+p[1].toFixed(1)+'" r="3.2" fill="'+col+'" filter="url(#sitglow)"/>');});
+    });
+    radar.innerHTML=sp.join('');
+
+    qsel('#sit-legend').innerHTML=catKeys.map(function(k){
+      return '<span class="lg"><i style="background:'+catColor(k)+'"></i>'+esc(catShort(k))+'</span>';
+    }).join('');
+    qsel('#sit-flag-t').textContent=(HON.caveats&&HON.caveats[0])||SIT.note||'跨品类口径不同 → 雷达形状为方向性对比，非同尺度精确比较。';
+
+    var valByLabel=function(k,label){var a=AX.filter(function(x){return x.label===label;})[0];return a?(BYC[k].values||{})[a.key]:null;};
+    var thS=(SIT.thresholds&&SIT.thresholds.strong)||0.7, thW=(SIT.thresholds&&SIT.thresholds.weak)||0.3;
+    qsel('#sit-cards').innerHTML=catKeys.map(function(k){
+      var c=BYC[k], col=catColor(k);
+      var drivers=(c.drivers||[]).map(function(d){return esc(d.label)+' <b>'+pct(d.value)+'</b>';}).join(' · ');
+      var strChips=(c.strengths||[]).map(function(lab){return '<span class="sit-chip str">'+esc(lab)+' <span class="v">'+pct(valByLabel(k,lab))+'</span></span>';}).join('');
+      var wkChips=(c.weaknesses||[]).map(function(lab){return '<span class="sit-chip wk">'+esc(lab)+' <span class="v">'+pct(valByLabel(k,lab))+'</span></span>';}).join('');
+      var sw='';
+      if(strChips)sw+='<div class="sit-swlab">优势 · 轴值 ≥'+pct(thS)+'</div><div class="sit-chips">'+strChips+'</div>';
+      if(wkChips)sw+='<div class="sit-swlab">劣势 · 轴值 ≤'+pct(thW)+'</div><div class="sit-chips">'+wkChips+'</div>';
+      if(!strChips&&!wkChips)sw='<div class="sit-swlab">均势（无轴越阈）</div>';
+      return '<div class="sit-card"><div class="ch"><i style="background:'+col+'"></i><span class="ct">'+esc(c.title)+'</span></div>'+
+        '<div class="sit-play">主打：'+esc(c.primary_play)+'<br>强轴：'+(drivers||'—')+'</div>'+sw+'</div>';
+    }).join('');
+    var gaps=SIT.declared_gaps||[];
+    if(gaps.length){
+      qsel('#sit-cards').insertAdjacentHTML('beforeend',
+        '<div class="sit-card"><div class="ch"><i style="background:var(--amber)"></i><span class="ct">待补 · DECLARED（未测，不伪装成已测）</span></div>'+
+        '<div class="sit-chips">'+gaps.map(function(g){return '<span class="sit-chip gap">'+esc(g.label)+'</span>';}).join('')+'</div></div>');
+    }
+    qsel('#sit-pipe').innerHTML=(SIT.pipeline||[]).map(function(s,i){
+      var st=s.status||'declared';
+      return '<div class="sit-stage '+esc(st)+'"><div class="snum">'+(i+1<10?'0'+(i+1):(i+1))+'</div>'+
+        '<div class="slab">'+esc(s.label)+'</div><div class="snote">'+esc(s.note||'')+'</div>'+
+        '<div class="sstatus"><span class="d"></span>'+esc(st)+'</div></div>';
+    }).join('');
+  }
+  buildSituation();
 
   /* ===== priority tiers (GO / 候选 / 观望) ===== */
   var tierDefs=[

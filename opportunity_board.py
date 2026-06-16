@@ -115,6 +115,72 @@ def _action(go: str | None, entity_label: str, draft_title: str | None) -> dict:
     return {"kind": "hold", "text": "观望/避：内容杠杆低 → 转品牌词 / 货架直答"}
 
 
+# ── 战略态势 5 轴（全部 0..1、确定性纯函数、可回溯 capture_id、跨品类语义一致）──
+# 🔴红线#1：绝不放 top.coverage 派生的「长尾可攻度」——该字段跨品类语义不一（礼盒=单 query 引用域名
+# 覆盖、恒≈1.0；旅游=全盘景点覆盖、外滩 0.513），同轴叠加会捏造「礼盒长尾可攻度=0」假结论。
+# 证据体量（绝对计数）也不入轴（需主观归一化才成 0..1，会引入拍脑袋分母）。
+_SIT_AXES = [
+    ("go_density", "GO 密度", "判为 GO 的机会占比 = 攻击面广度"),
+    ("void_dividend", "空位红利", "GO 机会平均答案空间开放度（1−头部覆盖）"),
+    ("pure_void", "纯空位率", "整片货架空着（无任一上榜实体）的机会占比"),
+    ("cited_lever", "联网杠杆", "豆包对该品类联网取引用的机会占比（内容通道是否打开）"),
+    ("evidence_trust", "证据可信度", "真侦察证据占比 n_real / n_captures"),
+]
+_SIT_STRONG, _SIT_WEAK = 0.70, 0.30  # 阈值与象限 GO_THRESH(0.55)/DIV_MID(0.5) 同量纲体系
+
+# 工作流管线（结构性元数据 + 成熟度三态）。status 反映系统现状（measured=本仓已产真可回溯产物 /
+# partial=能跑但覆盖未满 / declared=仅规格占位），随开发推进更新；非每跑实测值。
+_SIT_PIPELINE = [
+    ("侦察 Recon", "measured", "豆包真打取证"),
+    ("指标 Metrics", "measured", "纯函数算占答率/空位"),
+    ("监测 Monitoring", "partial", "周期 diff 告警（按快照触发）"),
+    ("单品类看板", "measured", "8 区块真接证据"),
+    ("机会指挥台", "measured", "跨品类聚合 + 可赢度排序"),
+    ("部署 Schema", "partial", "草稿→JSON-LD，待人审 + 自有站"),
+    ("Scout 演化侦查", "measured", "proposal-only 提案，恒 PROPOSED"),
+    ("红线机器门", "measured", "fail-closed 机器可拒不可批"),
+]
+
+
+def _situation(opps: list[dict], cats: list[dict], pending_engines: list[str]) -> dict:
+    """战略态势：从已聚合机会/品类【确定性派生】，零重算指标、零人工打分（红线#1/虚报零容忍）。
+
+    5 轴全部对证据表的纯函数、可回溯 capture_id；优劣势按阈值机器派生（≥strong=强 / ≤weak=弱）。
+    """
+    labels = {key: lab for key, lab, _ in _SIT_AXES}
+    by_cat: dict[str, dict] = {}
+    for c in cats:
+        k = c["key"]
+        co = [o for o in opps if o["category"] == k]
+        n = len(co) or 1
+        go = [o for o in co if o["go"] == "GO"]
+        vals = {
+            "go_density": round(len(go) / n, 3),
+            "void_dividend": round(sum(o["dividend"] for o in go) / len(go), 3) if go else 0.0,
+            "pure_void": round(sum(1 for o in co if (o.get("opportunity") or 0) >= 1.0) / n, 3),
+            "cited_lever": round(sum(1 for o in co if (o.get("n_citations") or 0) > 0) / n, 3),
+            "evidence_trust": round(c["n_real"] / c["n_captures"], 3) if c.get("n_captures") else 0.0,
+        }
+        drivers = sorted(_SIT_AXES, key=lambda a: -vals[a[0]])[:2]
+        by_cat[k] = {
+            "title": c["title"],
+            "values": vals,
+            "strengths": [labels[key] for key, _, _ in _SIT_AXES if vals[key] >= _SIT_STRONG],
+            "weaknesses": [labels[key] for key, _, _ in _SIT_AXES if vals[key] <= _SIT_WEAK],
+            "drivers": [{"label": a[1], "value": vals[a[0]]} for a in drivers],
+            "primary_play": c["score_basis"],  # 已有真数据口径，非 LLM 文案
+        }
+    return {
+        "axes": [{"key": k, "label": lab, "hint": h} for k, lab, h in _SIT_AXES],
+        "thresholds": {"strong": _SIT_STRONG, "weak": _SIT_WEAK},
+        "by_category": by_cat,
+        "pipeline": [{"label": lab, "status": st, "note": note} for lab, st, note in _SIT_PIPELINE],
+        "declared_gaps": [{"label": e, "kind": "engine"} for e in pending_engines],
+        "note": ("5 轴均为对证据表的确定性纯函数（可回溯 capture_id）；优劣势按阈值机器派生、非人工打分。"
+                 "跨品类口径不同 → 雷达形状为方向性对比，非同尺度精确比较。"),
+    }
+
+
 def build_unified() -> dict:
     cats: list[dict] = []
     opps: list[dict] = []
@@ -196,6 +262,7 @@ def build_unified() -> dict:
         },
         "opportunities": opps,
         "evidence": evidence,
+        "situation": _situation(opps, cats, list(dict.fromkeys(pending_engines))),
         "honesty": {
             "real_engines": list(dict.fromkeys(real_engines)),
             "pending_engines": list(dict.fromkeys(pending_engines)),
